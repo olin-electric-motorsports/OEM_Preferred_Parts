@@ -16,6 +16,11 @@ D Connector, double row, 02x03
 K connector
 $ENDCMP
 #
+$CMP Crystal_SMD
+D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
 $CMP LED
 D LED generic
 K led diode
