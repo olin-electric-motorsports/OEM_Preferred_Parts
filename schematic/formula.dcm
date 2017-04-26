@@ -32,6 +32,11 @@ K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
+$CMP NHD-0216K1Z-FL-YBW
+D NHD-0216K1Z-FL-YBW
+K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
+$ENDCMP
+#
 $CMP Pushbutton
 D Pushbutton
 K Button
