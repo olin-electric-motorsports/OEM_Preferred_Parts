@@ -32,9 +32,51 @@ K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
+$CMP MCP6001
+D Rail-to-Rail Input/Output, 10 MHz Op Amp
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001685E.pdf
+$ENDCMP
+#
+$CMP MCP601-xOT
+D Single 2.7V to 6.0V Single Supply CMOS Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP6021T-E/OT
+D 10 MHz, 850 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP MCP6561
+D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5/SC-70-5
+K dual comparator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
+$ENDCMP
+#
 $CMP NHD-0216K1Z-FL-YBW
 D NHD-0216K1Z-FL-YBW
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
+$ENDCMP
+#
+$CMP OPA333xxDBV
+D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA340NA
+D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa340.pdf
+$ENDCMP
+#
+$CMP OPA376xxDBV
+D Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
 $CMP Pushbutton
@@ -45,6 +87,18 @@ $ENDCMP
 $CMP R
 D Resistor
 K r res resistor
+$ENDCMP
+#
+$CMP TS881
+D Rail-to-rail 0.9 V nanopower comparator, SOT-23-5/SC-70-5
+K single comparator
+F www.st.com/resource/en/datasheet/ts881.pdf
+$ENDCMP
+#
+$CMP TSV911ILT
+D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
+K single opamp
+F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
 #End Doc Library
