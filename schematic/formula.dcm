@@ -1,9 +1,40 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002
+D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
+$ENDCMP
+#
 $CMP ATMEGA16M1
 D TQFP32, 16k Flash, 1k SRAM, 512B EEPROM, CAN
 K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/Images/doc8209.pdf
+$ENDCMP
+#
+$CMP Ampseal_14
+D Waterproof Panel-Mount Connector RA 14-Pin
+$ENDCMP
+#
+$CMP Ampseal_23
+D Waterproof Panel-Mount Connector RA 23-Pin
+K connector
+$ENDCMP
+#
+$CMP Ampseal_35
+D Waterproof Panel-Mount Connector RA 35-Pin
+K connector
+$ENDCMP
+#
+$CMP Ampseal_8
+D Waterproof Panel-Mount Connector RA 8 Pin
+K connector
+$ENDCMP
+#
+$CMP BSS308PE
+D -30V Vds, -2 A Id, P-channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073
 $ENDCMP
 #
 $CMP C
@@ -56,6 +87,12 @@ K dual comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
 $ENDCMP
 #
+$CMP MMBF170
+D 60V Vds, 0.5 A Id, N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds30104.pdf
+$ENDCMP
+#
 $CMP NHD-0216K1Z-FL-YBW
 D NHD-0216K1Z-FL-YBW
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
@@ -87,6 +124,18 @@ $ENDCMP
 $CMP R
 D Resistor
 K r res resistor
+$ENDCMP
+#
+$CMP TPS561201
+D 4.5V - 17V Input 1A Synchronous Buck Converter
+K Buck step-down
+F http://www.ti.com/lit/ds/symlink/tps561201.pdf
+$ENDCMP
+#
+$CMP TPS562201
+D 4.5V - 17V Input 2A Synchronous Buck Converter
+K Buck step-down
+F http://www.ti.com/lit/ds/symlink/tps562201.pdf
 $ENDCMP
 #
 $CMP TS881
