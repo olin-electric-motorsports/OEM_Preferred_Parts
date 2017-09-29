@@ -47,14 +47,34 @@ D Connector, double row, 02x03
 K connector
 $ENDCMP
 #
+$CMP C_0.1uF
+D Cap 50V 0.1uF 10% 0805
+K c cap capacitor
+$ENDCMP
+#
+$CMP C_22uF
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP C_47uF
+D CAP CER 47UF 6.3V X5R 0805
+K c cap capacitor
+$ENDCMP
+#
 $CMP Crystal_SMD
 D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
 $CMP LED
-D LED generic
+D LED 0805
 K led diode
+$ENDCMP
+#
+$CMP L_4.7uH
+D Inductor 4.7uH 4.4A
+K L inductor choke coil reactor magnetic
 $ENDCMP
 #
 $CMP MCP2561-E/SN
@@ -77,6 +97,12 @@ $ENDCMP
 #
 $CMP MCP6021T-E/OT
 D 10 MHz, 850 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP MCP603
+D 2.7-6V IC OPAMP GP 2.8MHZ RRO SOT23-6
 K single opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
@@ -121,8 +147,58 @@ D Pushbutton
 K Button
 $ENDCMP
 #
+$CMP Q_NMOS_GSD
+D N-channel MOSFET
+K NMOS n-mos n-mosfet transistor mosfet fet
+$ENDCMP
+#
 $CMP R
 D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP R_0_Jumper
+D Res 0 2512 3W Jumper
+K r res resistor
+$ENDCMP
+#
+$CMP R_100
+D Res 100 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_100k
+D Res 100k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_10k
+D Res 10k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_1k
+D Res 1k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_200
+D Res 200 5%
+K r res resistor
+$ENDCMP
+#
+$CMP R_3.01k
+D Res 3.01k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_475
+D Res 475 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_55.1k
+D Res 55.1k 1%
 K r res resistor
 $ENDCMP
 #
