@@ -67,8 +67,13 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
-$CMP LED
-D LED 0805
+$CMP F_1.1A_12V
+D PTC Fuse 12V 1.1A
+K Fuse F
+$ENDCMP
+#
+$CMP LED_0805
+D LED_0805
 K led diode
 $ENDCMP
 #
@@ -124,6 +129,11 @@ D NHD-0216K1Z-FL-YBW
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
 $ENDCMP
 #
+$CMP NMOS_GSD_30V
+D N-channel MOSFET
+K NMOS n-mos n-mosfet transistor mosfet fet
+$ENDCMP
+#
 $CMP OPA333xxDBV
 D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5
 K single opamp
@@ -145,11 +155,6 @@ $ENDCMP
 $CMP Pushbutton
 D Pushbutton
 K Button
-$ENDCMP
-#
-$CMP Q_NMOS_GSD
-D N-channel MOSFET
-K NMOS n-mos n-mosfet transistor mosfet fet
 $ENDCMP
 #
 $CMP R
@@ -224,6 +229,11 @@ $CMP TSV911ILT
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
 K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP Ultrafit_4
+D Ultrafit 4 Pin Connector
+K ultrafit conn connector ultra
 $ENDCMP
 #
 #End Doc Library
