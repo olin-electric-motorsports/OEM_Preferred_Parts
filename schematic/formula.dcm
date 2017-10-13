@@ -72,6 +72,11 @@ D PTC Fuse 12V 1.1A
 K Fuse F
 $ENDCMP
 #
+$CMP F_500mA_16V
+D PTC Fuse 16V 500mA
+K Fuse F
+$ENDCMP
+#
 $CMP LED_0805
 D LED_0805
 K led diode
