@@ -233,6 +233,10 @@ D Res 55.1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP SN74LVC1G17
+D Single Schmitt-Trigger Buffer
+$ENDCMP
+#
 $CMP TPS561201
 D 4.5V - 17V Input 1A Synchronous Buck Converter
 K Buck step-down
@@ -260,6 +264,10 @@ $ENDCMP
 $CMP Ultrafit_4
 D Ultrafit 4 Pin Connector
 K ultrafit conn connector ultra
+$ENDCMP
+#
+$CMP micro-match12pin
+D 12 pin micro match connector
 $ENDCMP
 #
 #End Doc Library
