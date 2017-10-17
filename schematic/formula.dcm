@@ -83,6 +83,18 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP D_Zener_13V
+D Zener Diode
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP D_Zener_20V
+D Zener Diode
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
 $CMP F_1.1A_12V
 D PTC Fuse 12V 1.1A
 K Fuse F
@@ -223,6 +235,16 @@ D Res 3.01k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_300k
+D Res 1k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_3k
+D Res 1k 1%
+K r res resistor
+$ENDCMP
+#
 $CMP R_475
 D Res 475 1%
 K r res resistor
@@ -233,8 +255,19 @@ D Res 55.1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_6.2k
+D Res 1k 1%
+K r res resistor
+$ENDCMP
+#
 $CMP SN74LVC1G17
 D Single Schmitt-Trigger Buffer
+$ENDCMP
+#
+$CMP SSM3K333R
+D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
 $ENDCMP
 #
 $CMP TPS561201
