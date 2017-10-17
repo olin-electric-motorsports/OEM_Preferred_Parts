@@ -270,4 +270,9 @@ $CMP micro-match12pin
 D 12 pin micro match connector
 $ENDCMP
 #
+$CMP micromatch_male_20
+D connector micromatch male 20 pin
+K connector micromatch male 20 pin
+$ENDCMP
+#
 #End Doc Library
