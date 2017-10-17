@@ -63,6 +63,16 @@ D Cap 50V 100pF 5% 0805
 K c cap capacitor
 $ENDCMP
 #
+$CMP C_10uF
+D CAP CER 10UF 10V 10% X5R 0805
+K CAP CER 10UF 10V 10% X5R 0805
+$ENDCMP
+#
+$CMP C_1uF
+D CAP CER 1UF 25V 5% X7R 0805
+K CAP CER 1UF 25V 5% X7R 0805
+$ENDCMP
+#
 $CMP C_22uF
 D Unpolarized capacitor
 K cap capacitor
@@ -83,10 +93,9 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
-$CMP D_Zener_20Vz
-D Zener Diode
-K diode
-F https://en.wikipedia.org/wiki/Zener_diode
+$CMP D_Schottky_SOT23-3
+D CHOTTKY 70V 70MA SOT23-3
+K CHOTTKY 70V 70MA SOT23-3
 $ENDCMP
 #
 $CMP F_1.1A_12V
@@ -102,6 +111,18 @@ $ENDCMP
 $CMP LED_0805
 D LED_0805
 K led diode
+$ENDCMP
+#
+$CMP LM78L05ACZ_Voltage_Regulator
+D IC REG LINEAR 5V 100MA TO92-3
+K PNP High Voltage Transistor
+F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
+$ENDCMP
+#
+$CMP LMV341
+D IC OPAMP GP 1MHZ RRO SOT23-6
+K IC OPAMP GP 1MHZ RRO SOT23-6
+F http://www.ti.com/lit/ds/symlink/lmv341.pdf
 $ENDCMP
 #
 $CMP L_4.7uH
@@ -209,6 +230,11 @@ D Res 10k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_1M
+D RES SMD 1M OHM 5% 1/8W 0805
+K r res resistor
+$ENDCMP
+#
 $CMP R_1k
 D Res 1k 1%
 K r res resistor
@@ -216,6 +242,16 @@ $ENDCMP
 #
 $CMP R_200
 D Res 200 5%
+K r res resistor
+$ENDCMP
+#
+$CMP R_200k
+D Res 200k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_22M
+D RES SMD 22M OHM 5% 1/8W 0805
 K r res resistor
 $ENDCMP
 #
