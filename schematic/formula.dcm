@@ -93,9 +93,22 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+<<<<<<< HEAD
 $CMP D_Schottky_SOT23-3
 D CHOTTKY 70V 70MA SOT23-3
 K CHOTTKY 70V 70MA SOT23-3
+=======
+$CMP D_Zener_13V
+D Zener Diode
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP D_Zener_20V
+D Zener Diode
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+>>>>>>> adc402ccfc408aa2ee483509831bb3e51499e69f
 $ENDCMP
 #
 $CMP F_1.1A_12V
@@ -265,6 +278,16 @@ D Res 3.01k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_300k
+D Res 1k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_3k
+D Res 1k 1%
+K r res resistor
+$ENDCMP
+#
 $CMP R_475
 D Res 475 1%
 K r res resistor
@@ -275,8 +298,19 @@ D Res 55.1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_6.2k
+D Res 1k 1%
+K r res resistor
+$ENDCMP
+#
 $CMP SN74LVC1G17
 D Single Schmitt-Trigger Buffer
+$ENDCMP
+#
+$CMP SSM3K333R
+D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
 $ENDCMP
 #
 $CMP TPS561201
@@ -310,6 +344,11 @@ $ENDCMP
 #
 $CMP micro-match12pin
 D 12 pin micro match connector
+$ENDCMP
+#
+$CMP micromatch_male_20
+D connector micromatch male 20 pin
+K connector micromatch male 20 pin
 $ENDCMP
 #
 #End Doc Library
