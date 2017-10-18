@@ -542,84 +542,6 @@ X 4 4 0 150 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
-# D_Schottky_SOT23-3
-#
-DEF D_Schottky_SOT23-3 D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_SOT23-3" 0 -100 50 H V C CNN
-F2 "SOT-23-3" -100 0 50 H I C CNN
-F3 "https://www.diodes.com/assets/Datasheets/ds11007.pdf" 0 100 50 H I C CNN
-F4 "CHOTTKY 70V 70MA SOT23-3" 400 500 60 H I C CNN "Description"
-F5 "BAS70-FDICT-ND" 100 200 60 H I C CNN "MPN"
-F6 "Digi-Key" 200 300 60 H I C CNN "MFN"
-F7 "https://www.digikey.com/product-detail/en/diodes-incorporated/BAS70-7-F/BAS70-FDICT-ND/815350" 300 400 60 H I C CNN "PurchasingLink"
-=======
-# D_Zener_13V
-#
-DEF D_Zener_13V D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_13V" 0 -100 50 H V C CNN
-F2 "footprints:D_13V_Zener" -100 0 50 H I C CNN
-F3 "http://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF" 0 100 50 H I C CNN
-F4 "1SMB5928BT3GOSCT-ND" 100 200 60 H I C CNN "MPN"
-F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
-F6 "CASE 403A, DO-214AA, SMB" 300 400 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/1SMB5928BT3G/1SMB5928BT3GOSCT-ND/917730?WT.z_cid=ref_octopart_dkc_buynow&site=us" 400 500 60 H I C CNN "PurchasingLink"
->>>>>>> adc402ccfc408aa2ee483509831bb3e51499e69f
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-<<<<<<< HEAD
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-=======
-P 2 0 1 8 -50 -50 -100 -50 N
-P 2 0 1 8 -50 50 0 50 N
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# D_Zener_20V
-#
-DEF D_Zener_20V D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_20V" 0 -100 50 H V C CNN
-F2 "footprints:D_SOD-923" -100 0 50 H I C CNN
-F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/zener/cdzvt2r20b-e.pdf" 0 100 50 H I C CNN
-F4 "CDZVT2R20BCT-ND" 100 200 60 H I C CNN "MPN"
-F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
-F6 "SOD923, 2-SMD, Flat Lead" 300 400 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/CDZVT2R20B/CDZVT2R20BCT-ND/5955742" 400 500 60 H I C CNN "PurchasingLink"
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -100 -50 N
-P 2 0 1 8 -50 50 0 50 N
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
->>>>>>> adc402ccfc408aa2ee483509831bb3e51499e69f
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # F_1.1A_12V
 #
 DEF F_1.1A_12V F 0 0 N Y 1 F N
@@ -689,7 +611,6 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
 # LM78L05ACZ_Voltage_Regulator
 #
 DEF LM78L05ACZ_Voltage_Regulator Q 0 40 Y N 1 F N
@@ -711,28 +632,6 @@ X VIN 3 200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# LMV341
-#
-DEF LMV341 U 0 10 Y Y 1 F N
-F0 "U" 50 200 50 H V C CNN
-F1 "LMV341" 150 -200 50 H V C CNN
-F2 "TO_SOT_Packages_SMD:SOT-23-6" 0 100 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lmv341.pdf" 0 200 50 H I C CNN
-F4 "296-17843-1-ND" 250 400 60 H I C CNN "MPN"
-F5 "Digi-Key" 350 500 60 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/LMV341IDBVR/296-17843-1-ND/738777" 150 300 60 H I C CNN "PurchasingLink"
-$FPLIST
- SOT?23*
- *SC?70*
-$ENDFPLIST
-DRAW
-P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
-X + 1 -300 100 100 R 50 50 1 1 I
-X V- 2 -100 -300 150 U 50 50 1 1 I
-X - 3 -300 -100 100 R 50 50 1 1 I
-X ~ 4 300 0 100 L 50 50 1 1 O
-X V+ 5 -100 300 150 D 50 50 1 1 I
-=======
 # LTC6811-1
 #
 DEF LTC6811-1 U 0 40 Y Y 1 F N
@@ -790,35 +689,6 @@ X IPB 48 1050 -150 200 L 50 50 1 1 I
 X S4 19 150 -1950 200 R 50 50 1 1 I
 X GPIO3 29 1050 -2050 200 L 50 50 1 1 I
 X WDT 39 1050 -1050 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# LTC6820
-#
-DEF LTC6820 U 0 40 Y Y 1 F N
-F0 "U" 350 900 60 H V C CNN
-F1 "LTC6820" 500 0 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 300 850 900 50 0 1 0 f
-X EN 1 100 800 200 R 50 50 1 1 I
-X MOSI 2 100 700 200 R 50 50 1 1 I
-X MISO 3 100 600 200 R 50 50 1 1 I
-X SCK 4 100 500 200 R 50 50 1 1 I
-X CS 5 100 400 200 R 50 50 1 1 I
-X VDDS 6 100 300 200 R 50 50 1 1 I
-X POL 7 100 200 200 R 50 50 1 1 I
-X PHA 8 100 100 200 R 50 50 1 1 I
-X VDD 9 1100 100 200 L 50 50 1 1 I
-X IM 10 1100 200 200 L 50 50 1 1 I
-X IP 11 1100 300 200 L 50 50 1 1 I
-X MSTR 12 1100 400 200 L 50 50 1 1 I
-X SLOW 13 1100 500 200 L 50 50 1 1 I
-X GND 14 1100 600 200 L 50 50 1 1 I
-X ICMP 15 1100 700 200 L 50 50 1 1 I
-X IBIAS 16 1100 800 200 L 50 50 1 1 I
->>>>>>> adc402ccfc408aa2ee483509831bb3e51499e69f
 ENDDRAW
 ENDDEF
 #
@@ -1568,6 +1438,156 @@ X 12 12 450 -700 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# micromatch_male_10
+#
+DEF micromatch_male_10 J 0 40 Y Y 1 F N
+F0 "J" 0 750 60 H V C CNN
+F1 "micromatch_male_10" 0 -350 60 H V C CNN
+F2 "" -100 650 60 H I C CNN
+F3 "" 0 750 60 H I C CNN
+F4 "A110881CT-ND" 50 350 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 300 60 H I C CNN "MFN"
+F6 "Value" 0 300 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-0/A110881CT-ND/4142265" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -150 700 150 -300 0 1 0 f
+X 1 1 250 650 100 L 50 50 1 1 B
+X 2 2 250 550 100 L 50 50 1 1 B
+X 3 3 250 450 100 L 50 50 1 1 B
+X 4 4 250 350 100 L 50 50 1 1 B
+X 5 5 250 250 100 L 50 50 1 1 B
+X 6 6 250 150 100 L 50 50 1 1 B
+X 7 7 250 50 100 L 50 50 1 1 B
+X 8 8 250 -50 100 L 50 50 1 1 B
+X 9 9 250 -150 100 L 50 50 1 1 B
+X 10 10 250 -250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_male_12
+#
+DEF micromatch_male_12 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_male_12" -50 -100 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "A110882CT-ND" -50 800 60 H I C CNN "MPN"
+F5 "Digi-Key" -100 750 60 H I C CNN "MFN"
+F6 "Value" -100 750 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-2/A110882CT-ND/4142266" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -250 1150 50 -50 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_male_14
+#
+DEF micromatch_male_14 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_male_14" -50 -300 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "A99442CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/8-215464-4/A99442CT-ND/1955744" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -250 1150 50 -250 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_male_16
+#
+DEF micromatch_male_16 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_male_16" -50 -500 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "A116164CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-6/A116164CT-ND/4569759" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -250 1150 50 -450 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_male_18
+#
+DEF micromatch_male_18 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_male_18" -50 -700 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "A110884CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-8/A110884CT-ND/4142268" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -250 1150 50 -650 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+X 17 17 150 -500 100 L 50 50 1 1 B
+X 18 18 150 -600 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # micromatch_male_20
 #
 DEF micromatch_male_20 J 0 40 Y Y 1 F N
@@ -1601,6 +1621,72 @@ X 16 16 150 -400 100 L 50 50 1 1 B
 X 17 17 150 -500 100 L 50 50 1 1 B
 X 18 18 150 -600 100 L 50 50 1 1 B
 X 19 19 150 -700 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_male_4
+#
+DEF micromatch_male_4 J 0 40 Y Y 1 F N
+F0 "J" 0 150 60 H V C CNN
+F1 "micromatch_male_4" 0 -350 60 H V C CNN
+F2 "" -100 50 60 H I C CNN
+F3 "" 0 150 60 H I C CNN
+F4 "A107034CT-ND" 50 -250 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 -300 60 H I C CNN "MFN"
+F6 "Value" 0 -300 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-4/A107034CT-ND/3488595" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -150 100 150 -300 0 1 0 f
+X 1 1 250 50 100 L 50 50 1 1 B
+X 2 2 250 -50 100 L 50 50 1 1 B
+X 3 3 250 -150 100 L 50 50 1 1 B
+X 4 4 250 -250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_male_6
+#
+DEF micromatch_male_6 J 0 40 Y Y 1 F N
+F0 "J" 0 350 60 H V C CNN
+F1 "micromatch_male_6" 0 -350 60 H V C CNN
+F2 "" -100 250 60 H I C CNN
+F3 "" 0 350 60 H I C CNN
+F4 "A107035CT-ND" 50 -50 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 -100 60 H I C CNN "MFN"
+F6 "Value" 0 -100 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-6/A107035CT-ND/3488596" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -150 300 150 -300 0 1 0 f
+X 1 1 250 250 100 L 50 50 1 1 B
+X 2 2 250 150 100 L 50 50 1 1 B
+X 3 3 250 50 100 L 50 50 1 1 B
+X 4 4 250 -50 100 L 50 50 1 1 B
+X 5 5 250 -150 100 L 50 50 1 1 B
+X 6 6 250 -250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_male_8
+#
+DEF micromatch_male_8 J 0 40 Y Y 1 F N
+F0 "J" 0 550 60 H V C CNN
+F1 "micromatch_male_8" 0 -350 60 H V C CNN
+F2 "" -100 450 60 H I C CNN
+F3 "" 0 550 60 H I C CNN
+F4 "A116230CT-ND" 50 150 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 100 60 H I C CNN "MFN"
+F6 "Value" 0 100 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-8/A116230CT-ND/4569834" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -150 500 150 -300 0 1 0 f
+X 1 1 250 450 100 L 50 50 1 1 B
+X 2 2 250 350 100 L 50 50 1 1 B
+X 3 3 250 250 100 L 50 50 1 1 B
+X 4 4 250 150 100 L 50 50 1 1 B
+X 5 5 250 50 100 L 50 50 1 1 B
+X 6 6 250 -50 100 L 50 50 1 1 B
+X 7 7 250 -150 100 L 50 50 1 1 B
+X 8 8 250 -250 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
