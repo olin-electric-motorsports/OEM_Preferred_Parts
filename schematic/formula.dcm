@@ -98,6 +98,11 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP D_Schottky_SOD123
+D DIODE SCHOTTKY 100V 1A SOD123
+K DIODE SCHOTTKY 100V 1A SOD123
+$ENDCMP
+#
 $CMP G6C-1117P-US
 D RELAY GEN PURPOSE SPST 10A 12V
 K RELAY GEN PURPOSE SPST 10A 12V
