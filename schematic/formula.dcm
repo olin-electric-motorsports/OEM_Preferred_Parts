@@ -58,6 +58,11 @@ D Cap 50V 0.1uF 10% 0805
 K c cap capacitor
 $ENDCMP
 #
+$CMP C_0.33uF
+D CAP CER 0.33UF 16V 5% X7R 0805
+K CAP CER 0.33UF 16V 5% X7R 0805
+$ENDCMP
+#
 $CMP C_100pF
 D Cap 50V 100pF 5% 0805
 K c cap capacitor
@@ -91,6 +96,21 @@ $ENDCMP
 $CMP Crystal_SMD
 D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP D_Schottky_SOD123
+D DIODE SCHOTTKY 100V 1A SOD123
+K DIODE SCHOTTKY 100V 1A SOD123
+$ENDCMP
+#
+$CMP G6C-1117P-US
+D RELAY GEN PURPOSE SPST 10A 12V
+K RELAY GEN PURPOSE SPST 10A 12V
+$ENDCMP
+#
+$CMP R_2.2k
+D RES SMD 2.2K OHM 1% 1/8W 0805
+K RES SMD 2.2K OHM 1% 1/8W 0805
 $ENDCMP
 #
 $CMP micromatch_male_10
