@@ -568,6 +568,33 @@ X 4 4 0 150 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Schottky_SOT23-3
+#
+DEF D_Schottky_SOT23-3 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky_SOT23-3" 0 -100 50 H V C CNN
+F2 "SOT-23-3" -100 0 50 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds11007.pdf" 0 100 50 H I C CNN
+F4 "CHOTTKY 70V 70MA SOT23-3" 400 500 60 H I C CNN "Description"
+F5 "BAS70-FDICT-ND" 100 200 60 H I C CNN "MPN"
+F6 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F7 "https://www.digikey.com/product-detail/en/diodes-incorporated/BAS70-7-F/BAS70-FDICT-ND/815350" 300 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # F_1.1A_12V
 #
 DEF F_1.1A_12V F 0 0 N Y 1 F N
