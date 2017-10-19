@@ -211,12 +211,69 @@ K N-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/ds30104.pdf
 $ENDCMP
 #
+<<<<<<< HEAD
 $CMP NCP785AH150T1G
 D LINEAR REG 10MA 15V SOT-89-3
 K LINEAR REG 10MA 15V SOT-89-3
 F http://www.mouser.com/ds/2/308/NCP785A-D-532012.pdf
 $ENDCMP
 #
+=======
+$CMP NCP1117-1.5_SOT223
+D 1A Low drop-out regulator, Fixed Output 1.5V, SOT-223
+K REGULATOR LDO 1.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-1.8_SOT223
+D 1A Low drop-out regulator, Fixed Output 1.8V, SOT-223
+K REGULATOR LDO 1.8V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-12_SOT223
+D 10mA Ultra-Low Iq, High PSRR Linear Regulator, Fixed Output 15V, SOT-89-3
+K 10mA LINEAR REGULATOR  15V SOT-89-3
+F http://www.mouser.com/ds/2/308/NCP785A-D-532012.pdf
+$ENDCMP
+#
+$CMP NCP1117-2.0_SOT223
+D 1A Low drop-out regulator, Fixed Output 2V, SOT-223
+K REGULATOR LDO 2V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.5_SOT223
+D 1A Low drop-out regulator, Fixed Output 2.5V, SOT-223
+K REGULATOR LDO 2.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.85_SOT223
+D 1A Low drop-out regulator, Fixed Output 2.85V, SOT-223
+K REGULATOR LDO 2.85V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-3.3_SOT223
+D 1A Low drop-out regulator, Fixed Output 3.3V, SOT-223
+K REGULATOR LDO 3.3V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-5.0_SOT223
+D 1A Low drop-out regulator, Fixed Output 5V, SOT-223
+K REGULATOR LDO 5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP785AH150TIG
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+>>>>>>> 29c7b86c37819401b41a2f06e75dd677f1940abf
 $CMP NHD-0216K1Z-FL-YBW
 D NHD-0216K1Z-FL-YBW
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
