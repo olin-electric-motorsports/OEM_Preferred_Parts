@@ -113,6 +113,11 @@ D RES SMD 2.2K OHM 1% 1/8W 0805
 K RES SMD 2.2K OHM 1% 1/8W 0805
 $ENDCMP
 #
+$CMP SN74LVC1G123DCTR
+D IC SNGL MONO MULTIVIBTOR SM8
+K IC SNGL MONO MULTIVIBTOR SM8
+$ENDCMP
+#
 $CMP micromatch_male_10
 D connector micromatch male 10
 K connector micromatch male 10

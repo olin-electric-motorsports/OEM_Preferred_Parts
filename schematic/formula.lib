@@ -670,7 +670,7 @@ ENDDEF
 DEF G6C-1117P-US K 0 40 Y Y 1 F N
 F0 "K" 550 350 50 H V L CNN
 F1 "G6C-1117P-US" 550 250 50 H V L CNN
-F2 "Relays_THT:Relay_SPDT_OMRON-G5Q" 650 150 50 H I L CNN
+F2 "footprints:Relay_SPST_OMRON-G6C" 650 150 50 H I L CNN
 F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6c.pdf" 650 -150 50 H I L CNN
 F4 "Z3601-ND" 750 450 60 H I C CNN "MPN"
 F5 "Digi-Key" 850 550 60 H I C CNN "MFN"
@@ -1398,7 +1398,10 @@ DEF SN74LVC1G123DCTR U 0 40 Y Y 1 F N
 F0 "U" -250 200 60 H V C CNN
 F1 "SN74LVC1G123DCTR" 0 -300 60 H V C CNN
 F2 "" 0 150 60 H I C CNN
-F3 "" 0 150 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g123.pdf" 0 150 60 H I C CNN
+F4 "296-18758-1-ND" -150 300 60 H I C CNN "MPN"
+F5 "Digi-Key" -50 400 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G123DCTR/296-18758-1-ND/863888" 50 500 60 H I C CNN "PurchasingLink"
 DRAW
 S -300 150 300 -250 0 1 0 f
 X A 1 -500 100 200 R 50 50 1 1 I
