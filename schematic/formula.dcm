@@ -6,6 +6,30 @@ K N-Channel Switching MOSFET
 F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
 $ENDCMP
 #
+$CMP AP1117-18
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-25
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-33
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-50
+D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
 $CMP ATMEGA16M1
 D TQFP32, 16k Flash, 1k SRAM, 512B EEPROM, CAN
 K AVR 8bit Microcontroller MegaAVR
@@ -68,16 +92,6 @@ D Cap 50V 100pF 5% 0805
 K c cap capacitor
 $ENDCMP
 #
-$CMP C_10uF
-D CAP CER 10UF 10V 10% X5R 0805
-K CAP CER 10UF 10V 10% X5R 0805
-$ENDCMP
-#
-$CMP C_1uF
-D CAP CER 1UF 25V 5% X7R 0805
-K CAP CER 1UF 25V 5% X7R 0805
-$ENDCMP
-#
 $CMP C_22uF
 D Unpolarized capacitor
 K cap capacitor
@@ -96,66 +110,6 @@ $ENDCMP
 $CMP Crystal_SMD
 D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
-$ENDCMP
-#
-$CMP D_Schottky_SOD123
-D DIODE SCHOTTKY 100V 1A SOD123
-K DIODE SCHOTTKY 100V 1A SOD123
-$ENDCMP
-#
-$CMP G6C-1117P-US
-D RELAY GEN PURPOSE SPST 10A 12V
-K RELAY GEN PURPOSE SPST 10A 12V
-$ENDCMP
-#
-$CMP R_2.2k
-D RES SMD 2.2K OHM 1% 1/8W 0805
-K RES SMD 2.2K OHM 1% 1/8W 0805
-$ENDCMP
-#
-$CMP micromatch_male_10
-D connector micromatch male 10
-K connector micromatch male 10
-$ENDCMP
-#
-$CMP micromatch_male_12
-D connector micromatch male 12
-K connector micromatch male 12
-$ENDCMP
-#
-$CMP micromatch_male_14
-D connector micromatch male 14
-K connector micromatch male 14
-$ENDCMP
-#
-$CMP micromatch_male_16
-D connector micromatch male 16
-K connector micromatch male 16
-$ENDCMP
-#
-$CMP micromatch_male_18
-D connector micromatch male 18
-K connector micromatch male 18
-$ENDCMP
-#
-$CMP micromatch_male_20
-D connector micromatch male 20
-K connector micromatch male 20
-$ENDCMP
-#
-$CMP micromatch_male_4
-D connector micromatch male 4
-K connector micromatch male 4
-$ENDCMP
-#
-$CMP micromatch_male_6
-D connector micromatch male 6
-K connector micromatch male 6
-$ENDCMP
-#
-$CMP micromatch_male_8
-D connector micromatch male 8
-K connector micromatch male 8
 $ENDCMP
 #
 #End Doc Library
