@@ -263,49 +263,49 @@ $CMP micro-match12pin
 D 12 pin micro match connector
 $ENDCMP
 #
-$CMP micromatch_female_RA_10
-D connector micromatch female RA 10
-K connector micromatch female RA 10
+$CMP micromatch_male_10
+D connector micromatch male 10
+K connector micromatch male 10
 $ENDCMP
 #
-$CMP micromatch_female_RA_12
-D connector micromatch female RA 12
-K connector micromatch female RA 12
+$CMP micromatch_male_12
+D connector micromatch male 12
+K connector micromatch male 12
 $ENDCMP
 #
-$CMP micromatch_female_RA_14
-D connector micromatch female RA 14
-K connector micromatch female RA 14
+$CMP micromatch_male_14
+D connector micromatch male 14
+K connector micromatch male 14
 $ENDCMP
 #
-$CMP micromatch_female_RA_16
-D connector micromatch female RA 16
-K connector micromatch female RA 16
+$CMP micromatch_male_16
+D connector micromatch male 16
+K connector micromatch male 16
 $ENDCMP
 #
-$CMP micromatch_female_RA_18
-D connector micromatch female RA 18
-K connector micromatch female RA 18
+$CMP micromatch_male_18
+D connector micromatch male 18
+K connector micromatch male 18
 $ENDCMP
 #
-$CMP micromatch_female_RA_20
-D connector micromatch female RA 20
-K connector micromatch female RA 20
+$CMP micromatch_male_20
+D connector micromatch male 20
+K connector micromatch male 20
 $ENDCMP
 #
-$CMP micromatch_female_RA_4
-D connector micromatch female RA 4
-K connector micromatch female RA 4
+$CMP micromatch_male_4
+D connector micromatch male 4
+K connector micromatch male 4
 $ENDCMP
 #
-$CMP micromatch_female_RA_6
-D connector micromatch female RA 6
-K connector micromatch female RA 6
+$CMP micromatch_male_6
+D connector micromatch male 6
+K connector micromatch male 6
 $ENDCMP
 #
-$CMP micromatch_female_RA_8
-D connector micromatch female RA 8
-K connector micromatch female RA 8
+$CMP micromatch_male_8
+D connector micromatch male 8
+K connector micromatch male 8
 $ENDCMP
 #
 >>>>>>> 944a62dc0997ecbee5a5d244e3d5afa11422867b
