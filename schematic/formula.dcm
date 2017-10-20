@@ -112,6 +112,11 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP NCP785AH150T1G
+D LINEAR REG 10mA 15V
+K LINEAR REG 10mA 15V
+$ENDCMP
+#
 $CMP NHD-0216K1Z-FL-YBW
 D NHD-0216K1Z-FL-YBW
 K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
@@ -308,5 +313,4 @@ D connector micromatch male 8
 K connector micromatch male 8
 $ENDCMP
 #
->>>>>>> 944a62dc0997ecbee5a5d244e3d5afa11422867b
 #End Doc Library
