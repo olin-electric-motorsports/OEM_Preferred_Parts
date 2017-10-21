@@ -68,16 +68,6 @@ D Cap 50V 100pF 5% 0805
 K c cap capacitor
 $ENDCMP
 #
-$CMP C_10uF
-D CAP CER 10UF 10V 10% X5R 0805
-K CAP CER 10UF 10V 10% X5R 0805
-$ENDCMP
-#
-$CMP C_1uF
-D CAP CER 1UF 25V 5% X7R 0805
-K CAP CER 1UF 25V 5% X7R 0805
-$ENDCMP
-#
 $CMP C_22uF
 D Unpolarized capacitor
 K cap capacitor
@@ -98,19 +88,160 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
-$CMP D_Schottky_SOD123
-D DIODE SCHOTTKY 100V 1A SOD123
-K DIODE SCHOTTKY 100V 1A SOD123
+$CMP NCP785AH150T1G
+D LINEAR REG 10mA 15V
+K LINEAR REG 10mA 15V
 $ENDCMP
 #
-$CMP G6C-1117P-US
-D RELAY GEN PURPOSE SPST 10A 12V
-K RELAY GEN PURPOSE SPST 10A 12V
+$CMP NHD-0216K1Z-FL-YBW
+D NHD-0216K1Z-FL-YBW
+K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
 $ENDCMP
 #
-$CMP R_2.2k
-D RES SMD 2.2K OHM 1% 1/8W 0805
-K RES SMD 2.2K OHM 1% 1/8W 0805
+$CMP NMOS_GSD_30V
+D N-channel MOSFET
+K NMOS n-mos n-mosfet transistor mosfet fet
+$ENDCMP
+#
+$CMP OPA333xxDBV
+D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA340NA
+D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa340.pdf
+$ENDCMP
+#
+$CMP OPA376xxDBV
+D Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP Pushbutton
+D Pushbutton
+K Button
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP R_0_Jumper
+D Res 0 2512 3W Jumper
+K r res resistor
+$ENDCMP
+#
+$CMP R_100
+D Res 100 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_100k
+D Res 100k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_10k
+D Res 10k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_1k
+D Res 1k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_200
+D Res 200 5%
+K r res resistor
+$ENDCMP
+#
+$CMP R_22k
+D RES 22k 5% 1/8W 0805
+K r res resistor
+$ENDCMP
+#
+$CMP R_3.01k
+D Res 3.01k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_300k
+D Res 300k 0.1% 0805 1/8W
+K r res resistor
+$ENDCMP
+#
+$CMP R_3k
+D Res 3k 1% 0805 1/8W
+K r res resistor
+$ENDCMP
+#
+$CMP R_475
+D Res 475 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_55.1k
+D Res 55.1k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_6.2k
+D Res 6.2k 1% 0805 1/8W
+K r res resistor
+$ENDCMP
+#
+$CMP SN74LVC1G17
+D Single Schmitt-Trigger Buffer
+$ENDCMP
+#
+$CMP SSM3K333R
+D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
+$ENDCMP
+#
+$CMP TPS561201
+D 4.5V - 17V Input 1A Synchronous Buck Converter
+K Buck step-down
+F http://www.ti.com/lit/ds/symlink/tps561201.pdf
+$ENDCMP
+#
+$CMP TPS562201
+D 4.5V - 17V Input 2A Synchronous Buck Converter
+K Buck step-down
+F http://www.ti.com/lit/ds/symlink/tps562201.pdf
+$ENDCMP
+#
+$CMP TS881
+D Rail-to-rail 0.9 V nanopower comparator, SOT-23-5/SC-70-5
+K single comparator
+F www.st.com/resource/en/datasheet/ts881.pdf
+$ENDCMP
+#
+$CMP TSV911ILT
+D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
+K single opamp
+F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP ULTRAFIT_CONNECTOR_2
+D ULTRAFIT CONN HDR 02CKT
+K ULTRAFIT CONN HDR 02CKT
+$ENDCMP
+#
+$CMP Ultrafit_4
+D Ultrafit 4 Pin Connector
+K ultrafit conn connector ultra
+$ENDCMP
+#
+$CMP micro-match12pin
+D 12 pin micro match connector
 $ENDCMP
 #
 $CMP SN74LVC1G123DCTR
