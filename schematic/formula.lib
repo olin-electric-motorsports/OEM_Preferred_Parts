@@ -36,6 +36,34 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# AD620
+#
+DEF AD620 U 0 20 Y Y 1 F N
+F0 "U" 150 300 50 H V C CNN
+F1 "AD620" 150 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf" 150 300 50 H I C CNN
+F4 "Digi Key" 250 400 60 H I C CNN "MFN"
+F5 "AD623ARMZ-REELCT-ND" 350 500 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/AD623ARMZ-REEL/AD623ARMZ-REELCT-ND/4141851" 450 600 60 H I C CNN "PurchasingLink"
+ALIAS AD623
+$FPLIST
+ SOIC*Pitch1.27mm*
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -300 300 -300 -300 300 0 -300 300 f
+X Rg 1 -400 100 100 R 50 50 1 1 P
+X - 2 -400 200 100 R 50 50 1 1 I
+X + 3 -400 -200 100 R 50 50 1 1 I
+X Vs- 4 -100 -300 100 U 50 50 1 1 W
+X Ref 5 100 -300 200 U 50 50 1 1 P
+X ~ 6 400 0 100 L 50 50 1 1 O
+X Vs+ 7 -100 300 100 D 50 50 1 1 W
+X Rg 8 -400 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ATMEGA16M1
 #
 DEF ATMEGA16M1 IC 0 40 Y Y 1 F N
@@ -947,11 +975,11 @@ ENDDEF
 DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -1224,6 +1252,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_500
+#
+DEF R_500 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_500" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "http://www.vishay.com/docs/60057/pnm.pdf" 80 0 50 V I C CNN
+F4 "Digi Key" 180 100 60 V I C CNN "MFN"
+F5 "541-1905-2-ND" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/vishay-dale/PNM0402E5000BST1/541-1905-2-ND/4341867" 380 300 60 V I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_55.1k
 #
 DEF R_55.1k R 0 0 N Y 1 F N
@@ -1241,6 +1290,27 @@ $FPLIST
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_Strain_Gauge
+#
+DEF R_Strain_Gauge R 0 0 N Y 1 F N
+F0 "R" 100 -100 50 V V L CNN
+F1 "R_Strain_Gauge" -100 -50 50 V V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "http://datasheets.globalspec.com/ds/580/OMEGAEngineering/A8335787-996B-432A-9EB0-AFA91F83BF20" 100 -100 50 V I C CNN
+F4 "OMEGA" 200 0 60 V I C CNN "MFN"
+F5 "SGT-1/350-XY41" 300 100 60 V I C CNN "MPN"
+F6 "https://www.omega.com/pptst/SGT_2-ELEMENT90.html" 400 200 60 V I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+P 5 0 1 0 100 60 100 100 60 100 100 100 -80 -80 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
