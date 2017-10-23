@@ -240,6 +240,11 @@ D Res 1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_2.2k
+D RES SMD 2.2K OHM 1% 1/8W 0805
+K r res resistor
+$ENDCMP
+#
 $CMP R_200
 D Res 200 5%
 K r res resistor
@@ -352,6 +357,51 @@ $ENDCMP
 $CMP Ultrafit_4
 D Ultrafit 4 Pin Connector
 K ultrafit conn connector ultra
+$ENDCMP
+#
+$CMP micromatch_female_RA_10
+D connector micromatch female RA 10
+K connector micromatch female RA 10
+$ENDCMP
+#
+$CMP micromatch_female_RA_12
+D connector micromatch female RA 12
+K connector micromatch female RA 12
+$ENDCMP
+#
+$CMP micromatch_female_RA_14
+D connector micromatch female RA 14
+K connector micromatch female RA 14
+$ENDCMP
+#
+$CMP micromatch_female_RA_16
+D connector micromatch female RA 16
+K connector micromatch female RA 16
+$ENDCMP
+#
+$CMP micromatch_female_RA_18
+D connector micromatch female RA 18
+K connector micromatch female RA 18
+$ENDCMP
+#
+$CMP micromatch_female_RA_20
+D connector micromatch female RA 20
+K connector micromatch female RA 20
+$ENDCMP
+#
+$CMP micromatch_female_RA_4
+D connector micromatch female RA 4
+K connector micromatch female RA 4
+$ENDCMP
+#
+$CMP micromatch_female_RA_6
+D connector micromatch female RA 6
+K connector micromatch female RA 6
+$ENDCMP
+#
+$CMP micromatch_female_RA_8
+D connector micromatch female RA 8
+K connector micromatch female RA 8
 $ENDCMP
 #
 $CMP micromatch_male_10

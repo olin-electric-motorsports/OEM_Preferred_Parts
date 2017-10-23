@@ -648,8 +648,8 @@ ENDDEF
 # LED_0805
 #
 DEF LED_0805 D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "LED_0805" 0 -100 50 H V C CNN
+F0 "D" 0 -100 50 H V C CNN
+F1 "LED_0805" 0 100 50 H V C CNN
 F2 "LEDs:LED_0805" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
@@ -996,7 +996,7 @@ ENDDEF
 #
 DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "R" -100 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1014,7 +1014,7 @@ ENDDEF
 #
 DEF R_0_Jumper R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_0_Jumper" 0 0 50 V V C CNN
+F1 "R_0_Jumper" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_2512" -70 0 50 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 80 0 50 H I C CNN
 F4 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
@@ -1036,7 +1036,7 @@ ENDDEF
 #
 DEF R_100 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_100" 0 0 50 V V C CNN
+F1 "R_100" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -1058,7 +1058,7 @@ ENDDEF
 #
 DEF R_100k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_100k" 0 0 50 V V C CNN
+F1 "R_100k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-100KCRCT-ND" 0 0 60 H I C CNN "MPN"
@@ -1080,7 +1080,7 @@ ENDDEF
 #
 DEF R_10k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_10k" 0 0 50 V V C CNN
+F1 "R_10k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
@@ -1102,7 +1102,7 @@ ENDDEF
 #
 DEF R_1k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1k" 0 0 50 V V C CNN
+F1 "R_1k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -1146,7 +1146,7 @@ ENDDEF
 #
 DEF R_200 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_200" 0 0 50 V V C CNN
+F1 "R_200" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -1190,7 +1190,7 @@ ENDDEF
 #
 DEF R_3.01k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_3.01k" 0 0 50 V V C CNN
+F1 "R_3.01k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-3.01KCRCT-ND" 0 0 60 H I C CNN "MPN"
@@ -1212,7 +1212,7 @@ ENDDEF
 #
 DEF R_300k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_300k" 0 0 50 V V C CNN
+F1 "R_300k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -1234,7 +1234,7 @@ ENDDEF
 #
 DEF R_3k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_3k" 0 0 50 V V C CNN
+F1 "R_3k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -1256,7 +1256,7 @@ ENDDEF
 #
 DEF R_3k_HS R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_3k_HS" 0 0 50 V V C CNN
+F1 "R_3k_HS" -100 0 50 V V C CNN
 F2 "no footprint found" -70 0 50 H I C CNN
 F3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -1278,7 +1278,7 @@ ENDDEF
 #
 DEF R_475 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_475" 0 0 50 V V C CNN
+F1 "R_475" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-475CRCT-ND" 0 0 60 H I C CNN "MPN"
@@ -1300,7 +1300,7 @@ ENDDEF
 #
 DEF R_499 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_499" 0 0 50 V V C CNN
+F1 "R_499" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -1322,7 +1322,7 @@ ENDDEF
 #
 DEF R_500 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_500" 0 0 50 V V C CNN
+F1 "R_500" -100 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "http://www.vishay.com/docs/60057/pnm.pdf" 80 0 50 V I C CNN
 F4 "Digi Key" 180 100 60 V I C CNN "MFN"
@@ -1343,7 +1343,7 @@ ENDDEF
 #
 DEF R_55.1k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_55.1k" 0 0 50 V V C CNN
+F1 "R_55.1k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-51.1KCRCT-ND" 0 0 60 H I C CNN "MPN"
@@ -1365,7 +1365,7 @@ ENDDEF
 #
 DEF R_6.2k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_6.2k" 0 0 50 V V C CNN
+F1 "R_6.2k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -1387,7 +1387,7 @@ ENDDEF
 #
 DEF R_Strain_Gauge R 0 0 N Y 1 F N
 F0 "R" 100 -100 50 V V L CNN
-F1 "R_Strain_Gauge" -100 -50 50 V V L CNN
+F1 "R_Strain_Gauge" -100 -250 50 V V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "http://datasheets.globalspec.com/ds/580/OMEGAEngineering/A8335787-996B-432A-9EB0-AFA91F83BF20" 100 -100 50 V I C CNN
 F4 "OMEGA" 200 0 60 V I C CNN "MFN"
@@ -1450,7 +1450,7 @@ DEF SSM3K333R Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
 F1 "SSM3K333R" 200 0 50 H V L CNN
 F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
-F3 "file:///home/sherrieshen/Downloads/SSM3K333R_datasheet_en_20140301.pdf" 200 75 50 H I L CNN
+F3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" 200 75 50 H I L CNN
 F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "Purchase_Link"
 F5 "SSM3K333RLFCT-ND" 400 275 60 H I C CNN "MPN"
 F6 "Digi-Key" 500 375 60 H I C CNN "MFN"
@@ -1677,6 +1677,258 @@ X 16 16 150 -400 100 L 50 50 1 1 B
 X 17 17 150 -500 100 L 50 50 1 1 B
 X 18 18 150 -600 100 L 50 50 1 1 B
 X 19 19 150 -700 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_10
+#
+DEF micromatch_female_RA_10 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_10" -50 50 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338070-0/A99485CT-ND/1955787" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99485CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 150 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_12
+#
+DEF micromatch_female_RA_12 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_12" -50 -150 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338070-2/A99486CT-ND/1955788" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99486CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 -50 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_14
+#
+DEF micromatch_female_RA_14 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_14" -50 -350 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338070-4/A99487CT-ND/1955789" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99487CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 -250 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_16
+#
+DEF micromatch_female_RA_16 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_16" 50 -600 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338070-6/A99488CT-ND/1955790" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99488CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 -450 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_18
+#
+DEF micromatch_female_RA_18 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_18" 0 -800 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338070-8/A99489CT-ND/1955791" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99489CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 -650 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+X 17 17 150 -500 100 L 50 50 1 1 B
+X 18 18 150 -600 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_20
+#
+DEF micromatch_female_RA_20 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_20" 0 -950 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338070-0/A99490CT-ND/1955792" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99490CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 -850 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 20 20 150 -800 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+X 17 17 150 -500 100 L 50 50 1 1 B
+X 18 18 150 -600 100 L 50 50 1 1 B
+X 19 19 150 -700 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_4
+#
+DEF micromatch_female_RA_4 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_4" -50 650 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99482CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 750 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_6
+#
+DEF micromatch_female_RA_6 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_6" 0 450 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-6/A99483CT-ND/1955785" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99483CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 550 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_8
+#
+DEF micromatch_female_RA_8 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_8" -50 250 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-8/A99484CT-ND/1955786" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99484CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 350 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
