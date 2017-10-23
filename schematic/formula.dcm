@@ -275,6 +275,11 @@ D Res 475 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_499
+D Res 499 1%
+K r res resistor
+$ENDCMP
+#
 $CMP R_500
 D Resistor 500Ohm 0.1% Tolerance
 K r res resistor
@@ -393,5 +398,5 @@ $CMP micromatch_male_8
 D connector micromatch male 8
 K connector micromatch male 8
 $ENDCMP
-
+#
 #End Doc Library
