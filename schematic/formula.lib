@@ -36,6 +36,34 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# AD620
+#
+DEF AD620 U 0 20 Y Y 1 F N
+F0 "U" 150 300 50 H V C CNN
+F1 "AD620" 150 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf" 150 300 50 H I C CNN
+F4 "Digi Key" 250 400 60 H I C CNN "MFN"
+F5 "AD623ARMZ-REELCT-ND" 350 500 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/AD623ARMZ-REEL/AD623ARMZ-REELCT-ND/4141851" 450 600 60 H I C CNN "PurchasingLink"
+ALIAS AD623
+$FPLIST
+ SOIC*Pitch1.27mm*
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -300 300 -300 -300 300 0 -300 300 f
+X Rg 1 -400 100 100 R 50 50 1 1 P
+X - 2 -400 200 100 R 50 50 1 1 I
+X + 3 -400 -200 100 R 50 50 1 1 I
+X Vs- 4 -100 -300 100 U 50 50 1 1 W
+X Ref 5 100 -300 200 U 50 50 1 1 P
+X ~ 6 400 0 100 L 50 50 1 1 O
+X Vs+ 7 -100 300 100 D 50 50 1 1 W
+X Rg 8 -400 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ATMEGA16M1
 #
 DEF ATMEGA16M1 IC 0 40 Y Y 1 F N
@@ -537,6 +565,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# F_3.15A_450V
+#
+DEF F_3.15A_450V F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "F_3.15A_450V" -75 0 50 V V C CNN
+F2 "footprint not found" -70 0 50 V I C CNN
+F3 "http://www.mouser.com/ds/2/240/Littelfuse_Fuse_807_Datasheet.pdf-794915.pdf" 80 0 50 V I C CNN
+F4 "Mouser" 0 0 60 H I C CNN "MFN"
+F5 "80713150440" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.mouser.com/ProductDetail/Littelfuse/80713150440/?qs=%2fha2pyFaduj6aUSS3K8RSlC9flo%2fx0HLwwpdMiFRoD3Yb7kI5hEeOg%3d%3d" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # F_500mA_16V
 #
 DEF F_500mA_16V F 0 0 N Y 1 F N
@@ -947,11 +997,11 @@ ENDDEF
 DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -1202,6 +1252,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_3k_HS
+#
+DEF R_3k_HS R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_3k_HS" 0 0 50 V V C CNN
+F2 "no footprint found" -70 0 50 H I C CNN
+F3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "AP101 3K J " 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_475
 #
 DEF R_475 R 0 0 N Y 1 F N
@@ -1238,6 +1310,27 @@ F7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07499RL/311-499CRCT
 $FPLIST
  R_*
  Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_500
+#
+DEF R_500 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_500" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "http://www.vishay.com/docs/60057/pnm.pdf" 80 0 50 V I C CNN
+F4 "Digi Key" 180 100 60 V I C CNN "MFN"
+F5 "541-1905-2-ND" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/vishay-dale/PNM0402E5000BST1/541-1905-2-ND/4341867" 380 300 60 V I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -1285,6 +1378,27 @@ $FPLIST
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_Strain_Gauge
+#
+DEF R_Strain_Gauge R 0 0 N Y 1 F N
+F0 "R" 100 -100 50 V V L CNN
+F1 "R_Strain_Gauge" -100 -50 50 V V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "http://datasheets.globalspec.com/ds/580/OMEGAEngineering/A8335787-996B-432A-9EB0-AFA91F83BF20" 100 -100 50 V I C CNN
+F4 "OMEGA" 200 0 60 V I C CNN "MFN"
+F5 "SGT-1/350-XY41" 300 100 60 V I C CNN "MPN"
+F6 "https://www.omega.com/pptst/SGT_2-ELEMENT90.html" 400 200 60 V I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+P 5 0 1 0 100 60 100 100 60 100 100 100 -80 -80 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
@@ -1469,11 +1583,11 @@ X VBST 6 450 200 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ULTRAFIT_CONNECTOR_2
+# Ultrafit_2
 #
-DEF ULTRAFIT_CONNECTOR_2 J 0 40 Y Y 1 F N
+DEF Ultrafit_2 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "ULTRAFIT_CONNECTOR_2" 0 850 60 H V C CNN
+F1 "Ultrafit_2" 0 850 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 0 1300 60 H I C CNN "PurchasingLink"
@@ -1563,30 +1677,6 @@ X 16 16 150 -400 100 L 50 50 1 1 B
 X 17 17 150 -500 100 L 50 50 1 1 B
 X 18 18 150 -600 100 L 50 50 1 1 B
 X 19 19 150 -700 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# micro-match12pin
-#
-DEF micro-match12pin U 0 40 Y Y 1 F N
-F0 "U" 50 550 60 H V C CNN
-F1 "micro-match12pin" 450 -900 60 H V C CNN
-F2 "" 350 800 60 H I C CNN
-F3 "" 350 800 60 H I C CNN
-DRAW
-S 250 500 0 -850 0 1 0 f
-X 1 1 450 400 200 L 50 50 1 1 B
-X 2 2 450 300 200 L 50 50 1 1 B
-X 3 3 450 200 200 L 50 50 1 1 B
-X 4 4 450 100 200 L 50 50 1 1 B
-X 5 5 450 0 200 L 50 50 1 1 B
-X 6 6 450 -100 200 L 50 50 1 1 B
-X 7 7 450 -200 200 L 50 50 1 1 B
-X 8 8 450 -300 200 L 50 50 1 1 B
-X 9 9 450 -400 200 L 50 50 1 1 B
-X 10 10 450 -500 200 L 50 50 1 1 B
-X 11 11 450 -600 200 L 50 50 1 1 B
-X 12 12 450 -700 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #

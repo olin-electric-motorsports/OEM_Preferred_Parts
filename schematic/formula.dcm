@@ -6,6 +6,18 @@ K N-Channel Switching MOSFET
 F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
 $ENDCMP
 #
+$CMP AD620
+D Low Cost, Low Power, Instrumentation Amplifier, DIP-8/SOIC-8
+K Instrumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf
+$ENDCMP
+#
+$CMP AD623
+D Instrumentation Amplifier AD623
+K instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf
+$ENDCMP
+#
 $CMP ATMEGA16M1
 D TQFP32, 16k Flash, 1k SRAM, 512B EEPROM, CAN
 K AVR 8bit Microcontroller MegaAVR
@@ -86,6 +98,25 @@ $ENDCMP
 $CMP Crystal_SMD
 D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP F_1.1A_12V
+D PTC Fuse 12V 1.1A
+K Fuse F
+$ENDCMP
+#
+$CMP F_3.15A_450V
+K fuse
+$ENDCMP
+#
+$CMP F_500mA_16V
+D PTC Fuse 16V 500mA
+K Fuse F
+$ENDCMP
+#
+$CMP LED_0805
+D LED_0805
+K led diode
 $ENDCMP
 #
 $CMP LM78L05ACZ_Voltage_Regulator
@@ -225,12 +256,17 @@ K r res resistor
 $ENDCMP
 #
 $CMP R_300k
-D Res 1k 1%
+D Res 300k 0.1% 0805 1/8W
 K r res resistor
 $ENDCMP
 #
 $CMP R_3k
-D Res 1k 1%
+D Res 3k 1% 0805 1/8W
+K r res resistor
+$ENDCMP
+#
+$CMP R_3k_HS
+D 3k ohm 100 w rating
 K r res resistor
 $ENDCMP
 #
@@ -244,14 +280,24 @@ D Res 499 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_500
+D Resistor 500Ohm 0.1% Tolerance
+K r res resistor
+$ENDCMP
+#
 $CMP R_55.1k
 D Res 55.1k 1%
 K r res resistor
 $ENDCMP
 #
 $CMP R_6.2k
-D Res 1k 1%
+D Res 6.2k 1% 0805 1/8W
 K r res resistor
+$ENDCMP
+#
+$CMP R_Strain_Gauge
+D Dual Element Biaxial Tee Strain Gage
+K r res resistor strain_gauge variable potentiometer
 $ENDCMP
 #
 $CMP SN74LVC1G123DCTR
@@ -275,13 +321,13 @@ K PHOTO RELAY LOW TRIG CURR SO6
 $ENDCMP
 #
 $CMP TPS561201
-D 4.5V &- 17V Input 1A Synchronous Buck Converter
+D 4.5V - 17V Input 1A Synchronous Buck Converter
 K Buck step-down
 F http://www.ti.com/lit/ds/symlink/tps561201.pdf
 $ENDCMP
 #
 $CMP TPS562201
-D 4.5V &- 17V Input 2A Synchronous Buck Converter
+D 4.5V - 17V Input 2A Synchronous Buck Converter
 K Buck step-down
 F http://www.ti.com/lit/ds/symlink/tps562201.pdf
 $ENDCMP
@@ -298,7 +344,7 @@ K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
 $ENDCMP
 #
-$CMP ULTRAFIT_CONNECTOR_2
+$CMP Ultrafit_2
 D ULTRAFIT CONN HDR 02CKT
 K ULTRAFIT CONN HDR 02CKT
 $ENDCMP
@@ -306,10 +352,6 @@ $ENDCMP
 $CMP Ultrafit_4
 D Ultrafit 4 Pin Connector
 K ultrafit conn connector ultra
-$ENDCMP
-#
-$CMP micro-match12pin
-D 12 pin micro match connector
 $ENDCMP
 #
 $CMP micromatch_male_10
