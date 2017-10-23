@@ -1,4 +1,4 @@
-﻿EESchema-DOCLIB  Version 2.0
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 2N7002
 D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
@@ -103,6 +103,10 @@ $ENDCMP
 $CMP F_1.1A_12V
 D PTC Fuse 12V 1.1A
 K Fuse F
+$ENDCMP
+#
+$CMP F_3.15A_450V
+K fuse
 $ENDCMP
 #
 $CMP F_500mA_16V
@@ -258,6 +262,11 @@ $ENDCMP
 #
 $CMP R_3k
 D Res 3k 1% 0805 1/8W
+K r res resistor
+$ENDCMP
+#
+$CMP R_3k_HS
+D 3k ohm 100 w rating
 K r res resistor
 $ENDCMP
 #
