@@ -100,6 +100,16 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP D_Zener_13V
+D DIODE ZENER 13V 3W SMB
+K DIODE ZENER 13V 3W SMB
+$ENDCMP
+#
+$CMP D_Zener_20V
+D DIODE ZENER 20V 100MW VMN2M
+K DIODE ZENER 20V 100MW VMN2M
+$ENDCMP
+#
 $CMP F_1.1A_12V
 D PTC Fuse 12V 1.1A
 K Fuse F
