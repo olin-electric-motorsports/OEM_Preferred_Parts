@@ -142,6 +142,11 @@ K single opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001685E.pdf
 $ENDCMP
 #
+$CMP MCP6001RT
+D IC OPAMP GP 1MHZ RRO SOT23-5  1.8-6V
+K single opamp
+$ENDCMP
+#
 $CMP MCP601-xOT
 D Single 2.7V to 6.0V Single Supply CMOS Op Amps, SOT-23-5
 K single opamp
