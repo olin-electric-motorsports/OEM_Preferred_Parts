@@ -135,6 +135,10 @@ K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
 $ENDCMP
 #
+$CMP LMV341
+D IC OPAMP GP 1MHZ RRO SOT23-6
+$ENDCMP
+#
 $CMP L_4.7uH
 D Inductor 4.7uH 4.4A
 K L inductor choke coil reactor magnetic
