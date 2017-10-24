@@ -471,6 +471,59 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# C_10uF
+#
+DEF C_10uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C_10uF" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "http://datasheets.avx.com/cx5r.pdf" 25 100 50 H I C CNN
+F4 "478-5167-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_1uF
+#
+DEF C_1uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C_1uF" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
+F4 "CAP CER 1UF 25V X7R 0805" 525 600 60 H I C CNN "Description"
+F5 "478-10487-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F7 "Value" 0 0 60 H I C CNN "Package"
+F8 "https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # C_22uF
 #
 DEF C_22uF C 0 10 N Y 1 F N
@@ -573,6 +626,32 @@ X 1 1 -100 0 50 R 50 50 1 1 P
 X 2 2 0 -150 75 U 50 50 1 1 P
 X 3 3 100 0 50 L 50 50 1 1 P
 X 4 4 0 150 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Schottky_SOD123
+#
+DEF D_Schottky_SOD123 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky_SOD123" 0 -100 50 H V C CNN
+F2 "Diodes_SMD:D_SOD-123" -100 0 50 H I C CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" 0 100 50 H I C CNN
+F4 "1727-2394-1-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" 300 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -779,6 +858,30 @@ S 200 -100 -200 100 0 1 0 f
 X VOUT 1 -400 0 200 R 50 50 1 1 O
 X GND 2 0 -300 200 U 50 50 1 1 I
 X VIN 3 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LMV341
+#
+DEF LMV341 U 0 10 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "LMV341" 150 -200 50 H V C CNN
+F2 "TO_SOT_Packages_SMD:SOT-23-6" 0 100 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lmv341.pdf" 0 200 50 H I C CNN
+F4 "296-17843-1-ND" 250 400 60 H I C CNN "MPN"
+F5 "Digi-Key" 350 500 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/LMV341IDBVR/296-17843-1-ND/738777" 150 300 60 H I C CNN "PurchasingLink"
+$FPLIST
+ SOT?23*
+ *SC?70*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X + 1 -300 100 100 R 50 50 1 1 I
+X V- 2 -100 -300 150 U 50 50 1 1 I
+X - 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 300 0 100 L 50 50 1 1 O
+X V+ 5 -100 300 150 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1212,6 +1315,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_1M
+#
+DEF R_1M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1M" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805JT1M00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_1k
 #
 DEF R_1k R 0 0 N Y 1 F N
@@ -1267,6 +1392,28 @@ F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805JT200RCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "Value" 0 0 60 H I C CNN "Package"
 F7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_22M
+#
+DEF R_22M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_22M" -100 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "RMCF0805JT22M0CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT22M0/RMCF0805JT22M0CT-ND/1942605" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
