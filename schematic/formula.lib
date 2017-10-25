@@ -1924,6 +1924,30 @@ X VBST 6 450 200 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TS507IYLT
+#
+DEF TS507IYLT U 0 10 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "TS507IYLT" 150 -200 50 H V C CNN
+F2 "TO_SOT_Packages_SMD:SOT-23-5" 0 100 50 H I C CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/de/20/f2/58/ee/d8/43/5b/CD00045727.pdf/files/CD00045727.pdf/jcr:content/translations/en.CD00045727.pdf" 0 200 50 H I C CNN
+F4 "497-10249-1-ND" 250 400 60 H I C CNN "MPN"
+F5 "Digi-Key" 350 500 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TS507IYLT/497-10249-1-ND/2193326" 150 300 60 H I C CNN "PurchasingLink"
+$FPLIST
+ SOT?23*
+ *SC?70*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X + 1 -300 100 100 R 50 50 1 1 I
+X V- 2 -100 -300 150 U 50 50 1 1 I
+X - 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 300 0 100 L 50 50 1 1 O
+X V+ 5 -100 300 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Ultrafit_2
 #
 DEF Ultrafit_2 J 0 40 Y Y 1 F N
