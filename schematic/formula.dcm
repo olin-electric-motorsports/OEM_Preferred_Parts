@@ -247,6 +247,11 @@ D Res 0 2512 3W Jumper
 K r res resistor
 $ENDCMP
 #
+$CMP R_1.13k
+D RES SMD 1.13K OHM 0.1% 1/8W 0805
+K RES SMD 1.13K OHM 0.1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_100
 D Res 100 1%
 K r res resistor
