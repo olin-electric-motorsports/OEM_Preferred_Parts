@@ -80,14 +80,6 @@ D Cap 50V 100pF 5% 0805
 K c cap capacitor
 $ENDCMP
 #
-$CMP C_10uF
-D CAP CER 10UF 10V X5R 0805
-$ENDCMP
-#
-$CMP C_1uF
-D CAP CER 1UF 25V X7R 0805
-$ENDCMP
-#
 $CMP C_22uF
 D Unpolarized capacitor
 K cap capacitor
@@ -124,12 +116,19 @@ K Fuse F
 $ENDCMP
 #
 $CMP F_3.15A_450V
-K fuse
+D Fuses with Leads (Through Hole) 300V IEC TL 3.15A TE7
+K Fuse 3.15A 
 $ENDCMP
 #
 $CMP F_500mA_16V
 D PTC Fuse 16V 500mA
 K Fuse F
+$ENDCMP
+#
+$CMP G2RL-1-E
+D Omron G5G relay, Miniature Single Pole, SPDT, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
 $ENDCMP
 #
 $CMP LED_0805
@@ -141,10 +140,6 @@ $CMP LM78L05ACZ_Voltage_Regulator
 D IC REG LINEAR 5V 100MA TO92-3
 K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
-$ENDCMP
-#
-$CMP LMV341
-D IC OPAMP GP 1MHZ RRO SOT23-6
 $ENDCMP
 #
 $CMP L_4.7uH
@@ -262,10 +257,6 @@ D Res 10k 1%
 K r res resistor
 $ENDCMP
 #
-$CMP R_1M
-D RES SMD 1M OHM 5% 1/8W 0805
-$ENDCMP
-#
 $CMP R_1k
 D Res 1k 1%
 K r res resistor
@@ -279,10 +270,6 @@ $ENDCMP
 $CMP R_200
 D Res 200 5%
 K r res resistor
-$ENDCMP
-#
-$CMP R_22M
-D RES SMD 22M OHM 5% 1/8W 0805
 $ENDCMP
 #
 $CMP R_22k
