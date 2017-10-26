@@ -1,11 +1,11 @@
-(module Crystal_SMD_FA238 (layer F.Cu) (tedit 59000660)
+(module Crystal_SMD_FA238 (layer F.Cu) (tedit 59F247A7)
   (descr "crystal Epson Toyocom FA-238 series http://www.mouser.com/ds/2/137/1721499-465440.pdf, hand-soldering, 3.2x2.5mm^2 package")
   (tags "SMD SMT crystal hand-soldering")
   (attr smd)
   (fp_text reference REF** (at -0.67564 -2.66192) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Crystal_SMD_FA238 (at 0.0762 2.42316) (layer F.Fab)
+  (fp_text value Crystal_SMD_FA238 (at 0.0762 2.42316) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2 -1.6) (end 0 -1.6) (layer F.SilkS) (width 0.1))
