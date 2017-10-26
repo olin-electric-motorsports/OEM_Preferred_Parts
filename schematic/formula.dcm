@@ -124,6 +124,12 @@ D PTC Fuse 16V 500mA
 K Fuse F
 $ENDCMP
 #
+$CMP G2RL-1-E
+D Omron G5G relay, Miniature Single Pole, SPDT, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
 $CMP LED_0805
 D LED_0805
 K led diode
