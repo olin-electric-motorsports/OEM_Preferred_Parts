@@ -143,6 +143,11 @@ K Miniature Single Pole Relay
 F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
 $ENDCMP
 #
+$CMP G5Q-1A4-DC5-5V
+D g5q power relay
+K g5q power relay
+$ENDCMP
+#
 $CMP LED_0805
 D LED_0805
 K led diode
@@ -258,6 +263,16 @@ D Res 0 2512 3W Jumper
 K r res resistor
 $ENDCMP
 #
+$CMP R_1.07k
+D R 1.07k .1%
+K R 1.07k .1%
+$ENDCMP
+#
+$CMP R_1.13k
+D R 1.13k .1%
+K R 1.13k .1%
+$ENDCMP
+#
 $CMP R_100
 D Res 100 1%
 K r res resistor
@@ -366,7 +381,7 @@ K N-Channel Switching MOSFET
 F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
 $ENDCMP
 #
-$CMP TLP175A
+$CMP TLP175A_OEM
 D PHOTO RELAY LOW TRIG CURR SO6
 K PHOTO RELAY LOW TRIG CURR SO6
 $ENDCMP
@@ -381,6 +396,11 @@ $CMP TPS562201
 D 4.5V - 17V Input 2A Synchronous Buck Converter
 K Buck step-down
 F http://www.ti.com/lit/ds/symlink/tps562201.pdf
+$ENDCMP
+#
+$CMP TS507IYLT
+D high current output opamp
+K high current output opamp
 $ENDCMP
 #
 $CMP TS881
