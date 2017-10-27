@@ -773,7 +773,7 @@ ENDDEF
 DEF F_3.15A_450V F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
 F1 "F_3.15A_450V" -75 0 50 V V C CNN
-F2 "footprint not found" -70 0 50 V I C CNN
+F2 "footprints:Fuse_TE7_Littelfuse-807Series" -70 0 50 V I C CNN
 F3 "http://www.mouser.com/ds/2/240/Littelfuse_Fuse_807_Datasheet.pdf-794915.pdf" 80 0 50 V I C CNN
 F4 "Mouser" 0 0 60 H I C CNN "MFN"
 F5 "80713150440" 0 0 60 H I C CNN "MPN"
@@ -847,10 +847,10 @@ P 2 0 1 0 400 100 400 0 N
 P 2 0 1 20 400 100 480 380 N
 P 3 0 1 0 300 300 325 325 300 350 N
 X ~ 1 0 -100 100 U 50 50 1 1 B
-X ~ 2 400 -100 100 U 50 50 1 1 B
-X ~ 3 500 500 100 D 50 50 1 1 B
+X ~ 2 500 500 100 D 50 50 1 1 B
 X ~ 4 300 500 100 D 50 50 1 1 B
-X ~ 5 0 500 100 D 50 50 1 1 B
+X ~ 6 400 -100 100 U 50 50 1 1 B
+X ~ 8 0 500 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -1926,7 +1926,7 @@ ENDDEF
 DEF Ultrafit_2 J 0 40 Y Y 1 F N
 F0 "J" 0 150 60 H V C CNN
 F1 "Ultrafit_2" 100 -200 60 H V C CNN
-F2 "" -100 50 60 H I C CNN
+F2 "footprints:Ultrafit_2" -100 50 60 H I C CNN
 F3 "" 0 150 60 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 100 250 60 H I C CNN "PurchasingLink"
 F5 "Digi-Key" 200 350 60 H I C CNN "MFN"
