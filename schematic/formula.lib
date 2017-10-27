@@ -854,6 +854,42 @@ X ~ 5 0 500 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# G5Q-1A4-DC5-5V
+#
+DEF G5Q-1A4-DC5-5V K 0 40 Y Y 1 F N
+F0 "K" 350 150 50 H V L CNN
+F1 "G5Q-1A4-DC5-5V" -400 -150 50 H V L CNN
+F2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" 450 -50 50 H I L CNN
+F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" 450 -350 50 H I L CNN
+F4 "Z3632-ND" 750 450 60 H I C CNN "MPN"
+F5 "Digi-Key" 850 550 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721" 950 650 60 H I C CNN "PurchasingLink"
+$FPLIST
+ Relay?SPDT?OMRON?G5Q*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 100 150 100 200 N
+S -400 200 300 -200 0 1 10 f
+S -325 75 -75 -75 0 1 10 N
+P 2 0 1 10 -300 -75 -100 75 N
+P 2 0 1 0 -200 -200 -200 -75 N
+P 2 0 1 0 -200 200 -200 75 N
+P 2 0 1 10 -75 0 -50 0 N
+P 2 0 1 10 -25 0 0 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 75 0 100 0 N
+P 2 0 1 0 100 -100 100 -200 N
+P 2 0 1 20 100 -100 200 100 N
+P 2 0 1 10 125 0 150 0 N
+P 3 0 1 0 100 100 125 125 100 150 F
+X ~ 1 -200 -300 100 U 50 50 1 1 P
+X ~ 2 100 -300 100 U 50 50 1 1 P
+X ~ 3 100 300 100 D 50 50 1 1 P
+X ~ 5 -200 300 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # G6C-1117P-US
 #
 DEF G6C-1117P-US K 0 40 Y Y 1 F N
@@ -1314,6 +1350,50 @@ F4 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F6 "Value" 0 0 60 H I C CNN "Package"
 F7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1.07k
+#
+DEF R_1.07k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1.07k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "P1.07KDACT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1071V/P1.07KDACT-ND/3074919" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1.13k
+#
+DEF R_1.13k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1.13k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "P1.13KDACT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1131V/P1.13KDACT-ND/3074923" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -1820,12 +1900,12 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TLP175A
+# TLP175A_OEM
 #
-DEF TLP175A U 0 40 Y Y 1 F N
+DEF TLP175A_OEM U 0 40 Y Y 1 F N
 F0 "U" -200 195 50 H V L CNN
-F1 "TLP175A" -200 -200 50 H V L CNN
-F2 "Housings_SSOP:MFSOP6-4_4.4x3.6mm_Pitch1.27mm" 0 -300 50 H I C CIN
+F1 "TLP175A_OEM" -200 -200 50 H V L CNN
+F2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" 0 -300 50 H I C CIN
 F3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A" -50 0 50 H I L CNN
 F4 "TLP175A(TPLECT-ND" -100 295 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 395 60 H I C CNN "MFN"
@@ -1918,6 +1998,30 @@ X VIN 3 -450 200 200 R 50 50 1 1 P
 X VFB 4 450 -100 200 L 50 50 1 1 I
 X EN 5 -450 -100 200 R 50 50 1 1 I
 X VBST 6 450 200 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TS507IYLT
+#
+DEF TS507IYLT U 0 10 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "TS507IYLT" 150 -200 50 H V C CNN
+F2 "footprints:SOT-23-5_OEM" 0 100 50 H I C CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/de/20/f2/58/ee/d8/43/5b/CD00045727.pdf/files/CD00045727.pdf/jcr:content/translations/en.CD00045727.pdf" 0 200 50 H I C CNN
+F4 "497-10249-1-ND" 250 400 60 H I C CNN "MPN"
+F5 "Digi-Key" 350 500 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TS507IYLT/497-10249-1-ND/2193326" 150 300 60 H I C CNN "PurchasingLink"
+$FPLIST
+ SOT?23*
+ *SC?70*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X + 1 -300 100 100 R 50 50 1 1 I
+X V- 2 -100 -300 150 U 50 50 1 1 I
+X - 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 300 0 100 L 50 50 1 1 O
+X V+ 5 -100 300 150 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
