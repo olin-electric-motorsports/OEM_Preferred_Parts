@@ -108,6 +108,11 @@ D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP D_Schottky_SOD123
+D DIODE SCHOTTKY 100V 1A SOD123
+K DIODE SCHOTTKY 100V 1A SOD123
+$ENDCMP
+#
 $CMP D_Zener_13V
 D DIODE ZENER 13V 3W SMB
 K DIODE ZENER 13V 3W SMB
@@ -334,6 +339,11 @@ $ENDCMP
 $CMP R_3k_HS
 D 3k ohm 100 w rating
 K r res resistor
+$ENDCMP
+#
+$CMP R_402k
+D R 1.13k .1%
+K R 1.13k .1%
 $ENDCMP
 #
 $CMP R_475
