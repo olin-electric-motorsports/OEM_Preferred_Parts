@@ -342,8 +342,8 @@ K r res resistor
 $ENDCMP
 #
 $CMP R_402k
-D R 1.13k .1%
-K R 1.13k .1%
+D RES SMD 402K OHM 1% 1/8W 0805
+K RES SMD 402K OHM 1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_475
