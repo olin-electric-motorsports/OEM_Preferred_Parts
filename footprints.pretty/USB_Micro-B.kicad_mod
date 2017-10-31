@@ -1,11 +1,11 @@
-(module USB_Micro-B (layer F.Cu) (tedit 5543E447)
+(module USB_Micro-B (layer F.Cu) (tedit 59F24C49)
   (descr "Micro USB Type B Receptacle")
   (tags "USB USB_B USB_micro USB_OTG")
   (attr smd)
   (fp_text reference P2 (at 0 -3.24) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value USB_OTG (at 0 5.01) (layer F.Fab)
+  (fp_text value USB_OTG (at 0 5.01) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -4.6 -2.59) (end 4.6 -2.59) (layer F.CrtYd) (width 0.05))

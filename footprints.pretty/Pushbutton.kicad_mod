@@ -1,8 +1,8 @@
-(module Pushbutton (layer F.Cu) (tedit 58BA3447)
-  (fp_text reference U4 (at 0.7112 7.2136) (layer F.SilkS)
+(module Pushbutton (layer F.Cu) (tedit 59F24A57)
+  (fp_text reference U4 (at -0.762 7.874) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Pushbutton (at 2.54 -2.794) (layer F.Fab)
+  (fp_text value Pushbutton (at 2.54 -2.794) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 2.5 2.5) (end 6 6) (angle 90) (layer F.SilkS) (width 0.2))
