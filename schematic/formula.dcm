@@ -80,6 +80,14 @@ D Cap 50V 100pF 5% 0805
 K c cap capacitor
 $ENDCMP
 #
+$CMP C_10uF
+D CAP CER 10UF 10V X5R 0805
+$ENDCMP
+#
+$CMP C_1uF
+D CAP CER 1UF 25V X7R 0805
+$ENDCMP
+#
 $CMP C_22uF
 D Unpolarized capacitor
 K cap capacitor
@@ -105,6 +113,11 @@ D DIODE ZENER 13V 3W SMB
 K DIODE ZENER 13V 3W SMB
 $ENDCMP
 #
+$CMP D_Zener_18V
+D DIODE ZENER 18V 5W DO214AA
+K diode zener 18V
+$ENDCMP
+#
 $CMP D_Zener_20V
 D DIODE ZENER 20V 100MW VMN2M
 K DIODE ZENER 20V 100MW VMN2M
@@ -124,6 +137,17 @@ D PTC Fuse 16V 500mA
 K Fuse F
 $ENDCMP
 #
+$CMP G2RL-1-E
+D Omron G5G relay, Miniature Single Pole, SPDT, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP G5Q-1A4-DC5-5V
+D g5q power relay
+K g5q power relay
+$ENDCMP
+#
 $CMP LED_0805
 D LED_0805
 K led diode
@@ -133,6 +157,10 @@ $CMP LM78L05ACZ_Voltage_Regulator
 D IC REG LINEAR 5V 100MA TO92-3
 K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
+$ENDCMP
+#
+$CMP LMV341
+D IC OPAMP GP 1MHZ RRO SOT23-6
 $ENDCMP
 #
 $CMP L_4.7uH
@@ -235,6 +263,16 @@ D Res 0 2512 3W Jumper
 K r res resistor
 $ENDCMP
 #
+$CMP R_1.07k
+D R 1.07k .1%
+K R 1.07k .1%
+$ENDCMP
+#
+$CMP R_1.13k
+D R 1.13k .1%
+K R 1.13k .1%
+$ENDCMP
+#
 $CMP R_100
 D Res 100 1%
 K r res resistor
@@ -250,6 +288,10 @@ D Res 10k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_1M
+D RES SMD 1M OHM 5% 1/8W 0805
+$ENDCMP
+#
 $CMP R_1k
 D Res 1k 1%
 K r res resistor
@@ -263,6 +305,10 @@ $ENDCMP
 $CMP R_200
 D Res 200 5%
 K r res resistor
+$ENDCMP
+#
+$CMP R_22M
+D RES SMD 22M OHM 5% 1/8W 0805
 $ENDCMP
 #
 $CMP R_22k
@@ -335,7 +381,7 @@ K N-Channel Switching MOSFET
 F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
 $ENDCMP
 #
-$CMP TLP175A
+$CMP TLP175A_OEM
 D PHOTO RELAY LOW TRIG CURR SO6
 K PHOTO RELAY LOW TRIG CURR SO6
 $ENDCMP
@@ -350,6 +396,11 @@ $CMP TPS562201
 D 4.5V - 17V Input 2A Synchronous Buck Converter
 K Buck step-down
 F http://www.ti.com/lit/ds/symlink/tps562201.pdf
+$ENDCMP
+#
+$CMP TS507IYLT
+D high current output opamp
+K high current output opamp
 $ENDCMP
 #
 $CMP TS881
