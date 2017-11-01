@@ -297,6 +297,11 @@ D Res 1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_1k_HS
+D 3k ohm 100 w rating
+K r res resistor
+$ENDCMP
+#
 $CMP R_2.2k
 D RES SMD 2.2K OHM 1% 1/8W 0805
 K r res resistor
