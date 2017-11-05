@@ -293,6 +293,11 @@ D Res 10k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_10k_HV
+D Res 10k 1%
+K r res resistor
+$ENDCMP
+#
 $CMP R_1M
 D RES SMD 1M OHM 5% 1/8W 0805
 $ENDCMP

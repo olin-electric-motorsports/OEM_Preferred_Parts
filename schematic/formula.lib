@@ -1487,6 +1487,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_10k_HV
+#
+DEF R_10k_HV R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_10k_HV" -100 0 50 V V C CNN
+F2 "" -70 0 50 H I C CNN
+F3 "http://www.vishay.com/docs/28731/pacserie.pdf" 80 0 50 H I C CNN
+F4 "PPC5D10.0KCT-ND " 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_1M
 #
 DEF R_1M R 0 0 N Y 1 F N
@@ -1714,7 +1736,7 @@ ENDDEF
 DEF R_3k_HS R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R_3k_HS" -100 0 50 V V C CNN
-F2 "no footprint found" -70 0 50 H I C CNN
+F2 "footprints:R_3k_HS_TO247" -70 0 50 H I C CNN
 F3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "AP101 3K J " 0 0 60 H I C CNN "MPN"
