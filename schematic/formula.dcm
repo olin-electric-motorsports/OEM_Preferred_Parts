@@ -11,6 +11,12 @@ D Resistor
 K r res resistor
 $ENDCMP
 #
+$CMP 5K
+D 5k 1% 35W Power Resistor TO-263 DPAK
+K r res resistor power 
+F https://riedon.com/media/pdf/PFS35.pdf
+$ENDCMP
+#
 $CMP AD620
 D Low Cost, Low Power, Instrumentation Amplifier, DIP-8/SOIC-8
 K Instrumentation amplifier
@@ -364,6 +370,12 @@ $CMP OPA376xxDBV
 D Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOT-23-5
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP PFS35-5KF1
+D 5K 1% 35W Power Resistor TO-263 DPAK
+K r res resistor power dpak
+F https://riedon.com/media/pdf/PFS35.pdf
 $ENDCMP
 #
 $CMP POT_TRIM
