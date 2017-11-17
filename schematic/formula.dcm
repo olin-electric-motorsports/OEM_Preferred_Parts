@@ -467,6 +467,11 @@ D Res 3.01k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_30.1k
+D Resistor
+K r res resistor
+$ENDCMP
+#
 $CMP R_300k
 D Res 300k 0.1% 0805 1/8W
 K r res resistor
