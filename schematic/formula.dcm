@@ -366,9 +366,8 @@ F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
 $CMP POT_TRIM
-D TC33X-103E 10k Trim Potentiometer
-K resistor variable trim pot trimmer
-F http://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+D Trim-Potentiometer
+K resistor variable trimpot trimmer
 $ENDCMP
 #
 $CMP Pushbutton
