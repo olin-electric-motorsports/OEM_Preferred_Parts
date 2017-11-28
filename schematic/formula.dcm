@@ -11,6 +11,12 @@ D Resistor
 K r res resistor
 $ENDCMP
 #
+$CMP 5K
+D 5k 1% 35W Power Resistor TO-263 DPAK
+K r res resistor power 
+F https://riedon.com/media/pdf/PFS35.pdf
+$ENDCMP
+#
 $CMP AD620
 D Low Cost, Low Power, Instrumentation Amplifier, DIP-8/SOIC-8
 K Instrumentation amplifier
@@ -370,6 +376,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
+$CMP PFS35-5KF1
+D 5K 1% 35W Power Resistor TO-263 DPAK
+K r res resistor power dpak
+F https://riedon.com/media/pdf/PFS35.pdf
+$ENDCMP
+#
 $CMP POT_TRIM
 D TC33X-103E 10k Trim Potentiometer
 K resistor variable trim pot trimmer
@@ -466,6 +478,11 @@ $ENDCMP
 #
 $CMP R_3.01k
 D Res 3.01k 1%
+K r res resistor
+$ENDCMP
+#
+$CMP R_30.1k
+D Resistor
 K r res resistor
 $ENDCMP
 #
