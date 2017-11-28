@@ -88,6 +88,11 @@ K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
+$CMP CD4043BPWR
+D IC NOR R/S LTCH 3ST QUAD 16TSSOP
+K IC NOR R/S LTCH 3ST QUAD 16TSSOP
+$ENDCMP
+#
 $CMP CONN_02X03
 D Connector, double row, 02x03
 K connector
@@ -396,6 +401,11 @@ D R 1.13k .1%
 K R 1.13k .1%
 $ENDCMP
 #
+$CMP R_1.82M
+D RES SMD 1.82M OHM 1% 1/8W 0805
+K RES SMD 1.82M OHM 1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_100
 D Res 100 1%
 K r res resistor
@@ -433,6 +443,11 @@ $ENDCMP
 $CMP R_2.2k
 D RES SMD 2.2K OHM 1% 1/8W 0805
 K r res resistor
+$ENDCMP
+#
+$CMP R_2.94M
+D RES SMD 2.94M OHM 1% 1/8W 0805
+K RES SMD 2.94M OHM 1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_200
@@ -494,9 +509,19 @@ D Res 55.1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_576k
+D RES SMD 576K OHM 1% 1/8W 0805
+K RES SMD 576K OHM 1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_6.2k
 D Res 6.2k 1% 0805 1/8W
 K r res resistor
+$ENDCMP
+#
+$CMP R_604k
+D RES SMD 604K OHM 1% 1/8W 0805
+K RES SMD 604K OHM 1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_Strain_Gauge
