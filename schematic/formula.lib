@@ -74,8 +74,11 @@ ENDDEF
 DEF 4.7kR R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "4.7kR" -100 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" 80 0 50 V I C CNN
+F4 "DigiKey" 180 100 60 V V C CNN "MFN"
+F5 " RC0805JR-074K7L " 280 200 60 V V C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274" 380 300 60 V V C CNN "PurchasingLink"
 $FPLIST
  R_*
  R_*
@@ -1066,6 +1069,27 @@ S -200 -200 200 75 0 1 10 f
 X VI 1 -300 0 100 R 50 50 1 1 W
 X GND 2 0 -300 100 U 50 50 1 1 W
 X VO 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM3480
+#
+DEF LM3480 U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "LM3480" 0 125 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23-3-Lead_TabPin2" -50 200 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" 100 -250 50 H I C CNN
+F4 "DigiKey" 50 325 60 H V C CNN "MFN"
+F5 "LM3480IM3-3.3 " 150 425 60 H V C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" -50 225 60 H V C CNN "PurchasingLink"
+$FPLIST
+ SOT?223*TabPin2*
+$ENDFPLIST
+DRAW
+S -200 -200 200 75 0 1 10 f
+X VO 1 300 0 100 L 50 50 1 1 P
+X VI 2 -300 0 100 R 50 50 1 1 W
+X GND 3 0 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

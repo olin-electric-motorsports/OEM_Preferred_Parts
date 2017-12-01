@@ -227,6 +227,12 @@ K linear regulator ldo fixed positive obsolete
 F http://www.diodes.com/datasheets/AP1117.pdf
 $ENDCMP
 #
+$CMP LM3480
+D 100mA Low Dropout regulator, positive, 3.3V fixed output, SOT-23-3
+K linear regulator ldo fixed positive obsolete
+F http://www.ti.com/lit/ds/symlink/lm3480.pdf
+$ENDCMP
+#
 $CMP LM78L05ACZ_Voltage_Regulator
 D IC REG LINEAR 5V 100MA TO92-3
 K PNP High Voltage Transistor
