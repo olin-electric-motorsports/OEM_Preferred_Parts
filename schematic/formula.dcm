@@ -535,6 +535,18 @@ D Dual Element Biaxial Tee Strain Gage
 K r res resistor strain_gauge variable potentiometer
 $ENDCMP
 #
+$CMP SN74LVC1G02
+D Single 2-Input Positive NOR-Gate
+K logic nor
+F SN74LCC1G02_datasheet(NOR).pdf
+$ENDCMP
+#
+$CMP SN74LVC1G08
+D Single 2-Input Positive-AND Gate
+K logic and
+F SN74LCC1G08_datasheet(AND).pdf
+$ENDCMP
+#
 $CMP SN74LVC1G123DCTR
 D IC SNGL MONO MULTIVIBTOR SM8
 K IC SNGL MONO MULTIVIBTOR SM8
