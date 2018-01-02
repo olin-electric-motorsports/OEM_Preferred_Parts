@@ -73,9 +73,8 @@ K connector
 $ENDCMP
 #
 $CMP BSS308PE
-D -30V Vds, -2 A Id, P-channel MOSFET, SOT-23
-K P-Channel MOSFET
-F https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073
+D P-Channel 30V 2A (Ta) 500mW (Ta) Surface Mount PG-SOT23-3
+K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
 $CMP C
@@ -87,6 +86,11 @@ $CMP CAN_Transceiver
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
+$ENDCMP
+#
+$CMP CD4043BPWR
+D IC NOR R/S LTCH 3ST QUAD 16TSSOP
+K IC NOR R/S LTCH 3ST QUAD 16TSSOP
 $ENDCMP
 #
 $CMP CONN_02X03
@@ -135,6 +139,11 @@ $ENDCMP
 $CMP Crystal_SMD
 D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
 K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP D_Schottky_SOD123
+D DIODE SCHOTTKY 100V 1A SOD123
+K DIODE SCHOTTKY 100V 1A SOD123
 $ENDCMP
 #
 $CMP D_Zener_13V
@@ -367,6 +376,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
+$CMP POT_TRIM
+D TC33X-103E 10k Trim Potentiometer
+K resistor variable trim pot trimmer
+F http://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+$ENDCMP
+#
 $CMP Pushbutton
 D Pushbutton
 K Button
@@ -392,6 +407,11 @@ D R 1.13k .1%
 K R 1.13k .1%
 $ENDCMP
 #
+$CMP R_1.82M
+D RES SMD 1.82M OHM 1% 1/8W 0805
+K RES SMD 1.82M OHM 1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_100
 D Res 100 1%
 K r res resistor
@@ -407,6 +427,11 @@ D Res 10k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_10k_HV
+D Res 10k 1%
+K r res resistor
+$ENDCMP
+#
 $CMP R_1M
 D RES SMD 1M OHM 5% 1/8W 0805
 $ENDCMP
@@ -416,9 +441,19 @@ D Res 1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_1k_HS
+D 3k ohm 100 w rating
+K r res resistor
+$ENDCMP
+#
 $CMP R_2.2k
 D RES SMD 2.2K OHM 1% 1/8W 0805
 K r res resistor
+$ENDCMP
+#
+$CMP R_2.94M
+D RES SMD 2.94M OHM 1% 1/8W 0805
+K RES SMD 2.94M OHM 1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_200
@@ -455,6 +490,11 @@ D 3k ohm 100 w rating
 K r res resistor
 $ENDCMP
 #
+$CMP R_402k
+D RES SMD 402K OHM 1% 1/8W 0805
+K RES SMD 402K OHM 1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_475
 D Res 475 1%
 K r res resistor
@@ -475,9 +515,19 @@ D Res 55.1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_576k
+D RES SMD 576K OHM 1% 1/8W 0805
+K RES SMD 576K OHM 1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_6.2k
 D Res 6.2k 1% 0805 1/8W
 K r res resistor
+$ENDCMP
+#
+$CMP R_604k
+D RES SMD 604K OHM 1% 1/8W 0805
+K RES SMD 604K OHM 1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_Strain_Gauge
