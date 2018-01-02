@@ -567,6 +567,11 @@ D PHOTO RELAY LOW TRIG CURR SO6
 K PHOTO RELAY LOW TRIG CURR SO6
 $ENDCMP
 #
+$CMP TLV3701QDBVRG4Q1
+D IC COMPARATR NANOPWR P-P SOT23-5
+K IC COMPARATR NANOPWR P-P SOT23-5
+$ENDCMP
+#
 $CMP TPS561201
 D 4.5V - 17V Input 1A Synchronous Buck Converter
 K Buck step-down
@@ -594,6 +599,11 @@ $CMP TSV911ILT
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
 K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP TSX631AIYLT
+D IC OPAMP R-R 16V CMOS SOT23-5
+K IC OPAMP R-R 16V CMOS SOT23-5
 $ENDCMP
 #
 $CMP Ultrafit_2
