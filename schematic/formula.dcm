@@ -79,9 +79,8 @@ K connector
 $ENDCMP
 #
 $CMP BSS308PE
-D -30V Vds, -2 A Id, P-channel MOSFET, SOT-23
-K P-Channel MOSFET
-F https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073
+D P-Channel 30V 2A (Ta) 500mW (Ta) Surface Mount PG-SOT23-3
+K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
 $CMP C
@@ -93,6 +92,11 @@ $CMP CAN_Transceiver
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
+$ENDCMP
+#
+$CMP CD4043BPWR
+D IC NOR R/S LTCH 3ST QUAD 16TSSOP
+K IC NOR R/S LTCH 3ST QUAD 16TSSOP
 $ENDCMP
 #
 $CMP CONN_02X03
@@ -117,6 +121,11 @@ $ENDCMP
 #
 $CMP C_10uF
 D CAP CER 10UF 10V X5R 0805
+$ENDCMP
+#
+$CMP C_10uF_16V
+D CAP CER 10UF 16V X5R 0805
+K CAP CER 10UF 16V X5R 0805
 $ENDCMP
 #
 $CMP C_1uF
@@ -227,6 +236,12 @@ $CMP LM2937
 D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
 K linear regulator ldo fixed positive obsolete
 F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP LM3480
+D 100mA Low Dropout regulator, positive, 3.3V fixed output, SOT-23-3
+K linear regulator ldo fixed positive obsolete
+F http://www.ti.com/lit/ds/symlink/lm3480.pdf
 $ENDCMP
 #
 $CMP LM78L05ACZ_Voltage_Regulator
@@ -409,6 +424,11 @@ D R 1.13k .1%
 K R 1.13k .1%
 $ENDCMP
 #
+$CMP R_1.82M
+D RES SMD 1.82M OHM 1% 1/8W 0805
+K RES SMD 1.82M OHM 1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_100
 D Res 100 1%
 K r res resistor
@@ -446,6 +466,11 @@ $ENDCMP
 $CMP R_2.2k
 D RES SMD 2.2K OHM 1% 1/8W 0805
 K r res resistor
+$ENDCMP
+#
+$CMP R_2.94M
+D RES SMD 2.94M OHM 1% 1/8W 0805
+K RES SMD 2.94M OHM 1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_200
@@ -512,14 +537,36 @@ D Res 55.1k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_576k
+D RES SMD 576K OHM 1% 1/8W 0805
+K RES SMD 576K OHM 1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_6.2k
 D Res 6.2k 1% 0805 1/8W
 K r res resistor
 $ENDCMP
 #
+$CMP R_604k
+D RES SMD 604K OHM 1% 1/8W 0805
+K RES SMD 604K OHM 1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_Strain_Gauge
 D Dual Element Biaxial Tee Strain Gage
 K r res resistor strain_gauge variable potentiometer
+$ENDCMP
+#
+$CMP SN74LVC1G02
+D Single 2-Input Positive NOR-Gate
+K logic nor
+F SN74LCC1G02_datasheet(NOR).pdf
+$ENDCMP
+#
+$CMP SN74LVC1G08
+D Single 2-Input Positive-AND Gate
+K logic and
+F SN74LCC1G08_datasheet(AND).pdf
 $ENDCMP
 #
 $CMP SN74LVC1G123DCTR
@@ -540,6 +587,11 @@ $ENDCMP
 $CMP TLP175A_OEM
 D PHOTO RELAY LOW TRIG CURR SO6
 K PHOTO RELAY LOW TRIG CURR SO6
+$ENDCMP
+#
+$CMP TLV3701QDBVRG4Q1
+D IC COMPARATR NANOPWR P-P SOT23-5
+K IC COMPARATR NANOPWR P-P SOT23-5
 $ENDCMP
 #
 $CMP TPS561201
@@ -569,6 +621,11 @@ $CMP TSV911ILT
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
 K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP TSX631AIYLT
+D IC OPAMP R-R 16V CMOS SOT23-5
+K IC OPAMP R-R 16V CMOS SOT23-5
 $ENDCMP
 #
 $CMP Ultrafit_2
