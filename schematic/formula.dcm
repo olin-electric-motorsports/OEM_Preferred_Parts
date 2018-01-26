@@ -73,8 +73,9 @@ K connector
 $ENDCMP
 #
 $CMP BSS308PE
-D P-Channel 30V 2A (Ta) 500mW (Ta) Surface Mount PG-SOT23-3
-K pmos p-mos p-mosfet transistor
+D -30V Vds, -2 A Id, P-channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073
 $ENDCMP
 #
 $CMP C
@@ -115,6 +116,11 @@ $ENDCMP
 #
 $CMP C_10uF
 D CAP CER 10UF 10V X5R 0805
+$ENDCMP
+#
+$CMP C_10uF_16V
+D CAP CER 10UF 16V X5R 0805
+K CAP CER 10UF 16V X5R 0805
 $ENDCMP
 #
 $CMP C_1uF
@@ -535,6 +541,18 @@ D Dual Element Biaxial Tee Strain Gage
 K r res resistor strain_gauge variable potentiometer
 $ENDCMP
 #
+$CMP SN74LVC1G02
+D Single 2-Input Positive NOR-Gate
+K logic nor
+F SN74LCC1G02_datasheet(NOR).pdf
+$ENDCMP
+#
+$CMP SN74LVC1G08
+D Single 2-Input Positive-AND Gate
+K logic and
+F SN74LCC1G08_datasheet(AND).pdf
+$ENDCMP
+#
 $CMP SN74LVC1G123DCTR
 D IC SNGL MONO MULTIVIBTOR SM8
 K IC SNGL MONO MULTIVIBTOR SM8
@@ -553,6 +571,11 @@ $ENDCMP
 $CMP TLP175A_OEM
 D PHOTO RELAY LOW TRIG CURR SO6
 K PHOTO RELAY LOW TRIG CURR SO6
+$ENDCMP
+#
+$CMP TLV3701QDBVRG4Q1
+D IC COMPARATR NANOPWR P-P SOT23-5
+K IC COMPARATR NANOPWR P-P SOT23-5
 $ENDCMP
 #
 $CMP TPS561201
@@ -582,6 +605,11 @@ $CMP TSV911ILT
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
 K single opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP TSX631AIYLT
+D IC OPAMP R-R 16V CMOS SOT23-5
+K IC OPAMP R-R 16V CMOS SOT23-5
 $ENDCMP
 #
 $CMP Ultrafit_2
