@@ -73,8 +73,9 @@ K connector
 $ENDCMP
 #
 $CMP BSS308PE
-D P-Channel 30V 2A (Ta) 500mW (Ta) Surface Mount PG-SOT23-3
-K pmos p-mos p-mosfet transistor
+D -30V Vds, -2 A Id, P-channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073
 $ENDCMP
 #
 $CMP C
