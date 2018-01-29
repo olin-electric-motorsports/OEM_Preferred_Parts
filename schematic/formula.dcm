@@ -535,6 +535,11 @@ D RES SMD 604K OHM 1% 1/8W 0805
 K RES SMD 604K OHM 1% 1/8W 0805
 $ENDCMP
 #
+$CMP R_71.5k
+D Resistor
+K r res resistor
+$ENDCMP
+#
 $CMP R_Strain_Gauge
 D Dual Element Biaxial Tee Strain Gage
 K r res resistor strain_gauge variable potentiometer
