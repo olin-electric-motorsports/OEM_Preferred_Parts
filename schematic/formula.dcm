@@ -721,4 +721,9 @@ D connector micromatch male 8
 K connector micromatch male 8
 $ENDCMP
 #
+$CMP mx150L_2
+D mx150L_2
+K mx150L conn connector mx
+$ENDCMP
+#
 #End Doc Library
