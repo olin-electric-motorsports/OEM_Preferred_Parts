@@ -226,6 +226,16 @@ D LED_0805
 K led diode
 $ENDCMP
 #
+$CMP LED_0805_Amber
+D LED AMBER DIFFUSED 0805 SMD
+K LED AMBER DIFFUSED 0805 SMD
+$ENDCMP
+#
+$CMP LED_0805_Red
+D LED AMBER DIFFUSED 0805 SMD
+K LED AMBER DIFFUSED 0805 SMD
+$ENDCMP
+#
 $CMP LM2937
 D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
 K linear regulator ldo fixed positive obsolete
@@ -483,6 +493,11 @@ $ENDCMP
 $CMP R_300k
 D Res 300k 0.1% 0805 1/8W
 K r res resistor
+$ENDCMP
+#
+$CMP R_330
+D RES SMD 330 OHM 1% 1/8W 0805
+K RES SMD 330 OHM 1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_3k
