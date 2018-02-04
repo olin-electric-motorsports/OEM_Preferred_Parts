@@ -691,6 +691,51 @@ D connector micromatch female RA 8
 K connector micromatch female RA 8
 $ENDCMP
 #
+$CMP micromatch_female_TOP_ENTRY_locking_10
+D CONN FMALE-ON-BRD 10POS VERT T/H
+K CONN FMALE-ON-BRD 10POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_TOP_ENTRY_locking_12
+D CONN FMALE-ON-BRD 12POS VERT T/H
+K CONN FMALE-ON-BRD 12POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_TOP_ENTRY_locking_14
+D CONN FMALE-ON-BRD 14POS VERT T/H
+K CONN FMALE-ON-BRD 14POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_TOP_ENTRY_locking_16
+D CONN FMALE-ON-BRD 16POS VERT T/H
+K CONN FMALE-ON-BRD 16POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_TOP_ENTRY_locking_18
+D CONN FMALE-ON-BRD 18POS VERT T/H
+K CONN FMALE-ON-BRD 18POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_TOP_ENTRY_locking_20
+D CONN FMALE-ON-BRD 20POS VERT T/H
+K CONN FMALE-ON-BRD 20POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_TOP_ENTRY_locking_4
+D CONN FMALE-ON-BRD 4POS VERT T/H
+K CONN FMALE-ON-BRD 4POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_TOP_ENTRY_locking_6
+D CONN FMALE-ON-BRD 6POS VERT T/H
+K CONN FMALE-ON-BRD 6POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_TOP_ENTRY_locking_8
+D CONN FMALE-ON-BRD 8POS VERT T/H
+K CONN FMALE-ON-BRD 8POS VERT T/H
+$ENDCMP
+#
 $CMP micromatch_male_10
 D connector micromatch male 10
 K connector micromatch male 10
