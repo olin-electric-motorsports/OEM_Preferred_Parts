@@ -177,6 +177,11 @@ D PTC Fuse 12V 1.1A
 K Fuse F
 $ENDCMP
 #
+$CMP F_21mA_420V
+D PTC Fuse 420V 21mA
+K Fuse F
+$ENDCMP
+#
 $CMP F_3.15A_450V
 K fuse
 $ENDCMP
@@ -252,6 +257,11 @@ $ENDCMP
 #
 $CMP LMV341
 D IC OPAMP GP 1MHZ RRO SOT23-6
+$ENDCMP
+#
+$CMP LR8K4-G
+D Linear Voltage Regulators 450V Adj 3 Termnl
+K Linear Voltage Regulators 450V Adj 3 Termnl
 $ENDCMP
 #
 $CMP L_4.7uH
@@ -449,6 +459,11 @@ D Res 10k 1%
 K r res resistor
 $ENDCMP
 #
+$CMP R_178k
+D RES SMD 178K OHM 0.1% 1/8W 0805
+K RES SMD 178K OHM 0.1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_1M
 D RES SMD 1M OHM 5% 1/8W 0805
 $ENDCMP
@@ -485,6 +500,11 @@ $ENDCMP
 $CMP R_22k
 D RES 22k 5% 1/8W 0805
 K r res resistor
+$ENDCMP
+#
+$CMP R_270k
+D RES SMD 270K OHM 0.1% 1/8W 0805
+K RES SMD 270K OHM 0.1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_3.01k
@@ -636,6 +656,12 @@ $ENDCMP
 $CMP Ultrafit_4
 D Ultrafit 4 Pin Connector
 K ultrafit conn connector ultra
+$ENDCMP
+#
+$CMP ZXRE160
+D IC VREF SHUNT ADJ SOT353
+K IC VREF SHUNT ADJ SOT353
+F https://www.diodes.com/assets/Datasheets/ZXRE160.pdf
 $ENDCMP
 #
 $CMP micromatch_female_RA_10
