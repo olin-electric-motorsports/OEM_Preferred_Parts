@@ -6,6 +6,11 @@ K N-Channel Switching MOSFET
 F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
 $ENDCMP
 #
+$CMP 3P4T_rotary_switch
+D 3P4T rotary switch
+K 3P4T 3 pole 4 terminal switch rotary programming
+$ENDCMP
+#
 $CMP 4.7kR
 D Resistor
 K r res resistor
@@ -550,6 +555,11 @@ D RES SMD 604K OHM 1% 1/8W 0805
 K RES SMD 604K OHM 1% 1/8W 0805
 $ENDCMP
 #
+$CMP R_71.5k
+D Resistor
+K r res resistor
+$ENDCMP
+#
 $CMP R_Strain_Gauge
 D Dual Element Biaxial Tee Strain Gage
 K r res resistor strain_gauge variable potentiometer
@@ -724,6 +734,11 @@ $ENDCMP
 $CMP micromatch_male_8
 D connector micromatch male 8
 K connector micromatch male 8
+$ENDCMP
+#
+$CMP mx150L_2
+D mx150L_2
+K mx150L conn connector mx
 $ENDCMP
 #
 #End Doc Library
