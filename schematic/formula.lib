@@ -121,6 +121,25 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 5K
+#
+DEF 5K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "5K" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+ TO-263*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # AD620
 #
 DEF AD620 U 0 20 Y Y 1 F N
@@ -927,6 +946,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# F_21mA_420V
+#
+DEF F_21mA_420V F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "F_21mA_420V" -75 0 50 V V C CNN
+F2 "footprints:F_21mA_420V" -600 -200 50 V I C CNN
+F3 "https://en.tdk.eu/inf/55/db/PTC/PTC_OC_Leaded_380V_500V.pdf" 650 150 50 V I C CNN
+F4 "Digi-Key" -900 400 60 H I C CNN "MFN"
+F5 "495-75309-ND" -150 650 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/epcos-tdk/B59884C0120A070/495-75309-ND/651926" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # F_3.15A_450V
 #
 DEF F_3.15A_450V F 0 0 N Y 1 F N
@@ -1290,8 +1330,11 @@ ENDDEF
 DEF LR8K4-G U 0 40 Y Y 1 F N
 F0 "U" -300 150 50 H V L CNN
 F1 "LR8K4-G" 0 150 50 H V L CNN
-F2 "Package_TO_SOT_SMD:TO-252-2" 0 50 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Package_TO_SOT_SMD:TO-252-2" 0 500 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" 0 300 50 H I C CNN
+F4 "Mouser" 0 400 60 H I C CNN "MFN"
+F5 "689-LR8K4-G" -50 600 60 H I C CNN "MPN"
+F6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" -200 700 60 H I C CNN "Webpage"
 $FPLIST
  TO?252*
  DPAK*
@@ -1742,6 +1785,24 @@ X 2 2 100 -350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# PFS35-5KF1
+#
+DEF PFS35-5KF1 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "PFS35-5KF1" -100 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # POT_TRIM
 #
 DEF POT_TRIM RV 0 40 N N 1 F N
@@ -2072,6 +2133,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_178k
+#
+DEF R_178k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_178k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" 500 0 50 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 300 0 50 V I C CNN
+F4 "Digikey" 180 100 60 V I C CNN "MFN"
+F5 "P178KDATR-ND" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDATR-ND/2025864" 380 300 60 V I C CNN "Webpage"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_1M
 #
 DEF R_1M R 0 0 N Y 1 F N
@@ -2250,6 +2332,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_270k
+#
+DEF R_270k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_270k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 100 50 V I C CNN
+F4 "DigiKey" 180 100 60 V I C CNN "MFN"
+F5 "P270KDACT-ND" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB274V/P270KDACT-ND/1466005" 380 300 60 V I C CNN "Webpage"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_3.01k
 #
 DEF R_3.01k R 0 0 N Y 1 F N
@@ -2264,6 +2367,24 @@ F7 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 480 400 60 H 
 $FPLIST
  R_*
  Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_30.1k
+#
+DEF R_30.1k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_30.1k" -100 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -3084,6 +3205,26 @@ X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
 X 4 4 350 -100 200 L 50 50 1 1 P
 X ~ 5 350 -200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ZXRE160
+#
+DEF ZXRE160 U 0 40 Y Y 1 F N
+F0 "U" 0 -600 60 H V C CNN
+F1 "ZXRE160" 0 650 60 H V C CNN
+F2 "footprints:ZXRE160" -100 -700 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/ZXRE160.pdf" 0 -600 60 H I C CNN
+F4 "DigiKey" 100 -500 60 H I C CNN "MFN"
+F5 "ZXRE160FT4-7DICT-ND" 200 -400 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/diodes-incorporated/ZXRE160H5TA/ZXRE160H5TADICT-ND/3677932" 300 -300 60 H I C CNN "Webpage"
+DRAW
+S -300 350 300 -300 0 1 0 f
+X OUT 1 0 550 200 D 50 50 1 1 O
+X IN 2 -500 150 200 R 50 50 1 1 I
+X GND 3 -500 -150 200 R 50 50 1 1 B
+X PWRGND 4 0 -500 200 U 50 50 1 1 B
+X FB 5 500 0 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
