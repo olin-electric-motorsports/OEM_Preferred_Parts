@@ -3179,7 +3179,7 @@ F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
 F8 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
 F9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" 600 950 60 H I C CNN "PurchasingLink2"
 DRAW
-S 150 250 -150 -150 0 1 0 N
+S 150 250 -150 -150 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
@@ -3199,7 +3199,7 @@ F5 "Value" 0 0 60 H I C CNN "Package"
 F6 "WM11667-ND" 0 0 60 H I C CNN "MPN"
 F7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
 DRAW
-S 150 250 -150 -250 0 1 0 N
+S 150 250 -150 -250 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
