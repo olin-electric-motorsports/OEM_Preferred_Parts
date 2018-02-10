@@ -2525,6 +2525,7 @@ F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "AP101 3K J " 0 0 60 H I C CNN "MPN"
 F6 "Value" 0 0 60 H I C CNN "Package"
 F7 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" 480 400 60 H I C CNN "PurchasingLink"
+F8 "https://www.digikey.com/products/en?keywords=RA-T2X-25E-ND" 580 500 60 H I C CNN "PurchasingLink-Heatsink"
 $FPLIST
  R_*
  Resistor_*
@@ -3220,6 +3221,24 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Ultrafit_2_ra
+#
+DEF Ultrafit_2_ra J 0 40 Y Y 1 F N
+F0 "J" 0 150 60 H V C CNN
+F1 "Ultrafit_2_ra" 100 -200 60 H V C CNN
+F2 "footprints:Ultrafit_2_RA" -100 50 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1723101302_sd.pdf" 0 150 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" 100 250 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 200 350 60 H I C CNN "MFN"
+F6 "WM11825-ND " 300 450 60 H I C CNN "MPN"
+F7 "Value" 400 550 60 H I C CNN "Package"
+DRAW
+S 150 -100 -150 100 0 1 0 f
+X 1 1 250 50 100 L 50 50 1 1 B
+X 2 2 250 -50 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # Ultrafit_4
 #
 DEF Ultrafit_4 J 0 40 Y N 1 F N
@@ -3823,6 +3842,30 @@ X 8 8 250 -400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# micromatch_female_vert_8
+#
+DEF micromatch_female_vert_8 J 0 40 Y Y 1 F N
+F0 "J" 0 400 60 H V C CNN
+F1 "micromatch_female_vert_8" 50 -550 60 H V C CNN
+F2 "footprints:micromatch_female_vert_8" -100 300 60 H I C CNN
+F3 "" 0 400 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-8/A99436CT-ND/1955738" 100 500 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99436CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 150 -450 -150 350 0 1 0 f
+X 1 1 250 300 100 L 50 50 1 1 B
+X 2 2 250 200 100 L 50 50 1 1 B
+X 3 3 250 100 100 L 50 50 1 1 B
+X 4 4 250 0 100 L 50 50 1 1 B
+X 5 5 250 -100 100 L 50 50 1 1 B
+X 6 6 250 -200 100 L 50 50 1 1 B
+X 7 7 250 -300 100 L 50 50 1 1 B
+X 8 8 250 -400 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # micromatch_male_10
 #
 DEF micromatch_male_10 J 0 40 Y Y 1 F N
@@ -4083,8 +4126,10 @@ F1 "mx150L_2" 0 -200 60 H V C CNN
 F2 "" -100 250 60 H I C CNN
 F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" 0 350 60 H I C CNN
 F4 "Value" 0 0 60 H I C CNN "Package"
+F5 " WM17505-ND" 300 600 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/0194270032/WM17505-ND/863309" 300 600 60 H I C CNN "Purchasing Link"
 DRAW
-S 150 250 -150 -150 0 1 0 N
+S 150 250 -150 -150 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
