@@ -705,6 +705,12 @@ K IC VREF SHUNT ADJ SOT353
 F https://www.diodes.com/assets/Datasheets/ZXRE160.pdf
 $ENDCMP
 #
+$CMP fuse_holder_125V_15A
+D fuse block
+K Fuse block holder
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_482_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP micromatch_female_RA_10
 D connector micromatch female RA 10
 K connector micromatch female RA 10
