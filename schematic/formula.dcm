@@ -440,6 +440,11 @@ D Resistor
 K r res resistor
 $ENDCMP
 #
+$CMP RJ45_VT
+D CONN MOD JACK 8P8C VERT UNSHLD
+K CONN MOD JACK 8P8C VERT UNSHLD
+$ENDCMP
+#
 $CMP R_0_Jumper
 D Res 0 2512 3W Jumper
 K r res resistor
