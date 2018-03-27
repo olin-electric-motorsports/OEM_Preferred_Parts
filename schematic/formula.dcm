@@ -440,6 +440,11 @@ D Resistor
 K r res resistor
 $ENDCMP
 #
+$CMP RJ45_VT
+D CONN MOD JACK 8P8C VERT UNSHLD
+K CONN MOD JACK 8P8C VERT UNSHLD
+$ENDCMP
+#
 $CMP R_0_Jumper
 D Res 0 2512 3W Jumper
 K r res resistor
@@ -689,6 +694,11 @@ D ULTRAFIT CONN HDR 02CKT
 K ULTRAFIT CONN HDR 02CKT
 $ENDCMP
 #
+$CMP Ultrafit_2_ra
+D ULTRAFIT CONN HDR 02CKT
+K ULTRAFIT CONN HDR 02CKT
+$ENDCMP
+#
 $CMP Ultrafit_4
 D Ultrafit 4 Pin Connector
 K ultrafit conn connector ultra
@@ -698,6 +708,12 @@ $CMP ZXRE160
 D IC VREF SHUNT ADJ SOT353
 K IC VREF SHUNT ADJ SOT353
 F https://www.diodes.com/assets/Datasheets/ZXRE160.pdf
+$ENDCMP
+#
+$CMP fuse_holder_125V_15A
+D fuse block
+K Fuse block holder
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_482_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP micromatch_female_RA_10
@@ -786,6 +802,11 @@ K CONN FMALE-ON-BRD 6POS VERT T/H
 $ENDCMP
 #
 $CMP micromatch_female_TOP_ENTRY_locking_8
+D CONN FMALE-ON-BRD 8POS VERT T/H
+K CONN FMALE-ON-BRD 8POS VERT T/H
+$ENDCMP
+#
+$CMP micromatch_female_vert_8
 D CONN FMALE-ON-BRD 8POS VERT T/H
 K CONN FMALE-ON-BRD 8POS VERT T/H
 $ENDCMP
