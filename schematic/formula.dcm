@@ -197,6 +197,11 @@ D PTC Fuse 16V 500mA
 K Fuse F
 $ENDCMP
 #
+$CMP Fuse_Holder_Blade
+D FUSE BLOCK BLADE 500V 30A PCB
+K Fuse F
+$ENDCMP
+#
 $CMP G2RL-1-E
 D Omron G5G relay, Miniature Single Pole, SPDT, 10A
 K Miniature Single Pole Relay
