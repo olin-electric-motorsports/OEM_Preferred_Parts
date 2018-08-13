@@ -1059,6 +1059,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Fuse_Holder_Blade
+#
+DEF Fuse_Holder_Blade F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "Fuse_Holder_Blade" -75 0 50 V V C CNN
+F2 "footprints:fuse_block_holder" -70 0 50 V I C CNN
+F3 "https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" 80 0 50 V I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "36-3557-2-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # G2RL-1-E
 #
 DEF G2RL-1-E K 0 40 Y Y 1 F N
@@ -1993,6 +2015,8 @@ F0 "U" 0 -590 60 H V C CNN
 F1 "RJ45_RA" 10 660 60 H V C CNN
 F2 "footprints:RJ45-RightAngle" -100 -690 60 H I C CNN
 F3 "" 0 -590 60 H I C CNN
+F4 "MRJ-5381-01-ND" 200 -390 60 H V C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MRJ-5381-01/MRJ-5381-01-ND/1242668" 300 -290 60 H V C CNN "PurchasingLink"
 DRAW
 S -280 570 650 -190 0 1 0 N
 X CANL 1 -480 430 200 R 50 50 1 1 B
@@ -3415,10 +3439,10 @@ ENDDEF
 DEF fuse_holder_125V_15A F 0 0 N Y 1 F N
 F0 "F" 0 170 50 H V C CNN
 F1 "fuse_holder_125V_15A" 30 -310 50 H V C CNN
-F2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" 1400 0 50 V I C CNN
-F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" 1280 620 50 V I C CNN
+F2 "footprints:fuse_block" 1400 0 50 V I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_482_datasheet.pdf.pdf" 1280 620 50 V I C CNN
 F4 "Digi-Key" 1020 -540 60 H I C CNN "MFN"
-F5 "F5764CT-ND" 850 -760 60 H I C CNN "MPN"
+F5 "F1403-ND" 850 -760 60 H I C CNN "MPN"
 F6 "Value" 1010 -400 60 H I C CNN "Package"
 $FPLIST
  *Fuse*
