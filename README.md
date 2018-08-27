@@ -77,9 +77,9 @@ KiCad library employed by Olin Electric Motorsports electrical team.
         * `_ThermalVias`
 
     * Examples from the library.
-            * `LQFP-208_28x28mm_P0.5mm`
-            * `DFN-6-1EP_2x2mm_P0.5mm`
-            * `Samtec_LSHM-110-xx.x-x-DV-S_2x10-1SH_P0.50mm_Vertical`
-            * `Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal`
+         * `LQFP-208_28x28mm_P0.5mm`
+         * `DFN-6-1EP_2x2mm_P0.5mm`
+         * `Samtec_LSHM-110-xx.x-x-DV-S_2x10-1SH_P0.50mm_Vertical`
+         * `Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal`
 
 Guidelines are based off [KiCad Library Convention](http://kicad-pcb.org/libraries/klc/).
