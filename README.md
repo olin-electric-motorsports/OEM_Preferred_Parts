@@ -12,15 +12,15 @@ KiCad library employed by Olin Electric Motorsports electrical team.
 
     * Type of symbol (for generic parts)
 
-    * May be shortened for common components (e.g. Conn for Connector)
+    * May be shortened for common components (e.g. `Conn` for Connector)
 
-    * Reference designator may be substituted for common components (e.g. D, C, LED)
+    * Reference designator may be substituted for common components (e.g. `D`, `C`, `LED`)
 
-    * Part name should include extension for specific footprint if required (e.g. SOIC)
+    * Part name should include extension for specific footprint if required (e.g. `SOIC`)
 
-    * Any modification of the original symbol, indicated by appending the reason (e.g. different pin ordering - Q_NPN_CBE, Q_NPN_BCE)
+    * Any modification of the original symbol, indicated by appending the reason (e.g. different pin ordering - `Q_NPN_CBE`, `Q_NPN_BCE`)
 
-    * Indicate quantity of elements for symbol arrays (e.g. resistor array with 8 elements - Resistor_x8)
+    * Indicate quantity of elements for symbol arrays (e.g. resistor array with 8 elements - `Resistor_x8`)
 
 2. General footprint naming guidelines
 
@@ -48,7 +48,7 @@ KiCad library employed by Olin Electric Motorsports electrical team.
 
         * `1x1in`
 
-        * If necessary for clarity, footprint body dimensions may be prefixed with a leading B
+        * If necessary for clarity, footprint body dimensions may be prefixed with a leading `B`
 
     * Pin layout
 
