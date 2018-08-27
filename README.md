@@ -4,14 +4,23 @@ KiCad library employed by Olin Electric Motorsports electrical team.
 ### Guidelines
 1. General symbol naming guidelines
 
+    * Fields that must be included (Example for _STM32F439BI_)
+         * Reference (e.g., `U`)
+         * Value (e.g., `STM32F439BI`)
+         * Footprint (e.g., `Footprint)
+         * Datasheet (e.g., `Housings_QFP:LQFP-208_28x28mm_Pitch0.5mm`)
+         * MFN, or Manufacuture Name (e.g., `ST`)
+         * MPN, or Manufacture Part Number (e.g., `STM32F439BIT6`)
+         * PurchaingLink (e.g, `https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F439BIT6/497-17468-ND/5268309`)
+
     * Library naming should not be duplicated in footprint name
 
     * If symbol with same name exists for multiple manufacturers, the manufacturer name is written first
 
     * Specific manufacturer name (for atomic parts)
-
+    
     * Type of symbol (for generic parts)
-
+    
     * May be shortened for common components (e.g. `Conn` for Connector)
 
     * Reference designator may be substituted for common components (e.g. `D`, `C`, `LED`)
