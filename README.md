@@ -7,7 +7,7 @@ KiCad library employed by Olin Electric Motorsports electrical team.
     * Fields that must be included (Example for _STM32F439BI_)
          * Reference (e.g., `U`)
          * Value (e.g., `STM32F439BI`)
-         * Footprint (e.g., `Footprint)
+         * Footprint (e.g., `LQFP-208_28x28mm_P0.5mm`)
          * Datasheet (e.g., `Housings_QFP:LQFP-208_28x28mm_Pitch0.5mm`)
          * MFN, or Manufacuture Name (e.g., `ST`)
          * MPN, or Manufacture Part Number (e.g., `STM32F439BIT6`)
