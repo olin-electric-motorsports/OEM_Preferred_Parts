@@ -80,9 +80,7 @@ KiCad library employed by Olin Electric Motorsports electrical team.
     * Orientation e.g. `Horizontal`, `Vertical`
 
     * Any modification to the original footprint, indicated by appending the reason
-    
-    * You can find some of the standard footprints already made [here](https://github.com/KiCad/kicad-footprints).
-
+   
         * `_HandSoldering`
 
         * `_ThermalVias`
@@ -92,5 +90,7 @@ KiCad library employed by Olin Electric Motorsports electrical team.
          * `DFN-6-1EP_2x2mm_P0.5mm`
          * `Samtec_LSHM-110-xx.x-x-DV-S_2x10-1SH_P0.50mm_Vertical`
          * `Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal`
+         
+    * You can find some of the standard footprints already made [here](https://github.com/KiCad/kicad-footprints).
 
 Guidelines are based off [KiCad Library Convention](http://kicad-pcb.org/libraries/klc/).
