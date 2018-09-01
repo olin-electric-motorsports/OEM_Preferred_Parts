@@ -81,7 +81,7 @@ KiCad library employed by Olin Electric Motorsports electrical team.
 
     * Any modification to the original footprint, indicated by appending the reason
     
-    * You can find some of the standard footprints already made (here)[https://github.com/KiCad/kicad-footprints].
+    * You can find some of the standard footprints already made [here](https://github.com/KiCad/kicad-footprints).
 
         * `_HandSoldering`
 
