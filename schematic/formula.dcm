@@ -709,6 +709,11 @@ D Ultrafit 4 Pin Connector
 K ultrafit conn connector ultra
 $ENDCMP
 #
+$CMP Ultrafit_4_RA
+D Ultrafit 4 Pin Connector
+K ultrafit conn connector ultra
+$ENDCMP
+#
 $CMP ZXRE160
 D IC VREF SHUNT ADJ SOT353
 K IC VREF SHUNT ADJ SOT353
