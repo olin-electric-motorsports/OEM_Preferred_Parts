@@ -64,6 +64,10 @@ $CMP CONN_02X03
 D Connector header through hole 2x3 0.100" (2.54mm)
 $ENDCMP
 #
+$CMP CP2120
+D SPI TO I2C BRIDGE, GPIO EXPANDER
+$ENDCMP
+#
 $CMP C_0.1uF
 D Capacitor, 0.1uF, 50V, 5%, 0805
 $ENDCMP
@@ -93,7 +97,7 @@ D Capacitor, 10uF, 16V, 10%, 0805
 $ENDCMP
 #
 $CMP C_1uF
-D Capacitor, 1uF, 25V, 5%, 0805
+D Capacitor, 1uF, 25V, 10%, 0805
 $ENDCMP
 #
 $CMP C_2.2uF
@@ -101,7 +105,7 @@ D Capacitor, 2.2uF, 10V, 10%, 0603
 $ENDCMP
 #
 $CMP C_22uF
-D Capacitor, 22uF, 16V, 10%, 1206
+D Capacitor, 22uF, 16V, 20%, 1206
 $ENDCMP
 #
 $CMP C_30pF
@@ -116,8 +120,16 @@ $CMP C_47uF
 D Capacitor, 47uF, 6.3V, 20%, 0805
 $ENDCMP
 #
+$CMP Crystal_SMD
+D CRYSTAL 16.0000MHZ 18PF SMD
+$ENDCMP
+#
 $CMP MCP2561-E/SN
 D High speed CAN transceiver, 1Mb/s
+$ENDCMP
+#
+$CMP SS110LW
+D DIODE SCHOTTKY 100V 1A SOD123W
 $ENDCMP
 #
 #End Doc Library

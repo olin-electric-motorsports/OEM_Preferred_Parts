@@ -447,8 +447,8 @@ F1 "BSS308PE" 200 -50 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 100 50 H I C CNN
 F3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" 200 50 50 H I C CNN
 F4 "DigiKey" 0 0 60 H I C CNN "MFN"
-F5 "BSS308PEH6327XTSA1TR-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/infineon-technologies/BSS308PEH6327XTSA1/BSS308PEH6327XTSA1TR-ND/2783466" 600 450 60 H I C CNN "PurchasingLink"
+F5 "BSS308PEH6327XTSA1CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" 600 450 60 H I C CNN "PurchasingLink"
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -481,8 +481,8 @@ F0 "U" -250 400 60 H V C CNN
 F1 "CD4043BPWR" -50 -500 60 H V C CNN
 F2 "footprints:TSSOP-16-OEM" -150 450 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/cd4043b.pdf" -150 450 60 H I C CNN
-F4 "296-14106-1-ND" -150 500 60 H I C CNN "MPN"
-F5 "Digi-Key" -50 600 60 H I C CNN "MFN"
+F4 "Digi-Key" -50 600 60 H I C CNN "MFN"
+F5 "296-14106-1-ND" -150 500 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904" 50 700 60 H I C CNN "PurchasingLink"
 DRAW
 S -300 350 250 -450 0 1 0 f
@@ -512,10 +512,9 @@ F0 "J" 0 200 50 H V C CNN
 F1 "CONN_02X03" 0 -200 50 H V C CNN
 F2 "footprints:Pin_Header_Straight_2x03" 0 -1200 50 H I C CNN
 F3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" 0 -1200 50 H I C CNN
-F4 "609-3234-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" 400 600 60 H I C CNN "PurchasingLink"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "609-3234-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" 400 600 60 H I C CNN "PurchasingLink"
 $FPLIST
  Pin_Header_Straight_2X03
  Pin_Header_Angled_2X03
@@ -546,10 +545,9 @@ F0 "U" 0 1250 60 H V C CNN
 F1 "CP2120" 200 0 60 H V C CNN
 F2 "footprints:CP2120-QFN" -100 1150 60 H I C CNN
 F3 "https://www.silabs.com/documents/public/data-sheets/CP2120.pdf" 0 1250 60 H I C CNN
-F4 "336-1324-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/silicon-labs/CP2120-GM/336-1324-ND/1201221" 400 1650 60 H I C CNN "PurchasingLink"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "336-1324-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/silicon-labs/CP2120-GM/336-1324-ND/1201221" 400 1650 60 H I C CNN "PurchasingLink"
 DRAW
 S -350 1200 400 100 0 1 0 N
 X SCLK 1 -550 1100 200 R 50 50 1 1 I
@@ -583,8 +581,8 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_0.1uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
-F4 "478-3352-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "478-3352-1-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
@@ -608,9 +606,9 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_0.33uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
-F4 "0805YC334J4T2A-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv405=108&FV=fffc01de%2C400006%2Cmu0.33%C2%B5F%7C2049%2Cffe0003c%2Cc0002&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25" 425 500 60 H I C CNN "PurchasingLink"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "478-5273-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=cap&k=&pkeyword=cap&pv7=2&pv7=274&pv7=250&pv7=17&pv7=6&pv1989=0&pv2049=u0.33%C2%B5F&pv3=2&pv14=9&pv16=6&sf=1&FV=ffe0003c&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -633,8 +631,8 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_1000nF" 25 -100 50 H V L CNN
 F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" 25 100 50 H I C CNN
-F4 "1276-1946-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "1276-1946-1-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NNNC/1276-1946-1-ND/3890032" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
@@ -658,8 +656,8 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_100nF" 25 -100 50 H V L CNN
 F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" 25 100 50 H I C CNN
-F4 "1276-6717-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "1276-6717-1-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8WPNC/1276-6717-1-ND/5961576" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
@@ -682,11 +680,10 @@ DEF C_100pF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_100pF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
-F3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" 25 100 50 H I C CNN
-F4 "399-1122-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/kemet/C0805C101J5GACTU/399-1122-1-ND/411397" 425 500 60 H I C CNN "PurchasingLink"
+F3 "https://katalog.we-online.de/pbs/datasheet/885012007057.pdf" 25 100 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "732-7852-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -708,11 +705,10 @@ DEF C_10uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_10uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
-F3 "http://datasheets.avx.com/cx5r.pdf" 25 100 50 H I C CNN
-F4 "478-5167-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" 425 500 60 H I C CNN "PurchasingLink"
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" 25 100 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "1276-1052-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -735,8 +731,8 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_10uF_16V" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf" 25 100 50 H I C CNN
-F4 "1276-2399-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "1276-2399-1-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
@@ -759,11 +755,10 @@ DEF C_1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_1uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
-F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
-F4 "CAP CER 1UF 25V X7R 0805" 525 600 60 H I C CNN "Description"
-F5 "478-10487-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F7 "https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628" 425 500 60 H I C CNN "PurchasingLink"
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" 25 100 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "1276-2887-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -785,11 +780,10 @@ DEF C_2.2uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_2.2uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
-F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL10A225MQ8NNNC.pdf" 25 100 50 H I C CNN
-F4 "1276-1085-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A225KP8NNNC/1276-1085-1-ND/3889171" 425 500 60 H I C CNN "PurchasingLink"
+F3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" 25 100 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "311-1451-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -811,10 +805,10 @@ DEF C_22uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_22uF" 25 -100 50 H V L CNN
 F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
-F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf" 25 100 50 H I C CNN
-F4 "1276-2725-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" 425 500 60 H I C CNN "PurchasingLink"
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 25 100 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "445-11693-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -837,10 +831,9 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_30pF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
-F4 "1276-1130-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" 425 500 60 H I C CNN "PurchasingLink"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "1276-1130-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -863,10 +856,9 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_4.7uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" 25 100 50 H I C CNN
-F4 "1276-1045-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475KQ8NNNC/1276-1045-1-ND/3889131" 425 500 60 H I C CNN "PurchasingLink"
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "1276-1045-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475KQ8NNNC/1276-1045-1-ND/3889131" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -888,11 +880,10 @@ DEF C_47uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_47uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
-F3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" 25 100 50 H I C CNN
-F4 "587-4280-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" 425 500 60 H I C CNN "PurchasingLink"
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/22/CL21A476MQYNNNG.pdf" 25 100 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "1276-6467-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A476MQYNNNG/1276-6467-1-ND/5958095" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -917,8 +908,7 @@ F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
 F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" 50 175 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "SER3686CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" 450 575 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" 450 575 60 H I C CNN "PurchasingLink"
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -947,32 +937,6 @@ S 300 150 100 250 0 1 0 N
 X ~ 1 200 450 200 D 50 50 1 1 I
 X ~ 2 500 200 200 L 50 50 1 1 I
 X ~ 3 -100 200 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# D_Schottky_SOD123
-#
-DEF D_Schottky_SOD123 D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_SOD123" 0 -100 50 H V C CNN
-F2 "footprints:D_SOD-123W_OEM" -100 0 50 H I C CNN
-F3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" 0 100 50 H I C CNN
-F4 "1727-2394-1-ND" 100 200 60 H I C CNN "MPN"
-F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" 300 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -3094,6 +3058,32 @@ X A 2 1050 -150 200 L 50 50 1 1 O
 X GND 3 1050 -250 200 L 50 50 1 1 O
 X Y 4 150 -250 200 R 50 50 1 1 I
 X VCC 5 150 -50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SS110LW
+#
+DEF SS110LW D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "SS110LW" 0 -100 50 H V C CNN
+F2 "footprints:D_SOD-123W_OEM" -100 0 50 H I C CNN
+F3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" 0 100 50 H I C CNN
+F4 "SS110LWRVGCT-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" 300 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
