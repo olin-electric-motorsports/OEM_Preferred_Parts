@@ -1,888 +1,123 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 2N7002
-D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
-K N-Channel Switching MOSFET
-F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
-$ENDCMP
-#
 $CMP 3P4T_rotary_switch
-D 3P4T rotary switch
-K 3P4T 3 pole 4 terminal switch rotary programming
-$ENDCMP
-#
-$CMP 4.7kR
-D Resistor
-K r res resistor
-$ENDCMP
-#
-$CMP 5K
-D 5k 1% 35W Power Resistor TO-263 DPAK
-K r res resistor power
-F https://riedon.com/media/pdf/PFS35.pdf
-$ENDCMP
-#
-$CMP AD620
-D Low Cost, Low Power, Instrumentation Amplifier, DIP-8/SOIC-8
-K Instrumentation amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf
+D 3 pole 4 terminal rotary switch
 $ENDCMP
 #
 $CMP AD623
-D Instrumentation Amplifier AD623
-K instumentation amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf
+D Op-amp, Dual Supply
 $ENDCMP
 #
-$CMP AP1117-18
-D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
-K linear regulator ldo fixed positive obsolete
-F http://www.diodes.com/datasheets/AP1117.pdf
+$CMP ADXL335
+D Accelerometer, 3g
 $ENDCMP
 #
-$CMP AP1117-25
-D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
-K linear regulator ldo fixed positive obsolete
-F http://www.diodes.com/datasheets/AP1117.pdf
-$ENDCMP
-#
-$CMP AP1117-33
-D 500mA Low Dropout regulator, positive, 3.3V fixed output, SOT-223
-K linear regulator ldo fixed positive obsolete
-F http://www.ti.com/lit/ds/symlink/lm2937-2.5.pdf
-$ENDCMP
-#
-$CMP AP1117-50
-D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
-K linear regulator ldo fixed positive obsolete
-F http://www.diodes.com/datasheets/AP1117.pdf
+$CMP ADXL345
+D Acceleromter, 2/4/6/8/16g, SPI/I2C
 $ENDCMP
 #
 $CMP ATMEGA16M1
-D TQFP32, 16k Flash, 1k SRAM, 512B EEPROM, CAN
-K AVR 8bit Microcontroller MegaAVR
-F http://www.atmel.com/Images/doc8209.pdf
+D Microcontroller, 8-bit, 1KB RAM, 16KB Flash
 $ENDCMP
 #
-$CMP Ampseal_14
-D Waterproof Panel-Mount Connector RA 14-Pin
+$CMP Ampseal_08_RA
+D Ampseal connector 8 pin right angle
 $ENDCMP
 #
-$CMP Ampseal_23
-D Waterproof Panel-Mount Connector RA 23-Pin
-K connector
+$CMP Ampseal_08_VT
+D Ampseal connector 8 pin vertical
 $ENDCMP
 #
-$CMP Ampseal_35
-D Waterproof Panel-Mount Connector RA 35-Pin
-K connector
+$CMP Ampseal_14_RA
+D Ampseal connector 14 pin right angle
 $ENDCMP
 #
-$CMP Ampseal_8
-D Waterproof Panel-Mount Connector RA 8 Pin
-K connector
+$CMP Ampseal_14_VT
+D Ampseal connector 14 pin vertical
+$ENDCMP
+#
+$CMP Ampseal_23_RA
+D Ampseal connector 23 pin right angle
+$ENDCMP
+#
+$CMP Ampseal_23_VT
+D Ampseal connector 23 pin vertical
+$ENDCMP
+#
+$CMP Ampseal_35_RA
+D Ampseal connector 35 pin right angle
+$ENDCMP
+#
+$CMP Ampseal_35_VT
+D Ampseal connector 35 pin vertical
 $ENDCMP
 #
 $CMP BSS308PE
-D -30V Vds, -2 A Id, P-channel MOSFET, SOT-23
-K P-Channel MOSFET
-F https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073
-$ENDCMP
-#
-$CMP C
-D Unpolarized capacitor
-K cap capacitor
-$ENDCMP
-#
-$CMP CAN_Transceiver
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
+D MOSFET, P-type, 30V, 2A
 $ENDCMP
 #
 $CMP CD4043BPWR
-D IC NOR R/S LTCH 3ST QUAD 16TSSOP
-K IC NOR R/S LTCH 3ST QUAD 16TSSOP
+D Quad NOR R/S latch
 $ENDCMP
 #
 $CMP CONN_02X03
-D Connector, double row, 02x03
-K connector
+D Connector header through hole 2x3 0.100" (2.54mm)
 $ENDCMP
 #
 $CMP C_0.1uF
-D Cap 50V 0.1uF 10% 0805
-K c cap capacitor
+D Capacitor, 0.1uF, 50V, 5%, 0805
 $ENDCMP
 #
 $CMP C_0.33uF
-D CAP CER 0.33UF 16V 5% X7R 0805
-K CAP CER 0.33UF 16V 5% X7R 0805
+D Capacitor, 0.33uF, 16V, 5%, 0805
 $ENDCMP
 #
 $CMP C_1000nF
-D CAP CER 0.1UF 25V X7R 0603
-K CAP CER 0.1UF 25V X7R 0603
+D Capacitor, 1uF, 10V, 10%, 0603
 $ENDCMP
 #
 $CMP C_100nF
-D CAP CER 0.1UF 25V X7R 0603
-K CAP CER 0.1UF 25V X7R 0603
+D Capacitor, 0.1uF, 25V, 10%, 0603
 $ENDCMP
 #
 $CMP C_100pF
-D Cap 50V 100pF 5% 0805
-K c cap capacitor
+D Capacitor, 100pF, 50V, 5%, 0805
 $ENDCMP
 #
 $CMP C_10uF
-D CAP CER 10UF 10V X5R 0805
+D Capacitor, 10uF, 10V, 10%, 0805
 $ENDCMP
 #
 $CMP C_10uF_16V
-D CAP CER 10UF 16V X5R 0805
-K CAP CER 10UF 16V X5R 0805
+D Capacitor, 10uF, 16V, 10%, 0805
 $ENDCMP
 #
 $CMP C_1uF
-D CAP CER 1UF 25V X7R 0805
+D Capacitor, 1uF, 25V, 5%, 0805
 $ENDCMP
 #
 $CMP C_2.2uF
-D Unpolarized capacitor
-K 2.2µF ±10% 10V Ceramic Capacitor X5R 0603
+D Capacitor, 2.2uF, 10V, 10%, 0603
 $ENDCMP
 #
 $CMP C_22uF
-D Unpolarized capacitor
-K cap capacitor
+D Capacitor, 22uF, 16V, 10%, 1206
 $ENDCMP
 #
 $CMP C_30pF
-D Cap 50V 30pF 5% 0805
-K c cap capacitor
+D Capacitor, 30pF, 50V, 5%, 0805
 $ENDCMP
 #
 $CMP C_4.7uF
-D CAP CER 4.7UF 6.3V X7R 0603
-K CAP CER 4.7UF 6.3V X5R 0603
+D Capacitor, 4.7uF, 6.3V, 10%, 0603
 $ENDCMP
 #
 $CMP C_47uF
-D CAP CER 47UF 6.3V X5R 0805
-K c cap capacitor
+D Capacitor, 47uF, 6.3V, 20%, 0805
 $ENDCMP
 #
-$CMP Crystal_SMD
-D Two pin crystal, two ground/package pins (pin2 and 3) small symbol
-K quartz ceramic resonator oscillator
-$ENDCMP
-#
-$CMP D_Schottky_SOD123
-D DIODE SCHOTTKY 100V 1A SOD123
-K DIODE SCHOTTKY 100V 1A SOD123
-$ENDCMP
-#
-$CMP D_Zener_13V
-D DIODE ZENER 13V 3W SMB
-K DIODE ZENER 13V 3W SMB
-$ENDCMP
-#
-$CMP D_Zener_18V
-D DIODE ZENER 18V 5W DO214AA
-K diode zener 18V
-$ENDCMP
-#
-$CMP D_Zener_20V
-D DIODE ZENER 20V 100MW VMN2M
-K DIODE ZENER 20V 100MW VMN2M
-$ENDCMP
-#
-$CMP F_1.1A_12V
-D PTC Fuse 12V 1.1A
-K Fuse F
-$ENDCMP
-#
-$CMP F_21mA_420V
-D PTC Fuse 420V 21mA
-K Fuse F
-$ENDCMP
-#
-$CMP F_3.15A_450V
-K fuse
-$ENDCMP
-#
-$CMP F_500mA_16V
-D PTC Fuse 16V 500mA
-K Fuse F
-$ENDCMP
-#
-$CMP Fuse_Holder_Blade
-D FUSE BLOCK BLADE 500V 30A PCB
-K Fuse F
-$ENDCMP
-#
-$CMP G2RL-1-E
-D Omron G5G relay, Miniature Single Pole, SPDT, 10A
-K Miniature Single Pole Relay
-F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
-$ENDCMP
-#
-$CMP G5Q-1A4-DC5-5V
-D g5q power relay
-K g5q power relay
-$ENDCMP
-#
-$CMP LD1117S12TR_SOT223
-D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223
-K REGULATOR LDO 1.2V
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
-$ENDCMP
-#
-$CMP LD1117S18TR_SOT223
-D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT-223
-K REGULATOR LDO 1.8V
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
-$ENDCMP
-#
-$CMP LD1117S25TR_SOT223
-D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT-223
-K REGULATOR LDO 2.5V
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
-$ENDCMP
-#
-$CMP LD1117S33TR_SOT223
-D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223
-K REGULATOR LDO 3.3V
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
-$ENDCMP
-#
-$CMP LD1117S50TR_SOT223
-D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223
-K REGULATOR LDO 5.0V
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
-$ENDCMP
-#
-$CMP LED_0805
-D LED_0805
-K led diode
-$ENDCMP
-#
-$CMP LED_0805_Amber
-D LED AMBER DIFFUSED 0805 SMD
-K LED AMBER DIFFUSED 0805 SMD
-$ENDCMP
-#
-$CMP LED_0805_Red
-D LED AMBER DIFFUSED 0805 SMD
-K LED AMBER DIFFUSED 0805 SMD
-$ENDCMP
-#
-$CMP LM2937
-D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
-K linear regulator ldo fixed positive obsolete
-F http://www.diodes.com/datasheets/AP1117.pdf
-$ENDCMP
-#
-$CMP LM324DT
-D Four channel Op-Amp, General Purpose, 1.3 MHz, 14-SOIC
-K operational amplifier opamp four channel 4
-$ENDCMP
-#
-$CMP LM3480
-D 100mA Low Dropout regulator, positive, 3.3V fixed output, SOT-23-3
-K linear regulator ldo fixed positive obsolete
-F http://www.ti.com/lit/ds/symlink/lm3480.pdf
-$ENDCMP
-#
-$CMP LM78L05ACZ_Voltage_Regulator
-D IC REG LINEAR 5V 100MA TO92-3
-K PNP High Voltage Transistor
-F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
-$ENDCMP
-#
-$CMP LMV341
-D IC OPAMP GP 1MHZ RRO SOT23-6
-$ENDCMP
-#
-$CMP LR8K4-G
-D Linear Voltage Regulators 450V Adj 3 Termnl
-K Linear Voltage Regulators 450V Adj 3 Termnl
-$ENDCMP
-#
-$CMP L_4.7uH
-D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, &-40C to +150C, SOIC8 package
-K High-Speed CAN Transceiver
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
-$ENDCMP
-#
-$CMP MCP6001
-D Rail-to-Rail Input/Output, 10 MHz Op Amp
-K single opamp
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001685E.pdf
-$ENDCMP
-#
-$CMP MCP6001RT
-D IC OPAMP GP 1MHZ RRO SOT23-5  1.8-6V
-K single opamp
-$ENDCMP
-#
-$CMP MCP601-xOT
-D 10 MHz, 850 µA Op Amps, SOT-23-5
-K single opamp
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
-$ENDCMP
-#
-$CMP MCP603
-D 2.7-6V IC OPAMP GP 2.8MHZ RRO SOT23-6
-K single opamp
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
-$ENDCMP
-#
-$CMP MCP6561
-D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5/SC-70-5
-K dual comparator
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
-$ENDCMP
-#
-$CMP MMBF170
-D 60V Vds, 0.5 A Id, N-channel MOSFET, SOT-23
-K N-Channel MOSFET
-F https://www.diodes.com/assets/Datasheets/ds30104.pdf
-$ENDCMP
-#
-$CMP NCP1117-1.5_SOT223
-D 1A Low drop-out regulator, Fixed Output 1.5V, SOT-223
-K REGULATOR LDO 1.5V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117-1.8_SOT223
-D 1A Low drop-out regulator, Fixed Output 1.8V, SOT-223
-K REGULATOR LDO 1.8V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117-12_SOT223
-D 1A Low drop-out regulator, Fixed Output 12V, SOT-223
-K REGULATOR LDO 12V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117-2.0_SOT223
-D 1A Low drop-out regulator, Fixed Output 2V, SOT-223
-K REGULATOR LDO 2V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117-2.5_SOT223
-D 1A Low drop-out regulator, Fixed Output 2.5V, SOT-223
-K REGULATOR LDO 2.5V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117-2.85_SOT223
-D 1A Low drop-out regulator, Fixed Output 2.85V, SOT-223
-K REGULATOR LDO 2.85V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117-3.3_SOT223
-D 1A Low drop-out regulator, Fixed Output 3.3V, SOT-223
-K REGULATOR LDO 3.3V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP1117-5.0_SOT223
-D 1A Low drop-out regulator, Fixed Output 5V, SOT-223
-K REGULATOR LDO 5V
-F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-$ENDCMP
-#
-$CMP NCP785AH150T1G
-D LINEAR REG 10mA 15V
-K LINEAR REG 10mA 15V
-$ENDCMP
-#
-$CMP NHD-0216K1Z-FL-YBW
-D NHD-0216K1Z-FL-YBW
-K LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight
-$ENDCMP
-#
-$CMP NMOS_GSD_30V
-D N-channel MOSFET
-K NMOS n-mos n-mosfet transistor mosfet fet
-$ENDCMP
-#
-$CMP OPA333xxDBV
-D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5
-K single opamp
-F http://www.ti.com/lit/ds/symlink/opa333.pdf
-$ENDCMP
-#
-$CMP OPA340NA
-D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5
-K single opamp
-F http://www.ti.com/lit/ds/symlink/opa340.pdf
-$ENDCMP
-#
-$CMP OPA376xxDBV
-D Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOT-23-5
-K single opamp
-F http://www.ti.com/lit/ds/symlink/opa376.pdf
-$ENDCMP
-#
-$CMP PFS35-5KF1
-D 5K 1% 35W Power Resistor TO-263 DPAK
-K r res resistor power dpak
-F https://riedon.com/media/pdf/PFS35.pdf
-$ENDCMP
-#
-$CMP POT_TRIM
-D TC33X-103E 10k Trim Potentiometer
-K resistor variable trim pot trimmer
-F http://www.bourns.com/docs/Product-Datasheets/TC33.pdf
-$ENDCMP
-#
-$CMP Pushbutton
-D Pushbutton
-K Button
-$ENDCMP
-#
-$CMP R
-D Resistor
-K r res resistor
-$ENDCMP
-#
-$CMP RJ45_VT
-D CONN MOD JACK 8P8C VERT UNSHLD
-K CONN MOD JACK 8P8C VERT UNSHLD
-$ENDCMP
-#
-$CMP R_0
-D RES SMD 0 OHM JUMPER 1/10W 0603
-K RES SMD 0 OHM JUMPER 1/10W 0603
-$ENDCMP
-#
-$CMP R_0_Jumper
-D Res 0 2512 3W Jumper
-K r res resistor
-$ENDCMP
-#
-$CMP R_1.07k
-D R 1.07k .1%
-K R 1.07k .1%
-$ENDCMP
-#
-$CMP R_1.13k
-D R 1.13k .1%
-K R 1.13k .1%
-$ENDCMP
-#
-$CMP R_1.43k
-D RES SMD 1.43KOHM 0.1% 1/10W 0805
-K RES SMD 1.43KOHM 0.1% 1/10W 0805
-$ENDCMP
-#
-$CMP R_1.82M
-D RES SMD 1.82M OHM 1% 1/8W 0805
-K RES SMD 1.82M OHM 1% 1/8W 0805
-$ENDCMP
-#
-$CMP R_100
-D Res 100 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_100k
-D Res 100k 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_10k
-D Res 10k 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_10k_HV
-D Res 10k 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_178k
-D RES SMD 178K OHM 0.1% 1/8W 0805
-K RES SMD 178K OHM 0.1% 1/8W 0805
-$ENDCMP
-#
-$CMP R_1M
-D RES SMD 1M OHM 5% 1/8W 0805
-$ENDCMP
-#
-$CMP R_1k
-D Res 1k 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_1k_HS
-D 3k ohm 100 w rating
-K r res resistor
-$ENDCMP
-#
-$CMP R_2.2k
-D RES SMD 2.2K OHM 1% 1/8W 0805
-K r res resistor
-$ENDCMP
-#
-$CMP R_2.94M
-D RES SMD 2.94M OHM 1% 1/8W 0805
-K RES SMD 2.94M OHM 1% 1/8W 0805
-$ENDCMP
-#
-$CMP R_200
-D Res 200 5%
-K r res resistor
-$ENDCMP
-#
-$CMP R_22M
-D RES SMD 22M OHM 5% 1/8W 0805
-$ENDCMP
-#
-$CMP R_22k
-D RES 22k 5% 1/8W 0805
-K r res resistor
-$ENDCMP
-#
-$CMP R_270k
-D RES SMD 270K OHM 0.1% 1/8W 0805
-K RES SMD 270K OHM 0.1% 1/8W 0805
-$ENDCMP
-#
-$CMP R_3.01k
-D Res 3.01k 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_30.1k
-D Resistor
-K r res resistor
-$ENDCMP
-#
-$CMP R_300k
-D Res 300k 0.1% 0805 1/8W
-K r res resistor
-$ENDCMP
-#
-$CMP R_330
-D RES SMD 330 OHM 1% 1/8W 0805
-K RES SMD 330 OHM 1% 1/8W 0805
-$ENDCMP
-#
-$CMP R_3k
-D Res 3k 1% 0805 1/8W
-K r res resistor
-$ENDCMP
-#
-$CMP R_3k_HS
-D 3k ohm 100 w rating
-K r res resistor
-$ENDCMP
-#
-$CMP R_402k
-D RES SMD 402K OHM 1% 1/8W 0805
-K RES SMD 402K OHM 1% 1/8W 0805
-$ENDCMP
-#
-$CMP R_475
-D Res 475 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_499
-D Res 499 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_500
-D Resistor 500Ohm 0.1% Tolerance
-K r res resistor
-$ENDCMP
-#
-$CMP R_55.1k
-D Res 55.1k 1%
-K r res resistor
-$ENDCMP
-#
-$CMP R_576k
-D RES SMD 576K OHM 1% 1/8W 0805
-K RES SMD 576K OHM 1% 1/8W 0805
-$ENDCMP
-#
-$CMP R_6.2k
-D Res 6.2k 1% 0805 1/8W
-K r res resistor
-$ENDCMP
-#
-$CMP R_604k
-D RES SMD 604K OHM 1% 1/8W 0805
-K RES SMD 604K OHM 1% 1/8W 0805
-$ENDCMP
-#
-$CMP R_71.5k
-D Resistor
-K r res resistor
-$ENDCMP
-#
-$CMP R_Strain_Gauge
-D Dual Element Biaxial Tee Strain Gage
-K r res resistor strain_gauge variable potentiometer
-$ENDCMP
-#
-$CMP SN74LVC1G02
-D Single 2-Input Positive NOR-Gate
-K logic nor
-F SN74LCC1G02_datasheet(NOR).pdf
-$ENDCMP
-#
-$CMP SN74LVC1G08
-D Single 2-Input Positive-AND Gate
-K logic and
-F SN74LCC1G08_datasheet(AND).pdf
-$ENDCMP
-#
-$CMP SN74LVC1G123DCTR
-D IC SNGL MONO MULTIVIBTOR SM8
-K IC SNGL MONO MULTIVIBTOR SM8
-$ENDCMP
-#
-$CMP SN74LVC1G17
-D Single Schmitt-Trigger Buffer
-$ENDCMP
-#
-$CMP SSM3K333R
-D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
-K N-Channel Switching MOSFET
-F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
-$ENDCMP
-#
-$CMP STM32F439BI
-D IC MCU 32BIT 2MB FLASH 208LQFP
-K IC MCU 32BIT 2MB FLASH 208LQFP
-$ENDCMP
-#
-$CMP TLP175A_OEM
-D PHOTO RELAY LOW TRIG CURR SO6
-K PHOTO RELAY LOW TRIG CURR SO6
-$ENDCMP
-#
-$CMP TLV3701QDBVRG4Q1
-D IC COMPARATR NANOPWR P-P SOT23-5
-K IC COMPARATR NANOPWR P-P SOT23-5
-$ENDCMP
-#
-$CMP TPS561201
-D 4.5V - 17V Input 1A Synchronous Buck Converter
-K Buck step-down
-F http://www.ti.com/lit/ds/symlink/tps561201.pdf
-$ENDCMP
-#
-$CMP TPS562201
-D 4.5V - 17V Input 2A Synchronous Buck Converter
-K Buck step-down
-F http://www.ti.com/lit/ds/symlink/tps562201.pdf
-$ENDCMP
-#
-$CMP TS507IYLT
-D high current output opamp
-K high current output opamp
-$ENDCMP
-#
-$CMP TS881
-D Rail-to-rail 0.9 V nanopower comparator, SOT-23-5/SC-70-5
-K single comparator
-F www.st.com/resource/en/datasheet/ts881.pdf
-$ENDCMP
-#
-$CMP TSV911ILT
-D Single rail-to-rail input/output 8 MHz operational amplifiers, SOT-23-5
-K single opamp
-F www.st.com/resource/en/datasheet/tsv911.pdf
-$ENDCMP
-#
-$CMP TSX631AIYLT
-D IC OPAMP R-R 16V CMOS SOT23-5
-K IC OPAMP R-R 16V CMOS SOT23-5
-$ENDCMP
-#
-$CMP Ultrafit_2
-D ULTRAFIT CONN HDR 02CKT
-K ULTRAFIT CONN HDR 02CKT
-$ENDCMP
-#
-$CMP Ultrafit_2_ra
-D ULTRAFIT CONN HDR 02CKT
-K ULTRAFIT CONN HDR 02CKT
-$ENDCMP
-#
-$CMP Ultrafit_4
-D Ultrafit 4 Pin Connector
-K ultrafit conn connector ultra
-$ENDCMP
-#
-$CMP ZXRE160
-D IC VREF SHUNT ADJ SOT353
-K IC VREF SHUNT ADJ SOT353
-F https://www.diodes.com/assets/Datasheets/ZXRE160.pdf
-$ENDCMP
-#
-$CMP fuse_holder_125V_15A
-D fuse block
-K Fuse block holder
-F http://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_482_datasheet.pdf.pdf
-$ENDCMP
-#
-$CMP micromatch_female_RA_10
-D connector micromatch female RA 10
-K connector micromatch female RA 10
-$ENDCMP
-#
-$CMP micromatch_female_RA_12
-D connector micromatch female RA 12
-K connector micromatch female RA 12
-$ENDCMP
-#
-$CMP micromatch_female_RA_14
-D connector micromatch female RA 14
-K connector micromatch female RA 14
-$ENDCMP
-#
-$CMP micromatch_female_RA_16
-D connector micromatch female RA 16
-K connector micromatch female RA 16
-$ENDCMP
-#
-$CMP micromatch_female_RA_18
-D connector micromatch female RA 18
-K connector micromatch female RA 18
-$ENDCMP
-#
-$CMP micromatch_female_RA_20
-D connector micromatch female RA 20
-K connector micromatch female RA 20
-$ENDCMP
-#
-$CMP micromatch_female_RA_4
-D connector micromatch female RA 4
-K connector micromatch female RA 4
-$ENDCMP
-#
-$CMP micromatch_female_RA_6
-D connector micromatch female RA 6
-K connector micromatch female RA 6
-$ENDCMP
-#
-$CMP micromatch_female_RA_8
-D connector micromatch female RA 8
-K connector micromatch female RA 8
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_10
-D CONN FMALE-ON-BRD 10POS VERT T/H
-K CONN FMALE-ON-BRD 10POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_12
-D CONN FMALE-ON-BRD 12POS VERT T/H
-K CONN FMALE-ON-BRD 12POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_14
-D CONN FMALE-ON-BRD 14POS VERT T/H
-K CONN FMALE-ON-BRD 14POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_16
-D CONN FMALE-ON-BRD 16POS VERT T/H
-K CONN FMALE-ON-BRD 16POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_18
-D CONN FMALE-ON-BRD 18POS VERT T/H
-K CONN FMALE-ON-BRD 18POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_20
-D CONN FMALE-ON-BRD 20POS VERT T/H
-K CONN FMALE-ON-BRD 20POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_4
-D CONN FMALE-ON-BRD 4POS VERT T/H
-K CONN FMALE-ON-BRD 4POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_6
-D CONN FMALE-ON-BRD 6POS VERT T/H
-K CONN FMALE-ON-BRD 6POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_TOP_ENTRY_locking_8
-D CONN FMALE-ON-BRD 8POS VERT T/H
-K CONN FMALE-ON-BRD 8POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_female_vert_8
-D CONN FMALE-ON-BRD 8POS VERT T/H
-K CONN FMALE-ON-BRD 8POS VERT T/H
-$ENDCMP
-#
-$CMP micromatch_male_10
-D connector micromatch male 10
-K connector micromatch male 10
-$ENDCMP
-#
-$CMP micromatch_male_12
-D connector micromatch male 12
-K connector micromatch male 12
-$ENDCMP
-#
-$CMP micromatch_male_14
-D connector micromatch male 14
-K connector micromatch male 14
-$ENDCMP
-#
-$CMP micromatch_male_16
-D connector micromatch male 16
-K connector micromatch male 16
-$ENDCMP
-#
-$CMP micromatch_male_18
-D connector micromatch male 18
-K connector micromatch male 18
-$ENDCMP
-#
-$CMP micromatch_male_20
-D connector micromatch male 20
-K connector micromatch male 20
-$ENDCMP
-#
-$CMP micromatch_male_4
-D connector micromatch male 4
-K connector micromatch male 4
-$ENDCMP
-#
-$CMP micromatch_male_6
-D connector micromatch male 6
-K connector micromatch male 6
-$ENDCMP
-#
-$CMP micromatch_male_8
-D connector micromatch male 8
-K connector micromatch male 8
-$ENDCMP
-#
-$CMP mx150L_2
-D mx150L_2
-K mx150L conn connector mx
+$CMP MCP2561-E/SN
+D High speed CAN transceiver, 1Mb/s
 $ENDCMP
 #
 #End Doc Library
