@@ -5,7 +5,7 @@ D 3 pole 4 terminal rotary switch
 $ENDCMP
 #
 $CMP AD623
-D Op-amp, Dual Supply
+D Op-amp, dual supply
 $ENDCMP
 #
 $CMP ADXL335
@@ -124,8 +124,99 @@ $CMP Crystal_SMD
 D CRYSTAL 16.0000MHZ 18PF SMD
 $ENDCMP
 #
+$CMP D_Zener_13V
+D Diode, Zener, 13V, 3W, 5%
+$ENDCMP
+#
+$CMP D_Zener_18V
+D Diode, Zener, 18V, 5W, 5%
+$ENDCMP
+#
+$CMP D_Zener_20V
+D Diode, Zener, 20V, 0.1W
+$ENDCMP
+#
+$CMP F_1.1A_12V
+D Fuse, PTC, 1.1A, 12V, 1206
+$ENDCMP
+#
+$CMP F_21mA_420V
+D Fuse, PTC, 21mA, 420V, Radial
+$ENDCMP
+#
+$CMP F_3.15A_300V
+D Fuse, Slow blow, 3.15A, 300V, Radial
+$ENDCMP
+#
+$CMP F_500mA_16V
+D Fuse, PTC, 500mA, 16V, 1210
+$ENDCMP
+#
+$CMP G2RL-1-E
+D Relay, SPDT, Switch 16A/300V, Coil 33.3mA/12V
+$ENDCMP
+#
+$CMP G5Q-1A4-DC5-5V
+D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
+$ENDCMP
+#
+$CMP G6C-1117P-US
+D Relay, SPST-NO, Switch 10A/125V, Coil 16.7mA/12V
+$ENDCMP
+#
+$CMP L693D1
+D Linear regulator, 2-14V input, adj 1.2-5V output, 2A
+K LDO
+$ENDCMP
+#
+$CMP LED_0805
+D LED, Green, 2.2V, 20mA, 0805
+$ENDCMP
+#
+$CMP LED_0805_Amber
+D LED, Amber, 1.9V, 20mA, 0805
+$ENDCMP
+#
+$CMP LED_0805_Red
+D LED, Red, 1.8V, 20mA, 0805
+$ENDCMP
+#
+$CMP LM324DT
+D Op-amp, 4-channel
+$ENDCMP
+#
+$CMP LM3480
+D Linear regulator, 30V max input, 3.3V output, 100mA
+K LDO
+$ENDCMP
+#
+$CMP LM78L05ACZ
+D Linear regulator, 35V max input, 5V output, 100mA
+K LDO
+$ENDCMP
+#
+$CMP LMV341
+D Op-amp, general purpose
+$ENDCMP
+#
+$CMP LR8K4-G
+D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
+$ENDCMP
+#
+$CMP L_4.7uH
+D Inductor, 4.7uH, 4.4A
+$ENDCMP
+#
 $CMP MCP2561-E/SN
 D High speed CAN transceiver, 1Mb/s
+$ENDCMP
+#
+$CMP MCP6001
+D Op-amp, general purpose
+$ENDCMP
+#
+$CMP MCP603
+D Op-amp, general purpose
 $ENDCMP
 #
 $CMP SS110LW
