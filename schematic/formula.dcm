@@ -219,6 +219,58 @@ $CMP MCP603
 D Op-amp, general purpose
 $ENDCMP
 #
+$CMP MM_F_RA_04
+D Micro-MaTch connector 4 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_RA_06
+D Micro-MaTch connector 6 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_RA_08
+D Micro-MaTch connector 8 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_RA_10
+D Micro-MaTch connector 10 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_RA_12
+D Micro-MaTch connector 12 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_RA_14
+D Micro-MaTch connector 14 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_RA_16
+D Micro-MaTch connector 16 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_RA_18
+D Micro-MaTch connector 18 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_RA_20
+D Micro-MaTch connector 20 pin female right angle
+$ENDCMP
+#
+$CMP MicroFit_11
+D Micro-Fit connector 11 pin right angle
+$ENDCMP
+#
+$CMP MicroFit_12
+D Micro-Fit connector 12 pin right angle
+$ENDCMP
+#
+$CMP MicroFit_20
+D Micro-Fit connector 20 pin right angle
+$ENDCMP
+#
+$CMP MicroFit_24
+D Micro-Fit connector 24 pin right angle
+$ENDCMP
+#
 $CMP SS110LW
 D DIODE SCHOTTKY 100V 1A SOD123W
 $ENDCMP
