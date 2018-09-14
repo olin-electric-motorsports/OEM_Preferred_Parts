@@ -204,10 +204,6 @@ D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
 $ENDCMP
 #
 $CMP L_4.7uH
-D Inductor, 4.7uH, 4.4A
-$ENDCMP
-#
-$CMP MCP2561-E/SN
 D High speed CAN transceiver, 1Mb/s
 $ENDCMP
 #
@@ -253,6 +249,78 @@ $ENDCMP
 #
 $CMP MM_F_RA_20
 D Micro-MaTch connector 20 pin female right angle
+$ENDCMP
+#
+$CMP MM_F_VT_04
+D Micro-MaTch connector 4 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_06
+D Micro-MaTch connector 6 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_08
+D Micro-MaTch connector 8 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_10
+D Micro-MaTch connector 10 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_12
+D Micro-MaTch connector 12 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_14
+D Micro-MaTch connector 14 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_16
+D Micro-MaTch connector 16 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_18
+D Micro-MaTch connector 18 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_20
+D Micro-MaTch connector 20 pin female vertical
+$ENDCMP
+#
+$CMP MM_M_VT_04
+D Micro-MaTch connector 4 pin male vertical
+$ENDCMP
+#
+$CMP MM_M_VT_06
+D Micro-MaTch connector 6 pin male vertical
+$ENDCMP
+#
+$CMP MM_M_VT_08
+D Micro-MaTch connector 8 pin male vertical
+$ENDCMP
+#
+$CMP MM_M_VT_10
+D Micro-MaTch connector 10 pin male vertical
+$ENDCMP
+#
+$CMP MM_M_VT_12
+D Micro-MaTch connector 12 pin male vertical
+$ENDCMP
+#
+$CMP MM_M_VT_14
+D Micro-MaTch connector 14 pin male vertical
+$ENDCMP
+#
+$CMP MM_M_VT_16
+D Micro-MaTch connector 16 pin male vertical
+$ENDCMP
+#
+$CMP MM_M_VT_18
+D Micro-MaTch connector 18 pin male vertical
+$ENDCMP
+#
+$CMP MM_M_VT_20
+D Micro-MaTch connector 20 pin male vertical
 $ENDCMP
 #
 $CMP MicroFit_11
