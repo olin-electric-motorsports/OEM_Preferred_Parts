@@ -207,6 +207,10 @@ $CMP L_4.7uH
 D High speed CAN transceiver, 1Mb/s
 $ENDCMP
 #
+$CMP MCP2561-E_SN
+D High speed CAN transceiver
+$ENDCMP
+#
 $CMP MCP6001
 D Op-amp, general purpose
 $ENDCMP
