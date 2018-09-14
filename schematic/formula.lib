@@ -1820,11 +1820,10 @@ DEF MM_F_VT_04 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_F_VT_04" 50 -250 60 H V C CNN
 F2 "footprints:micromatch_female_vert_4" -200 1100 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English" -100 1200 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-4/A99438CT-ND/1955740" 0 1300 60 H I C CNN "PurchasingLink"
-F5 "DK" 100 1400 60 H I C CNN "MFN"
-F6 "338068-4" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "338068-4" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-338068-4.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -150 -150 250 0 1 0 f
 X 1 1 250 200 100 L 50 50 1 1 B
@@ -1840,11 +1839,10 @@ DEF MM_F_VT_06 J 0 40 Y Y 1 F N
 F0 "J" 0 350 60 H V C CNN
 F1 "MM_F_VT_06" 100 -400 60 H V C CNN
 F2 "footprints:micromatch_female_vert_6" -100 250 60 H I C CNN
-F3 "" 0 350 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-6/A99437CT-ND/1955739" 0 1300 60 H I C CNN "PurchasingLink"
-F5 "DK" 100 1400 60 H I C CNN "MFN"
-F6 "A99437CT-ND" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-6" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "338068-6" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-338068-6.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -300 -150 300 0 1 0 f
 X 1 1 250 250 100 L 50 50 1 1 B
@@ -1862,11 +1860,10 @@ DEF MM_F_VT_08 J 0 40 Y Y 1 F N
 F0 "J" 0 400 60 H V C CNN
 F1 "MM_F_VT_08" 50 -550 60 H V C CNN
 F2 "footprints:micromatch_female_vert_8" -100 300 60 H I C CNN
-F3 "" 0 400 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-8/A99436CT-ND/1955738" 100 500 60 H I C CNN "PurchasingLink"
-F5 "DK" 100 1400 60 H I C CNN "MFN"
-F6 "A99436CT-ND" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-8" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "338068-8" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-338068-8.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -450 -150 350 0 1 0 f
 X 1 1 250 300 100 L 50 50 1 1 B
@@ -1886,11 +1883,10 @@ DEF MM_F_VT_10 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_F_VT_10" -50 50 60 H V C CNN
 F2 "footprints:micromatch_female_vert_10" -200 1100 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English" -100 1200 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-0/A99504CT-ND/1955737" 0 1300 60 H I C CNN "PurchasingLink"
-F5 "DK" 100 1400 60 H I C CNN "MFN"
-F6 "A99504CT-ND" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-0" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-338068-0" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-338068-0.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 150 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -1912,11 +1908,10 @@ DEF MM_F_VT_12 J 0 40 Y Y 1 F N
 F0 "J" 0 650 60 H V C CNN
 F1 "MM_F_VT_12" 50 -700 60 H V C CNN
 F2 "footprints:micromatch_female_vert_12" -100 550 60 H I C CNN
-F3 "" 0 650 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-2/A99503CT-ND/1955736" 100 750 60 H I C CNN "PurchasingLink"
-F5 "DK" 200 850 60 H I C CNN "MFN"
-F6 "A99503CT-ND" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-338068-2" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-338068-2.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -600 -150 600 0 1 0 f
 X 1 1 250 550 100 L 50 50 1 1 B
@@ -1940,11 +1935,10 @@ DEF MM_F_VT_14 J 0 40 Y Y 1 F N
 F0 "J" 50 750 60 H V C CNN
 F1 "MM_F_VT_14" 100 -800 60 H V C CNN
 F2 "footprints:micromatch_female_vert_14" -50 650 60 H I C CNN
-F3 "" 50 750 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-4/A99502CT-ND/1955735" 0 1300 60 H I C CNN "PurchasingLink"
-F5 "DK" 100 1400 60 H I C CNN "MFN"
-F6 "A99502CT-ND" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-4" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-338068-4" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-338068-4.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 200 -700 -100 700 0 1 0 f
 X 1 1 300 650 100 L 50 50 1 1 B
@@ -1970,11 +1964,10 @@ DEF MM_F_VT_16 J 0 40 Y Y 1 F N
 F0 "J" 0 900 60 H V C CNN
 F1 "MM_F_VT_16" 150 -900 60 H V C CNN
 F2 "footprints:micromatch_female_vert_16" -100 800 60 H I C CNN
-F3 "" 0 900 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-6/A99501CT-ND/1955734" 100 1000 60 H I C CNN "PurchasingLink"
-F5 "DK" 100 1400 60 H I C CNN "MFN"
-F6 "A99501CT-ND" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-338068-6" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-338068-6.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -750 -150 850 0 1 0 f
 X 1 1 250 800 100 L 50 50 1 1 B
@@ -2002,11 +1995,10 @@ DEF MM_F_VT_18 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_F_VT_18" 0 -800 60 H V C CNN
 F2 "footprints:micromatch_female_vert_18" -200 1100 60 H I C CNN
-F3 "" -100 1200 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-8/A99500CT-ND/1955733" 0 1300 60 H I C CNN "PurchasingLink"
-F5 "DK" 100 1400 60 H I C CNN "MFN"
-F6 "A99500CT-ND" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-8" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-338068-8" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-338068-8.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 -650 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -2036,11 +2028,10 @@ DEF MM_F_VT_20 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_F_VT_20" 0 -950 60 H V C CNN
 F2 "footprints:micromatch_female_vert_20" -200 1100 60 H I C CNN
-F3 "" -100 1200 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338068-0/A99499CT-ND/1955732" 0 1300 60 H I C CNN "PurchasingLink"
-F5 "DK" 100 1400 60 H I C CNN "MFN"
-F6 "A99499CT-ND" 200 1500 60 H I C CNN "MPN"
-F7 "Value" 300 1600 60 H I C CNN "Package"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "2-338068-0" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-2-338068-0.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 -850 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -2072,11 +2063,10 @@ DEF MM_M_VT_04 J 0 40 Y Y 1 F N
 F0 "J" 0 150 60 H V C CNN
 F1 "MM_M_VT_04" 0 -350 60 H V C CNN
 F2 "" -100 50 60 H I C CNN
-F3 "" 0 150 60 H I C CNN
-F4 "A107034CT-ND" 50 -250 60 H I C CNN "MPN"
-F5 "DK" 0 -300 60 H I C CNN "MFN"
-F6 "Value" 0 -300 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-4/A107034CT-ND/3488595" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-215464-4" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "215464-4" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-215464-4.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -150 100 150 -300 0 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -2092,11 +2082,10 @@ DEF MM_M_VT_06 J 0 40 Y Y 1 F N
 F0 "J" 0 350 60 H V C CNN
 F1 "MM_M_VT_06" 0 -350 60 H V C CNN
 F2 "" -100 250 60 H I C CNN
-F3 "" 0 350 60 H I C CNN
-F4 "A107035CT-ND" 50 -50 60 H I C CNN "MPN"
-F5 "DK" 0 -100 60 H I C CNN "MFN"
-F6 "Value" 0 -100 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-6/A107035CT-ND/3488596" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-215464-6" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "215464-6" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-215464-6.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -150 300 150 -300 0 1 0 f
 X 1 1 250 250 100 L 50 50 1 1 B
@@ -2114,11 +2103,10 @@ DEF MM_M_VT_08 J 0 40 Y Y 1 F N
 F0 "J" 0 550 60 H V C CNN
 F1 "MM_M_VT_08" 0 -350 60 H V C CNN
 F2 "" -100 450 60 H I C CNN
-F3 "" 0 550 60 H I C CNN
-F4 "A116230CT-ND" 50 150 60 H I C CNN "MPN"
-F5 "DK" 0 100 60 H I C CNN "MFN"
-F6 "Value" 0 100 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-8/A116230CT-ND/4569834" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-215464-8" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "215464-8" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-215464-8.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -150 500 150 -300 0 1 0 f
 X 1 1 250 450 100 L 50 50 1 1 B
@@ -2138,11 +2126,10 @@ DEF MM_M_VT_10 J 0 40 Y Y 1 F N
 F0 "J" 0 750 60 H V C CNN
 F1 "MM_M_VT_10" 0 -350 60 H V C CNN
 F2 "" -100 650 60 H I C CNN
-F3 "" 0 750 60 H I C CNN
-F4 "A110881CT-ND" 50 350 60 H I C CNN "MPN"
-F5 "DK" 0 300 60 H I C CNN "MFN"
-F6 "Value" 0 300 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-0/A110881CT-ND/4142265" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-215464-0" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-215464-0.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -150 700 150 -300 0 1 0 f
 X 1 1 250 650 100 L 50 50 1 1 B
@@ -2164,11 +2151,10 @@ DEF MM_M_VT_12 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_M_VT_12" -50 -100 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
-F3 "" -100 1200 60 H I C CNN
-F4 "A110882CT-ND" -50 800 60 H I C CNN "MPN"
-F5 "DK" -100 750 60 H I C CNN "MFN"
-F6 "Value" -100 750 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-2/A110882CT-ND/4142266" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-215464-2" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-215464-2.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -50 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -2192,11 +2178,10 @@ DEF MM_M_VT_14 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_M_VT_14" -50 -300 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
-F3 "" -100 1200 60 H I C CNN
-F4 "A99442CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/8-215464-4/A99442CT-ND/1955744" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-4" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-215464-4" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-215464-4.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -250 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -2222,11 +2207,10 @@ DEF MM_M_VT_16 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_M_VT_16" -50 -500 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
-F3 "" -100 1200 60 H I C CNN
-F4 "A116164CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-6/A116164CT-ND/4569759" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-6" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-215464-6" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-215464-6.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -450 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -2254,11 +2238,10 @@ DEF MM_M_VT_18 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_M_VT_18" -50 -700 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
-F3 "" -100 1200 60 H I C CNN
-F4 "A110884CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-8/A110884CT-ND/4142268" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-8" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-215464-8" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-215464-8.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -650 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -2288,11 +2271,10 @@ DEF MM_M_VT_20 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_M_VT_20" -50 -900 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
-F3 "" -100 1200 60 H I C CNN
-F4 "A111126CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-215464-0/A111126CT-ND/4142510" 300 1600 60 H I C CNN "PurchasingLink"
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-2-215464-0" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "2-215464-0" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-2-215464-0.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -850 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
