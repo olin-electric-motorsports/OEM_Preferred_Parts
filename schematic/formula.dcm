@@ -204,11 +204,11 @@ D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
 $ENDCMP
 #
 $CMP L_4.7uH
-D High speed CAN transceiver, 1Mb/s
+D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
 #
 $CMP MCP2561-E_SN
-D High speed CAN transceiver
+D High speed CAN transceiver, 1Mb/s
 $ENDCMP
 #
 $CMP MCP6001
@@ -217,6 +217,10 @@ $ENDCMP
 #
 $CMP MCP603
 D Op-amp, general purpose
+$ENDCMP
+#
+$CMP MMBF170
+D MOSFET, N-type, 60V, 500mA
 $ENDCMP
 #
 $CMP MM_F_RA_04
@@ -325,6 +329,10 @@ $ENDCMP
 #
 $CMP MM_M_VT_20
 D Micro-MaTch connector 20 pin male vertical
+$ENDCMP
+#
+$CMP MX150L_2
+D MX150L connector 4 pin right angle
 $ENDCMP
 #
 $CMP MicroFit_11
