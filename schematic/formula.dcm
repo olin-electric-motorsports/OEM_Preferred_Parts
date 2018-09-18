@@ -351,6 +351,14 @@ $CMP MicroFit_24
 D Micro-Fit connector 24 pin right angle
 $ENDCMP
 #
+$CMP NCP785AH150T1G
+D Linear regulator, 25-450V input, 15V output, 10mA
+$ENDCMP
+#
+$CMP NanoFit_2
+D Nano-Fit connector 2 pin right angle
+$ENDCMP
+#
 $CMP SS110LW
 D DIODE SCHOTTKY 100V 1A SOD123W
 $ENDCMP
