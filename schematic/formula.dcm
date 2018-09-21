@@ -53,7 +53,7 @@ D Ampseal connector 35 pin vertical
 $ENDCMP
 #
 $CMP BSS308PE
-D MOSFET, P-type, 30V, 2A
+D MOSFET, P-channel, 30V, 2A
 $ENDCMP
 #
 $CMP CD4043BPWR
@@ -220,7 +220,7 @@ D Op-amp, general purpose
 $ENDCMP
 #
 $CMP MMBF170
-D MOSFET, N-type, 60V, 500mA
+D MOSFET, N-channel, 60V, 500mA
 $ENDCMP
 #
 $CMP MM_F_RA_04
@@ -435,7 +435,6 @@ $CMP R_22K
 D Resistor, 22K, 0.125W, 5%, 0805
 $ENDCMP
 #
-$CMP
 $CMP R_22M
 D Resistor, 22M, 0.2W, 5%, 0805
 $ENDCMP
@@ -496,12 +495,88 @@ $CMP R_604K
 D Resistor, 604K, 0.125W, 1%, 0805
 $ENDCMP
 #
-$CMP R_Strain Gauge
+$CMP R_Strain_Gauge
 D Strain gauge, 2-element 90° biaxial tee rosette
+$ENDCMP
+#
+$CMP RJ45_RA
+D RJ45 ethernet connector right angle
+$ENDCMP
+#
+$CMP RJ45_VT
+D RJ45 ethernet connector vertical
+$ENDCMP
+#
+$CMP SN74LVC1G02
+D Single channel positive logic NOR gate
+$ENDCMP
+#
+$CMP SN74LVC1G08
+D Single channel positive logic AND gate
+$ENDCMP
+#
+$CMP SN74LVC1G123
+D Single monostable multivibrator
+$ENDCMP
+#
+$CMP SN74LVC1G17
+D Single schmitt-trigger buffer
 $ENDCMP
 #
 $CMP SS110LW
 D DIODE SCHOTTKY 100V 1A SOD123W
+$ENDCMP
+#
+$CMP SSM3K333R
+D MOSFET, N-channel, 30V, 6A
+$ENDCMP
+#
+$CMP STM32F439BI
+D Microcontroller, 32-bit, 256KB RAM, 2MB Flash
+$ENDCMP
+#
+$CMP TLP175A_OEM
+D Solid State Relay SPST-NO
+$ENDCMP
+#
+$CMP TLV3701QDBVRG4Q1
+D Comparator general purpose, rail-to-rail
+$ENDCMP
+#
+$CMP TPS561201
+D Buck converter, 4.5-17V input, adj 0.76-7V output, 1A, 580kHz
+$ENDCMP
+#
+$CMP TS507IYLT
+D Op-amp, general purpose
+$ENDCMP
+#
+$CMP TSX631AIYLT
+D Op-amp, general purpose
+$ENDCMP
+#
+$CMP T_LAN_7490100111A
+D Transformer LAN 10/100 base-T
+$ENDCMP
+#
+$CMP UF_2_VT
+D Ultra-Fit connector 2 pin vertical
+$ENDCMP
+#
+$CMP UF_2_RA
+D Ultra-Fit connector 2 pin right angle
+$ENDCMP
+#
+$CMP UF_4_VT
+D Ultra-Fit connector 4 pin vertical
+$ENDCMP
+#
+$CMP UF_5_VT
+D Ultra-Fit connector 5 pin vertical
+$ENDCMP
+#
+$CMP ZXRE160
+D Adjustable shunt voltage reference, 18V max output, 15mA
 $ENDCMP
 #
 #End Doc Library

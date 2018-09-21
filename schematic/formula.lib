@@ -2485,89 +2485,6 @@ X 2 2 100 -350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# RJ45
-#
-DEF RJ45 U 0 40 Y Y 1 F N
-F0 "U" 0 -590 60 H V C CNN
-F1 "RJ45" 10 660 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -280 570 650 -190 0 1 0 N
-X CANL 1 -480 430 200 R 50 50 1 1 B
-X LED_1 10 -70 -390 200 U 50 50 1 1 B
-X GND 11 100 -390 200 U 50 50 1 1 B
-X LED_2 12 210 -390 200 U 50 50 1 1 B
-X GND 13 400 -390 200 U 50 50 1 1 B
-X GND 14 510 -390 200 U 50 50 1 1 B
-X CANH 2 -480 330 200 R 50 50 1 1 B
-X RESET 3 -480 230 200 R 50 50 1 1 B
-X SCK 4 -480 130 200 R 50 50 1 1 B
-X MISO 5 850 430 200 L 50 50 1 1 B
-X MOSI 6 850 330 200 L 50 50 1 1 B
-X 5V 7 850 230 200 L 50 50 1 1 B
-X GND 8 850 130 200 L 50 50 1 1 B
-X GND 9 -180 -390 200 U 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# RJ45_RA
-#
-DEF RJ45_RA U 0 40 Y Y 1 F N
-F0 "U" 0 -590 60 H V C CNN
-F1 "RJ45_RA" 10 660 60 H V C CNN
-F2 "footprints:RJ45-RightAngle" -100 -690 60 H I C CNN
-F3 "" 0 -590 60 H I C CNN
-F4 "MRJ-5381-01-ND" 200 -390 60 H V C CNN "MPN"
-F5 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MRJ-5381-01/MRJ-5381-01-ND/1242668" 300 -290 60 H V C CNN "PurchasingLink"
-DRAW
-S -280 570 650 -190 0 1 0 N
-X CANL 1 -480 430 200 R 50 50 1 1 B
-X LED_1 10 -70 -390 200 U 50 50 1 1 B
-X GND 11 100 -390 200 U 50 50 1 1 B
-X LED_2 12 210 -390 200 U 50 50 1 1 B
-X GND 13 400 -390 200 U 50 50 1 1 B
-X GND 14 510 -390 200 U 50 50 1 1 B
-X CANH 2 -480 330 200 R 50 50 1 1 B
-X RESET 3 -480 230 200 R 50 50 1 1 B
-X SCK 4 -480 130 200 R 50 50 1 1 B
-X MISO 5 850 430 200 L 50 50 1 1 B
-X MOSI 6 850 330 200 L 50 50 1 1 B
-X 5V 7 850 230 200 L 50 50 1 1 B
-X GND 8 850 130 200 L 50 50 1 1 B
-X GND 9 -180 -390 200 U 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# RJ45_VT
-#
-DEF RJ45_VT U 0 40 Y Y 1 F N
-F0 "U" 0 -590 60 H V C CNN
-F1 "RJ45_VT" 10 660 60 H V C CNN
-F2 "footprints:RJ45-Vertical" -100 -690 60 H I C CNN
-F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" 0 -590 60 H I C CNN
-F4 "MRJ-5481-01-ND" 200 -390 60 H I C CNN "MPN"
-F5 "DK" 300 -290 60 H V C CNN "MFN"
-F6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" 400 -190 60 H I C CNN "PurchasingLink"
-DRAW
-S -280 570 650 -190 0 1 0 N
-X CANL 1 -480 430 200 R 50 50 1 1 B
-X LED_1 10 -70 -390 200 U 50 50 1 1 B
-X GND 11 100 -390 200 U 50 50 1 1 B
-X LED_2 12 210 -390 200 U 50 50 1 1 B
-X GND 13 400 -390 200 U 50 50 1 1 B
-X GND 14 510 -390 200 U 50 50 1 1 B
-X CANH 2 -480 330 200 R 50 50 1 1 B
-X RESET 3 -480 230 200 R 50 50 1 1 B
-X SCK 4 -480 130 200 R 50 50 1 1 B
-X MISO 5 850 430 200 L 50 50 1 1 B
-X MOSI 6 850 330 200 L 50 50 1 1 B
-X 5V 7 850 230 200 L 50 50 1 1 B
-X GND 8 850 130 200 L 50 50 1 1 B
-X GND 9 -180 -390 200 U 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # R_0
 #
 DEF R_0 R 0 0 N Y 1 F N
@@ -2759,9 +2676,9 @@ ENDDEF
 #
 # R_10K_HV
 #
-DEF R_10k_HV R 0 0 N Y 1 F N
+DEF R_10K_HV R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_10k_HV" -100 0 50 V V C CNN
+F1 "R_10K_HV" -100 0 50 V V C CNN
 F2 "footprints:R_1K_HV" -70 0 50 H I C CNN
 F3 "http://www.vishay.com/docs/28731/pacserie.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -3307,13 +3224,74 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RJ45_RA
+#
+DEF RJ45_RA U 0 40 Y Y 1 F N
+F0 "U" 0 -590 60 H V C CNN
+F1 "RJ45_RA" 10 660 60 H V C CNN
+F2 "footprints:RJ45-RightAngle" -100 -690 60 H I C CNN
+F3 "" 0 -590 60 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "MRJ-5381-01-ND" 200 -390 60 H V C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MRJ-5381-01/MRJ-5381-01-ND/1242668" 300 -290 60 H V C CNN "PurchasingLink"
+DRAW
+S -280 570 650 -190 0 1 0 N
+X CANL 1 -480 430 200 R 50 50 1 1 B
+X LED_1 10 -70 -390 200 U 50 50 1 1 B
+X GND 11 100 -390 200 U 50 50 1 1 B
+X LED_2 12 210 -390 200 U 50 50 1 1 B
+X GND 13 400 -390 200 U 50 50 1 1 B
+X GND 14 510 -390 200 U 50 50 1 1 B
+X CANH 2 -480 330 200 R 50 50 1 1 B
+X RESET 3 -480 230 200 R 50 50 1 1 B
+X SCK 4 -480 130 200 R 50 50 1 1 B
+X MISO 5 850 430 200 L 50 50 1 1 B
+X MOSI 6 850 330 200 L 50 50 1 1 B
+X 5V 7 850 230 200 L 50 50 1 1 B
+X GND 8 850 130 200 L 50 50 1 1 B
+X GND 9 -180 -390 200 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# RJ45_VT
+#
+DEF RJ45_VT U 0 40 Y Y 1 F N
+F0 "U" 0 -590 60 H V C CNN
+F1 "RJ45_VT" 10 660 60 H V C CNN
+F2 "footprints:RJ45-Vertical" -100 -690 60 H I C CNN
+F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" 0 -590 60 H I C CNN
+F4 "DK" 300 -290 60 H V C CNN "MFN"
+F5 "MRJ-5481-01-ND" 200 -390 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" 400 -190 60 H I C CNN "PurchasingLink"
+DRAW
+S -280 570 650 -190 0 1 0 N
+X CANL 1 -480 430 200 R 50 50 1 1 B
+X LED_1 10 -70 -390 200 U 50 50 1 1 B
+X GND 11 100 -390 200 U 50 50 1 1 B
+X LED_2 12 210 -390 200 U 50 50 1 1 B
+X GND 13 400 -390 200 U 50 50 1 1 B
+X GND 14 510 -390 200 U 50 50 1 1 B
+X CANH 2 -480 330 200 R 50 50 1 1 B
+X RESET 3 -480 230 200 R 50 50 1 1 B
+X SCK 4 -480 130 200 R 50 50 1 1 B
+X MISO 5 850 430 200 L 50 50 1 1 B
+X MOSI 6 850 330 200 L 50 50 1 1 B
+X 5V 7 850 230 200 L 50 50 1 1 B
+X GND 8 850 130 200 L 50 50 1 1 B
+X GND 9 -180 -390 200 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # SN74LVC1G02
 #
 DEF SN74LVC1G02 U 0 40 Y Y 1 F N
 F0 "U" 400 350 60 H V C CNN
 F1 "SN74LVC1G02" 400 450 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" 0 0 60 H V C CNN
+F4 "DK" 300 -290 60 H V C CNN "MFN"
+F5 "296-11598-1-ND" 200 -390 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G02DCKR/296-11598-1-ND/385737" 400 -190 60 H I C CNN "PurchasingLink"
 DRAW
 A -600 0 381 232 -232 0 1 0 N -250 150 -250 -150
 A -300 250 472 -580 -320 0 1 0 N -50 -150 100 0
@@ -3335,7 +3313,10 @@ DEF SN74LVC1G08 U 0 40 Y Y 1 F N
 F0 "U" 450 150 60 H V C CNN
 F1 "SN74LVC1G08" 450 250 60 H V C CNN
 F2 "" 100 0 60 H V C CNN
-F3 "" 100 0 60 H V C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf" 100 0 60 H V C CNN
+F4 "DK" 300 -290 60 H V C CNN "MFN"
+F5 "296-11602-1-ND" 200 -390 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G08DCKR/296-11602-1-ND/385741" 400 -190 60 H I C CNN "PurchasingLink"
 DRAW
 A 0 0 150 -899 899 1 1 0 N 0 -150 0 150
 P 4 0 1 0 0 150 -100 150 -100 -150 0 -150 N
@@ -3347,15 +3328,15 @@ X VCC 5 0 350 200 D 50 28 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SN74LVC1G123DCTR
+# SN74LVC1G123
 #
-DEF SN74LVC1G123DCTR U 0 40 Y Y 1 F N
+DEF SN74LVC1G123 U 0 40 Y Y 1 F N
 F0 "U" -250 200 60 H V C CNN
-F1 "SN74LVC1G123DCTR" 0 -300 60 H V C CNN
+F1 "SN74LVC1G123" 0 -300 60 H V C CNN
 F2 "" 0 150 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g123.pdf" 0 150 60 H I C CNN
-F4 "296-18758-1-ND" -150 300 60 H I C CNN "MPN"
-F5 "DK" -50 400 60 H I C CNN "MFN"
+F4 "DK" -50 400 60 H I C CNN "MFN"
+F5 "296-18758-1-ND" -150 300 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G123DCTR/296-18758-1-ND/863888" 50 500 60 H I C CNN "PurchasingLink"
 DRAW
 S -300 150 300 -250 0 1 0 f
@@ -3376,7 +3357,10 @@ DEF SN74LVC1G17 U 0 40 Y Y 1 F N
 F0 "U" 400 100 60 H V C CNN
 F1 "SN74LVC1G17" 650 -400 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf" 0 0 60 H I C CNN
+F4 "DK" -50 400 60 H I C CNN "MFN"
+F5 "296-11933-1-ND" -150 300 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G17DBVR/296-11933-1-ND/389050" 50 500 60 H I C CNN "PurchasingLink"
 DRAW
 S 850 50 350 -350 0 1 0 f
 X N.C. 1 1050 -50 200 L 50 50 1 1 O
@@ -3394,8 +3378,8 @@ F0 "D" 0 100 50 H V C CNN
 F1 "SS110LW" 0 -100 50 H V C CNN
 F2 "footprints:D_SOD-123W_OEM" -100 0 50 H I C CNN
 F3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" 0 100 50 H I C CNN
-F4 "SS110LWRVGCT-ND" 100 200 60 H I C CNN "MPN"
-F5 "DK" 200 300 60 H I C CNN "MFN"
+F4 "DK" 200 300 60 H I C CNN "MFN"
+F5 "SS110LWRVGCT-ND" 100 200 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" 300 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  TO-???*
@@ -3420,10 +3404,9 @@ F0 "Q" 200 75 50 H V L CNN
 F1 "SSM3K333R" 200 0 50 H V L CNN
 F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
 F3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" 200 75 50 H I L CNN
-F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "PurchasingLink"
+F4 "DK" 500 375 60 H I C CNN "MFN"
 F5 "SSM3K333RLFCT-ND" 400 275 60 H I C CNN "MPN"
-F6 "DK" 500 375 60 H I C CNN "MFN"
-F7 "SOT-23-3 Flat Leads" 600 475 60 H I C CNN "Package"
+F6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -3458,8 +3441,8 @@ F0 "U" 250 2650 50 H V C CNN
 F1 "STM32F439BI" -150 2650 50 H V C CNN
 F2 "footprints:LQFP-208_28x28mm_P0.5mm" -4800 2000 50 H I C CNN
 F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/fd/8c/0a/19/13/8f/41/99/DM00077036.pdf/files/DM00077036.pdf/jcr:content/translations/en.DM00077036.pdf" -4800 2000 50 H I C CNN
-F4 "497-17468-ND" 350 2750 50 H I C CNN "MPN"
-F5 "DK" 450 2850 50 H I C CNN "MFN"
+F4 "DK" 450 2850 50 H I C CNN "MFN"
+F5 "497-17468-ND" 350 2750 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F439BIT6/497-17468-ND/5268309" 550 2950 50 H I C CNN "PurchasingLink"
 DRAW
 S -400 2600 350 100 1 1 0 f
@@ -3683,8 +3666,8 @@ F0 "U" -200 195 50 H V L CNN
 F1 "TLP175A_OEM" -200 -200 50 H V L CNN
 F2 "footprints:MFSOP6-4_4.4x3.6mm_Pitch1.27mm_OEM" 0 -300 50 H I C CIN
 F3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A" -50 0 50 H I L CNN
-F4 "TLP175A(TPLECT-ND" -100 295 60 H I C CNN "MPN"
-F5 "DK" 0 395 60 H I C CNN "MFN"
+F4 "DK" 0 395 60 H I C CNN "MFN"
+F5 "TLP175A(TPLECT-ND" -100 295 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TLP175A-TPLE/TLP175A-TPLECT-ND/4562904" 100 495 60 H I C CNN "PurchasingLink"
 $FPLIST
  MFSOP6*4.4x3.6mm*Pitch1.27mm*
@@ -3738,8 +3721,8 @@ F0 "U" 50 200 50 H V C CNN
 F1 "TLV3701QDBVRG4Q1" 150 -200 50 H V C CNN
 F2 "footprints:SOT-23-5_OEM" 0 100 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" 0 200 50 H I C CNN
-F4 "497-10249-1-ND" 250 400 60 H I C CNN "MPN"
-F5 "DK" 350 500 60 H I C CNN "MFN"
+F4 "DK" 350 500 60 H I C CNN "MFN"
+F5 "497-10249-1-ND" 250 400 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000" 150 300 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
@@ -3764,29 +3747,7 @@ F2 "footprints:SOT-23-6_OEM" -300 250 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" -200 350 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "TPS561201" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" 200 750 60 H I C CNN "PurchasingLink"
-$FPLIST
- SOT-23-6*
-$ENDFPLIST
-DRAW
-S -250 300 250 -250 0 1 0 f
-X GND 1 0 -450 200 U 50 50 1 1 P
-X SW 2 450 100 200 L 50 50 1 1 P
-X VIN 3 -450 200 200 R 50 50 1 1 P
-X VFB 4 450 -100 200 L 50 50 1 1 I
-X EN 5 -450 -100 200 R 50 50 1 1 I
-X VBST 6 450 200 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# TPS562201
-#
-DEF TPS562201 U 0 40 Y Y 1 F N
-F0 "U" -200 350 60 H V C CNN
-F1 "TPS562201" 0 -300 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
+F6 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" 200 750 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT-23-6*
 $ENDFPLIST
@@ -3808,8 +3769,8 @@ F0 "U" 50 200 50 H V C CNN
 F1 "TS507IYLT" 150 -200 50 H V C CNN
 F2 "footprints:SOT-23-5_OEM" 0 100 50 H I C CNN
 F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/de/20/f2/58/ee/d8/43/5b/CD00045727.pdf/files/CD00045727.pdf/jcr:content/translations/en.CD00045727.pdf" 0 200 50 H I C CNN
-F4 "497-10249-1-ND" 250 400 60 H I C CNN "MPN"
-F5 "DK" 350 500 60 H I C CNN "MFN"
+F4 "DK" 350 500 60 H I C CNN "MFN"
+F5 "497-10249-1-ND" 250 400 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TS507IYLT/497-10249-1-ND/2193326" 150 300 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
@@ -3832,8 +3793,8 @@ F0 "U" 50 200 50 H V C CNN
 F1 "TSX631AIYLT" 150 -200 50 H V C CNN
 F2 "footprints:SOT-23-5_OEM" 0 100 50 H I C CNN
 F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b5/7c/ad/c8/37/4f/4b/78/DM00078052.pdf/files/DM00078052.pdf/jcr:content/translations/en.DM00078052.pdf" 0 200 50 H I C CNN
-F4 "497-14409-1-ND" 250 400 60 H I C CNN "MPN"
-F5 "DK" 350 500 60 H I C CNN "MFN"
+F4 "DK" 350 500 60 H I C CNN "MFN"
+F5 "497-14409-1-ND" 250 400 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TSX631AIYLT/497-14409-1-ND/4725867" 150 300 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
@@ -3855,7 +3816,10 @@ DEF T_LAN_7490100111A T 0 40 Y Y 1 F N
 F0 "T" 500 1050 60 H V C CNN
 F1 "T_LAN_7490100111A" 950 -400 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
+F3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" 0 0 60 H I C CNN
+F4 "DK" 350 500 60 H I C CNN "MFN"
+F5 "732-5711-1-ND" 250 400 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" 150 300 60 H I C CNN "PurchasingLink"
 DRAW
 A 550 -125 25 -899 899 0 1 0 N 550 -150 550 -100
 A 550 -125 25 -899 899 0 1 0 N 550 -150 550 -100
@@ -4009,17 +3973,16 @@ X ~ 9 1500 -150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Ultrafit_2
+# UF_2_VT
 #
-DEF Ultrafit_2 J 0 40 Y Y 1 F N
+DEF UF_2_VT J 0 40 Y Y 1 F N
 F0 "J" 0 150 60 H V C CNN
-F1 "Ultrafit_2" 100 -200 60 H V C CNN
+F1 "UF_2_VT" 100 -200 60 H V C CNN
 F2 "footprints:Ultrafit_2" -100 50 60 H I C CNN
 F3 "" 0 150 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 100 250 60 H I C CNN "PurchasingLink"
-F5 "DK" 200 350 60 H I C CNN "MFN"
-F6 "WM11570-ND" 300 450 60 H I C CNN "MPN"
-F7 "Value" 400 550 60 H I C CNN "Package"
+F4 "DK" 200 350 60 H I C CNN "MFN"
+F5 "WM11570-ND" 300 450 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 100 250 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 0 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -4027,17 +3990,16 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Ultrafit_2_ra
+# UF_2_RA
 #
-DEF Ultrafit_2_ra J 0 40 Y Y 1 F N
+DEF UF_2_RA J 0 40 Y Y 1 F N
 F0 "J" 0 150 60 H V C CNN
-F1 "Ultrafit_2_ra" 100 -200 60 H V C CNN
+F1 "UF_2_RA" 100 -200 60 H V C CNN
 F2 "footprints:Ultrafit_2_RA" -100 50 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1723101302_sd.pdf" 0 150 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" 100 250 60 H I C CNN "PurchasingLink"
-F5 "DK" 200 350 60 H I C CNN "MFN"
-F6 "WM11825-ND " 300 450 60 H I C CNN "MPN"
-F7 "Value" 400 550 60 H I C CNN "Package"
+F4 "DK" 200 350 60 H I C CNN "MFN"
+F5 "WM11825-ND " 300 450 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" 100 250 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 0 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -4045,19 +4007,16 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Ultrafit_4
+# UF_4_VT
 #
-DEF Ultrafit_4 J 0 40 Y N 1 F N
+DEF UF_4_VT J 0 40 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
-F1 "Ultrafit_4" 0 -200 60 H V C CNN
+F1 "UF_4_VT" 0 -200 60 H V C CNN
 F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
 F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "Value" 0 0 60 H I C CNN "Package"
-F6 "WM11574-ND" 0 0 60 H I C CNN "MPN"
-F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
-F8 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
-F9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" 600 950 60 H I C CNN "PurchasingLink2"
+F5 "WM11574-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 250 -150 -150 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
@@ -4067,17 +4026,16 @@ X 4 4 350 -100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ultrafit_5
+# UF_5_VT
 #
-DEF Ultrafit_5 J 0 40 Y N 1 F N
+DEF UF_5_VT J 0 40 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
-F1 "Ultrafit_5" 0 -350 60 H V C CNN
-F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
+F1 "UF_5_VT" 0 -350 60 H V C CNN
+F2 "" -100 250 60 H I C CNN
 F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "Value" 0 0 60 H I C CNN "Package"
-F6 "WM11667-ND" 0 0 60 H I C CNN "MPN"
-F7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
+F5 "WM11667-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 250 -150 -250 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
