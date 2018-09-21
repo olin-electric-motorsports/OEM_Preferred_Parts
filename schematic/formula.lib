@@ -2575,10 +2575,9 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_0" -100 0 50 V V C CNN
 F2 "footprints:R_0603_1608Metric" -70 0 50 H I C CNN
 F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" 80 0 50 H I C CNN
-F4 "P0.0GCT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" 480 400 60 H I C CNN "PurchasingLink"
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P0.0GCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2590,17 +2589,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_0_Jumper
+# R_0_2512
 #
-DEF R_0_Jumper R 0 0 N Y 1 F N
+DEF R_0_2512 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_0_Jumper" -100 0 50 V V C CNN
+F1 "R_0_2512" -100 0 50 V V C CNN
 F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 80 0 50 H I C CNN
-F4 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2612,17 +2610,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_1.07k
+# R_1.07K
 #
-DEF R_1.07k R 0 0 N Y 1 F N
+DEF R_1.07K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1.07k" -100 0 50 V V C CNN
+F1 "R_1.07K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P1.07KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1071V/P1.07KDACT-ND/3074919" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1071V/P1.07KDACT-ND/3074919" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2634,17 +2631,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_1.13k
+# R_1.13K
 #
-DEF R_1.13k R 0 0 N Y 1 F N
+DEF R_1.13K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1.13k" -100 0 50 V V C CNN
+F1 "R_1.13K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P1.13KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1131V/P1.13KDACT-ND/3074923" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1131V/P1.13KDACT-ND/3074923" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2656,11 +2652,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_1.43k
+# R_1.43K
 #
-DEF R_1.43k R 0 0 N Y 1 F N
+DEF R_1.43K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1.43k" -100 0 50 V V C CNN
+F1 "R_1.43K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 300 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/RN73_Series_2011.pdf" 50 -300 50 H I C CNN
 F4 "DK" 0 -500 60 H I C CNN "MFN"
@@ -2686,8 +2682,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT1M82CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2708,8 +2703,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RNCP0805FTD100RCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2721,17 +2715,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_100k
+# R_100K
 #
-DEF R_100k R 0 0 N Y 1 F N
+DEF R_100K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_100k" -100 0 50 V V C CNN
+F1 "R_100K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
-F4 "311-100KCRCT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=311-100KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P100KCCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2743,17 +2736,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_10k
+# R_10K
 #
-DEF R_10k R 0 0 N Y 1 F N
+DEF R_10K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_10k" -100 0 50 V V C CNN
+F1 "R_10K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
-F4 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2765,17 +2757,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_10k_HV
+# R_10K_HV
 #
 DEF R_10k_HV R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R_10k_HV" -100 0 50 V V C CNN
 F2 "footprints:R_1K_HV" -70 0 50 H I C CNN
 F3 "http://www.vishay.com/docs/28731/pacserie.pdf" 80 0 50 H I C CNN
-F4 "PPC5D10.0KCT-ND " 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "PPC5D10.0KCT-ND " 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2787,17 +2778,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_120k
+# R_120K
 #
-DEF R_120k R 0 0 N Y 1 F N
+DEF R_120K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_120k" -100 0 50 V V C CNN
+F1 "R_120K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT120KCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2809,11 +2799,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_178k
+# R_178K
 #
-DEF R_178k R 0 0 N Y 1 F N
+DEF R_178K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_178k" -100 0 50 V V C CNN
+F1 "R_178K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" 500 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 300 0 50 V I C CNN
 F4 "DK" 180 100 60 V I C CNN "MFN"
@@ -2822,6 +2812,50 @@ F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ER
 $FPLIST
  R_*
  R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1K
+#
+DEF R_1K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1K_HS
+#
+DEF R_1K_HS R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1K_HS" -100 0 50 V V C CNN
+F2 "footprints:R_1k_HS_TO247" -70 0 50 H I C CNN
+F3 "https://riedon.com/media/pdf/PF2470.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "696-1105-5-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=696-1105-5-ND" 480 400 60 H I C CNN "PurchasingLink"
+F7 "345-1223-ND" 580 500 60 V I C CNN "MPN2"
+F8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1223-ND/3945700" 680 600 60 V I C CNN "PurchasingLink2"
+$FPLIST
+ R_*
+ Resistor_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -2839,8 +2873,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805JT1M00CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2852,63 +2885,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_1k
+# R_2.2K
 #
-DEF R_1k R 0 0 N Y 1 F N
+DEF R_2.2K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_1k_HS
-#
-DEF R_1k_HS R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R_1k_HS" -100 0 50 V V C CNN
-F2 "footprints:R_1k_HS_TO247" -70 0 50 H I C CNN
-F3 "https://riedon.com/media/pdf/PF2470.pdf" 80 0 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "696-1105-5-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=696-1105-5-ND" 480 400 60 H I C CNN "PurchasingLink"
-F8 "RA-T2X-25E-ND" 580 500 60 V I C CNN "MPN2"
-F9 "https://www.digikey.com/products/en?keywords=RA-T2X-25E-ND" 680 600 60 V I C CNN "PurchasingLink2"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_2.2k
-#
-DEF R_2.2k R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R_2.2k" -100 0 50 V V C CNN
+F1 "R_2.2K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
-F4 "RMCF0805FT2K20CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" 480 400 60 H I C CNN "PurchasingLink"
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT2K20CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2929,8 +2915,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "541-2.94MCCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2951,8 +2936,28 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805JT200RCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_22K
+#
+DEF R_22K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_22K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805JT22K0CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2970,11 +2975,10 @@ DEF R_22M R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R_22M" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
-F4 "RMCF0805JT22M0CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT22M0/RMCF0805JT22M0CT-ND/1942605" 480 400 60 H I C CNN "PurchasingLink"
+F3 "https://www.seielect.com/catalog/SEI-HVC.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "HVCB0805JDE22M0CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=resistor&k=&pkeyword=resistor&pv7=2&pv2085=u22+MOhms&pv2=1854&pv2=819&pv2=799&pv2=2297&pv2=1169&pv2=246&pv2=982&pv2=1&pv2=984&pv2=1727&pv2=2&pv2=1452&pv2=3&pv2=38&pv2=1766&pv2=814&pv2=556&pv2=1448&pv2=4&pv16=6&sf=1&FV=ffe00034&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -2986,33 +2990,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_22k
+# R_270K
 #
-DEF R_22k R 0 0 N Y 1 F N
+DEF R_270K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_22k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
-F4 "RMCF0805JT22K0CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_270k
-#
-DEF R_270k R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R_270k" -100 0 50 V V C CNN
+F1 "R_270K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 100 50 V I C CNN
 F4 "DK" 180 100 60 V I C CNN "MFN"
@@ -3029,17 +3011,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_3.01k
+# R_3.01K
 #
-DEF R_3.01k R 0 0 N Y 1 F N
+DEF R_3.01K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_3.01k" -100 0 50 V V C CNN
+F1 "R_3.01K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
-F4 "311-3.01KCRCT-ND" 0 0 60 H I C CNN "MPN"
-F5 "DK" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "311-3.01KCRCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -3051,34 +3032,15 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_30.1k
+# R_300K
 #
-DEF R_30.1k R 0 0 N Y 1 F N
+DEF R_300K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_30.1k" -100 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_300k
-#
-DEF R_300k R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R_300k" -100 0 50 V V C CNN
+F1 "R_300K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P300KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
 F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
