@@ -954,10 +954,10 @@ DEF Crystal_SMD Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
 F1 "Crystal_SMD" 50 100 50 H V L CNN
 F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
-F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" 50 175 50 H I C CNN
+F3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" 50 175 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "SER3686CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" 450 575 60 H I C CNN "PurchasingLink"
+F5 "887-1125-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014" 450 575 60 H I C CNN "PurchasingLink"
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -4016,6 +4016,35 @@ X V- 2 -100 -300 150 U 50 50 1 1 I
 X - 3 -300 -100 100 R 50 50 1 1 I
 X ~ 4 300 0 100 L 50 50 1 1 O
 X V+ 5 -100 300 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TXB0104
+#
+DEF TXB0104 U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "TXB0104" 0 0 50 H V C CNN
+F2 "" -100 -100 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" 0 0 50 H I C CNN
+F4 "DK" 100 100 50 H I C CNN "MFN"
+F5 "296-21929-1-ND" 200 200 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282" 300 300 50 H I C CNN "PurchasingLink"
+DRAW
+S -200 -100 300 -800 0 1 0 f
+X VCCA 1 -400 -150 200 R 50 50 1 1 W
+X B4 10 500 -550 200 L 50 50 1 1 B
+X B3 11 500 -450 200 L 50 50 1 1 B
+X B2 12 500 -350 200 L 50 50 1 1 B
+X B1 13 500 -250 200 L 50 50 1 1 B
+X VCCB 14 500 -150 200 L 50 50 1 1 W
+X A1 2 -400 -250 200 R 50 50 1 1 B
+X A2 3 -400 -350 200 R 50 50 1 1 B
+X A3 4 -400 -450 200 R 50 50 1 1 B
+X A4 5 -400 -550 200 R 50 50 1 1 B
+X NC 6 -400 -650 200 R 50 50 1 1 N
+X GND 7 -400 -750 200 R 50 50 1 1 W
+X OE 8 500 -750 200 L 50 50 1 1 I
+X NC 9 500 -650 200 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
