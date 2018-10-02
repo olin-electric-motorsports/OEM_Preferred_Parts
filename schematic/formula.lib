@@ -931,7 +931,7 @@ F0 "Y" 50 175 50 H V L CNN
 F1 "Crystal_8MHz" 50 100 50 H V L CNN
 F2 "footprints:ABM3-8_5.0x3.2mm_P3.7mm" -50 75 50 H I C CNN
 F3 "https://abracon.com/Resonators/abm3.pdf" 50 175 50 H I C CNN
-F4 "Digi-Key" -50 200 60 H I C CNN "MFN"
+F4 "DK" -50 200 60 H I C CNN "MFN"
 F5 "535-10630-1-ND" 0 250 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632" 450 575 60 H I C CNN "PurchasingLink"
 $FPLIST
@@ -954,10 +954,10 @@ DEF Crystal_SMD Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
 F1 "Crystal_SMD" 50 100 50 H V L CNN
 F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
-F3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" 50 175 50 H I C CNN
+F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" 50 175 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "887-1125-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014" 450 575 60 H I C CNN "PurchasingLink"
+F5 "SER3686CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" 450 575 60 H I C CNN "PurchasingLink"
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -3716,7 +3716,7 @@ F1 "STM32F439ZIT6" -150 2650 50 H V C CNN
 F2 "footprints:LQFP-144_20x20mm_P0.5mm" -4800 2000 50 H I C CNN
 F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/fd/8c/0a/19/13/8f/41/99/DM00077036.pdf/files/DM00077036.pdf/jcr:content/translations/en.DM00077036.pdf" -4400 2000 50 H I C CNN
 F4 "497-17471-ND" 350 2750 50 H I C CNN "MPN"
-F5 "Digi-Key" 450 2850 50 H I C CNN "MFN"
+F5 "DK" 450 2850 50 H I C CNN "MFN"
 F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F439ZIT6/497-17471-ND/4357329" 550 2950 50 H I C CNN "PurchasingLink"
 DRAW
 S -450 2550 350 500 1 1 0 f
