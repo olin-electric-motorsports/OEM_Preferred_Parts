@@ -479,7 +479,7 @@ ENDDEF
 DEF Barrel_jack J 0 0 Y N 1 F N
 F0 "J" 0 0 50 H V C CNN
 F1 "Barrel_jack" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "footprints:barrel_jack_PJ-037A" -100 -100 50 H I C CNN
 F3 "https://www.cui.com/product/resource/pj-037a.pdf" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
 F5 "CP-037A-ND" 200 200 50 H I C CNN "MPN"
@@ -531,11 +531,11 @@ ENDDEF
 DEF CONN_01X03 J 0 1 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
 F1 "CONN_01X03" 0 -200 50 H V C CNN
-F2 "" 0 -1200 50 H I C CNN
-F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1933192.pdf" 0 -1200 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "277-1646-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/phoenix-contact/1933192/277-1646-ND/568683" 400 600 60 H I C CNN "PurchasingLink"
+F2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" 0 -1200 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/181/M20-999-1218971.pdf" 0 -1200 50 H I C CNN
+F4 "Mouser" 0 0 60 H I C CNN "MFN"
+F5 "855-M20-9990346" 0 0 60 H I C CNN "MPN"
+F6 "https://www.mouser.com/ProductDetail/Harwin/M20-9990346?qs=sGAEpiMZZMs%252bGHln7q6pmzlZUuX%2f53qj1ROyRKct5o4%3d" 400 600 60 H I C CNN "PurchasingLink"
 $FPLIST
  Pin_Header_Straight_2X03
  Pin_Header_Angled_2X03
@@ -3384,7 +3384,7 @@ ENDDEF
 DEF SD_socket J 0 40 Y Y 1 F N
 F0 "J" 0 0 50 H V C CNN
 F1 "SD_socket" 0 0 50 H V C CNN
-F2 "" -100 -100 50 H I C CNN
+F2 "footprints:sd_socket_molex_5009980900" -100 -100 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/5009980900_sd.pdf" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
 F5 "WM24032CT-ND" 200 200 50 H I C CNN "MPN"
@@ -4027,7 +4027,7 @@ ENDDEF
 DEF TP TP 0 0 N N 1 F N
 F0 "TP" 0 0 50 H V C CNN
 F1 "TP" 0 0 50 H V C CNN
-F2 "" -100 -100 50 H I C CNN
+F2 "footprints:tp_1.6mm" -100 -100 50 H I C CNN
 F3 "http://www.keyelco.com/product-pdf.cfm?p=1314" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
 F5 "36-5006-ND" 200 200 50 H I C CNN "MPN"
@@ -4115,7 +4115,7 @@ ENDDEF
 DEF TXB0104 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
 F1 "TXB0104" 0 0 50 H V C CNN
-F2 "" -100 -100 50 H I C CNN
+F2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" -100 -100 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
 F5 "296-21929-1-ND" 200 200 50 H I C CNN "MPN"
