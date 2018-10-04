@@ -1,5 +1,5 @@
-(module barrel_jack_PJ-037A (layer F.Cu) (tedit 5BB5850E)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+(module barrel_jack_PJ-037A (layer F.Cu) (tedit 5BB59384)
+  (fp_text reference REF** (at -1.27 6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value barrel_jack_PJ-037A (at 0 -0.5) (layer F.Fab)
