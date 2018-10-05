@@ -56,8 +56,16 @@ $CMP BSS308PE
 D MOSFET, P-channel, 30V, 2A
 $ENDCMP
 #
+$CMP Barrel_jack
+D Barrel jack, 2.1x5.5mm, right angle, through hole
+$ENDCMP
+#
 $CMP CD4043BPWR
 D Quad NOR R/S latch
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector header through hole 1x3 0.100" (2.54mm)
 $ENDCMP
 #
 $CMP CONN_02X03
@@ -523,6 +531,10 @@ $CMP R_Strain_Gauge
 D Strain gauge, 2-element 90° biaxial tee rosette
 $ENDCMP
 #
+$CMP SD_socket
+D SD card socket with detect switch
+$ENDCMP
+#
 $CMP SN74LVC1G02
 D Single channel positive logic NOR gate
 $ENDCMP
@@ -563,6 +575,10 @@ $CMP TLV3701QDBVRG4Q1
 D Comparator general purpose, rail-to-rail
 $ENDCMP
 #
+$CMP TP
+D Test point, loop style, 1.6mm mounting hole
+$ENDCMP
+#
 $CMP TPS561201
 D Buck converter, 4.5-17V input, adj 0.76-7V output, 1A, 580kHz
 $ENDCMP
@@ -573,6 +589,10 @@ $ENDCMP
 #
 $CMP TSX631AIYLT
 D Op-amp, general purpose
+$ENDCMP
+#
+$CMP TXB0104
+D Voltage level translator, 4-channel, bidirectional, TSSOP-14
 $ENDCMP
 #
 $CMP T_LAN_7490100111A
