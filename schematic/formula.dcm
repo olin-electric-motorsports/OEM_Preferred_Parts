@@ -124,6 +124,14 @@ $CMP C_47uF
 D Capacitor, 47uF, 6.3V, 20%, 0805
 $ENDCMP
 #
+$CMP C_9pF
+D CAP CER 9PF 50V C0G/NP0 0603
+$ENDCMP
+#
+$CMP Crystal_32kHz768
+D CRYSTAL 32.7680KHZ 9PF SMD
+$ENDCMP
+#
 $CMP Crystal_8MHz
 D CRYSTAL 8.0000MHZ 18PF SMD
 $ENDCMP
@@ -367,6 +375,14 @@ $CMP NanoFit_2
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
 #
+$CMP RJ45_RA
+D RJ45 ethernet connector right angle
+$ENDCMP
+#
+$CMP RJ45_VT
+D RJ45 ethernet connector vertical
+$ENDCMP
+#
 $CMP R_0
 D Resistor, 0 ohm jumper, 0.1W, 0603
 $ENDCMP
@@ -419,175 +435,167 @@ $CMP R_1K
 D Resistor, 1K, 0.25W, 1%, 0805
 $ENDCMP
 #
-$CMP R_1K_HS	
-D Resistor, 1K, 100W with heat sink, 1%, TO-247-2	
-$ENDCMP	
-#	
-$CMP R_1M	
-D Resistor, 1M, 0.125W, 5%, 0805	
-$ENDCMP	
-#	
-$CMP R_2.2K	
-D Resistor, 2.2K, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_2.94M	
-D Resistor, 2.94M, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_200	
-D Resistor, 200, 0.125W, 5%, 0805	
-$ENDCMP	
-#	
-$CMP R_22K	
-D Resistor, 22K, 0.125W, 5%, 0805	
-$ENDCMP	
-#	
-$CMP R_22M	
-D Resistor, 22M, 0.2W, 5%, 0805	
-$ENDCMP	
-#	
-$CMP R_270K	
-D Resistor, 270K, 0.125W, 0.1%, 0805	
-$ENDCMP	
-#	
-$CMP R_3.01K	
-D Resistor, 3.01K, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_300K	
-D Resistor, 300K, 0.125W, 0.1%, 0805	
-$ENDCMP	
-#	
-$CMP R_330	
-D Resistor, 330, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_3K	
-D Resistor, 3K, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_3K_HS	
-D Resistor, 3K, 100W with heat sink, 5%, TO-247-2	
-$ENDCMP	
-#	
-$CMP R_4.7K	
-D Resistor, 4.7K, 0.125W, 5%, 0805	
-$ENDCMP	
-#	
-$CMP R_402K	
-D Resistor, 402K, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_475	
-D Resistor, 475, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_499	
-D Resistor, 499, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_51.1K	
-D Resistor, 51.1K, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_576K	
-D Resistor, 576K, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_6.2K	
-D Resistor, 6.2K, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_604K	
-D Resistor, 604K, 0.125W, 1%, 0805	
-$ENDCMP	
-#	
-$CMP R_Strain_Gauge	
-D Strain gauge, 2-element 90° biaxial tee rosette	
-$ENDCMP	
-#	
-$CMP RJ45_RA	
-D RJ45 ethernet connector right angle	
-$ENDCMP	
-#	
-$CMP RJ45_VT	
-D RJ45 ethernet connector vertical	
-$ENDCMP	
-#	
-$CMP SN74LVC1G02	
-D Single channel positive logic NOR gate	
-$ENDCMP	
-#	
-$CMP SN74LVC1G08	
-D Single channel positive logic AND gate	
-$ENDCMP	
-#	
-$CMP SN74LVC1G123	
-D Single monostable multivibrator	
-$ENDCMP	
-#	
-$CMP SN74LVC1G17	
-D Single schmitt-trigger buffer	
-$ENDCMP	
-#	
-$CMP SS110LW	
-D DIODE SCHOTTKY 100V 1A SOD123W	
-$ENDCMP	
-#	
-$CMP SSM3K333R	
-D MOSFET, N-channel, 30V, 6A	
-$ENDCMP	
-#	
-$CMP STM32F439BI	
-D Microcontroller, 32-bit, 256KB RAM, 2MB Flash	
-$ENDCMP	
-# 
+$CMP R_1K_HS
+D Resistor, 1K, 100W with heat sink, 1%, TO-247-2
+$ENDCMP
+#
+$CMP R_1M
+D Resistor, 1M, 0.125W, 5%, 0805
+$ENDCMP
+#
+$CMP R_2.2K
+D Resistor, 2.2K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_2.94M
+D Resistor, 2.94M, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_200
+D Resistor, 200, 0.125W, 5%, 0805
+$ENDCMP
+#
+$CMP R_22K
+D Resistor, 22K, 0.125W, 5%, 0805
+$ENDCMP
+#
+$CMP R_22M
+D Resistor, 22M, 0.2W, 5%, 0805
+$ENDCMP
+#
+$CMP R_270K
+D Resistor, 270K, 0.125W, 0.1%, 0805
+$ENDCMP
+#
+$CMP R_3.01K
+D Resistor, 3.01K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_300K
+D Resistor, 300K, 0.125W, 0.1%, 0805
+$ENDCMP
+#
+$CMP R_330
+D Resistor, 330, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_3K
+D Resistor, 3K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_3K_HS
+D Resistor, 3K, 100W with heat sink, 5%, TO-247-2
+$ENDCMP
+#
+$CMP R_4.7K
+D Resistor, 4.7K, 0.125W, 5%, 0805
+$ENDCMP
+#
+$CMP R_402K
+D Resistor, 402K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_475
+D Resistor, 475, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_499
+D Resistor, 499, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_51.1K
+D Resistor, 51.1K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_576K
+D Resistor, 576K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_6.2K
+D Resistor, 6.2K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_604K
+D Resistor, 604K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_Strain_Gauge
+D Strain gauge, 2-element 90° biaxial tee rosette
+$ENDCMP
+#
+$CMP SN74LVC1G02
+D Single channel positive logic NOR gate
+$ENDCMP
+#
+$CMP SN74LVC1G08
+D Single channel positive logic AND gate
+$ENDCMP
+#
+$CMP SN74LVC1G123
+D Single monostable multivibrator
+$ENDCMP
+#
+$CMP SN74LVC1G17
+D Single schmitt-trigger buffer
+$ENDCMP
+#
+$CMP SS110LW
+D DIODE SCHOTTKY 100V 1A SOD123W
+$ENDCMP
+#
+$CMP SSM3K333R
+D MOSFET, N-channel, 30V, 6A
+$ENDCMP
+#
+$CMP STM32F439BI
+D Microcontroller, 32-bit, 256KB RAM, 2MB Flash
+$ENDCMP
+#
 $CMP STM32F439ZIT6
 D IC MCU 32BIT 2MB FLASH 144LQFP
 $ENDCMP
-# 
-$CMP TLP175A_OEM	
-D Solid State Relay SPST-NO	
-$ENDCMP	
-#	
-$CMP TLV3701QDBVRG4Q1	
-D Comparator general purpose, rail-to-rail	
-$ENDCMP	
-#	
-$CMP TPS561201	
-D Buck converter, 4.5-17V input, adj 0.76-7V output, 1A, 580kHz	
-$ENDCMP	
-#	
-$CMP TS507IYLT	
-D Op-amp, general purpose	
-$ENDCMP	
-#	
-$CMP TSX631AIYLT	
-D Op-amp, general purpose	
-$ENDCMP	
-#	
-$CMP T_LAN_7490100111A	
-D Transformer LAN 10/100 base-T	
-$ENDCMP	
-#	
-$CMP UF_2_VT	
-D Ultra-Fit connector 2 pin vertical	
-$ENDCMP	
-#	
-$CMP UF_2_RA	
-D Ultra-Fit connector 2 pin right angle	
-$ENDCMP	
-#	
-$CMP UF_4_VT	
-D Ultra-Fit connector 4 pin vertical	
-$ENDCMP	
-#	
-$CMP UF_5_VT	
-D Ultra-Fit connector 5 pin vertical	
-$ENDCMP	
-#	
-$CMP ZXRE160	
+#
+$CMP TLP175A_OEM
+D Solid State Relay SPST-NO
+$ENDCMP
+#
+$CMP TLV3701QDBVRG4Q1
+D Comparator general purpose, rail-to-rail
+$ENDCMP
+#
+$CMP TPS561201
+D Buck converter, 4.5-17V input, adj 0.76-7V output, 1A, 580kHz
+$ENDCMP
+#
+$CMP TS507IYLT
+D Op-amp, general purpose
+$ENDCMP
+#
+$CMP TSX631AIYLT
+D Op-amp, general purpose
+$ENDCMP
+#
+$CMP T_LAN_7490100111A
+D Transformer LAN 10/100 base-T
+$ENDCMP
+#
+$CMP UF_2_RA
+D Ultra-Fit connector 2 pin right angle
+$ENDCMP
+#
+$CMP UF_2_VT
+D Ultra-Fit connector 2 pin vertical
+$ENDCMP
+#
+$CMP UF_4_VT
+D Ultra-Fit connector 4 pin vertical
+$ENDCMP
+#
+$CMP UF_5_VT
+D Ultra-Fit connector 5 pin vertical
+$ENDCMP
+#
+$CMP ZXRE160
 D Adjustable shunt voltage reference, 18V max output, 15mA
 $ENDCMP
 #
