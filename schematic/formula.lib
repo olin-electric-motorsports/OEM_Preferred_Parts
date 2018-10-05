@@ -1504,7 +1504,7 @@ F1 "LM3480" 0 125 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-3-Lead_TabPin2" -50 200 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" 100 -250 50 H I C CNN
 F4 "DK" 50 325 60 H I C CNN "MFN"
-F5 "LM3480IM3-3.3 " 150 425 60 H I C CNN "MPN"
+F5 "LM3480IM3-3.3CT-ND" 150 425 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" -50 225 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?223*TabPin2*
