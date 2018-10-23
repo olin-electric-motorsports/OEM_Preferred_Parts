@@ -1,8 +1,8 @@
-(module SSOP-16_LTC1380 (layer F.Cu) (tedit 5A0E4DA9)
-  (fp_text reference REF** (at 2 -1.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+(module SSOP-16_LTC1380 (layer F.Cu) (tedit 5BCF589B)
+  (fp_text reference U4 (at -1.27 3.429 -270) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
-  (fp_text value SSOP-16_LTC1380 (at 6.5 6.5) (layer F.Fab) hide
+  (fp_text value LTC1380 (at 2.286 6.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 4) (end -0.5 3.5) (layer F.SilkS) (width 0.15))
