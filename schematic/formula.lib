@@ -782,8 +782,8 @@ ENDDEF
 #
 # C_10nF
 #
-DEF C_10nF R 0 40 Y Y 1 F N
-F0 "R" -100 100 50 H V C CNN
+DEF C_10nF C 0 40 Y Y 1 F N
+F0 "C" -100 100 50 H V C CNN
 F1 "C_10nF" 150 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" -100 100 50 H I C CNN
