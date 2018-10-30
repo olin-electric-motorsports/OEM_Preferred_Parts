@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF 200mA_Fuse F 0 40 Y Y 1 F N
 F0 "F" 0 150 50 H V C CNN
 F1 "200mA_Fuse" 0 -150 50 H V C CNN
-F2 "" -50 0 50 H I C CNN
+F2 "footprints:Fuse_1812" -50 0 50 H I C CNN
 F3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" -50 0 50 H I C CNN
 DRAW
 A -50 0 50 -1799 -1 0 1 0 N -100 0 0 0
@@ -785,7 +785,7 @@ ENDDEF
 DEF C_10nF C 0 40 Y Y 1 F N
 F0 "C" -100 100 50 H V C CNN
 F1 "C_10nF" 150 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "footprints:C_0805_OEM" -200 0 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" -100 100 50 H I C CNN
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
@@ -3435,8 +3435,8 @@ ENDDEF
 DEF R_4.99K R 0 40 Y Y 1 F N
 F0 "R" -100 50 50 H V C CNN
 F1 "R_4.99K" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "footprints:R_0805_OEM" -200 -50 50 H I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" -100 50 50 H I C CNN
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -3575,8 +3575,8 @@ ENDDEF
 DEF R_60.4 R 0 40 Y Y 1 F N
 F0 "R" -100 0 50 H V C CNN
 F1 "R_60.4" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "footprints:R_0805_OEM" -200 -100 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" -100 0 50 H I C CNN
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
