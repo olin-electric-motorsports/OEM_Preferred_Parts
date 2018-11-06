@@ -627,6 +627,10 @@ $CMP UF_5_VT
 D Ultra-Fit connector 5 pin vertical
 $ENDCMP
 #
+$CMP USB3343-CP
+D IC TXRX USB HS ENG ULPI 24VQFN
+$ENDCMP
+#
 $CMP ZXRE160
 D Adjustable shunt voltage reference, 18V max output, 15mA
 $ENDCMP
