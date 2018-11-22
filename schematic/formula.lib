@@ -556,18 +556,18 @@ X Shell 2 200 -350 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Bolt_connect
+# Bolt_connect_4-40
 #
-DEF Bolt_connect B 0 40 Y Y 1 F N
+DEF Bolt_connect_4-40 B 0 40 Y Y 1 F N
 F0 "B" 0 150 50 H V C CNN
-F1 "Bolt_connect" 0 -150 50 H V C CNN
-F2 "footprints:Bolt_connect" -100 50 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "Bolt_connect_4-40" 0 -150 50 H V C CNN
+F2 "footprints:Bolt_connect_4-40_round" -100 50 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
 DRAW
 C 0 0 50 0 1 0 N
+C 0 0 100 0 1 0 f
 C 50 50 0 0 1 0 N
-S -100 100 100 -100 0 1 0 f
-X ~ ~ -200 0 100 R 50 50 1 1 I
+X Input 1 -200 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1774,17 +1774,12 @@ F1 "LMT85-Q1" 0 300 50 H V C CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 DRAW
-T 0 -150 0 25 0 0 0 GND Normal 0 C C
-T 0 150 100 25 0 0 0 GND Normal 0 C C
-T 0 -150 -100 25 0 0 0 Out Normal 0 C C
-T 0 -150 100 25 0 0 0 Vdd Normal 0 C C
-T 0 150 -100 25 0 0 0 Vdd Normal 0 C C
 S -200 150 200 -150 0 1 0 N
-X ~ ~ -300 -100 100 R 50 50 1 1 I
-X ~ ~ -300 0 100 R 50 50 1 1 I
-X ~ ~ -300 100 100 R 50 50 1 1 I
-X ~ ~ 300 -100 100 L 50 50 1 1 I
-X ~ ~ 300 100 100 L 50 50 1 1 I
+X GND 1 300 100 100 L 50 50 1 1 I
+X Vdd 2 -300 100 100 R 50 50 1 1 I
+X GND 3 -300 0 100 R 50 50 1 1 I
+X Out 4 -300 -100 100 R 50 50 1 1 O
+X Vdd 5 300 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
