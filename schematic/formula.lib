@@ -1,6 +1,53 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 0.1in_Female_Socket_01x16
+#
+DEF 0.1in_Female_Socket_01x16 J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "0.1in_Female_Socket_01x16" 50 -900 50 H V L CNN
+F2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" -100 700 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" 0 800 50 H I C CNN
+F4 "Sullins Connector Solutions" 100 900 50 H I C CNN "MF"
+F5 "PPTC161LFBN-RC" 200 1000 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC161LFBN-RC/S7014-ND/810154" 300 1100 50 H I C CNN "PurchasingLink"
+DRAW
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 750 50 -850 1 1 10 f
+X Pin_1 1 -200 700 150 R 50 50 1 1 P
+X Pin_10 10 -200 -200 150 R 50 50 1 1 P
+X Pin_11 11 -200 -300 150 R 50 50 1 1 P
+X Pin_12 12 -200 -400 150 R 50 50 1 1 P
+X Pin_13 13 -200 -500 150 R 50 50 1 1 P
+X Pin_14 14 -200 -600 150 R 50 50 1 1 P
+X Pin_15 15 -200 -700 150 R 50 50 1 1 P
+X Pin_16 16 -200 -800 150 R 50 50 1 1 P
+X Pin_2 2 -200 600 150 R 50 50 1 1 P
+X Pin_3 3 -200 500 150 R 50 50 1 1 P
+X Pin_4 4 -200 400 150 R 50 50 1 1 P
+X Pin_5 5 -200 300 150 R 50 50 1 1 P
+X Pin_6 6 -200 200 150 R 50 50 1 1 P
+X Pin_7 7 -200 100 150 R 50 50 1 1 P
+X Pin_8 8 -200 0 150 R 50 50 1 1 P
+X Pin_9 9 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 200mA_Fuse
 #
 DEF 200mA_Fuse F 0 40 Y Y 1 F N
@@ -2948,6 +2995,30 @@ DRAW
 S 300 -100 800 -450 0 1 0 f
 X 1 1 100 -200 200 R 50 50 1 1 I
 X 2 2 100 -350 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# POT_TRIM_20k
+#
+DEF POT_TRIM_20k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "POT_TRIM_20k" -100 0 50 V V C CNN
+F2 "footprints:POT_TRIM_20k" -70 0 50 H I C CNN
+F3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/st-32.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "ST32ETA203CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/nidec-copal-electronics/ST32ETA203/ST32ETA203CT-ND/738473" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 1 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 3 1 1 0 45 0 90 20 90 -20 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
