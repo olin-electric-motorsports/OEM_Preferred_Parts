@@ -408,6 +408,10 @@ $CMP NanoFit_2
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
 #
+$CMP PMEG10010
+D DIODE SCHOTTKY 100V 1A SOD123W
+$ENDCMP
+#
 $CMP PWR163S-25-27R0F
 D RES SMD 27 OHM 1% 25W DPAK
 K power resistor, balancing, BMS
