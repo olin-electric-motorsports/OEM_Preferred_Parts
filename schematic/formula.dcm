@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0.1in_Female_Socket_01x16
+D Generic female socket strip connector, single row, 01x16
+K connector, header
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
 $ENDCMP
@@ -77,6 +83,10 @@ $CMP CONN_01X03
 D Connector header through hole 1x3 0.100" (2.54mm)
 $ENDCMP
 #
+$CMP CONN_01x04
+D CONN HEADER 4 POS 2.54
+$ENDCMP
+#
 $CMP CONN_02X03
 D Connector header through hole 2x3 0.100" (2.54mm)
 $ENDCMP
@@ -87,6 +97,10 @@ $ENDCMP
 #
 $CMP C_0.1uF
 D Capacitor, 0.1uF, 50V, 5%, 0805
+$ENDCMP
+#
+$CMP C_0.1uF_0603
+D CAP CER 0.1UF 16V X7R 0603
 $ENDCMP
 #
 $CMP C_0.33uF
@@ -408,8 +422,13 @@ $CMP NanoFit_2
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
 #
+<<<<<<< HEAD
 $CMP PMEG10010
 D DIODE SCHOTTKY 100V 1A SOD123W
+=======
+$CMP POT_TRIM_20k
+D TRIMMER 20KOHM 0.125W J LEAD TOP
+>>>>>>> 108785b4c2ef915a21cd8f633cb07b5377c51117
 $ENDCMP
 #
 $CMP PWR163S-25-27R0F
@@ -464,6 +483,10 @@ $ENDCMP
 #
 $CMP R_10K_HV
 D Resistor, 10K, 5W, 1%, Axial
+$ENDCMP
+#
+$CMP R_120
+D Resistor, 120, 0.125W, 1%, 0805
 $ENDCMP
 #
 $CMP R_120K
@@ -614,6 +637,10 @@ $CMP STM32F439ZIT6
 D IC MCU 32BIT 2MB FLASH 144LQFP
 $ENDCMP
 #
+$CMP SW_Push_SPST_NO
+D SWITCH TACTILE SPST-NO 0.05A 12V
+$ENDCMP
+#
 $CMP TLP175A_OEM
 D Solid State Relay SPST-NO
 $ENDCMP
@@ -661,6 +688,10 @@ $ENDCMP
 #
 $CMP UF_5_VT
 D Ultra-Fit connector 5 pin vertical
+$ENDCMP
+#
+$CMP USB3343-CP
+D IC TXRX USB HS ENG ULPI 24VQFN
 $ENDCMP
 #
 $CMP ZXRE160
