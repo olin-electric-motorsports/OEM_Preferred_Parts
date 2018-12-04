@@ -3910,6 +3910,23 @@ X NC 9 -350 -700 200 R 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
+# SK812
+#
+DEF SK812 U 0 40 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "SK812" 50 -150 50 H V C CNN
+F2 "footprints:SK6812" 0 550 50 H I C CNN
+F3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" -300 300 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679" -250 400 50 H I C CNN "PurchasingLink"
+DRAW
+S -200 250 300 -200 0 1 0 f
+X VSS 1 500 100 200 L 50 50 1 1 I
+X DOUT 4 500 -50 200 L 50 50 1 1 I
+X DIN ~ -400 -50 200 R 50 50 1 1 I
+X VDD ~ -400 100 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # SN74LV4052APWR
 #
 DEF SN74LV4052APWR U 0 40 Y Y 1 F N
