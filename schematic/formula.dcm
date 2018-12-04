@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0.1in_Female_Socket_01x16
+D Generic female socket strip connector, single row, 01x16
+K connector, header
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
 $ENDCMP
@@ -420,6 +426,10 @@ $CMP NanoFit_2
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
 #
+$CMP POT_TRIM_20k
+D TRIMMER 20KOHM 0.125W J LEAD TOP
+$ENDCMP
+#
 $CMP PWR163S-25-27R0F
 D RES SMD 27 OHM 1% 25W DPAK
 K power resistor, balancing, BMS
@@ -472,6 +482,10 @@ $ENDCMP
 #
 $CMP R_10K_HV
 D Resistor, 10K, 5W, 1%, Axial
+$ENDCMP
+#
+$CMP R_120
+D Resistor, 120, 0.125W, 1%, 0805
 $ENDCMP
 #
 $CMP R_120K

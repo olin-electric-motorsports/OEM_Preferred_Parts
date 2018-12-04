@@ -1,6 +1,53 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 0.1in_Female_Socket_01x16
+#
+DEF 0.1in_Female_Socket_01x16 J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "0.1in_Female_Socket_01x16" 50 -900 50 H V L CNN
+F2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" -100 700 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" 0 800 50 H I C CNN
+F4 "Sullins Connector Solutions" 100 900 50 H I C CNN "MF"
+F5 "PPTC161LFBN-RC" 200 1000 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC161LFBN-RC/S7014-ND/810154" 300 1100 50 H I C CNN "PurchasingLink"
+DRAW
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 750 50 -850 1 1 10 f
+X Pin_1 1 -200 700 150 R 50 50 1 1 P
+X Pin_10 10 -200 -200 150 R 50 50 1 1 P
+X Pin_11 11 -200 -300 150 R 50 50 1 1 P
+X Pin_12 12 -200 -400 150 R 50 50 1 1 P
+X Pin_13 13 -200 -500 150 R 50 50 1 1 P
+X Pin_14 14 -200 -600 150 R 50 50 1 1 P
+X Pin_15 15 -200 -700 150 R 50 50 1 1 P
+X Pin_16 16 -200 -800 150 R 50 50 1 1 P
+X Pin_2 2 -200 600 150 R 50 50 1 1 P
+X Pin_3 3 -200 500 150 R 50 50 1 1 P
+X Pin_4 4 -200 400 150 R 50 50 1 1 P
+X Pin_5 5 -200 300 150 R 50 50 1 1 P
+X Pin_6 6 -200 200 150 R 50 50 1 1 P
+X Pin_7 7 -200 100 150 R 50 50 1 1 P
+X Pin_8 8 -200 0 150 R 50 50 1 1 P
+X Pin_9 9 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 200mA_Fuse
 #
 DEF 200mA_Fuse F 0 40 Y Y 1 F N
@@ -1942,7 +1989,7 @@ ENDDEF
 DEF MCP6001 U 0 20 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
 F1 "MCP6001" 0 -200 50 H V L CNN
-F2 "" -100 100 50 H I C CNN
+F2 "footprints:SOT-23-5_OEM" -100 100 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
 F4 "DK" 100 300 60 H I C CNN "MFN"
 F5 "MCP6001T-I/OTCT-ND" 200 400 60 H I C CNN "MPN"
@@ -2966,6 +3013,30 @@ X 2 2 100 -350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# POT_TRIM_20k
+#
+DEF POT_TRIM_20k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "POT_TRIM_20k" -100 0 50 V V C CNN
+F2 "footprints:POT_TRIM_20k" -70 0 50 H I C CNN
+F3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/st-32.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "ST32ETA203CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/nidec-copal-electronics/ST32ETA203/ST32ETA203CT-ND/738473" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 1 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 3 1 1 0 45 0 90 20 90 -20 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # PWR163S-25-27R0F
 #
 DEF PWR163S-25-27R0F R 0 40 Y Y 1 F N
@@ -3170,10 +3241,10 @@ ENDDEF
 DEF R_100 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R_100" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F2 "footprints:R_0805_OEM" -800 150 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" -300 500 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "RNCP0805FTD100RCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "RNCP0805FTD100RCT-ND" -650 250 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
@@ -3238,6 +3309,27 @@ F3 "http://www.vishay.com/docs/28731/pacserie.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "PPC5D10.0KCT-ND " 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_120
+#
+DEF R_120 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_120" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -1200 150 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" -1200 450 50 H I L CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "667-ERJ-6ENF1200V" -1200 250 60 H I L CNN "MPN"
+F6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" -1200 350 60 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -3692,11 +3784,11 @@ ENDDEF
 DEF R_51.1K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R_51.1K" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
+F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" -1100 400 50 H I L CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "P51.1KCCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" 480 400 60 H I C CNN "PurchasingLink"
+F5 "P51.1KCCT-ND" -1100 200 60 H I L CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" -1100 500 60 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -4851,8 +4943,28 @@ X ~ 5 350 -200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# USB3343-CP
+ Ultrafit_4_RA
 #
+DEF Ultrafit_4_RA J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
+F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
+F5 "Value" -850 400 60 H I C CNN "Package"
+F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+ USB3343-CP
 DEF USB3343-CP U 0 40 Y Y 1 F N
 F0 "U" -600 950 50 H V C CNN
 F1 "USB3343-CP" 0 50 50 H V C CNN
@@ -4926,28 +5038,7 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ultrafit_4_RA
-#
-DEF Ultrafit_4_RA J 0 40 Y N 1 F N
-F0 "J" 0 300 60 H V C CNN
-F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
-F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
-F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
-F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
-F5 "Value" -850 400 60 H I C CNN "Package"
-F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
-F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
-F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
-DRAW
-S 150 250 -150 -150 0 1 0 f
-X 1 1 350 200 200 L 50 50 1 1 P
-X 2 2 350 100 200 L 50 50 1 1 P
-X 3 3 350 0 200 L 50 50 1 1 P
-X 4 4 350 -100 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# ZXRE160
+ ZXRE160
 #
 DEF ZXRE160 U 0 40 Y Y 1 F N
 F0 "U" 0 -600 60 H V C CNN
