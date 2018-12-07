@@ -524,8 +524,8 @@ ENDDEF
 DEF BMI088 U 0 40 Y Y 1 F N
 F0 "U" -700 50 50 H V C CNN
 F1 "BMI088" -600 150 50 H V C CNN
-F2 "" -100 -100 50 H I C CNN
-F3 "https://ae-bst.resource.bosch.com/media/_tech/media/product_flyer/Bosch_Sensortec_Product_flyer_BMI088.pdf" -550 650 50 H I C CNN
+F2 "footprints:bmi088" -100 -100 50 H I C CNN
+F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf" -550 650 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMI088/828-1082-1-ND/8634942" -600 800 50 H I C CNN "Purchasing Link"
 DRAW
 S -1100 200 -50 -450 0 1 0 f
@@ -600,6 +600,21 @@ P 2 0 1 0 50 -175 -150 -175 N
 P 4 0 1 0 0 -350 -25 -350 -50 -325 -75 -350 N
 X center 1 200 -200 100 L 50 50 1 1 w
 X Shell 2 200 -350 200 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Bolt_connect_4-40
+#
+DEF Bolt_connect_4-40 B 0 40 Y Y 1 F N
+F0 "B" 0 150 50 H V C CNN
+F1 "Bolt_connect_4-40" 0 -150 50 H V C CNN
+F2 "footprints:Bolt_connect_4-40_round" -100 50 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 100 0 1 0 f
+C 50 50 0 0 1 0 N
+X Input 1 -200 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1795,6 +1810,23 @@ S 200 -100 -200 100 0 1 0 f
 X VOUT 1 -400 0 200 R 50 50 1 1 O
 X GND 2 0 -300 200 U 50 50 1 1 I
 X VIN 3 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LMT85-Q1
+#
+DEF LMT85-Q1 Q 0 40 Y Y 1 F N
+F0 "Q" 0 -200 50 H V C CNN
+F1 "LMT85-Q1" 0 300 50 H V C CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+DRAW
+S -200 150 200 -150 0 1 0 N
+X GND 1 300 100 100 L 50 50 1 1 I
+X Vdd 2 -300 100 100 R 50 50 1 1 I
+X GND 3 -300 0 100 R 50 50 1 1 I
+X Out 4 -300 -100 100 R 50 50 1 1 O
+X Vdd 5 300 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -3925,6 +3957,23 @@ X NC 9 -350 -700 200 R 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
+# SK812
+#
+DEF SK812 U 0 40 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "SK812" 50 -150 50 H V C CNN
+F2 "footprints:SK6812" 0 550 50 H I C CNN
+F3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" -300 300 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679" -250 400 50 H I C CNN "PurchasingLink"
+DRAW
+S -200 250 300 -200 0 1 0 f
+X VSS 1 500 100 200 L 50 50 1 1 I
+X DOUT 4 500 -50 200 L 50 50 1 1 I
+X DIN ~ -400 -50 200 R 50 50 1 1 I
+X VDD ~ -400 100 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # SN74LV4052APWR
 #
 DEF SN74LV4052APWR U 0 40 Y Y 1 F N
@@ -4943,28 +4992,8 @@ X ~ 5 350 -200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
- Ultrafit_4_RA
+# USB3343-CP
 #
-DEF Ultrafit_4_RA J 0 40 Y N 1 F N
-F0 "J" 0 300 60 H V C CNN
-F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
-F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
-F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
-F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
-F5 "Value" -850 400 60 H I C CNN "Package"
-F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
-F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
-F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
-DRAW
-S 150 250 -150 -150 0 1 0 f
-X 1 1 350 200 200 L 50 50 1 1 P
-X 2 2 350 100 200 L 50 50 1 1 P
-X 3 3 350 0 200 L 50 50 1 1 P
-X 4 4 350 -100 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
- USB3343-CP
 DEF USB3343-CP U 0 40 Y Y 1 F N
 F0 "U" -600 950 50 H V C CNN
 F1 "USB3343-CP" 0 50 50 H V C CNN
@@ -5038,7 +5067,28 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
- ZXRE160
+# Ultrafit_4_RA
+#
+DEF Ultrafit_4_RA J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
+F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
+F5 "Value" -850 400 60 H I C CNN "Package"
+F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ZXRE160
 #
 DEF ZXRE160 U 0 40 Y Y 1 F N
 F0 "U" 0 -600 60 H V C CNN
