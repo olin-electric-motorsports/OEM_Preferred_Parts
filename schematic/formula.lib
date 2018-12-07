@@ -676,6 +676,27 @@ X P3 3 -250 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_01x02
+#
+DEF CONN_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "CONN_01x02" 0 -200 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" -100 0 50 H I C CNN
+F3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 0 100 50 H I C CNN
+F4 "DK" 100 200 50 H I C CNN "MFN"
+F5 "732-5315-ND" 200 300 50 H I C CNN "MPN"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CONN_01x04
 #
 DEF CONN_01x04 J 0 40 Y Y 1 F N
@@ -3078,9 +3099,9 @@ F2 "footprints:PWR163" -250 50 50 H I C CNN
 F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
 DRAW
 S 100 -50 -100 50 0 1 0 N
-X ~ 1 0 250 200 D 50 50 1 1 I
+X ~ 1 -300 0 200 R 50 50 1 1 I
 X ~ 2 300 0 200 L 50 50 1 1 I
-X ~ 3 -300 0 200 R 50 50 1 1 I
+X ~ EP 0 250 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -3223,6 +3244,34 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1.3_25W
+#
+DEF R_1.3_25W U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "R_1.3_25W" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# R_1.3_25W_TO163
+#
+DEF R_1.3_25W_TO163 R 0 40 Y Y 1 F N
+F0 "R" -150 150 50 H V C CNN
+F1 "R_1.3_25W_TO163" 0 -100 50 H V C CNN
+F2 "footprints:PWR163" -250 50 50 H I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
+F4 "DK" -50 250 50 H I C CNN "MFN"
+F5 "PWR163S-25-1R50F-ND" 50 350 50 H I C CNN "MPN"
+DRAW
+S 100 -50 -100 50 0 1 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+X ~ EP 0 250 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -3383,6 +3432,27 @@ F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT120KCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_13_2W_2512_0
+#
+DEF R_13_2W_2512_0 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_13_2W_2512_0" -100 0 50 V V C CNN
+F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFG"
+F5 "A115987CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/352113RFT/A115987CT-ND/4280006" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -3616,6 +3686,27 @@ F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pd
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "311-3.01KCRCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_3.6_5W_SMD
+#
+DEF R_3.6_5W_SMD R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_3.6_5W_SMD" -100 0 50 V V C CNN
+F2 "footprints:SM_5" -70 0 50 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFG"
+F5 "A131834CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SMW53R6JT/A131834CT-ND/8603964" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
