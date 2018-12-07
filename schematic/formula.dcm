@@ -277,6 +277,10 @@ $CMP MCP603
 D Op-amp, general purpose
 $ENDCMP
 #
+$CMP MHSS1105
+D Slider Switch
+$ENDCMP
+#
 $CMP MMBF170
 D MOSFET, N-channel, 60V, 500mA
 $ENDCMP
