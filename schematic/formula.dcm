@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0.1in_Female_Socket_01x16
+D Generic female socket strip connector, single row, 01x16
+K connector, header
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
+$CMP 200mA_Fuse
+D 200mA Fuse
+$ENDCMP
+#
+$CMP 24AA01
+D IC EEPROM 1K I2C 400KHZ 8DIP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf
+$ENDCMP
+#
 $CMP 3P4T_rotary_switch
 D 3 pole 4 terminal rotary switch
 $ENDCMP
@@ -68,6 +83,16 @@ $CMP CONN_01X03
 D Connector header through hole 1x3 0.100" (2.54mm)
 $ENDCMP
 #
+$CMP CONN_01x02
+D CONN HEADER 2 POS 2.54mm
+K connector, header
+F https://katalog.we-online.de/em/datasheet/6130xx11121.pdf
+$ENDCMP
+#
+$CMP CONN_01x04
+D CONN HEADER 4 POS 2.54
+$ENDCMP
+#
 $CMP CONN_02X03
 D Connector header through hole 2x3 0.100" (2.54mm)
 $ENDCMP
@@ -78,6 +103,10 @@ $ENDCMP
 #
 $CMP C_0.1uF
 D Capacitor, 0.1uF, 50V, 5%, 0805
+$ENDCMP
+#
+$CMP C_0.1uF_0603
+D CAP CER 0.1UF 16V X7R 0603
 $ENDCMP
 #
 $CMP C_0.33uF
@@ -227,6 +256,17 @@ $CMP LR8K4-G
 D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
 $ENDCMP
 #
+$CMP LTC1380
+D Single-Ended 8-Channel/ Differential 4-Channel Analog Multiplexer with SMBus Interface
+K Multiplexer, SMBus Interface
+F http://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf
+$ENDCMP
+#
+$CMP LTC6811-1
+D LTC6811-1
+F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
+$ENDCMP
+#
 $CMP L_4.7uH
 D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
@@ -241,6 +281,10 @@ $ENDCMP
 #
 $CMP MCP603
 D Op-amp, general purpose
+$ENDCMP
+#
+$CMP MHSS1105
+D Slider Switch
 $ENDCMP
 #
 $CMP MMBF170
@@ -379,8 +423,23 @@ $CMP NCP785AH150T1G
 D Linear regulator, 25-450V input, 15V output, 10mA
 $ENDCMP
 #
+$CMP NSS1C201MZ4
+D 100V, 2.0A, Low VCE NPN Transistor
+F http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF
+$ENDCMP
+#
 $CMP NanoFit_2
 D Nano-Fit connector 2 pin right angle
+$ENDCMP
+#
+$CMP POT_TRIM_20k
+D TRIMMER 20KOHM 0.125W J LEAD TOP
+$ENDCMP
+#
+$CMP PWR163S-25-27R0F
+D RES SMD 27 OHM 1% 25W DPAK
+K power resistor, balancing, BMS
+F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
 $ENDCMP
 #
 $CMP RJ45_RA
@@ -407,6 +466,12 @@ $CMP R_1.13K
 D Resistor, 1.13K, 0.125W, 0.1%, 0805
 $ENDCMP
 #
+$CMP R_1.3_25W_TO163
+D RES SMD 1.5 OHM 1% 25W DPAK
+K power resistor, balancing, BMS, Bourns, PWR163
+F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
+$ENDCMP
+#
 $CMP R_1.43K
 D Resistor, 1.43K, 0.1W, 0.1%, 0805
 $ENDCMP
@@ -431,8 +496,18 @@ $CMP R_10K_HV
 D Resistor, 10K, 5W, 1%, Axial
 $ENDCMP
 #
+$CMP R_120
+D Resistor, 120, 0.125W, 1%, 0805
+$ENDCMP
+#
 $CMP R_120K
 D Resistor, 120K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_13_2W_2512_0
+D Resistor, 13 ohm 1%, 2W, 2512
+K power resistor, resistor, chip,
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English
 $ENDCMP
 #
 $CMP R_178K
@@ -479,6 +554,12 @@ $CMP R_3.01K
 D Resistor, 3.01K, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_3.6_5W_SMD
+D Resistor, 13 ohm 1%, 2W, 2512
+K power resistor, resistor, chip,
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP R_300K
 D Resistor, 300K, 0.125W, 0.1%, 0805
 $ENDCMP
@@ -497,6 +578,12 @@ $ENDCMP
 #
 $CMP R_4.7K
 D Resistor, 4.7K, 0.125W, 5%, 0805
+$ENDCMP
+#
+$CMP R_4.99K
+D 4.99k resistor
+K resistor
+F https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568
 $ENDCMP
 #
 $CMP R_402K
@@ -521,6 +608,12 @@ $ENDCMP
 #
 $CMP R_6.2K
 D Resistor, 6.2K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_60.4
+D 60.4 resistor
+K resistor
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165
 $ENDCMP
 #
 $CMP R_604K
@@ -567,6 +660,10 @@ $CMP STM32F439ZIT6
 D IC MCU 32BIT 2MB FLASH 144LQFP
 $ENDCMP
 #
+$CMP SW_Push_SPST_NO
+D SWITCH TACTILE SPST-NO 0.05A 12V
+$ENDCMP
+#
 $CMP TLP175A_OEM
 D Solid State Relay SPST-NO
 $ENDCMP
@@ -597,6 +694,7 @@ $ENDCMP
 #
 $CMP T_LAN_7490100111A
 D Transformer LAN 10/100 base-T
+F https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381
 $ENDCMP
 #
 $CMP UF_2_RA
@@ -613,6 +711,10 @@ $ENDCMP
 #
 $CMP UF_5_VT
 D Ultra-Fit connector 5 pin vertical
+$ENDCMP
+#
+$CMP USB3343-CP
+D IC TXRX USB HS ENG ULPI 24VQFN
 $ENDCMP
 #
 $CMP ZXRE160
