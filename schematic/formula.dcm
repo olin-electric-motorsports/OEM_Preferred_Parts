@@ -6,6 +6,10 @@ K connector, header
 F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
 $ENDCMP
 #
+$CMP 1727-2394-1-ND
+D DIODE SCHOTTKY 100V 1A SOD123W
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
 $ENDCMP

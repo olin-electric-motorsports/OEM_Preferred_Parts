@@ -48,6 +48,32 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1727-2394-1-ND
+#
+DEF 1727-2394-1-ND D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "1727-2394-1-ND" 0 -100 50 H V C CNN
+F2 "footprints:D_SOD-123W_OEM" -100 0 50 H I C CNN
+F3 " https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf " 0 100 50 H I C CNN
+F4 "DK" 200 300 60 H I C CNN "MFN"
+F5 " PMEG10010ELRX " 100 200 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" 300 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 200mA_Fuse
 #
 DEF 200mA_Fuse F 0 40 Y Y 1 F N
