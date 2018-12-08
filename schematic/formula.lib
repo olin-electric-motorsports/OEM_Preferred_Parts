@@ -3921,9 +3921,9 @@ F4 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-
 DRAW
 S -200 250 300 -200 0 1 0 f
 X VSS 1 500 100 200 L 50 50 1 1 I
+X DIN 2 -400 -50 200 R 50 50 1 1 I
+X VDD 3 -400 100 200 R 50 50 1 1 I
 X DOUT 4 500 -50 200 L 50 50 1 1 I
-X DIN ~ -400 -50 200 R 50 50 1 1 I
-X VDD ~ -400 100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
