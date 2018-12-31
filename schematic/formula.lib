@@ -524,8 +524,8 @@ ENDDEF
 DEF BMI088 U 0 40 Y Y 1 F N
 F0 "U" -700 50 50 H V C CNN
 F1 "BMI088" -600 150 50 H V C CNN
-F2 "" -100 -100 50 H I C CNN
-F3 "https://ae-bst.resource.bosch.com/media/_tech/media/product_flyer/Bosch_Sensortec_Product_flyer_BMI088.pdf" -550 650 50 H I C CNN
+F2 "footprints:bmi088" -100 -100 50 H I C CNN
+F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf" -550 650 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMI088/828-1082-1-ND/8634942" -600 800 50 H I C CNN "Purchasing Link"
 DRAW
 S -1100 200 -50 -450 0 1 0 f
@@ -673,6 +673,27 @@ S -100 150 0 -150 0 1 0 f
 X P1 1 -250 100 150 R 50 50 1 1 P
 X P2 2 -250 0 150 R 50 50 1 1 P
 X P3 3 -250 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_01x02
+#
+DEF CONN_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "CONN_01x02" 0 -200 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" -100 0 50 H I C CNN
+F3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 0 100 50 H I C CNN
+F4 "DK" 100 200 50 H I C CNN "MFN"
+F5 "732-5315-ND" 200 300 50 H I C CNN "MPN"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -2063,6 +2084,21 @@ X CS 5 0 300 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MHSS1105
+#
+DEF MHSS1105 S 0 40 Y Y 1 F N
+F0 "S" 0 250 50 H V C CNN
+F1 "MHSS1105" 0 150 50 H V C CNN
+F2 "" 0 250 50 H I C CNN
+F3 "" 0 250 50 H I C CNN
+DRAW
+S -250 100 250 0 0 1 0 f
+X ~ 1 -150 -100 100 U 50 50 1 1 O
+X ~ 2 0 -100 100 U 50 50 1 1 O
+X ~ 3 150 -100 100 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # MMBF170
 #
 DEF MMBF170 Q 0 0 Y N 1 F N
@@ -3063,9 +3099,9 @@ F2 "footprints:PWR163" -250 50 50 H I C CNN
 F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
 DRAW
 S 100 -50 -100 50 0 1 0 N
-X ~ 1 0 250 200 D 50 50 1 1 I
+X ~ 1 -300 0 200 R 50 50 1 1 I
 X ~ 2 300 0 200 L 50 50 1 1 I
-X ~ 3 -300 0 200 R 50 50 1 1 I
+X ~ EP 0 250 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -3208,6 +3244,34 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1.3_25W
+#
+DEF R_1.3_25W U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "R_1.3_25W" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# R_1.3_25W_TO163
+#
+DEF R_1.3_25W_TO163 R 0 40 Y Y 1 F N
+F0 "R" -150 150 50 H V C CNN
+F1 "R_1.3_25W_TO163" 0 -100 50 H V C CNN
+F2 "footprints:PWR163" -250 50 50 H I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
+F4 "DK" -50 250 50 H I C CNN "MFN"
+F5 "PWR163S-25-1R50F-ND" 50 350 50 H I C CNN "MPN"
+DRAW
+S 100 -50 -100 50 0 1 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+X ~ EP 0 250 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -3368,6 +3432,27 @@ F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT120KCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_13_2W_2512_0
+#
+DEF R_13_2W_2512_0 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_13_2W_2512_0" -100 0 50 V V C CNN
+F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFG"
+F5 "A115987CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/352113RFT/A115987CT-ND/4280006" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -3601,6 +3686,27 @@ F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pd
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "311-3.01KCRCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_3.6_5W_SMD
+#
+DEF R_3.6_5W_SMD R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_3.6_5W_SMD" -100 0 50 V V C CNN
+F2 "footprints:SM_5" -70 0 50 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFG"
+F5 "A131834CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SMW53R6JT/A131834CT-ND/8603964" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -3939,6 +4045,23 @@ X VSS2 6 350 -1250 200 U 50 50 1 1 W
 X DO 7 -350 -300 200 R 50 50 1 1 O
 X NC 8 -350 -600 200 R 50 50 1 1 N
 X NC 9 -350 -700 200 R 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# SK812
+#
+DEF SK812 U 0 40 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "SK812" 50 -150 50 H V C CNN
+F2 "footprints:SK6812" 0 550 50 H I C CNN
+F3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" -300 300 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679" -250 400 50 H I C CNN "PurchasingLink"
+DRAW
+S -200 250 300 -200 0 1 0 f
+X VSS 1 500 100 200 L 50 50 1 1 I
+X DIN 2 -400 -50 200 R 50 50 1 1 I
+X VDD 3 -400 100 200 R 50 50 1 1 I
+X DOUT 4 500 -50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -4961,6 +5084,7 @@ ENDDRAW
 ENDDEF
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
 # USB3343-CP
 =======
 # Ultrafit_4_RA
@@ -4986,6 +5110,9 @@ ENDDEF
 #
  USB3343-CP
 >>>>>>> 108785b4c2ef915a21cd8f633cb07b5377c51117
+=======
+# USB3343-CP
+>>>>>>> 54a296768cbeb5c2bf393b7ce2c1f649ec00cbe5
 #
 DEF USB3343-CP U 0 40 Y Y 1 F N
 F0 "U" -600 950 50 H V C CNN
@@ -5061,6 +5188,9 @@ ENDDRAW
 ENDDEF
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 54a296768cbeb5c2bf393b7ce2c1f649ec00cbe5
 # Ultrafit_4_RA
 #
 DEF Ultrafit_4_RA J 0 40 Y N 1 F N
@@ -5082,8 +5212,11 @@ X 4 4 350 -100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+<<<<<<< HEAD
 =======
 >>>>>>> 108785b4c2ef915a21cd8f633cb07b5377c51117
+=======
+>>>>>>> 54a296768cbeb5c2bf393b7ce2c1f649ec00cbe5
 # ZXRE160
 #
 DEF ZXRE160 U 0 40 Y Y 1 F N
