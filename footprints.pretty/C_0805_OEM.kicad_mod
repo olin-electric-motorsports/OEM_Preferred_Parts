@@ -1,4 +1,4 @@
-(module C_0805_OEM (layer F.Cu) (tedit 59F250E7)
+(module C_0805_OEM (layer F.Cu) (tedit 5C3D8347)
   (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
   (tags "capacitor 0805")
   (attr smd)
@@ -21,6 +21,11 @@
   (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask))
   (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
