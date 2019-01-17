@@ -71,6 +71,10 @@ $CMP BSS308PE
 D MOSFET, P-channel, 30V, 2A
 $ENDCMP
 #
+$CMP BU4S81G2-TR
+D Single channel positive logic AND gate
+$ENDCMP
+#
 $CMP Barrel_jack
 D Barrel jack, 2.1x5.5mm, right angle, through hole
 $ENDCMP
