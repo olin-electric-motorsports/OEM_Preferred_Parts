@@ -552,7 +552,7 @@ ENDDEF
 DEF BSS308PE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "BSS308PE" 200 -50 50 H V L CNN
-F2 "TO_SOT_Packages_SMD:SOT-23" 200 100 50 H I C CNN
+F2 "footprints:SOT-23-3_OEM" 200 100 50 H I C CNN
 F3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" 200 50 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "BSS308PEH6327XTSA1CT-ND" 0 0 60 H I C CNN "MPN"
@@ -579,6 +579,27 @@ P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
 X G 1 -200 0 200 R 50 50 1 1 I
 X S 2 100 -200 100 U 50 50 1 1 P
 X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BU4S81G2-TR
+#
+DEF BU4S81G2-TR U 0 40 Y Y 1 F N
+F0 "U" 450 150 60 H V C CNN
+F1 "BU4S81G2-TR" 450 250 60 H V C CNN
+F2 "" 100 0 60 H V C CNN
+F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s81g2-e.pdf" 100 0 60 H V C CNN
+F4 "DK" 300 -290 60 H V C CNN "MFN"
+F5 "BU4S81G2-TR" 200 -390 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S81G2-TR/BU4S81G2CT-ND/3769276" 400 -190 60 H I C CNN "PurchasingLink"
+DRAW
+A 0 0 150 -899 899 1 1 0 N 0 -150 0 150
+P 4 0 1 0 0 150 -100 150 -100 -150 0 -150 N
+X in 1 -300 -50 200 R 50 28 1 1 B
+X in 2 -300 50 200 R 50 28 1 1 B
+X GND 3 0 -350 200 U 50 28 1 1 B
+X out 4 350 0 200 L 50 28 1 1 B
+X VCC 5 0 350 200 D 50 28 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -3062,7 +3083,7 @@ X OUTPUT 3 150 -450 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
- NSS1C201MZ4
+# NSS1C201MZ4
 #
 DEF NSS1C201MZ4 Q 0 40 Y Y 1 F N
 F0 "Q" -100 200 50 H V C CNN
@@ -5195,6 +5216,27 @@ ENDDEF
 DEF Ultrafit_4_RA J 0 40 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
 F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
+F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
+F5 "Value" -850 400 60 H I C CNN "Package"
+F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ultrafit_4_RA_0
+#
+DEF Ultrafit_4_RA_0 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_4_RA_0" 0 -200 60 H V C CNN
 F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
 F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
