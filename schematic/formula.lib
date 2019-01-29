@@ -552,7 +552,7 @@ ENDDEF
 DEF BSS308PE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "BSS308PE" 200 -50 50 H V L CNN
-F2 "TO_SOT_Packages_SMD:SOT-23" 200 100 50 H I C CNN
+F2 "footprints:SOT-23-3_OEM" 200 100 50 H I C CNN
 F3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" 200 50 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "BSS308PEH6327XTSA1CT-ND" 0 0 60 H I C CNN "MPN"
@@ -5239,6 +5239,27 @@ ENDDEF
 DEF Ultrafit_4_RA J 0 40 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
 F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
+F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
+F5 "Value" -850 400 60 H I C CNN "Package"
+F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ultrafit_4_RA_0
+#
+DEF Ultrafit_4_RA_0 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_4_RA_0" 0 -200 60 H V C CNN
 F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
 F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"

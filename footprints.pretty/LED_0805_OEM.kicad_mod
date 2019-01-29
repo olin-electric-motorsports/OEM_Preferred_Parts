@@ -1,4 +1,4 @@
-(module LED_0805_OEM (layer F.Cu) (tedit 5A5B129D)
+(module LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8)
   (descr "LED 0805 smd package")
   (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
   (attr smd)
@@ -33,5 +33,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
+  )
+  (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
