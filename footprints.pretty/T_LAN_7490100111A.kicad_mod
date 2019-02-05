@@ -1,4 +1,4 @@
-(module T_LAN_7490100111A (layer F.Cu) (tedit 59FF4DC8)
+(module T_LAN_7490100111A (layer F.Cu) (tedit 5C3D227E)
   (fp_text reference T1 (at 2.54 -3.81) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
@@ -25,4 +25,9 @@
   (pad 14 smd rect (at 8.8 2.54) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at 8.8 1.27) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd rect (at 8.8 0) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/T_LAN_7490100111A/7490100111A.stp
+    (offset (xyz 4.5 -4.5 4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
