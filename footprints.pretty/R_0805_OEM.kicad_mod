@@ -1,4 +1,4 @@
-module R_0805_OEM (layer F.Cu) (tedit 5C3D844D)
+(module R_0805_OEM (layer F.Cu) (tedit 5C3D844D)
   (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
   (tags "resistor 0805")
   (attr smd)
