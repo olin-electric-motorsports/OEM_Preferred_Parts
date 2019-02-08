@@ -75,6 +75,14 @@ $CMP BSS308PE
 D MOSFET, P-channel, 30V, 2A
 $ENDCMP
 #
+$CMP BU4S11G2-TR
+D Single channel positive logic NAND gate
+$ENDCMP
+#
+$CMP BU4S81G2-TR
+D Single channel positive logic AND gate
+$ENDCMP
+#
 $CMP Barrel_jack
 D Barrel jack, 2.1x5.5mm, right angle, through hole
 $ENDCMP
@@ -103,6 +111,12 @@ $ENDCMP
 #
 $CMP CP2120
 D SPI TO I2C BRIDGE, GPIO EXPANDER
+$ENDCMP
+#
+$CMP CPC1025NTR
+D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4
+K NPN DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
 $ENDCMP
 #
 $CMP C_0.1uF
@@ -564,7 +578,7 @@ D Resistor, 3.01K, 0.125W, 1%, 0805
 $ENDCMP
 #
 $CMP R_3.6_5W_SMD
-D Resistor, 13 ohm 1%, 2W, 2512
+D RES SMD 3.6 OHM 5% 5W 5329
 K power resistor, resistor, chip,
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English
 $ENDCMP
@@ -635,6 +649,54 @@ $ENDCMP
 #
 $CMP SD_socket
 D SD card socket with detect switch
+$ENDCMP
+#
+$CMP SFH617A-1
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
 $CMP SN74LVC1G02
