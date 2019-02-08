@@ -1,7 +1,7 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 0.1in        _Female_Socket_01x16
+# 0.1in_Female_Socket_01x16
 #
 DEF 0.1in_Female_Socket_01x16 J 0 40 Y N 1 F N
 F0 "J" 0 800 50 H V C CNN
@@ -48,9 +48,9 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 1727-2394-1-ND
+# PMEG100010ELRX
 #
-DEF 1727-2394-1-ND D 0 40 N N 1 F N
+DEF PMEG10010ELRX D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "1727-2394-1-ND" 0 -100 50 H V C CNN
 F2 "footprints:D_SOD-123W_OEM" -100 0 50 H I C CNN

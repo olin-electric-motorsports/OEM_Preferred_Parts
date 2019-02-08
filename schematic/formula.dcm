@@ -6,10 +6,6 @@ K connector, header
 F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
 $ENDCMP
 #
-$CMP 1727-2394-1-ND
-D DIODE SCHOTTKY 100V 1A SOD123W
-$ENDCMP
-#
 $CMP 200mA_Fuse
 D 200mA Fuse
 $ENDCMP
@@ -450,13 +446,12 @@ $CMP NanoFit_2
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
 #
-<<<<<<< HEAD
-$CMP PMEG10010
+$CMP PMEG10010ELRX
 D DIODE SCHOTTKY 100V 1A SOD123W
-=======
+$ENDCMP
+#
 $CMP POT_TRIM_20k
 D TRIMMER 20KOHM 0.125W J LEAD TOP
->>>>>>> 108785b4c2ef915a21cd8f633cb07b5377c51117
 $ENDCMP
 #
 $CMP PWR163S-25-27R0F
