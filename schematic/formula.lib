@@ -1610,6 +1610,21 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Fuse_Holder_Blade
+#
+DEF Fuse_Holder_Blade U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "Fuse_Holder_Blade" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 50 150 -50 0 1 0 N
+P 2 0 1 0 -150 0 150 0 N
+X ~ 1 -250 0 100 R 50 50 1 1 I
+X ~ 2 250 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # G2RL-1-E
 #
 DEF G2RL-1-E K 0 40 Y Y 1 F N
