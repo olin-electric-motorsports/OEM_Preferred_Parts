@@ -871,7 +871,7 @@ F3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" 25 100 50 H I C CNN
 F4 "Digi-Key" 125 200 60 H I C CNN "MFN"
 F5 "493-1305-ND" 225 300 60 H I C CNN "MPN"
 F6 "Radial, Can" 325 400 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=493-1305-ND" 425 500 60 H I C CNN "Purchasing Link"
+F7 "https://www.digikey.com/products/en?keywords=493-1305-ND" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  SMD*_Pol
  c_elec*
@@ -3184,7 +3184,7 @@ F2 "footprints:MicroFit_RA_V_2" -50 200 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" -50 200 50 H I C CNN
 F4 "MFN" 100 250 50 H I C CNN "DK"
 F5 "WM1865-ND" 200 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" 0 150 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" 0 150 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -3941,28 +3941,7 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ultrafit_4_RA
-#
-DEF Ultrafit_4_RA J 0 40 Y N 1 F N
-F0 "J" 0 300 60 H V C CNN
-F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
-F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
-F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
-F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
-F5 "Value" -850 400 60 H I C CNN "Package"
-F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
-F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
-F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
-DRAW
-S 150 250 -150 -150 0 1 0 f
-X 1 1 350 200 200 L 50 50 1 1 P
-X 2 2 350 100 200 L 50 50 1 1 P
-X 3 3 350 0 200 L 50 50 1 1 P
-X 4 4 350 -100 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Ultrafit_5
+# R_3K
 #
 DEF R_3K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
@@ -5357,6 +5336,27 @@ X D+ 3 300 0 100 L 50 50 1 1 P
 X ID 4 300 -200 100 L 50 50 1 1 P
 X GND 5 0 -400 100 U 50 50 1 1 w
 X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ultrafit_4_RA
+#
+DEF Ultrafit_4_RA J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
+F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
+F5 "Value" -850 400 60 H I C CNN "Package"
+F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
