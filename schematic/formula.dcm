@@ -569,7 +569,7 @@ D Resistor, 3.01K, 0.125W, 1%, 0805
 $ENDCMP
 #
 $CMP R_3.6_5W_SMD
-D Resistor, 13 ohm 1%, 2W, 2512
+D RES SMD 3.6 OHM 5% 5W 5329
 K power resistor, resistor, chip,
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English
 $ENDCMP
