@@ -283,7 +283,7 @@ $ENDCMP
 #
 $CMP LTC6820HMS
 D isoSPI Isolated Communications Interface
-K interface, isoSPI, SPI, 
+K interface, isoSPI, SPI,
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
 $ENDCMP
 #
@@ -730,6 +730,10 @@ $ENDCMP
 #
 $CMP SW_Push_SPST_NO
 D SWITCH TACTILE SPST-NO 0.05A 12V
+$ENDCMP
+#
+$CMP Samtec
+D Micro-MaTch connector 20 pin male vertical
 $ENDCMP
 #
 $CMP TLP175A_OEM
