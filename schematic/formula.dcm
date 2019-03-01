@@ -283,7 +283,7 @@ $ENDCMP
 #
 $CMP LTC6820HMS
 D isoSPI Isolated Communications Interface
-K interface, isoSPI, SPI, 
+K interface, isoSPI, SPI,
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
 $ENDCMP
 #
