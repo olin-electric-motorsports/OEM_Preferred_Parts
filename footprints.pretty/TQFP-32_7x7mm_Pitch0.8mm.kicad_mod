@@ -1,4 +1,4 @@
-(module TQFP-32_7x7mm_Pitch0.8mm (layer F.Cu) (tedit 59F24C0F)
+(module TQFP-32_7x7mm_Pitch0.8mm (layer F.Cu) (tedit 5C16A7C6)
   (descr "32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFP 0.8")
   (attr smd)
@@ -63,7 +63,7 @@
   (pad 30 smd rect (at -1.2 -4.25 90) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 31 smd rect (at -2 -4.25 90) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 32 smd rect (at -2.8 -4.25 90) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask))
-  (model Housings_QFP.3dshapes/TQFP-32_7x7mm_Pitch0.8mm.wrl
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Atmega16m1/Atmega16m1.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

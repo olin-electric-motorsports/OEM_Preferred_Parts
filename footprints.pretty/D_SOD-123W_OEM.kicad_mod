@@ -1,4 +1,4 @@
-(module D_SOD-123W_OEM (layer F.Cu) (tedit 59F7E4A2)
+(module D_SOD-123W_OEM (layer F.Cu) (tedit 5C16A992)
   (descr D_SOD-123F)
   (tags D_SOD-123F)
   (attr smd)
@@ -38,7 +38,7 @@
   (fp_line (start -2.2 -1) (end 1.65 -1) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -1.4 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.4 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
-  (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOD-123_OEM/SOD-123.wrl
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/SOD-123_OEM/SOD-123.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

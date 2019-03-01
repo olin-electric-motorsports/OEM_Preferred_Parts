@@ -1,4 +1,4 @@
-(module micromatch_female_vert_16 (layer F.Cu) (tedit 5A7729A4)
+(module micromatch_female_vert_16 (layer F.Cu) (tedit 5C3D2797)
   (fp_text reference J? (at 5.08 5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -32,4 +32,9 @@
   (pad 15 thru_hole circle (at 0 12.7) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask))
   (pad 16 thru_hole circle (at 2.54 13.97) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 1.8 -6.48) (size 2 2) (drill 1.5) (layers *.Cu *.Mask))
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/micromatch_female_vert_16/c-1-2178713-6-1-3d.stp
+    (offset (xyz 1 -4.5 -7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 90))
+  )
 )

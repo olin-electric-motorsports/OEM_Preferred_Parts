@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0.1in_Female_Socket_01x16
+D Generic female socket strip connector, single row, 01x16
+K connector, header
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
 $ENDCMP
@@ -65,6 +71,14 @@ $CMP BSS308PE
 D MOSFET, P-channel, 30V, 2A
 $ENDCMP
 #
+$CMP BU4S11G2-TR
+D Single channel positive logic NAND gate
+$ENDCMP
+#
+$CMP BU4S81G2-TR
+D Single channel positive logic AND gate
+$ENDCMP
+#
 $CMP Barrel_jack
 D Barrel jack, 2.1x5.5mm, right angle, through hole
 $ENDCMP
@@ -77,6 +91,12 @@ $CMP CONN_01X03
 D Connector header through hole 1x3 0.100" (2.54mm)
 $ENDCMP
 #
+$CMP CONN_01x02
+D CONN HEADER 2 POS 2.54mm
+K connector, header
+F https://katalog.we-online.de/em/datasheet/6130xx11121.pdf
+$ENDCMP
+#
 $CMP CONN_01x04
 D CONN HEADER 4 POS 2.54
 $ENDCMP
@@ -87,6 +107,12 @@ $ENDCMP
 #
 $CMP CP2120
 D SPI TO I2C BRIDGE, GPIO EXPANDER
+$ENDCMP
+#
+$CMP CPC1025NTR
+D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4
+K NPN DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
 $ENDCMP
 #
 $CMP C_0.1uF
@@ -255,6 +281,12 @@ D LTC6811-1
 F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
 $ENDCMP
 #
+$CMP LTC6820HMS
+D isoSPI Isolated Communications Interface
+K interface, isoSPI, SPI, 
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
+$ENDCMP
+#
 $CMP L_4.7uH
 D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
@@ -269,6 +301,10 @@ $ENDCMP
 #
 $CMP MCP603
 D Op-amp, general purpose
+$ENDCMP
+#
+$CMP MHSS1105
+D Slider Switch
 $ENDCMP
 #
 $CMP MMBF170
@@ -416,6 +452,10 @@ $CMP NanoFit_2
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
 #
+$CMP POT_TRIM_20k
+D TRIMMER 20KOHM 0.125W J LEAD TOP
+$ENDCMP
+#
 $CMP PWR163S-25-27R0F
 D RES SMD 27 OHM 1% 25W DPAK
 K power resistor, balancing, BMS
@@ -446,6 +486,12 @@ $CMP R_1.13K
 D Resistor, 1.13K, 0.125W, 0.1%, 0805
 $ENDCMP
 #
+$CMP R_1.3_25W_TO163
+D RES SMD 1.5 OHM 1% 25W DPAK
+K power resistor, balancing, BMS, Bourns, PWR163
+F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
+$ENDCMP
+#
 $CMP R_1.43K
 D Resistor, 1.43K, 0.1W, 0.1%, 0805
 $ENDCMP
@@ -470,8 +516,18 @@ $CMP R_10K_HV
 D Resistor, 10K, 5W, 1%, Axial
 $ENDCMP
 #
+$CMP R_120
+D Resistor, 120, 0.125W, 1%, 0805
+$ENDCMP
+#
 $CMP R_120K
 D Resistor, 120K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_13_2W_2512_0
+D Resistor, 13 ohm 1%, 2W, 2512
+K power resistor, resistor, chip,
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English
 $ENDCMP
 #
 $CMP R_178K
@@ -516,6 +572,12 @@ $ENDCMP
 #
 $CMP R_3.01K
 D Resistor, 3.01K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_3.6_5W_SMD
+D RES SMD 3.6 OHM 5% 5W 5329
+K power resistor, resistor, chip,
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English
 $ENDCMP
 #
 $CMP R_300K
@@ -584,6 +646,54 @@ $ENDCMP
 #
 $CMP SD_socket
 D SD card socket with detect switch
+$ENDCMP
+#
+$CMP SFH617A-1
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
 $CMP SN74LVC1G02
