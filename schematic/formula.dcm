@@ -289,6 +289,12 @@ D LTC6811-1
 F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
 $ENDCMP
 #
+$CMP LTC6820HMS
+D isoSPI Isolated Communications Interface
+K interface, isoSPI, SPI, 
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
+$ENDCMP
+#
 $CMP L_4.7uH
 D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
