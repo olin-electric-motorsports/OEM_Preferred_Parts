@@ -67,6 +67,11 @@ $CMP Ampseal_35_VT
 D Ampseal connector 35 pin vertical
 $ENDCMP
 #
+$CMP B5B-PH-K-S
+K B5B, JST, 
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
 $CMP BSS308PE
 D MOSFET, P-channel, 30V, 2A
 $ENDCMP
@@ -283,7 +288,7 @@ $ENDCMP
 #
 $CMP LTC6820HMS
 D isoSPI Isolated Communications Interface
-K interface, isoSPI, SPI, 
+K interface, isoSPI, SPI,
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
 $ENDCMP
 #
