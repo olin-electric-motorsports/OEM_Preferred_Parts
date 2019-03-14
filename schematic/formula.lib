@@ -541,6 +541,22 @@ X 5 5 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# BAS40-00
+#
+DEF BAS40-00 D 0 40 Y Y 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "BAS40-00" 0 -100 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" -100 0 50 H I C CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf" 0 100 50 H I C CNN
+DRAW
+P 2 1 1 8 -50 50 -50 -50 N
+P 2 1 1 0 50 0 -50 0 N
+P 4 1 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BMI088
 #
 DEF BMI088 U 0 40 Y Y 1 F N
@@ -2184,8 +2200,8 @@ X IP 11 500 100 200 L 50 50 1 1 I
 X MSTR 12 -500 -400 200 R 50 50 1 1 I
 X SLOW 13 -500 -500 200 R 50 50 1 1 I
 X GND 14 -500 -700 200 R 50 50 1 1 I
-X ICMP 15 500 -200 200 L 50 50 1 1 I
-X IBIAS 16 500 -300 200 L 50 50 1 1 I
+X ICMP 15 500 -450 200 L 50 50 1 1 I
+X IBIAS 16 500 -100 200 L 50 50 1 1 I
 X MOSI 2 -500 300 200 R 50 50 1 1 I
 X MISO 3 -500 200 200 R 50 50 1 1 I
 X SCK 4 -500 100 200 R 50 50 1 1 I
@@ -3735,6 +3751,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_17.4K_0.1
+#
+DEF R_17.4K_0.1 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_17.4K_0.1" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P17.4KDACT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1742V/P17.4KDACT-ND/3074988" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_178K
 #
 DEF R_178K R 0 0 N Y 1 F N
@@ -3766,6 +3803,27 @@ F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1K_0.1
+#
+DEF R_1K_0.1 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1K_0.1" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P1.0KDACT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -4183,6 +4241,27 @@ F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P51.1KCCT-ND" -1100 200 60 H I L CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" -1100 500 60 H I L CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_54.9K
+#
+DEF R_54.9K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_54.9K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "311-54.9KCRCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0754K9L/311-54.9KCRCT-ND/730976" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
