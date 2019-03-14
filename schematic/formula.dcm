@@ -68,8 +68,14 @@ D Ampseal connector 35 pin vertical
 $ENDCMP
 #
 $CMP B5B-PH-K-S
-K B5B, JST, 
+K B5B, JST,
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP BAS40-00
+D Schottky Diode, 40V, 120mA, SOT23
+K schottky, diode
+F https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf
 $ENDCMP
 #
 $CMP BSS308PE
@@ -535,12 +541,24 @@ K power resistor, resistor, chip,
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English
 $ENDCMP
 #
+$CMP R_17.4K_0.1
+D Resistor, 17.4K, 0.125W, 0.1%, 0805
+K Resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
 $CMP R_178K
 D Resistor, 178K, 0.125W, 0.1%, 0805
 $ENDCMP
 #
 $CMP R_1K
 D Resistor, 1K, 0.25W, 1%, 0805
+$ENDCMP
+#
+$CMP R_1K_0.1
+D Resistor, 1K, 0.125W, 0.1%, 0805
+K Resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
 $CMP R_1K_HS
@@ -625,6 +643,12 @@ $ENDCMP
 #
 $CMP R_51.1K
 D Resistor, 51.1K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_54.9K
+D Resistor, 54.9, 0.125W, 1%, 0805
+K Resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
 $ENDCMP
 #
 $CMP R_576K
@@ -735,6 +759,10 @@ $ENDCMP
 #
 $CMP SW_Push_SPST_NO
 D SWITCH TACTILE SPST-NO 0.05A 12V
+$ENDCMP
+#
+$CMP Samtec
+D Micro-MaTch connector 20 pin male vertical
 $ENDCMP
 #
 $CMP TLP175A_OEM
