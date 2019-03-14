@@ -737,6 +737,10 @@ $CMP SW_Push_SPST_NO
 D SWITCH TACTILE SPST-NO 0.05A 12V
 $ENDCMP
 #
+$CMP Samtec
+D Micro-MaTch connector 20 pin male vertical
+$ENDCMP
+#
 $CMP TLP175A_OEM
 D Solid State Relay SPST-NO
 $ENDCMP
