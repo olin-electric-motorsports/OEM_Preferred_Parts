@@ -613,6 +613,12 @@ $CMP R_3.01K
 D Resistor, 3.01K, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_3.3_25W_TO163
+D RES SMD 3.3 OHM 1% 25W DPAK
+K power resistor, balancing, BMS, Bourns, PWR163
+F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
+$ENDCMP
+#
 $CMP R_3.6_5W_SMD
 D RES SMD 3.6 OHM 5% 5W 5329
 K power resistor, resistor, chip,
