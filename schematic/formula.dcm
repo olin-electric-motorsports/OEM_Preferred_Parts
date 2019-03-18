@@ -202,10 +202,6 @@ $CMP Crystal_SMD
 D CRYSTAL 16.0000MHZ 18PF SMD
 $ENDCMP
 #
-$CMP DBR71210(NC)
-D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
-$ENDCMP
-#
 $CMP D_Zener_13V
 D Diode, Zener, 13V, 3W, 5%
 $ENDCMP
@@ -263,10 +259,6 @@ $CMP LED_0805_Red
 D LED, Red, 1.8V, 20mA, 0805
 $ENDCMP
 #
-$CMP LI12-1A85(NO)
-D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
-$ENDCMP
-#
 $CMP LM324DT
 D Op-amp, 4-channel
 $ENDCMP
@@ -289,10 +281,10 @@ $CMP LR8K4-G
 D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
 $ENDCMP
 #
-$CMP LTC1380
+$CMP LTC1380IGN
 D Single-Ended 8-Channel/ Differential 4-Channel Analog Multiplexer with SMBus Interface
-K Multiplexer, SMBus Interface
-F http://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf
+K Multiplexer, SMBus Interface, analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf
 $ENDCMP
 #
 $CMP LTC6811-1
@@ -316,6 +308,12 @@ $ENDCMP
 #
 $CMP MCP6001
 D Op-amp, general purpose
+$ENDCMP
+#
+$CMP MCP6001T-I-LT
+D Single op-amp, general purpose, -40-+85 C, SC-70-5
+K opamp, single, op, amp,
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
 $CMP MCP603
@@ -456,14 +454,6 @@ $ENDCMP
 #
 $CMP MicroFit_24
 D Micro-Fit connector 24 pin right angle
-$ENDCMP
-#
-$CMP MicroFit_RA_06
-D Micro-MaTch connector 6 pin female right angle
-$ENDCMP
-#
-$CMP MicroFit_RA_08
-D Micro-MaTch connector 8 pin female right angle
 $ENDCMP
 #
 $CMP NCP785AH150T1G
@@ -783,10 +773,6 @@ $CMP SW_Push_SPST_NO
 D SWITCH TACTILE SPST-NO 0.05A 12V
 $ENDCMP
 #
-$CMP Samtec
-D Micro-MaTch connector 20 pin male vertical
-$ENDCMP
-#
 $CMP TLP175A_OEM
 D Solid State Relay SPST-NO
 $ENDCMP
@@ -842,6 +828,12 @@ $ENDCMP
 #
 $CMP ZXRE160
 D Adjustable shunt voltage reference, 18V max output, 15mA
+$ENDCMP
+#
+$CMP isoSPI-Cutout
+D Mechanical Cutout for Zip-tie attachement
+K mechanical, zip tie, isoSPI
+F https://docs.olinelectricmotorsports.com/display/ETD/BMS#BMS-NanoFitFootprintSizingwithZiptieAttachment-3/11/19
 $ENDCMP
 #
 #End Doc Library
