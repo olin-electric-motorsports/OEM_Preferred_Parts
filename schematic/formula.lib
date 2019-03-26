@@ -541,6 +541,22 @@ X 5 5 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# BAS40-00
+#
+DEF BAS40-00 D 0 40 Y Y 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "BAS40-00" 0 -100 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" -100 0 50 H I C CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf" 0 100 50 H I C CNN
+DRAW
+P 2 1 1 8 -50 50 -50 -50 N
+P 2 1 1 0 50 0 -50 0 N
+P 4 1 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BMI088
 #
 DEF BMI088 U 0 40 Y Y 1 F N
@@ -2079,13 +2095,16 @@ X ADJ 3 0 -300 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# LTC1380
+# LTC1380IGN
 #
-DEF LTC1380 U 0 40 Y Y 1 F N
+DEF LTC1380IGN U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
-F1 "LTC1380" 0 -450 50 H V C CNN
-F2 "footprints:SSOP-16_LTC1380" -600 450 50 H I C CNN
-F3 "" -600 450 50 H I C CNN
+F1 "LTC1380IGN" 0 -450 50 H V C CNN
+F2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" -600 450 50 H I C CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" -600 450 50 H I C CNN
+F4 "DK" 300 750 50 H I C CNN "MFN"
+F5 "LTC1380IGN#PBF-ND" 100 550 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC1380IGN-TRPBF/LTC1380IGN-TRPBFCT-ND/9554873" 200 650 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 400 200 -400 0 1 0 f
 X S0 1 -450 350 200 R 50 50 1 1 I
@@ -2184,8 +2203,8 @@ X IP 11 500 100 200 L 50 50 1 1 I
 X MSTR 12 -500 -400 200 R 50 50 1 1 I
 X SLOW 13 -500 -500 200 R 50 50 1 1 I
 X GND 14 -500 -700 200 R 50 50 1 1 I
-X ICMP 15 500 -200 200 L 50 50 1 1 I
-X IBIAS 16 500 -300 200 L 50 50 1 1 I
+X ICMP 15 500 -450 200 L 50 50 1 1 I
+X IBIAS 16 500 -100 200 L 50 50 1 1 I
 X MOSI 2 -500 300 200 R 50 50 1 1 I
 X MISO 3 -500 200 200 R 50 50 1 1 I
 X SCK 4 -500 100 200 R 50 50 1 1 I
@@ -2254,7 +2273,7 @@ ENDDEF
 DEF MCP6001 U 0 20 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
 F1 "MCP6001" 0 -200 50 H V L CNN
-F2 "footprints:SOT-23-5_OEM" -100 100 50 H I C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" -100 100 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
 F4 "DK" 100 300 60 H I C CNN "MFN"
 F5 "MCP6001T-I/OTCT-ND" 200 400 60 H I C CNN "MPN"
@@ -2262,6 +2281,26 @@ F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT
 $FPLIST
  SOT*23*
 $ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 2 -100 -300 150 U 50 50 0 1 W
+X V+ 5 -100 300 150 D 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X + 3 -300 100 100 R 50 50 1 1 I
+X - 4 -300 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MCP6001T-I-LT
+#
+DEF MCP6001T-I-LT U 0 20 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "MCP6001T-I-LT" 0 -200 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" -100 100 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
+F4 "DK" 100 300 60 H I C CNN "MFN"
+F5 "MCP6001T-I/LTCT-ND" 200 400 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" 300 500 60 H I C CNN "PurchasingLink"
 DRAW
 P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
 X V- 2 -100 -300 150 U 50 50 0 1 W
@@ -3311,12 +3350,15 @@ F3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" -100 200 50 H I C CN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
+P 2 0 1 0 150 50 50 50 N
+P 2 0 1 0 200 100 150 50 N
 P 3 0 1 0 25 -25 100 -100 100 -100 N
 P 3 0 1 20 25 75 25 -75 25 -75 N
 P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
 X ~ 1 -200 0 225 R 50 50 1 1 I
 X ~ 2 100 200 100 D 50 50 1 1 P
 X ~ 3 100 -200 100 U 50 50 1 1 P
+X ~ 4 200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -3735,6 +3777,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_17.4K_0.1
+#
+DEF R_17.4K_0.1 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_17.4K_0.1" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P17.4KDACT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1742V/P17.4KDACT-ND/3074988" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_178K
 #
 DEF R_178K R 0 0 N Y 1 F N
@@ -3766,6 +3829,27 @@ F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1K_0.1
+#
+DEF R_1K_0.1 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1K_0.1" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P1.0KDACT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -3965,6 +4049,23 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_3.3_25W_TO163
+#
+DEF R_3.3_25W_TO163 R 0 40 Y Y 1 F N
+F0 "R" -150 150 50 H V C CNN
+F1 "R_3.3_25W_TO163" 0 -100 50 H V C CNN
+F2 "footprints:PWR163" -250 50 50 H I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
+F4 "DK" -50 250 50 H I C CNN "MFN"
+F5 "PWR163S-25-3R30F-ND" 50 350 50 H I C CNN "MPN"
+DRAW
+S 100 -50 -100 50 0 1 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+X ~ EP 0 250 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -4183,6 +4284,27 @@ F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P51.1KCCT-ND" -1100 200 60 H I L CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" -1100 500 60 H I L CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_54.9K
+#
+DEF R_54.9K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_54.9K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "311-54.9KCRCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0754K9L/311-54.9KCRCT-ND/730976" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -5480,41 +5602,6 @@ X 2 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Samtec
-#
-DEF Samtec J 0 40 Y Y 1 F N
-F0 "J" -100 1200 60 H V C CNN
-F1 "Samtec" -50 -900 60 H V C CNN
-F2 "" -200 1100 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-2-215464-0" -100 1200 60 H I C CNN
-F4 "TE" 100 1400 60 H I C CNN "MFN"
-F5 "2-215464-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-2-215464-0.html" 0 1300 60 H I C CNN "PurchasingLink"
-DRAW
-S -250 1150 50 -850 0 1 0 f
-X 1 1 150 1100 100 L 50 50 1 1 B
-X 10 10 150 200 100 L 50 50 1 1 B
-X 11 11 150 100 100 L 50 50 1 1 B
-X 12 12 150 0 100 L 50 50 1 1 B
-X 13 13 150 -100 100 L 50 50 1 1 B
-X 14 14 150 -200 100 L 50 50 1 1 B
-X 15 15 150 -300 100 L 50 50 1 1 B
-X 16 16 150 -400 100 L 50 50 1 1 B
-X 17 17 150 -500 100 L 50 50 1 1 B
-X 18 18 150 -600 100 L 50 50 1 1 B
-X 19 19 150 -700 100 L 50 50 1 1 B
-X 2 2 150 1000 100 L 50 50 1 1 B
-X 20 20 150 -800 100 L 50 50 1 1 B
-X 3 3 150 900 100 L 50 50 1 1 B
-X 4 4 150 800 100 L 50 50 1 1 B
-X 5 5 150 700 100 L 50 50 1 1 B
-X 6 6 150 600 100 L 50 50 1 1 B
-X 7 7 150 500 100 L 50 50 1 1 B
-X 8 8 150 400 100 L 50 50 1 1 B
-X 9 9 150 300 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # TLP175A_OEM
 #
 DEF TLP175A_OEM U 0 40 Y Y 1 F N
@@ -6060,6 +6147,20 @@ X IN 2 -500 150 200 R 50 50 1 1 I
 X GND 3 -500 -150 200 R 50 50 1 1 B
 X PWRGND 4 0 -500 200 U 50 50 1 1 B
 X FB 5 500 0 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# isoSPI-Cutout
+#
+DEF isoSPI-Cutout J 0 40 Y Y 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "isoSPI-Cutout" 0 -200 50 H V C CNN
+F2 "footprints:iso_spi_cutout" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+S 50 100 200 -100 0 1 0 f
+X ~ 1 -150 50 200 R 50 50 1 1 I
+X ~ 2 -150 -50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
