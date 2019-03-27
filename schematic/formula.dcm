@@ -78,6 +78,10 @@ K schottky, diode
 F https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf
 $ENDCMP
 #
+$CMP BBS-126-G-A
+D .1" Single Row Terminal Strip
+$ENDCMP
+#
 $CMP BSS308PE
 D MOSFET, P-channel, 30V, 2A
 $ENDCMP
@@ -751,6 +755,10 @@ $ENDCMP
 #
 $CMP SN74LVC1G17
 D Single schmitt-trigger buffer
+$ENDCMP
+#
+$CMP SS-126-G-2
+D .1" Single Row Socket Strip
 $ENDCMP
 #
 $CMP SS110LW
