@@ -68,6 +68,7 @@ D Ampseal connector 35 pin vertical
 $ENDCMP
 #
 $CMP B5B-PH-K-S
+D Connector Header Through Hole 5 position 0.079" (2.00mm)
 K B5B, JST,
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
@@ -148,6 +149,12 @@ $ENDCMP
 #
 $CMP C_100pF
 D Capacitor, 100pF, 50V, 5%, 0805
+$ENDCMP
+#
+$CMP C_10nF
+D Capacitor, 10nF 50V X7R 0805
+K cap, ceramic, capacitor, 10nF, 10000pF, 0805
+F http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf
 $ENDCMP
 #
 $CMP C_10uF
@@ -456,6 +463,11 @@ $CMP MicroFit_24
 D Micro-Fit connector 24 pin right angle
 $ENDCMP
 #
+$CMP MicroFit_RA_R_2
+D Micro-Fit Connector, Right Angle 2 circuit
+K micro, fit, microfit
+$ENDCMP
+#
 $CMP NCP785AH150T1G
 D Linear regulator, 25-450V input, 15V output, 10mA
 $ENDCMP
@@ -672,9 +684,9 @@ D Resistor, 6.2K, 0.125W, 1%, 0805
 $ENDCMP
 #
 $CMP R_60.4
-D 60.4 resistor
-K resistor
-F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165
+D Resistor, 60.4, 0.1%, 0.125W, 0805
+K resistor, 60.4
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
 $CMP R_604K

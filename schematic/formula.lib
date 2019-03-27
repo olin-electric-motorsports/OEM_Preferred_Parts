@@ -526,6 +526,9 @@ F0 "J" 0 350 50 H V C CNN
 F1 "B5B-PH-K-S" 0 -250 50 H V C CNN
 F2 "footprints:B5B-PH-K-S" -100 250 50 H I C CNN
 F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 0 350 50 H I C CNN
+F4 "DK" 100 450 50 H I C CNN "MFN"
+F5 "455-1707-ND" 200 550 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B5B-PH-K-S-LF-SN/455-1707-ND/926614" 300 650 50 H I C CNN "PurchasingLink"
 DRAW
 S -50 -145 0 -155 1 1 6 N
 S -50 -45 0 -55 1 1 6 N
@@ -548,6 +551,9 @@ F0 "D" 0 100 50 H V C CNN
 F1 "BAS40-00" 0 -100 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23" -100 0 50 H I C CNN
 F3 "https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf" 0 100 50 H I C CNN
+F4 "DK" 100 200 50 H I C CNN "MFN"
+F5 "1727-4234-1-ND" 200 300 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAS40215/1727-4234-1-ND/2122190" 300 400 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 8 -50 50 -50 -50 N
 P 2 1 1 0 50 0 -50 0 N
@@ -1084,7 +1090,10 @@ DEF C_10nF C 0 40 Y Y 1 F N
 F0 "C" -100 100 50 H V C CNN
 F1 "C_10nF" 150 0 50 V V C CNN
 F2 "footprints:C_0805_OEM" -200 0 50 H I C CNN
-F3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" -100 100 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" -100 100 50 H I C CNN
+F4 "DK" 0 200 50 H I C CNN "MFN"
+F5 "1276-1015-1-ND" 100 300 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" 200 400 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
@@ -2195,6 +2204,9 @@ F0 "U" 0 750 50 H V C CNN
 F1 "LTC6820HMS" 0 -850 50 H V C CNN
 F2 "Package_SO:MSOP-16_3x4mm_P0.5mm" 400 -350 50 V I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf" 400 -350 50 V I C CNN
+F4 "DK" 100 850 50 H V C CNN "MFN"
+F5 "LTC6820HMS#TRPBFCT-ND" 200 950 50 H V C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6820HMS-TRPBF/LTC6820HMS-TRPBFCT-ND/8275338" 300 1050 50 H V C CNN "PurchasingLink"
 DRAW
 S 300 700 -300 -800 0 1 0 f
 X EN 1 500 600 200 L 50 50 1 1 I
@@ -3294,9 +3306,9 @@ F0 "J" -100 50 50 H V C CNN
 F1 "MicroFit_RA_R_2" 0 -150 50 H V C CNN
 F2 "footprints:MicroFit_RA_2" -50 200 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/436500201_sd.pdf" -50 200 50 H I C CNN
-F4 "MFN" 100 250 50 H I C CNN "DK"
+F4 "DK" 100 250 50 H I C CNN "MFN"
 F5 "WM1865-ND" 200 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" 0 150 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" 0 150 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -4365,6 +4377,9 @@ F0 "R" -100 0 50 H V C CNN
 F1 "R_60.4" 100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 -100 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" -100 0 50 H I C CNN
+F4 "DK" 0 100 50 H I C CNN "MFN"
+F5 "P60.4DACT-ND" 100 200 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" 200 300 50 H I C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
