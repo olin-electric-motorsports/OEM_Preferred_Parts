@@ -209,6 +209,10 @@ $CMP Crystal_SMD
 D CRYSTAL 16.0000MHZ 18PF SMD
 $ENDCMP
 #
+$CMP DBR71210(NC)
+D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
+$ENDCMP
+#
 $CMP D_Zener_13V
 D Diode, Zener, 13V, 3W, 5%
 $ENDCMP
@@ -264,6 +268,10 @@ $ENDCMP
 #
 $CMP LED_0805_Red
 D LED, Red, 1.8V, 20mA, 0805
+$ENDCMP
+#
+$CMP LI12-1A85(NO)
+D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
 $ENDCMP
 #
 $CMP LM324DT
@@ -461,6 +469,14 @@ $ENDCMP
 #
 $CMP MicroFit_24
 D Micro-Fit connector 24 pin right angle
+$ENDCMP
+#
+$CMP MicroFit_RA_06
+D Micro-MaTch connector 6 pin female right angle
+$ENDCMP
+#
+$CMP MicroFit_RA_08
+D Micro-MaTch connector 8 pin female right angle
 $ENDCMP
 #
 $CMP MicroFit_RA_R_2
@@ -783,6 +799,10 @@ $ENDCMP
 #
 $CMP SW_Push_SPST_NO
 D SWITCH TACTILE SPST-NO 0.05A 12V
+$ENDCMP
+#
+$CMP Samtec
+D Micro-MaTch connector 20 pin male vertical
 $ENDCMP
 #
 $CMP TLP175A_OEM
