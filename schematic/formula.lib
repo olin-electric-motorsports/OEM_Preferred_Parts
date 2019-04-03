@@ -526,6 +526,9 @@ F0 "J" 0 350 50 H V C CNN
 F1 "B5B-PH-K-S" 0 -250 50 H V C CNN
 F2 "footprints:B5B-PH-K-S" -100 250 50 H I C CNN
 F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 0 350 50 H I C CNN
+F4 "DK" 100 450 50 H I C CNN "MFN"
+F5 "455-1707-ND" 200 550 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B5B-PH-K-S-LF-SN/455-1707-ND/926614" 300 650 50 H I C CNN "PurchasingLink"
 DRAW
 S -50 -145 0 -155 1 1 6 N
 S -50 -45 0 -55 1 1 6 N
@@ -548,12 +551,56 @@ F0 "D" 0 100 50 H V C CNN
 F1 "BAS40-00" 0 -100 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23" -100 0 50 H I C CNN
 F3 "https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf" 0 100 50 H I C CNN
+F4 "DK" 100 200 50 H I C CNN "MFN"
+F5 "1727-4234-1-ND" 200 300 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAS40215/1727-4234-1-ND/2122190" 300 400 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 8 -50 50 -50 -50 N
 P 2 1 1 0 50 0 -50 0 N
 P 4 1 1 8 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
+X A 1 150 0 100 L 50 50 1 1 P
+X K 3 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BBS-126-G-A
+#
+DEF BBS-126-G-A J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "BBS-126-G-A" 50 -1550 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/bbs.pdf" -100 1200 60 H I C CNN
+F4 "SAMTEC" 100 1400 60 H I C CNN "MFN"
+F5 "BBS-126-G-A" 200 1500 60 H I C CNN "MPN"
+F6 "https://www.samtec.com/products/bbs-126-g-a" 0 1300 60 H I C CNN "PurchasingLink"
+DRAW
+S -250 1150 50 -1450 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+X 17 17 150 -500 100 L 50 50 1 1 B
+X 18 18 150 -600 100 L 50 50 1 1 B
+X 19 19 150 -700 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 20 20 150 -800 100 L 50 50 1 1 B
+X 21 21 150 -900 100 L 50 50 1 1 B
+X 22 22 150 -1000 100 L 50 50 1 1 B
+X 23 23 150 -1100 100 L 50 50 1 1 B
+X 24 24 150 -1200 100 L 50 50 1 1 B
+X 25 25 150 -1300 100 L 50 50 1 1 B
+X 26 26 150 -1400 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -909,7 +956,7 @@ F3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" 25 100 50 H I C CNN
 F4 "Digi-Key" 125 200 60 H I C CNN "MFN"
 F5 "493-1305-ND" 225 300 60 H I C CNN "MPN"
 F6 "Radial, Can" 325 400 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=493-1305-ND" 425 500 60 H I C CNN "Purchasing Link"
+F7 "https://www.digikey.com/products/en?keywords=493-1305-ND" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  SMD*_Pol
  c_elec*
@@ -1109,7 +1156,10 @@ DEF C_10nF C 0 40 Y Y 1 F N
 F0 "C" -100 100 50 H V C CNN
 F1 "C_10nF" 150 0 50 V V C CNN
 F2 "footprints:C_0805_OEM" -200 0 50 H I C CNN
-F3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" -100 100 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" -100 100 50 H I C CNN
+F4 "DK" 0 200 50 H I C CNN "MFN"
+F5 "1276-1015-1-ND" 100 300 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" 200 400 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
@@ -2242,13 +2292,16 @@ X ADJ 3 0 -300 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# LTC1380
+# LTC1380IGN
 #
-DEF LTC1380 U 0 40 Y Y 1 F N
+DEF LTC1380IGN U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
-F1 "LTC1380" 0 -450 50 H V C CNN
-F2 "footprints:SSOP-16_LTC1380" -600 450 50 H I C CNN
-F3 "" -600 450 50 H I C CNN
+F1 "LTC1380IGN" 0 -450 50 H V C CNN
+F2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" -600 450 50 H I C CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" -600 450 50 H I C CNN
+F4 "DK" 300 750 50 H I C CNN "MFN"
+F5 "LTC1380IGN#PBF-ND" 100 550 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC1380IGN-TRPBF/LTC1380IGN-TRPBFCT-ND/9554873" 200 650 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 400 200 -400 0 1 0 f
 X S0 1 -450 350 200 R 50 50 1 1 I
@@ -2339,6 +2392,9 @@ F0 "U" 0 750 50 H V C CNN
 F1 "LTC6820HMS" 0 -850 50 H V C CNN
 F2 "Package_SO:MSOP-16_3x4mm_P0.5mm" 400 -350 50 V I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf" 400 -350 50 V I C CNN
+F4 "DK" 100 850 50 H V C CNN "MFN"
+F5 "LTC6820HMS#TRPBFCT-ND" 200 950 50 H V C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6820HMS-TRPBF/LTC6820HMS-TRPBFCT-ND/8275338" 300 1050 50 H V C CNN "PurchasingLink"
 DRAW
 S 300 700 -300 -800 0 1 0 f
 X EN 1 500 600 200 L 50 50 1 1 I
@@ -2437,7 +2493,7 @@ ENDDEF
 DEF MCP6001 U 0 20 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
 F1 "MCP6001" 0 -200 50 H V L CNN
-F2 "footprints:SOT-23-5_OEM" -100 100 50 H I C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" -100 100 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
 F4 "DK" 100 300 60 H I C CNN "MFN"
 F5 "MCP6001T-I/OTCT-ND" 200 400 60 H I C CNN "MPN"
@@ -2445,6 +2501,26 @@ F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT
 $FPLIST
  SOT*23*
 $ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 2 -100 -300 150 U 50 50 0 1 W
+X V+ 5 -100 300 150 D 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X + 3 -300 100 100 R 50 50 1 1 I
+X - 4 -300 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MCP6001T-I-LT
+#
+DEF MCP6001T-I-LT U 0 20 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "MCP6001T-I-LT" 0 -200 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" -100 100 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
+F4 "DK" 100 300 60 H I C CNN "MFN"
+F5 "MCP6001T-I/LTCT-ND" 200 400 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" 300 500 60 H I C CNN "PurchasingLink"
 DRAW
 P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
 X V- 2 -100 -300 150 U 50 50 0 1 W
@@ -3482,9 +3558,9 @@ F0 "J" -100 50 50 H V C CNN
 F1 "MicroFit_RA_R_2" 0 -150 50 H V C CNN
 F2 "footprints:MicroFit_RA_2" -50 200 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/436500201_sd.pdf" -50 200 50 H I C CNN
-F4 "MFN" 100 250 50 H I C CNN "DK"
+F4 "DK" 100 250 50 H I C CNN "MFN"
 F5 "WM1865-ND" 200 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" 0 150 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" 0 150 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -3538,12 +3614,15 @@ F3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" -100 200 50 H I C CN
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
+P 2 0 1 0 150 50 50 50 N
+P 2 0 1 0 200 100 150 50 N
 P 3 0 1 0 25 -25 100 -100 100 -100 N
 P 3 0 1 20 25 75 25 -75 25 -75 N
 P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
 X ~ 1 -200 0 225 R 50 50 1 1 I
 X ~ 2 100 200 100 D 50 50 1 1 P
 X ~ 3 100 -200 100 U 50 50 1 1 P
+X ~ 4 200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -4258,6 +4337,23 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_3.3_25W_TO163
+#
+DEF R_3.3_25W_TO163 R 0 40 Y Y 1 F N
+F0 "R" -150 150 50 H V C CNN
+F1 "R_3.3_25W_TO163" 0 -100 50 H V C CNN
+F2 "footprints:PWR163" -250 50 50 H I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
+F4 "DK" -50 250 50 H I C CNN "MFN"
+F5 "PWR163S-25-3R30F-ND" 50 350 50 H I C CNN "MPN"
+DRAW
+S 100 -50 -100 50 0 1 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+X ~ EP 0 250 200 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # R_3.6_5W_SMD
 #
 DEF R_3.6_5W_SMD R 0 0 N Y 1 F N
@@ -4554,6 +4650,9 @@ F0 "R" -100 0 50 H V C CNN
 F1 "R_60.4" 100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 -100 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" -100 0 50 H I C CNN
+F4 "DK" 0 100 50 H I C CNN "MFN"
+F5 "P60.4DACT-ND" 100 200 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" 200 300 50 H I C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -5320,6 +5419,47 @@ X A 2 1050 -150 200 L 50 50 1 1 O
 X GND 3 1050 -250 200 L 50 50 1 1 O
 X Y 4 150 -250 200 R 50 50 1 1 I
 X VCC 5 150 -50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SS-126-G-2
+#
+DEF SS-126-G-2 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "SS-126-G-2" 50 -1550 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/ss.pdf" -100 1200 60 H I C CNN
+F4 "SAMTEC" 100 1400 60 H I C CNN "MFN"
+F5 "SS-126-G-2" 200 1500 60 H I C CNN "MPN"
+F6 "https://www.samtec.com/products/ss-126-g-2" 0 1300 60 H I C CNN "PurchasingLink"
+DRAW
+S -250 1150 50 -1450 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+X 17 17 150 -500 100 L 50 50 1 1 B
+X 18 18 150 -600 100 L 50 50 1 1 B
+X 19 19 150 -700 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 20 20 150 -800 100 L 50 50 1 1 B
+X 21 21 150 -900 100 L 50 50 1 1 B
+X 22 22 150 -1000 100 L 50 50 1 1 B
+X 23 23 150 -1100 100 L 50 50 1 1 B
+X 24 24 150 -1200 100 L 50 50 1 1 B
+X 25 25 150 -1300 100 L 50 50 1 1 B
+X 26 26 150 -1400 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -6207,6 +6347,26 @@ X ~ 9 1500 -150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Thermistor
+#
+DEF Thermistor RT 0 40 Y Y 1 F N
+F0 "RT" 0 -240 50 H V C CNN
+F1 "Thermistor" 0 240 50 H V C CNN
+F2 "Thermistor" 20 -340 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 184 0 1 0 N
+P 2 0 1 0 -200 0 -180 0 N
+P 2 0 1 0 -100 -75 -150 -75 N
+P 2 0 1 0 125 100 125 50 N
+P 2 0 1 0 200 0 180 0 N
+P 3 0 1 0 -100 -75 125 100 75 100 N
+P 8 0 1 0 -180 0 -150 60 -90 -60 -30 60 30 -60 90 60 150 -60 180 0 N
+X ~ 1 -300 0 100 R 50 50 1 1 I
+X ~ 2 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # UF_2_RA
 #
 DEF UF_2_RA J 0 40 Y Y 1 F N
@@ -6393,6 +6553,20 @@ X IN 2 -500 150 200 R 50 50 1 1 I
 X GND 3 -500 -150 200 R 50 50 1 1 B
 X PWRGND 4 0 -500 200 U 50 50 1 1 B
 X FB 5 500 0 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# isoSPI-Cutout
+#
+DEF isoSPI-Cutout J 0 40 Y Y 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "isoSPI-Cutout" 0 -200 50 H V C CNN
+F2 "footprints:iso_spi_cutout" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+S 50 100 200 -100 0 1 0 f
+X ~ 1 -150 50 200 R 50 50 1 1 I
+X ~ 2 -150 -50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

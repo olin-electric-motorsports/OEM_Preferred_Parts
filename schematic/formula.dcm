@@ -68,6 +68,7 @@ D Ampseal connector 35 pin vertical
 $ENDCMP
 #
 $CMP B5B-PH-K-S
+D Connector Header Through Hole 5 position 0.079" (2.00mm)
 K B5B, JST,
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
@@ -76,6 +77,10 @@ $CMP BAS40-00
 D Schottky Diode, 40V, 120mA, SOT23
 K schottky, diode
 F https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf
+$ENDCMP
+#
+$CMP BBS-126-G-A
+D .1" Single Row Terminal Strip
 $ENDCMP
 #
 $CMP BSS308PE
@@ -148,6 +153,12 @@ $ENDCMP
 #
 $CMP C_100pF
 D Capacitor, 100pF, 50V, 5%, 0805
+$ENDCMP
+#
+$CMP C_10nF
+D Capacitor, 10nF 50V X7R 0805
+K cap, ceramic, capacitor, 10nF, 10000pF, 0805
+F http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf
 $ENDCMP
 #
 $CMP C_10uF
@@ -289,10 +300,10 @@ $CMP LR8K4-G
 D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
 $ENDCMP
 #
-$CMP LTC1380
+$CMP LTC1380IGN
 D Single-Ended 8-Channel/ Differential 4-Channel Analog Multiplexer with SMBus Interface
-K Multiplexer, SMBus Interface
-F http://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf
+K Multiplexer, SMBus Interface, analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf
 $ENDCMP
 #
 $CMP LTC6811-1
@@ -316,6 +327,12 @@ $ENDCMP
 #
 $CMP MCP6001
 D Op-amp, general purpose
+$ENDCMP
+#
+$CMP MCP6001T-I-LT
+D Single op-amp, general purpose, -40-+85 C, SC-70-5
+K opamp, single, op, amp,
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
 $CMP MCP603
@@ -466,6 +483,11 @@ $CMP MicroFit_RA_08
 D Micro-MaTch connector 8 pin female right angle
 $ENDCMP
 #
+$CMP MicroFit_RA_R_2
+D Micro-Fit Connector, Right Angle 2 circuit
+K micro, fit, microfit
+$ENDCMP
+#
 $CMP NCP785AH150T1G
 D Linear regulator, 25-450V input, 15V output, 10mA
 $ENDCMP
@@ -613,6 +635,12 @@ $CMP R_3.01K
 D Resistor, 3.01K, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_3.3_25W_TO163
+D RES SMD 3.3 OHM 1% 25W DPAK
+K power resistor, balancing, BMS, Bourns, PWR163
+F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
+$ENDCMP
+#
 $CMP R_3.6_5W_SMD
 D RES SMD 3.6 OHM 5% 5W 5329
 K power resistor, resistor, chip,
@@ -676,9 +704,9 @@ D Resistor, 6.2K, 0.125W, 1%, 0805
 $ENDCMP
 #
 $CMP R_60.4
-D 60.4 resistor
-K resistor
-F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165
+D Resistor, 60.4, 0.1%, 0.125W, 0805
+K resistor, 60.4
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
 $CMP R_604K
@@ -755,6 +783,10 @@ $ENDCMP
 #
 $CMP SN74LVC1G17
 D Single schmitt-trigger buffer
+$ENDCMP
+#
+$CMP SS-126-G-2
+D .1" Single Row Socket Strip
 $ENDCMP
 #
 $CMP SS110LW
@@ -836,6 +868,12 @@ $ENDCMP
 #
 $CMP ZXRE160
 D Adjustable shunt voltage reference, 18V max output, 15mA
+$ENDCMP
+#
+$CMP isoSPI-Cutout
+D Mechanical Cutout for Zip-tie attachement
+K mechanical, zip tie, isoSPI
+F https://docs.olinelectricmotorsports.com/display/ETD/BMS#BMS-NanoFitFootprintSizingwithZiptieAttachment-3/11/19
 $ENDCMP
 #
 #End Doc Library
