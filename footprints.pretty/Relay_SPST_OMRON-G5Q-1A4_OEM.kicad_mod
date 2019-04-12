@@ -1,4 +1,4 @@
-(module Relay_SPST_OMRON-G5Q-1A4_OEM (layer F.Cu) (tedit 59F2AABB)
+(module Relay_SPST_OMRON-G5Q-1A4_OEM (layer F.Cu) (tedit 5C9D72AF)
   (descr "Relay SPST-NO Omron Serie G5Q")
   (tags "Relay SPST-NO Omron Serie G5Q")
   (fp_text reference REF** (at 9.5 -10.5 180) (layer F.SilkS)
@@ -43,7 +43,7 @@
   (pad 2 thru_hole circle (at 10.16 0 180) (size 1.8 1.8) (drill 1.3) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 17.78 0 180) (size 1.8 1.8) (drill 1.3) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 -7.62 180) (size 1.8 1.8) (drill 1.3) (layers *.Cu *.Mask))
-  (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.wrl
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
