@@ -55,6 +55,9 @@ F0 "F" 0 150 50 H V C CNN
 F1 "200mA_Fuse" 0 -150 50 H V C CNN
 F2 "footprints:Fuse_1812" -50 0 50 H I C CNN
 F3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" -50 0 50 H I C CNN
+F4 "507-1767-1-ND " 100 250 50 H V C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" 200 350 50 H V C CNN "PurchasingLink"
+F6 "DK" 300 450 50 H V C CNN "MFN"
 DRAW
 A -50 0 50 -1799 -1 0 1 0 N -100 0 0 0
 A 49 0 49 1800 889 0 1 0 N 0 0 50 50
@@ -69,8 +72,11 @@ ENDDEF
 DEF 24AA01 U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
 F1 "24AA01" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "footprints:SOT-23-5_OEM_24AA01" -100 100 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" 0 200 50 H I C CNN
+F4 "CAT24AA01TDI-GT3OSCT-ND " 100 300 50 H V C CNN "MPN"
+F5 "DK" 200 400 50 H V C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/on-semiconductor/CAT24AA01TDI-GT3/CAT24AA01TDI-GT3OSCT-ND/3487510" 300 500 50 H V C CNN "PurchasingLink"
 DRAW
 S -250 150 200 -150 0 1 0 f
 X SCL 1 -450 100 200 R 50 50 1 1 I
@@ -2329,9 +2335,10 @@ DEF LTC6811-1 U 0 40 Y Y 1 F N
 F0 "U" -50 -1300 50 H V C CNN
 F1 "LTC6811-1" -50 1250 50 H V C CNN
 F2 "footprints:TSSOP-48_LTC6811-1" -650 1250 50 H I C CNN
-F3 "" -650 1250 50 H I C CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf" -650 1250 50 H I C CNN
 F4 "DK" 50 -1200 50 H V C CNN "MFN"
 F5 "LTC6811IG-1-PBF-ND" 150 -1100 50 H V C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6811IG-1-3ZZTRPBF/LTC6811IG-1-3ZZTRPBFCT-ND/9841747" 250 -1000 50 H V C CNN "PurchasingLink"
 DRAW
 S -300 1150 200 -1250 0 1 0 f
 X V+ 1 -500 1100 200 R 50 50 1 1 I
@@ -3585,6 +3592,7 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+<<<<<<< HEAD
 # MicroFit_V_2
 #
 DEF MicroFit_V_2 J 0 40 Y Y 1 F N
@@ -3599,6 +3607,30 @@ DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
 X 2 2 250 -50 100 L 50 50 1 1 B
+=======
+# MicroFit_VT_10
+#
+DEF MicroFit_VT_10 J 0 40 Y Y 1 F N
+F0 "J" -100 550 50 H V C CNN
+F1 "MicroFit_VT_10" 0 -450 50 H V C CNN
+F2 "footprints:MicroFit_VT_10" 100 650 50 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/430451012_sd.pdf" 100 650 50 H I C CNN
+F4 "DK" 0 650 50 H I C CNN "MFN"
+F5 "WM1793-ND" 100 750 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex/0430451012/WM1793-ND/252506" 200 850 50 H I C CNN "PurchasingLink"
+DRAW
+S 150 -400 -150 600 1 1 0 f
+X 1 1 250 550 100 L 50 50 1 1 B
+X 10 10 250 -350 100 L 50 50 1 1 B
+X 2 2 250 450 100 L 50 50 1 1 B
+X 3 3 250 350 100 L 50 50 1 1 B
+X 4 4 250 250 100 L 50 50 1 1 B
+X 5 5 250 150 100 L 50 50 1 1 B
+X 6 6 250 50 100 L 50 50 1 1 B
+X 7 7 250 -50 100 L 50 50 1 1 B
+X 8 8 250 -150 100 L 50 50 1 1 B
+X 9 9 250 -250 100 L 50 50 1 1 B
+>>>>>>> 1a25cc2430bc5de072eae5109f5e6c96ff7b00fc
 ENDDRAW
 ENDDEF
 #
@@ -3626,8 +3658,11 @@ ENDDEF
 DEF NSS1C201MZ4 Q 0 40 Y Y 1 F N
 F0 "Q" -100 200 50 H V C CNN
 F1 "NSS1C201MZ4" -200 -200 50 H V C CNN
-F2 "" -200 100 50 H I C CNN
+F2 "footprints:SOT-223" -200 100 50 H I C CNN
 F3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" -100 200 50 H I C CNN
+F4 "NSS1C201MZ4T3GOSCT-ND " 0 300 50 H V C CNN "MPN"
+F5 "DK" 100 400 50 H V C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/NSS1C201MZ4T3GOSCT-ND/9087487" 200 500 50 H V C CNN "PurchasingLink"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -4363,6 +4398,7 @@ F2 "footprints:PWR163" -250 50 50 H I C CNN
 F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
 F4 "DK" -50 250 50 H I C CNN "MFN"
 F5 "PWR163S-25-3R30F-ND" 50 350 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" 150 450 50 H V C CNN "PurchasingLink"
 DRAW
 S 100 -50 -100 50 0 1 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
@@ -4506,6 +4542,9 @@ F0 "R" -100 50 50 H V C CNN
 F1 "R_4.99K" 100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 -50 50 H I C CNN
 F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" -100 50 50 H I C CNN
+F4 "RNCP0805FTD4K99CT-ND " 0 150 50 H V C CNN "MPN"
+F5 "DK" 100 250 50 H V C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" 200 350 50 H V C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
