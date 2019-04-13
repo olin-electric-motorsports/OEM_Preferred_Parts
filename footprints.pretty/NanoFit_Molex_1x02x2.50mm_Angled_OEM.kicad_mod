@@ -1,4 +1,4 @@
-(module NanoFit_Molex_1x02x2.50mm_Angled_OEM (layer F.Cu) (tedit 59FFB53D)
+(module NanoFit_Molex_1x02x2.50mm_Angled_OEM (layer F.Cu) (tedit 5C917035)
   (descr "Molex Nano Fit, single row, side entry, through hole, Datasheet:http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf")
   (tags "connector molex nano-fit 105313-xx04")
   (fp_text reference J7 (at 1.25 2.2) (layer F.SilkS)
@@ -40,7 +40,7 @@
   (pad 2 thru_hole circle (at 2.5 0) (size 1.9 1.9) (drill 1.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 -7.18) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 2.5 -7.18) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
-  (model /home/noah/formula/OEM_Preferred_Parts/3DModels/Molex_NanoFit_1x02x2_50mm_Angled_OEM/Molex_NanoFit_1x02x2_50mm_Angled_OEM001.wrl
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Molex_NanoFit_1x02x2_50mm_Angled_OEM/Molex_NanoFit_1x02x2_50mm_Angled_OEM001.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
