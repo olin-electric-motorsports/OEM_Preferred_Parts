@@ -785,6 +785,10 @@ $CMP SN74LVC1G17
 D Single schmitt-trigger buffer
 $ENDCMP
 #
+$CMP SN74LVC1G32
+D Single Channel OR Gate SOT-23-5
+$ENDCMP
+#
 $CMP SS-126-G-2
 D .1" Single Row Socket Strip
 $ENDCMP
