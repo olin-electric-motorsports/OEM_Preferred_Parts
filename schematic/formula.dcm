@@ -694,7 +694,7 @@ D Resistor, 51.1K, 0.125W, 1%, 0805
 $ENDCMP
 #
 $CMP R_54.9K
-D Resistor, 54.9, 0.125W, 1%, 0805
+D Resistor, 54.9K, 0.125W, 1%, 0805
 K Resistor
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
 $ENDCMP
