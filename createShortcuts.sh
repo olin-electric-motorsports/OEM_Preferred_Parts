@@ -36,7 +36,7 @@ for repo in $(ls)
 
  #Add OEM_Preferred_Parts shortcuts
  if [[ $repo =~ ^OEM ]]
- then echo "alias OEM_Parts='cd "$FORMULADIR"/OEM_Preferred_Parts/'" >> ./aliases.sh;
+ then echo "alias parts='cd "$FORMULADIR"/OEM_Preferred_Parts/'" >> ./aliases.sh;
  fi
 done
 
