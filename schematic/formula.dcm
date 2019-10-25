@@ -325,6 +325,12 @@ $CMP MCP2561-E_SN
 D High speed CAN transceiver, 1Mb/s
 $ENDCMP
 #
+$CMP MCP25625-x-SS
+D Stand-Alone CAN Controller with SPI Interface and integated Transceiver, SSOP-28
+K CAN Controller SPI Transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005282B.pdf
+$ENDCMP
+#
 $CMP MCP6001
 D Op-amp, general purpose
 $ENDCMP
