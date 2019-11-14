@@ -3240,7 +3240,7 @@ DEF MM_M_VT_08 J 0 40 Y Y 1 F N
 F0 "J" 0 550 60 H V C CNN
 F1 "MM_M_VT_08" 0 -350 60 H V C CNN
 F2 "" -100 450 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-215464-8" -100 1200 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "215464-8" 200 1500 60 H I C CNN "MPN"
 F6 "http://www.te.com/global-en/product-215464-8.html" 0 1300 60 H I C CNN "PurchasingLink"
@@ -3408,7 +3408,7 @@ DEF MM_M_VT_20 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "MM_M_VT_20" -50 -900 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-2-215464-0" -100 1200 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "2-215464-0" 200 1500 60 H I C CNN "MPN"
 F6 "http://www.te.com/global-en/product-2-215464-0.html" 0 1300 60 H I C CNN "PurchasingLink"
