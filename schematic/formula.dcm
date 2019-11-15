@@ -488,6 +488,10 @@ D Micro-Fit Connector, Right Angle 2 circuit
 K micro, fit, microfit
 $ENDCMP
 #
+$CMP MicroFit_RA_V_2_SMD
+F https://www.molex.com/pdm_docs/sd/436500213_sd.pdf
+$ENDCMP
+#
 $CMP NCP785AH150T1G
 D Linear regulator, 25-450V input, 15V output, 10mA
 $ENDCMP

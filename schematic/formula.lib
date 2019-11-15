@@ -3592,6 +3592,23 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# MicroFit_RA_V_2_SMD
+#
+DEF MicroFit_RA_V_2_SMD J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V C CNN
+F1 "MicroFit_RA_V_2_SMD" 0 -150 50 H V C CNN
+F2 "footprints:MicroFit_RA_2_SMD" -50 200 50 H I C CNN
+F3 "" -50 200 50 H I C CNN
+F4 "MFN" 100 250 50 H I C CNN "DK"
+F5 "436500213" 200 350 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex/0436500213/WM1895CT-ND/269061" 0 150 50 H I C CNN "PurchasingLink"
+DRAW
+S 150 -100 -150 100 1 1 0 f
+X 1 1 250 50 100 L 50 50 1 1 B
+X 2 2 250 -50 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # MicroFit_VT_10
 #
 DEF MicroFit_VT_10 J 0 40 Y Y 1 F N
