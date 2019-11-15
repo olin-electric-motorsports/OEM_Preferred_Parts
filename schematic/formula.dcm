@@ -509,7 +509,7 @@ D 100V, 2.0A, Low VCE NPN Transistor
 F http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF
 $ENDCMP
 #
-$CMP NanoFit_2
+$CMP NanoFit_RA_02
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
 #
