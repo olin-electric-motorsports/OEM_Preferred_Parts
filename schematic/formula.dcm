@@ -585,6 +585,11 @@ $CMP R_120K
 D Resistor, 120K, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_120_DNP
+D Resistor, 120, 0.125W, 1%, 0805
+F https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf
+$ENDCMP
+#
 $CMP R_13_2W_2512_0
 D Resistor, 13 ohm 1%, 2W, 2512
 K power resistor, resistor, chip,
