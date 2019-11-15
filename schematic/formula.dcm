@@ -286,6 +286,7 @@ $ENDCMP
 $CMP LM3480
 D Linear regulator, 30V max input, 3.3V output, 100mA
 K LDO
+F http://www.ti.com/lit/ds/symlink/lm3480.pdf
 $ENDCMP
 #
 $CMP LM78L05ACZ
