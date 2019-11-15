@@ -57,6 +57,7 @@ $ENDCMP
 #
 $CMP Ampseal_23_VT
 D Ampseal connector 23 pin vertical
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776228%7FC13%7Fpdf%7FEnglish%7FENG_CD_776228_C13.pdf%7F776228-1
 $ENDCMP
 #
 $CMP Ampseal_35_RA
