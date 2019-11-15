@@ -325,6 +325,12 @@ $CMP MCP2561-E_SN
 D High speed CAN transceiver, 1Mb/s
 $ENDCMP
 #
+$CMP MCP25625-x-SS
+D Stand-Alone CAN Controller with SPI Interface and integated Transceiver, SSOP-28
+K CAN Controller SPI Transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005282B.pdf
+$ENDCMP
+#
 $CMP MCP6001
 D Op-amp, general purpose
 $ENDCMP
@@ -429,6 +435,7 @@ $ENDCMP
 #
 $CMP MM_M_VT_08
 D Micro-MaTch connector 8 pin male vertical
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215464%7FR%7Fpdf%7FEnglish%7FENG_CD_215464_R.pdf%7F2-215464-0
 $ENDCMP
 #
 $CMP MM_M_VT_10
@@ -453,6 +460,7 @@ $ENDCMP
 #
 $CMP MM_M_VT_20
 D Micro-MaTch connector 20 pin male vertical
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215464%7FR%7Fpdf%7FEnglish%7FENG_CD_215464_R.pdf%7F2-215464-0
 $ENDCMP
 #
 $CMP MX150L_2
