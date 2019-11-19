@@ -170,6 +170,10 @@ $CMP C_10uF_16V
 D Capacitor, 10uF, 16V, 10%, 0805
 $ENDCMP
 #
+$CMP C_10uF_25V
+D Capacitor, 10uF, X7R, 25V, 0805
+$ENDCMP
+#
 $CMP C_18pF
 D Capacitor, 18pF, 10V, 1%, 0603
 $ENDCMP
@@ -234,6 +238,11 @@ $CMP F_1.1A_12V
 D Fuse, PTC, 1.1A, 12V, 1206
 $ENDCMP
 #
+$CMP F_2.6A_16V
+D Polymeric PTC Resettable Fuse 16V 2.6A Ih Surface Mount 1812 (4532 Metric), Concave
+F https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf
+$ENDCMP
+#
 $CMP F_21mA_420V
 D Fuse, PTC, 21mA, 420V, Radial
 $ENDCMP
@@ -256,6 +265,11 @@ $ENDCMP
 #
 $CMP G6C-1117P-US
 D Relay, SPST-NO, Switch 10A/125V, Coil 16.7mA/12V
+$ENDCMP
+#
+$CMP IHLP2020BZER4R7M11
+D 4.7µH Shielded Molded Inductor 3.2A 81.3mOhm Max Nonstandard
+F http://www.vishay.com/docs/34261/ihlp2020bz11.pdf
 $ENDCMP
 #
 $CMP L693D1
@@ -538,6 +552,10 @@ $ENDCMP
 #
 $CMP R_0_2512
 D Resistor, 0 ohm jumper, 3W, 2512
+$ENDCMP
+#
+$CMP R_1
+D 1 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
 $ENDCMP
 #
 $CMP R_1.07K
