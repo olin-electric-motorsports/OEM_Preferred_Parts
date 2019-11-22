@@ -190,6 +190,10 @@ $CMP C_30pF
 D Capacitor, 30pF, 50V, 5%, 0805
 $ENDCMP
 #
+$CMP C_33uF
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
 $CMP C_4.7uF
 D Capacitor, 4.7uF, 6.3V, 10%, 0603
 $ENDCMP
@@ -317,6 +321,10 @@ $CMP LTC6820HMS
 D isoSPI Isolated Communications Interface
 K interface, isoSPI, SPI,
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
+$ENDCMP
+#
+$CMP L_100uH
+F https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf
 $ENDCMP
 #
 $CMP L_4.7uH
@@ -850,6 +858,10 @@ $ENDCMP
 #
 $CMP TP
 D Test point, loop style, 1.6mm mounting hole
+$ENDCMP
+#
+$CMP TPS560430YF
+F http://www.ti.com/lit/ds/symlink/tps560430.pdf
 $ENDCMP
 #
 $CMP TPS561201
