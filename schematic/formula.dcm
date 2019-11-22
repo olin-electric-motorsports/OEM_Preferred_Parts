@@ -326,6 +326,12 @@ $CMP L_100uH
 F https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf
 $ENDCMP
 #
+$CMP L_15uH
+D Inductor, 15uH, 1210
+K inductor, coil, l
+F https://product.tdk.com/info/en/documents/catalog/inductor_commercial_decoupling_nlcv32-pf_en.pdf?ref_disty=digikey
+$ENDCMP
+#
 $CMP L_4.7uH
 D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
