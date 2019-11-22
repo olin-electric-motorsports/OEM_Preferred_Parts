@@ -2564,7 +2564,7 @@ ENDDEF
 #
 # L_100uH
 #
-DEF L_100uH L 0 40 Y Y 1 F N
+DEF L_100uH L 0 40 N N 1 F N
 F0 "L" 0 -50 50 H V C CNN
 F1 "L_100uH" 0 100 50 H V C CNN
 F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
@@ -2572,6 +2572,26 @@ F3 "" -100 -150 50 H I C CNN
 F4 "Digikey" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "Link"
+DRAW
+A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
+A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
+A 20 0 20 1 1799 1 1 0 N 40 0 0 0
+A 60 0 20 1 1799 1 1 0 N 80 0 40 0
+X ~ 1 -100 0 20 R 50 50 1 1 P
+X ~ 2 100 0 20 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_15uH
+#
+DEF L_15uH L 0 40 N N 1 F N
+F0 "L" 0 -50 50 H V C CNN
+F1 "L_15uH" 0 100 50 H V C CNN
+F2 "formula:L_100uH" -100 -200 50 H I C CNN
+F3 "" -100 -150 50 H I C CNN
+F4 "Digikey" 100 -200 50 H I C CNN "MFN"
+F5 "445-1539-1-ND" 0 250 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLCV32T-150K-PF/445-1539-1-ND/571847" 300 200 50 H I C CNN "Link"
 DRAW
 A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
 A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
