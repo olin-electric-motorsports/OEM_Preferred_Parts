@@ -262,6 +262,12 @@ $CMP G6C-1117P-US
 D Relay, SPST-NO, Switch 10A/125V, Coil 16.7mA/12V
 $ENDCMP
 #
+$CMP INA260
+D Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16
+K Current/power/voltage monitor
+F http://www.ti.com/lit/ds/symlink/ina260.pdf
+$ENDCMP
+#
 $CMP L693D1
 D Linear regulator, 2-14V input, adj 1.2-5V output, 2A
 K LDO
