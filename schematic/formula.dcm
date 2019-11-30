@@ -670,6 +670,10 @@ $CMP R_22M
 D Resistor, 22M, 0.2W, 5%, 0805
 $ENDCMP
 #
+$CMP R_25K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP R_270K
 D Resistor, 270K, 0.125W, 0.1%, 0805
 $ENDCMP
