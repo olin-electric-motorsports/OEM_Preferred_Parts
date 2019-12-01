@@ -350,6 +350,12 @@ $CMP MHSS1105
 D Slider Switch
 $ENDCMP
 #
+$CMP MLX90621ESF-BAB-000-TU
+D I2C Tire Temperature Sensor
+K I2C Temperature Sensor
+F https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf
+$ENDCMP
+#
 $CMP MMBF170
 D MOSFET, N-channel, 60V, 500mA
 $ENDCMP
@@ -837,6 +843,30 @@ $ENDCMP
 #
 $CMP Samtec
 D Micro-MaTch connector 20 pin male vertical
+$ENDCMP
+#
+$CMP Si7051-A20
+D I2C Temperature Sensor, ±0.1ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
+$ENDCMP
+#
+$CMP Si7053-A20
+D I2C Temperature Sensor, ±0.3ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
+$ENDCMP
+#
+$CMP Si7054-A20
+D I2C Temperature Sensor, ±0.4ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
+$ENDCMP
+#
+$CMP Si7055-A20
+D I2C Temperature Sensor, ±0.5ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
 $ENDCMP
 #
 $CMP TLP175A_OEM
