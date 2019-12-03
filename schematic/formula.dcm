@@ -190,6 +190,10 @@ $CMP C_30pF
 D Capacitor, 30pF, 50V, 5%, 0805
 $ENDCMP
 #
+$CMP C_33uF
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
 $CMP C_4.7uF
 D Capacitor, 4.7uF, 6.3V, 10%, 0603
 $ENDCMP
@@ -258,6 +262,12 @@ $CMP G6C-1117P-US
 D Relay, SPST-NO, Switch 10A/125V, Coil 16.7mA/12V
 $ENDCMP
 #
+$CMP INA260
+D Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16
+K Current/power/voltage monitor
+F http://www.ti.com/lit/ds/symlink/ina260.pdf
+$ENDCMP
+#
 $CMP L693D1
 D Linear regulator, 2-14V input, adj 1.2-5V output, 2A
 K LDO
@@ -286,6 +296,7 @@ $ENDCMP
 $CMP LM3480
 D Linear regulator, 30V max input, 3.3V output, 100mA
 K LDO
+F http://www.ti.com/lit/ds/symlink/lm3480.pdf
 $ENDCMP
 #
 $CMP LM78L05ACZ
@@ -316,6 +327,16 @@ $CMP LTC6820HMS
 D isoSPI Isolated Communications Interface
 K interface, isoSPI, SPI,
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
+$ENDCMP
+#
+$CMP L_100uH
+F https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf
+$ENDCMP
+#
+$CMP L_15uH
+D Inductor, 15uH, 1210
+K inductor, coil, l
+F https://product.tdk.com/info/en/documents/catalog/inductor_commercial_decoupling_nlcv32-pf_en.pdf?ref_disty=digikey
 $ENDCMP
 #
 $CMP L_4.7uH
@@ -655,6 +676,10 @@ $CMP R_22M
 D Resistor, 22M, 0.2W, 5%, 0805
 $ENDCMP
 #
+$CMP R_25K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP R_270K
 D Resistor, 270K, 0.125W, 0.1%, 0805
 $ENDCMP
@@ -879,6 +904,10 @@ $ENDCMP
 #
 $CMP TP
 D Test point, loop style, 1.6mm mounting hole
+$ENDCMP
+#
+$CMP TPS560430YF
+F http://www.ti.com/lit/ds/symlink/tps560430.pdf
 $ENDCMP
 #
 $CMP TPS561201
