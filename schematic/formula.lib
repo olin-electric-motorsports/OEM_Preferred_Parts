@@ -2160,6 +2160,7 @@ F2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" 0 -600 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/texas-instruments/INA260AIPWR/296-47777-1-ND/8133126" 0 0 50 H I C CNN "PurchasingLink"
 F5 "296-47777-1-ND" 0 0 50 H I C CNN "MPN"
+F6 "DK" 0 0 50 H I C CNN "MFN"
 $FPLIST
  TSSOP*4.4x5mm*P0.65mm*
 $ENDFPLIST
