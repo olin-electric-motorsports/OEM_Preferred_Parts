@@ -2664,7 +2664,7 @@ F0 "L" 0 -50 50 H V C CNN
 F1 "L_100uH" 0 100 50 H V C CNN
 F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
 F3 "" -100 -150 50 H I C CNN
-F4 "Digikey" 100 -200 50 H I C CNN "MFN"
+F4 "DK" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "PurchasingLink"
 DRAW
@@ -5112,14 +5112,14 @@ ENDDEF
 #
 # R_4.99K
 #
-DEF R_4.99K R 0 40 Y Y 1 F N
+DEF R_4.99K R 0 40 N N 1 F N
 F0 "R" -100 50 50 H V C CNN
 F1 "R_4.99K" 100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 -50 50 H I C CNN
-F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" -100 50 50 H I C CNN
-F4 "RNCP0805FTD4K99CT-ND " 0 150 50 H V C CNN "MPN"
-F5 "DK" 100 250 50 H V C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" 200 350 50 H V C CNN "PurchasingLink"
+F3 "" -100 50 50 H I C CNN
+F4 "RNCP0805FTD4K99CT-ND " 0 150 50 H I C CNN "MPN"
+F5 "DK" 100 250 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" 200 350 50 H I C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
