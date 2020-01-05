@@ -772,6 +772,12 @@ $CMP R_Strain_Gauge
 D Strain gauge, 2-element 90° biaxial tee rosette
 $ENDCMP
 #
+$CMP Raspberry_Pi_Zero
+D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP SD_socket
 D SD card socket with detect switch
 $ENDCMP

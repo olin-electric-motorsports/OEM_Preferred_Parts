@@ -1,4 +1,4 @@
-(module IHLP2020BZER4R7M11 (layer F.Cu) (tedit 0)
+(module IHLP2020BZER4R7M11-L_4.7_3.2A (layer F.Cu) (tedit 0)
   (fp_text reference L1 (at -0.127 -3.9624 -180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
