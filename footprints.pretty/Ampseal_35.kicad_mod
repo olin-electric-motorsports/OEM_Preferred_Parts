@@ -1,4 +1,4 @@
-(module Ampseal_35 (layer F.Cu) (tedit 5C8B01DC)
+(module Ampseal_35 (layer F.Cu) (tedit 5E1E719B)
   (fp_text reference REF** (at -3.81 10.16) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -54,5 +54,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Ampseal-35/ampseal35-otherend.stp
+    (offset (xyz 28.5 0 47))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 180))
   )
 )
