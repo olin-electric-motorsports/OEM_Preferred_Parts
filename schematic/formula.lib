@@ -7478,4 +7478,17 @@ X ~ 2 -150 -50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# redcude_7461166
+#
+DEF redcude_7461166 J 0 40 Y Y 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "redcude_7461166" 0 150 50 H V C CNN
+F2 "footprints:redcube_7461166" 0 -200 50 H I C CNN
+F3 "we-online.de/katalog/datasheet/7461166.pdf" 0 -100 50 H I C CNN
+DRAW
+S -50 50 50 -50 0 1 0 f
+X ~ 1 150 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
