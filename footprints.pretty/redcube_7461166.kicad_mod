@@ -1,4 +1,4 @@
-(module redcube_7461166 (layer F.Cu) (tedit 5E221F8D)
+(module redcube_7461166 (layer F.Cu) (tedit 5E22218E)
   (fp_text reference REF** (at -0.02 -9.27) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -22,4 +22,9 @@
   (pad 1 thru_hole circle (at 3.81 -6.35 90) (size 2 2) (drill 1.45) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 1.27 -6.35) (size 2 2) (drill 1.45) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0) (size 10 10) (drill 10) (layers *.Cu *.Mask))
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/redcube_7461166/redcube_7461166.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
