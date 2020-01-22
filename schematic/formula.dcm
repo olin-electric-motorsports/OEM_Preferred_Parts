@@ -35,6 +35,10 @@ $CMP ATMEGA16M1
 D Microcontroller, 8-bit, 1KB RAM, 16KB Flash
 $ENDCMP
 #
+$CMP ATmega328P-AU
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+$ENDCMP
+#
 $CMP Ampseal_08_RA
 D Ampseal connector 8 pin right angle
 $ENDCMP
@@ -287,6 +291,10 @@ $ENDCMP
 #
 $CMP LI12-1A85(NO)
 D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
+$ENDCMP
+#
+$CMP LIS3DHTR
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf
 $ENDCMP
 #
 $CMP LM324DT
@@ -768,6 +776,12 @@ $ENDCMP
 #
 $CMP R_Strain_Gauge
 D Strain gauge, 2-element 90° biaxial tee rosette
+$ENDCMP
+#
+$CMP Raspberry_Pi_Zero
+D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 $CMP SD_socket
