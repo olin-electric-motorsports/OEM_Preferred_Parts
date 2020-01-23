@@ -1,4 +1,4 @@
-(module MicroFit_VT_4 (layer F.Cu) (tedit 5DCE2749)
+(module MicroFit_VT_4 (layer F.Cu) (tedit 5E1EA004)
   (descr "Molex Micro-Fit 3.0 Connector System, 43045-0412 (compatible alternatives: 43045-0413, 43045-0424), 2 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex Micro-Fit_3.0 side entry")
   (fp_text reference REF** (at 1.5 -3.67) (layer F.SilkS)
@@ -45,9 +45,9 @@
   (pad 2 thru_hole circle (at 3 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 3) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 3 3) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
-    (at (xyz 0 0 0))
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_VT_4.stp
+    (offset (xyz 1.5 -1.5 5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )
