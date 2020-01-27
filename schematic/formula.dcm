@@ -246,6 +246,11 @@ $CMP F_21mA_420V
 D Fuse, PTC, 21mA, 420V, Radial
 $ENDCMP
 #
+$CMP F_2A_500V
+D Fuse
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_885_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP F_3.15A_300V
 D Fuse, Slow blow, 3.15A, 300V, Radial
 $ENDCMP
