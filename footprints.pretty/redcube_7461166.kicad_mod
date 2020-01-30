@@ -1,4 +1,4 @@
-(module redcube_7461166 (layer F.Cu) (tedit 5E22245E)
+(module redcube_7461166 (layer F.Cu) (tedit 5E2B402A)
   (fp_text reference REF** (at -0.02 -9.27) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
