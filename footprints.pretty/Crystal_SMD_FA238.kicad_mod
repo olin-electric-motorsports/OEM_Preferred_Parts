@@ -1,4 +1,4 @@
-(module Crystal_SMD_FA238 (layer F.Cu) (tedit 59F247A7)
+(module Crystal_SMD_FA238 (layer F.Cu) (tedit 5E35EE46)
   (descr "crystal Epson Toyocom FA-238 series http://www.mouser.com/ds/2/137/1721499-465440.pdf, hand-soldering, 3.2x2.5mm^2 package")
   (tags "SMD SMT crystal hand-soldering")
   (attr smd)
@@ -22,9 +22,14 @@
   (pad 2 smd rect (at 1.1 0.8) (size 1.4 1.2) (layers F.Cu F.Mask))
   (pad 3 smd rect (at 1.1 -0.8) (size 1.4 1.2) (layers F.Cu F.Mask))
   (pad 4 smd rect (at -1.1 -0.8) (size 1.4 1.2) (layers F.Cu F.Mask))
-  (model Crystals.3dshapes/Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm_HandSoldering.wrl
+  (model ${LOCAL_DIR}/Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm_HandSoldering.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.24 0.24 0.24))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Crystal/Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
