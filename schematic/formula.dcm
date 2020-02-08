@@ -950,6 +950,11 @@ D Transformer LAN 10/100 base-T
 F https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381
 $ENDCMP
 #
+$CMP T_LAN_SM91501ALE
+D Transformer 1600v base-T
+F https://www.mouser.com/datasheet/2/54/sm91501al-1488891.pdf
+$ENDCMP
+#
 $CMP UF_2_RA
 D Ultra-Fit connector 2 pin right angle
 $ENDCMP
