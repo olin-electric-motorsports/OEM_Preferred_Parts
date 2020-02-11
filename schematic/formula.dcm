@@ -104,6 +104,11 @@ $CMP Barrel_jack
 D Barrel jack, 2.1x5.5mm, right angle, through hole
 $ENDCMP
 #
+$CMP Buck_Converter_450V_300mA
+D MPS_MP9488, 450V, 300mA
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9488/document_id/3748/
+$ENDCMP
+#
 $CMP CD4043BPWR
 D Quad NOR R/S latch
 $ENDCMP
@@ -158,6 +163,10 @@ $ENDCMP
 #
 $CMP C_100pF
 D Capacitor, 100pF, 50V, 5%, 0805
+$ENDCMP
+#
+$CMP C_100uF_35V
+F https://www.nichicon.co.jp/english/products/pdfs/e-urs.pdf
 $ENDCMP
 #
 $CMP C_10nF
@@ -236,6 +245,10 @@ $ENDCMP
 #
 $CMP D_Zener_20V
 D Diode, Zener, 20V, 0.1W
+$ENDCMP
+#
+$CMP Diode_600V_1A_SM
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf
 $ENDCMP
 #
 $CMP F_1.1A_12V
