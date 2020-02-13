@@ -841,11 +841,11 @@ K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
 F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
-$CMP SN74LVC1G02
+$CMP SN74LVC1G02DBVR
 D Single channel positive logic NOR gate
 $ENDCMP
 #
-$CMP SN74LVC1G08
+$CMP SN74LVC1G08DBVR
 D Single channel positive logic AND gate
 $ENDCMP
 #
@@ -857,7 +857,7 @@ $CMP SN74LVC1G17
 D Single schmitt-trigger buffer
 $ENDCMP
 #
-$CMP SN74LVC1G32
+$CMP SN74LVC1G32DBVR
 D Single Channel OR Gate SOT-23-5
 $ENDCMP
 #
