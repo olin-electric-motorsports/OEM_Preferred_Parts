@@ -6,8 +6,14 @@ K connector, header
 F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
 $ENDCMP
 #
+$CMP 1.5A_Fuse
+D 1.5A Fuse LitteFuse
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
+F https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf
 $ENDCMP
 #
 $CMP 24AA01
