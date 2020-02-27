@@ -284,6 +284,11 @@ $CMP F_1.1A_12V
 D Fuse, PTC, 1.1A, 12V, 1206
 $ENDCMP
 #
+$CMP F_1A_600V
+D 1A, 600V Fuse
+F https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ADAC_0ADAP_Series.pdf
+$ENDCMP
+#
 $CMP F_21mA_420V
 D Fuse, PTC, 21mA, 420V, Radial
 $ENDCMP
