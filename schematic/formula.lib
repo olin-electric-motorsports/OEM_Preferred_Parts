@@ -48,16 +48,35 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1.5A_Fuse
+#
+DEF 1.5A_Fuse F 0 40 Y Y 1 F N
+F0 "F" 0 150 50 H V C CNN
+F1 "1.5A_Fuse" 0 -150 50 H V C CNN
+F2 "footprints:Fuse_1206" 0 -300 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+F4 "F1462CT-ND" 100 250 50 H I C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" 200 350 50 H I C CNN "PurchasingLink"
+F6 "046601.5NR" 300 450 50 H I C CNN "MFN"
+DRAW
+A -50 0 50 -1799 -1 0 1 0 N -100 0 0 0
+A 49 0 49 1800 889 0 1 0 N 0 0 50 50
+A 50 1 49 900 -11 0 1 0 N 50 50 100 0
+X 1 1 -300 0 200 R 50 50 1 1 I
+X 2 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # 200mA_Fuse
 #
 DEF 200mA_Fuse F 0 40 Y Y 1 F N
 F0 "F" 0 150 50 H V C CNN
 F1 "200mA_Fuse" 0 -150 50 H V C CNN
 F2 "footprints:Fuse_1812" -50 0 50 H I C CNN
-F3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" -50 0 50 H I C CNN
-F4 "507-1767-1-ND " 100 250 50 H V C CNN "MPN"
-F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" 200 350 50 H V C CNN "PurchasingLink"
-F6 "DK" 300 450 50 H V C CNN "MFN"
+F3 "" -50 0 50 H I C CNN
+F4 "507-1767-1-ND " 100 250 50 H I C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" 200 350 50 H I C CNN "PurchasingLink"
+F6 "DK" 300 450 50 H I C CNN "MFN"
 DRAW
 A -50 0 50 -1799 -1 0 1 0 N -100 0 0 0
 A 49 0 49 1800 889 0 1 0 N 0 0 50 50
@@ -5339,10 +5358,10 @@ DEF R_3.3_25W_TO163 R 0 40 Y Y 1 F N
 F0 "R" -150 150 50 H V C CNN
 F1 "R_3.3_25W_TO163" 0 -100 50 H V C CNN
 F2 "footprints:PWR163" -250 50 50 H I C CNN
-F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 F4 "DK" -50 250 50 H I C CNN "MFN"
 F5 "PWR163S-25-3R30F-ND" 50 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" 150 450 50 H V C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" 150 450 50 H I C CNN "PurchasingLink"
 DRAW
 S 100 -50 -100 50 0 1 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
@@ -6461,41 +6480,41 @@ X S1 9 -500 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# SN74LVC1G02
+# SN74LVC1G02DBVR
 #
-DEF SN74LVC1G02 U 0 40 Y Y 1 F N
-F0 "U" 400 350 60 H V C CNN
-F1 "SN74LVC1G02" 400 450 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" 0 0 60 H V C CNN
-F4 "DK" 300 -290 60 H V C CNN "MFN"
-F5 "296-11598-1-ND" 200 -390 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G02DCKR/296-11598-1-ND/385737" 400 -190 60 H I C CNN "PurchasingLink"
+DEF SN74LVC1G02DBVR U 0 40 Y Y 1 F N
+F0 "U" 0 700 60 H V C CNN
+F1 "SN74LVC1G02DBVR" 0 550 60 H V C CNN
+F2 "footprints:SOT-23-5_OEM" 0 -450 60 H V C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" 0 -550 60 H V C CNN
+F4 "DK" 900 0 60 H V C CNN "MFN"
+F5 "296-11597-1-ND" 0 -700 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G02DBVR/296-11597-2-ND/385714" 0 -800 60 H I C CNN "PurchasingLink"
 DRAW
-A -600 0 381 232 -232 0 1 0 N -250 150 -250 -150
-A -300 250 472 -580 -320 0 1 0 N -50 -150 100 0
-A -250 -200 403 603 297 0 1 0 N -50 150 100 0
-C 110 0 14 0 1 0 N
-P 2 0 1 0 -250 -150 -50 -150 N
-P 2 0 1 0 -250 150 -50 150 N
-X in 1 -430 60 200 R 50 28 1 1 B
-X in 2 -430 -60 200 R 50 28 1 1 B
-X GND 3 -120 -350 200 U 50 28 1 1 B
-X out 4 330 0 200 L 50 28 1 1 B
-X VCC 5 -120 350 200 D 50 28 1 1 B
+A -480 0 381 232 -232 0 1 0 N -130 150 -130 -150
+A -180 250 472 -580 -320 0 1 0 N 70 -150 220 0
+A -130 -200 403 603 297 0 1 0 N 70 150 220 0
+C 230 0 14 0 1 0 N
+P 2 0 1 0 -130 -150 70 -150 N
+P 2 0 1 0 -130 150 70 150 N
+X in 1 -310 60 200 R 50 28 1 1 B
+X in 2 -310 -60 200 R 50 28 1 1 B
+X GND 3 0 -350 200 U 50 28 1 1 B
+X out 4 450 0 200 L 50 28 1 1 B
+X VCC 5 0 350 200 D 50 28 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SN74LVC1G08
+# SN74LVC1G08DBVR
 #
-DEF SN74LVC1G08 U 0 40 Y Y 1 F N
-F0 "U" 450 150 60 H V C CNN
-F1 "SN74LVC1G08" 450 250 60 H V C CNN
-F2 "" 100 0 60 H V C CNN
-F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf" 100 0 60 H V C CNN
-F4 "DK" 300 -290 60 H V C CNN "MFN"
-F5 "296-11602-1-ND" 200 -390 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G08DCKR/296-11602-1-ND/385741" 400 -190 60 H I C CNN "PurchasingLink"
+DEF SN74LVC1G08DBVR U 0 40 Y Y 1 F N
+F0 "U" 0 500 60 H V C CNN
+F1 "SN74LVC1G08DBVR" 0 650 60 H V C CNN
+F2 "footprints:SOT-23-5_OEM" 0 -1000 60 H V C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf" 0 -850 60 H V C CNN
+F4 "DK" 600 0 60 H V C CNN "MFN"
+F5 "296-11601-2-ND" 0 -450 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G08DBVR/296-11601-2-ND/385718" 0 -650 60 H I C CNN "PurchasingLink"
 DRAW
 A 0 0 150 -899 899 1 1 0 N 0 -150 0 150
 P 4 0 1 0 0 150 -100 150 -100 -150 0 -150 N
@@ -6550,16 +6569,16 @@ X VCC 5 150 -50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# SN74LVC1G32
+# SN74LVC1G32DBVR
 #
-DEF SN74LVC1G32 U 0 40 Y Y 1 F N
-F0 "U" -550 150 50 H V C CNN
-F1 "SN74LVC1G32" -350 250 50 H V C CNN
-F2 "footprints:SOT-23-5_OEM" -650 50 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf" -550 150 50 H I C CNN
-F4 "DK" -450 250 50 H I C CNN "MFN"
-F5 "SN74LVC1G32DBVR" -350 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G32DBVR/296-9847-1-ND/380102" -250 450 50 H I C CNN "PurchasingLink"
+DEF SN74LVC1G32DBVR U 0 40 Y Y 1 F N
+F0 "U" 0 450 50 H V C CNN
+F1 "SN74LVC1G32DBVR" 0 650 50 H V C CNN
+F2 "footprints:SOT-23-5_OEM" 0 -900 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf" 0 -700 50 H I C CNN
+F4 "DK" 700 0 50 H I C CNN "MFN"
+F5 "296-9847-1-ND" 0 -500 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G32DBVR/296-9847-1-ND/380102" 0 -800 50 H I C CNN "PurchasingLink"
 $FPLIST
  sot-23-5
 $ENDFPLIST
