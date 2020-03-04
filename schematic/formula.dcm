@@ -94,6 +94,10 @@ $CMP BBS-126-G-A
 D .1" Single Row Terminal Strip
 $ENDCMP
 #
+$CMP BQ79606A-Q1
+F http://www.ti.com/lit/ds/symlink/bq79606a-q1.pdf
+$ENDCMP
+#
 $CMP BSS308PE
 D MOSFET, P-channel, 30V, 2A
 $ENDCMP
