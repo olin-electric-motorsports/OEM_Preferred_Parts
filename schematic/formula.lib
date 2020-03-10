@@ -3152,8 +3152,8 @@ ENDDEF
 DEF MCP6001 U 0 20 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
 F1 "MCP6001" 0 -200 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" -100 100 50 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
+F2 "footprints:SOT-23-5_OEM" -100 100 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
 F4 "DK" 100 300 60 H I C CNN "MFN"
 F5 "MCP6001T-I/OTCT-ND" 200 400 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" 300 500 60 H I C CNN "PurchasingLink"
