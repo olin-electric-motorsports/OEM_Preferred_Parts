@@ -425,6 +425,7 @@ $ENDCMP
 #
 $CMP MCP6001
 D Op-amp, general purpose
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
 $CMP MCP6001T-I-LT
