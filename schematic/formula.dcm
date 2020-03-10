@@ -6,8 +6,14 @@ K connector, header
 F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
 $ENDCMP
 #
+$CMP 1.5A_Fuse
+D 1.5A Fuse LitteFuse
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
+F https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf
 $ENDCMP
 #
 $CMP 24AA01
@@ -88,6 +94,10 @@ $CMP BBS-126-G-A
 D .1" Single Row Terminal Strip
 $ENDCMP
 #
+$CMP BQ79606A-Q1
+F http://www.ti.com/lit/ds/symlink/bq79606a-q1.pdf
+$ENDCMP
+#
 $CMP BSS308PE
 D MOSFET, P-channel, 30V, 2A
 $ENDCMP
@@ -102,6 +112,11 @@ $ENDCMP
 #
 $CMP Barrel_jack
 D Barrel jack, 2.1x5.5mm, right angle, through hole
+$ENDCMP
+#
+$CMP Buck_Converter_450V_300mA
+D MPS_MP9488, 450V, 300mA
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9488/document_id/3748/
 $ENDCMP
 #
 $CMP CD4043BPWR
@@ -136,6 +151,11 @@ K NPN DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
 $ENDCMP
 #
+$CMP C_.22uF
+D Capacitor, .22uF, 220nF, 50V, 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
+$ENDCMP
+#
 $CMP C_0.1uF
 D Capacitor, 0.1uF, 50V, 5%, 0805
 $ENDCMP
@@ -160,6 +180,15 @@ $CMP C_100pF
 D Capacitor, 100pF, 50V, 5%, 0805
 $ENDCMP
 #
+$CMP C_100uF+
+D Aluminum Electrolytic Capacitor, 100uF, 50V, 20%
+F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
+$ENDCMP
+#
+$CMP C_100uF_35V
+F https://www.nichicon.co.jp/english/products/pdfs/e-urs.pdf
+$ENDCMP
+#
 $CMP C_10nF
 D Capacitor, 10nF 50V X7R 0805
 K cap, ceramic, capacitor, 10nF, 10000pF, 0805
@@ -168,10 +197,16 @@ $ENDCMP
 #
 $CMP C_10uF
 D Capacitor, 10uF, 10V, 10%, 0805
+F http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf
 $ENDCMP
 #
 $CMP C_10uF_16V
 D Capacitor, 10uF, 16V, 10%, 0805
+$ENDCMP
+#
+$CMP C_10uF_450V
+D Capacitor, 10uF, 450V, 20%, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1202.pdf
 $ENDCMP
 #
 $CMP C_18pF
@@ -179,11 +214,13 @@ D Capacitor, 18pF, 10V, 1%, 0603
 $ENDCMP
 #
 $CMP C_1uF
-D Capacitor, 1uF, 25V, 10%, 0805
+D Capacitor, 1uF, 50V, 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
 $ENDCMP
 #
 $CMP C_2.2uF
-D Capacitor, 2.2uF, 10V, 10%, 0603
+D Capacitor, 2.2uF, 50V, 20%, 0805
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf
 $ENDCMP
 #
 $CMP C_22uF
@@ -200,6 +237,11 @@ $ENDCMP
 #
 $CMP C_4.7uF
 D Capacitor, 4.7uF, 6.3V, 10%, 0603
+$ENDCMP
+#
+$CMP C_470pF
+D Capacitor, 470pF, 50V, 10%, 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
 $ENDCMP
 #
 $CMP C_47uF
@@ -238,8 +280,17 @@ $CMP D_Zener_20V
 D Diode, Zener, 20V, 0.1W
 $ENDCMP
 #
+$CMP Diode_600V_1A_SM
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf
+$ENDCMP
+#
 $CMP F_1.1A_12V
 D Fuse, PTC, 1.1A, 12V, 1206
+$ENDCMP
+#
+$CMP F_1A_600V
+D 1A, 600V Fuse
+F https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ADAC_0ADAP_Series.pdf
 $ENDCMP
 #
 $CMP F_21mA_420V
@@ -342,6 +393,12 @@ K interface, isoSPI, SPI,
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
 $ENDCMP
 #
+$CMP L_1.2mH
+D Inductor, 1.2mH, 740mA, 1.28Ohm Max
+K inductor, coil, l
+F http://products.sumida.com/products/pdf/RCP1317.pdf
+$ENDCMP
+#
 $CMP L_100uH
 F https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf
 $ENDCMP
@@ -368,6 +425,7 @@ $ENDCMP
 #
 $CMP MCP6001
 D Op-amp, general purpose
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
 $CMP MCP6001T-I-LT
@@ -763,6 +821,11 @@ $ENDCMP
 #
 $CMP R_576K
 D Resistor, 576K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_6.04K
+D Resistor, 6.04K, 0.125W, 1%, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
 $ENDCMP
 #
 $CMP R_6.2K
