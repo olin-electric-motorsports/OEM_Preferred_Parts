@@ -41,8 +41,26 @@ $CMP ATMEGA16M1
 D Microcontroller, 8-bit, 1KB RAM, 16KB Flash
 $ENDCMP
 #
+$CMP ATmega16U2-AU
+D 16MHz, 16kB Flash, 512B SRAM, 512B EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
 $CMP ATmega328P-AU
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega32U2-AU
+D 16MHz, 32kB Flash, 1kB SRAM, 1kB EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
+$CMP ATmega8U2-AU
+D 16MHz, 8kB Flash, 512B SRAM, 512B EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
 $ENDCMP
 #
 $CMP Ampseal_08_RA
@@ -282,6 +300,12 @@ $ENDCMP
 #
 $CMP Diode_600V_1A_SM
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf
+$ENDCMP
+#
+$CMP FT232RL
+D USB to Serial Interface, SSOP-28
+K FTDI USB Serial
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 $ENDCMP
 #
 $CMP F_1.1A_12V
