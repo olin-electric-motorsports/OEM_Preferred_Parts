@@ -37,6 +37,10 @@ $CMP ADXL345
 D Acceleromter, 2/4/6/8/16g, SPI/I2C
 $ENDCMP
 #
+$CMP AOZ1280
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
 $CMP ATMEGA16M1
 D Microcontroller, 8-bit, 1KB RAM, 16KB Flash
 $ENDCMP
@@ -88,6 +92,11 @@ $CMP BAS40-00
 D Schottky Diode, 40V, 120mA, SOT23
 K schottky, diode
 F https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf
+$ENDCMP
+#
+$CMP BAT400D-7-F
+D DIODE SCHOTTKY 40V 500mA
+F https://www.diodes.com/assets/Datasheets/ds30182.pdf
 $ENDCMP
 #
 $CMP BBS-126-G-A
@@ -237,6 +246,11 @@ $ENDCMP
 #
 $CMP C_4.7uF
 D Capacitor, 4.7uF, 6.3V, 10%, 0603
+$ENDCMP
+#
+$CMP C_4.7uF_25V
+D Capacitor, 4.7uF, 25V, 10%, 0805
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61E475KA73-01.pdf
 $ENDCMP
 #
 $CMP C_470pF
@@ -407,6 +421,11 @@ $CMP L_15uH
 D Inductor, 15uH, 1210
 K inductor, coil, l
 F https://product.tdk.com/info/en/documents/catalog/inductor_commercial_decoupling_nlcv32-pf_en.pdf?ref_disty=digikey
+$ENDCMP
+#
+$CMP L_2.2uH
+D Inductor, 2.2uH, 1.6A, 78mOhm, 20%, 1210
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BRL3225T2R2M%20%20&u=M
 $ENDCMP
 #
 $CMP L_4.7uH
@@ -810,6 +829,11 @@ $CMP R_475
 D Resistor, 475, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_49.9K
+D Resistor, 49.9K, 0.125W, 0.1%, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
 $CMP R_499
 D Resistor, 499, 0.125W, 1%, 0805
 $ENDCMP
@@ -845,6 +869,17 @@ $ENDCMP
 #
 $CMP R_604K
 D Resistor, 604K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_63.4
+D Resistor, 63.4, 0.1%, 0.125W, 0805
+K resistor, 63.4
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R_9.53K
+D Resistor, 9.53K, 0.125W, 0.1%, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
 $CMP R_Strain_Gauge
@@ -935,6 +970,7 @@ $ENDCMP
 #
 $CMP SS110LW
 D DIODE SCHOTTKY 100V 1A SOD123W
+F http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf
 $ENDCMP
 #
 $CMP SSM3K333R
