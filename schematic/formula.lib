@@ -218,16 +218,16 @@ ENDDEF
 #
 DEF AOZ1280 U 0 40 Y Y 1 F N
 F0 "U" 0 250 50 H V L BNN
-F1 "AOZ1280" -250 -350 50 H V C CNN
+F1 "AOZ1280" -250 -550 50 H V C CNN
 F2 "" 250 350 50 H I C CNN
 F3 "" 250 350 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AOZ1280CI/785-1277-1-ND/2769845" -550 650 50 H I C CNN "Purchasing Link"
 DRAW
-S -250 200 250 -300 0 1 0 N
+S -250 200 250 -500 0 1 0 f
 X BST 1 150 300 100 D 50 50 1 1 I
-X GND 2 0 -400 100 U 50 50 1 1 I
-X FB 3 350 -200 100 L 50 50 1 1 I
-X EN 4 -350 -50 100 R 50 50 1 1 I
+X GND 2 0 -600 100 U 50 50 1 1 I
+X FB 3 350 -400 100 L 50 50 1 1 I
+X EN 4 -350 -100 100 R 50 50 1 1 I
 X VIN 5 -150 300 100 D 50 50 1 1 I
 X LX 6 350 -50 100 L 50 50 1 1 I
 ENDDRAW
@@ -1025,6 +1025,30 @@ X S2 6 -500 -200 200 R 50 50 1 1 I
 X R2 7 -500 -300 200 R 50 50 1 1 I
 X Vss 8 -500 -400 200 R 50 50 1 1 I
 X Q2 9 450 -400 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# CDBA140-G
+#
+DEF CDBA140-G D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "CDBA140-G" 0 -100 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+F4 "https://www.digikey.in/product-detail/en/comchip-technology/CDBA140-G/641-1015-1-ND/1121137" 300 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -6158,6 +6182,25 @@ F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P6.20KCCT-ND" 0 550 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6201V/P6.20KCCT-ND/1746887" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_6.2M
+#
+DEF R_6.2M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_6.2M" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08056M20FKEA/541-6-20MCTR-ND/1176107" -1100 500 60 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
