@@ -37,12 +37,34 @@ $CMP ADXL345
 D Acceleromter, 2/4/6/8/16g, SPI/I2C
 $ENDCMP
 #
+$CMP AOZ1280
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
 $CMP ATMEGA16M1
 D Microcontroller, 8-bit, 1KB RAM, 16KB Flash
 $ENDCMP
 #
+$CMP ATmega16U2-AU
+D 16MHz, 16kB Flash, 512B SRAM, 512B EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
 $CMP ATmega328P-AU
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega32U2-AU
+D 16MHz, 32kB Flash, 1kB SRAM, 1kB EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
+$CMP ATmega8U2-AU
+D 16MHz, 8kB Flash, 512B SRAM, 512B EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
 $ENDCMP
 #
 $CMP Ampseal_08_RA
@@ -90,6 +112,11 @@ K schottky, diode
 F https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf
 $ENDCMP
 #
+$CMP BAT400D-7-F
+D DIODE SCHOTTKY 40V 500mA
+F https://www.diodes.com/assets/Datasheets/ds30182.pdf
+$ENDCMP
+#
 $CMP BBS-126-G-A
 D .1" Single Row Terminal Strip
 $ENDCMP
@@ -121,6 +148,11 @@ $ENDCMP
 #
 $CMP CD4043BPWR
 D Quad NOR R/S latch
+$ENDCMP
+#
+$CMP CDBA140-G
+D DIODE SCHOTTKY 40V 1A
+F https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA120-G~CDBA1100-G.pdf
 $ENDCMP
 #
 $CMP CONN_01X03
@@ -239,6 +271,11 @@ $CMP C_4.7uF
 D Capacitor, 4.7uF, 6.3V, 10%, 0603
 $ENDCMP
 #
+$CMP C_4.7uF_25V
+D Capacitor, 4.7uF, 25V, 10%, 0805
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61E475KA73-01.pdf
+$ENDCMP
+#
 $CMP C_470pF
 D Capacitor, 470pF, 50V, 10%, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
@@ -282,6 +319,12 @@ $ENDCMP
 #
 $CMP Diode_600V_1A_SM
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf
+$ENDCMP
+#
+$CMP FT232RL
+D USB to Serial Interface, SSOP-28
+K FTDI USB Serial
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 $ENDCMP
 #
 $CMP F_1.1A_12V
@@ -407,6 +450,11 @@ $CMP L_15uH
 D Inductor, 15uH, 1210
 K inductor, coil, l
 F https://product.tdk.com/info/en/documents/catalog/inductor_commercial_decoupling_nlcv32-pf_en.pdf?ref_disty=digikey
+$ENDCMP
+#
+$CMP L_2.2uH
+D Inductor, 2.2uH, 1.6A, 78mOhm, 20%, 1210
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BRL3225T2R2M%20%20&u=M
 $ENDCMP
 #
 $CMP L_4.7uH
@@ -810,6 +858,11 @@ $CMP R_475
 D Resistor, 475, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_49.9K
+D Resistor, 49.9K, 0.125W, 0.1%, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
 $CMP R_499
 D Resistor, 499, 0.125W, 1%, 0805
 $ENDCMP
@@ -837,6 +890,11 @@ $CMP R_6.2K
 D Resistor, 6.2K, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_6.2M
+D Resistor, 6.2M, 0.125W, 0.1%, 0805
+F https://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
 $CMP R_60.4
 D Resistor, 60.4, 0.1%, 0.125W, 0805
 K resistor, 60.4
@@ -845,6 +903,17 @@ $ENDCMP
 #
 $CMP R_604K
 D Resistor, 604K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_63.4
+D Resistor, 63.4, 0.1%, 0.125W, 0805
+K resistor, 63.4
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R_9.53K
+D Resistor, 9.53K, 0.125W, 0.1%, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
 $CMP R_Strain_Gauge
@@ -935,6 +1004,7 @@ $ENDCMP
 #
 $CMP SS110LW
 D DIODE SCHOTTKY 100V 1A SOD123W
+F http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf
 $ENDCMP
 #
 $CMP SSM3K333R
