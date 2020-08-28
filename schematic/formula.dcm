@@ -887,6 +887,11 @@ K resistor, 63.4
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
 $ENDCMP
 #
+$CMP R_7.5M
+D Resistor, 7.5M, 0.125W, 0.1%, 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
 $CMP R_9.53K
 D Resistor, 9.53K, 0.125W, 0.1%, 0805
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
