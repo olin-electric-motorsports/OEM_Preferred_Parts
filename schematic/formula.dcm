@@ -218,6 +218,11 @@ $CMP C_10uF_16V
 D Capacitor, 10uF, 16V, 10%, 0805
 $ENDCMP
 #
+$CMP C_10uF_25V
+D Capacitor, 10uF, 10V, 10%, 0805
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf
+$ENDCMP
+#
 $CMP C_10uF_450V
 D Capacitor, 10uF, 450V, 20%, 0805
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1202.pdf
@@ -621,6 +626,11 @@ $ENDCMP
 #
 $CMP MicroFit_RA_V_2_SMD
 F https://www.molex.com/pdm_docs/sd/436500213_sd.pdf
+$ENDCMP
+#
+$CMP NCP1117ST50T3G
+D Linear regulator, 20V input, 5V output, 1A
+F https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
 $CMP NCP785AH150T1G
