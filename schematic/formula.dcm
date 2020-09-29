@@ -486,6 +486,11 @@ $CMP MCP603
 D Op-amp, general purpose
 $ENDCMP
 #
+$CMP MCP73871T-2CCI_ML
+D Battery Charge Controller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73871-Data-Sheet-20002090E.pdf
+$ENDCMP
+#
 $CMP MHSS1105
 D Slider Switch
 $ENDCMP
@@ -1069,6 +1074,11 @@ $ENDCMP
 #
 $CMP TPS561201
 D Buck converter, 4.5-17V input, adj 0.76-7V output, 1A, 580kHz
+$ENDCMP
+#
+$CMP TPS61090RSAR
+D Synchronous Boost Converter 
+F https://www.ti.com/lit/ds/symlink/tps61090.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1601340035977
 $ENDCMP
 #
 $CMP TS507IYLT
