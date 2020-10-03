@@ -461,6 +461,12 @@ $CMP L_4.7uH
 D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
 #
+$CMP L_6.8uH
+D Inductor, 6.8uH, 1210
+K inductor, coil, l
+F https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_standard_nlv32-ef_en.pdf
+$ENDCMP
+#
 $CMP MCP2561-E_SN
 D High speed CAN transceiver, 1Mb/s
 $ENDCMP
@@ -1077,7 +1083,7 @@ D Buck converter, 4.5-17V input, adj 0.76-7V output, 1A, 580kHz
 $ENDCMP
 #
 $CMP TPS61090RSAR
-D Synchronous Boost Converter 
+D Synchronous Boost Converter
 F https://www.ti.com/lit/ds/symlink/tps61090.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1601340035977
 $ENDCMP
 #
