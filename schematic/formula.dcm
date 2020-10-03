@@ -510,6 +510,11 @@ $CMP MMBF170
 D MOSFET, N-channel, 60V, 500mA
 $ENDCMP
 #
+$CMP MMUN2133LT1G
+D Pre-Biased Bipolar Transistor (BJT) PNP - Pre-Biased Surface Mount SOT-23-3 (TO-236)
+F https://www.onsemi.com/pub/Collateral/DTA143Z-D.PDF
+$ENDCMP
+#
 $CMP MM_F_RA_04
 D Micro-MaTch connector 4 pin female right angle
 $ENDCMP
