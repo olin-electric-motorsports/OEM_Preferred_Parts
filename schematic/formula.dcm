@@ -461,6 +461,11 @@ $CMP L_4.7uH
 D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
 #
+$CMP L_6.8uH
+D Inductor, 6.8uH
+K inductor, coil, l
+$ENDCMP
+#
 $CMP MCP2561-E_SN
 D High speed CAN transceiver, 1Mb/s
 $ENDCMP
@@ -486,6 +491,11 @@ $CMP MCP603
 D Op-amp, general purpose
 $ENDCMP
 #
+$CMP MCP73871T-2CCI_ML
+D Battery Charge Controller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73871-Data-Sheet-20002090E.pdf
+$ENDCMP
+#
 $CMP MHSS1105
 D Slider Switch
 $ENDCMP
@@ -498,6 +508,11 @@ $ENDCMP
 #
 $CMP MMBF170
 D MOSFET, N-channel, 60V, 500mA
+$ENDCMP
+#
+$CMP MMUN2133LT1G
+D Pre-Biased Bipolar Transistor (BJT) PNP - Pre-Biased Surface Mount SOT-23-3 (TO-236)
+F https://www.onsemi.com/pub/Collateral/DTA143Z-D.PDF
 $ENDCMP
 #
 $CMP MM_F_RA_04
@@ -708,6 +723,10 @@ $CMP R_1.82M
 D Resistor, 1.82M, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_1.87M
+D Resistor, 1.87M, 0805
+$ENDCMP
+#
 $CMP R_1.91K
 D Resistor, 1.91K, 0.25W, 0.5%, 0805
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf
@@ -792,6 +811,10 @@ $CMP R_200
 D Resistor, 200, 0.125W, 5%, 0805
 $ENDCMP
 #
+$CMP R_200K
+D Resistor, 200K, 0805
+$ENDCMP
+#
 $CMP R_22K
 D Resistor, 22K, 0.125W, 5%, 0805
 $ENDCMP
@@ -830,6 +853,10 @@ $ENDCMP
 #
 $CMP R_330
 D Resistor, 330, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_340K
+D Resistor, 340K, 0805
 $ENDCMP
 #
 $CMP R_3K
@@ -1069,6 +1096,11 @@ $ENDCMP
 #
 $CMP TPS561201
 D Buck converter, 4.5-17V input, adj 0.76-7V output, 1A, 580kHz
+$ENDCMP
+#
+$CMP TPS61090RSAR
+D Synchronous Boost Converter
+F https://www.ti.com/lit/ds/symlink/tps61090.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1601340035977
 $ENDCMP
 #
 $CMP TS507IYLT
