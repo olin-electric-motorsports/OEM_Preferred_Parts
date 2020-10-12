@@ -680,11 +680,6 @@ $CMP NanoFit_RA_TH_02
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
 #
-$CMP PGND
-D Power symbol creates a global label with name "PGND"
-K power-flag power ground
-$ENDCMP
-#
 $CMP POT_TRIM_20k
 D TRIMMER 20KOHM 0.125W J LEAD TOP
 $ENDCMP
