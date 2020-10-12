@@ -365,6 +365,11 @@ $CMP G6C-1117P-US
 D Relay, SPST-NO, Switch 10A/125V, Coil 16.7mA/12V
 $ENDCMP
 #
+$CMP GNDPWR
+D Power symbol creates a global label with name "GNDPWR" , power ground
+K power-flag
+$ENDCMP
+#
 $CMP INA260
 D Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16
 K Current/power/voltage monitor
@@ -725,6 +730,10 @@ $ENDCMP
 #
 $CMP R_1.87M
 D Resistor, 1.87M, 0805
+$ENDCMP
+#
+$CMP R_1.8K
+D Resistor, 178K, 0.125W, 0.1%, 0805
 $ENDCMP
 #
 $CMP R_1.91K
@@ -1143,6 +1152,11 @@ $ENDCMP
 #
 $CMP USB3343-CP
 D IC TXRX USB HS ENG ULPI 24VQFN
+$ENDCMP
+#
+$CMP VBATT
+D Power symbol creates a global label with name "VBATT"
+K power-flag battery
 $ENDCMP
 #
 $CMP ZXRE160
