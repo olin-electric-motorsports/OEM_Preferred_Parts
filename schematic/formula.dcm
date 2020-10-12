@@ -890,6 +890,10 @@ $CMP R_402K
 D Resistor, 402K, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_43k
+D Resistor, 43K, 0.25W, 1%, 0805
+$ENDCMP
+#
 $CMP R_475
 D Resistor, 475, 0.125W, 1%, 0805
 $ENDCMP
@@ -945,6 +949,10 @@ $CMP R_63.4
 D Resistor, 63.4, 0.1%, 0.125W, 0805
 K resistor, 63.4
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP R_75k
+D Resistor, 75K, 0.25W, 1%, 0805
 $ENDCMP
 #
 $CMP R_9.53K
@@ -1152,6 +1160,12 @@ $ENDCMP
 #
 $CMP USB3343-CP
 D IC TXRX USB HS ENG ULPI 24VQFN
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A connector
+K connector USB
+F  ~
 $ENDCMP
 #
 $CMP VBATT
