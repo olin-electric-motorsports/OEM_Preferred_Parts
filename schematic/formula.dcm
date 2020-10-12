@@ -29,6 +29,11 @@ $CMP AD623
 D Op-amp, dual supply
 $ENDCMP
 #
+$CMP ADG732BSUZ
+D Multiplexer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG726_732.pdf
+$ENDCMP
+#
 $CMP ADXL335
 D Accelerometer, 3g
 $ENDCMP
