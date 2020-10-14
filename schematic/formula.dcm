@@ -29,6 +29,11 @@ $CMP AD623
 D Op-amp, dual supply
 $ENDCMP
 #
+$CMP ADG732BSUZ
+D Multiplexer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG726_732.pdf
+$ENDCMP
+#
 $CMP ADXL335
 D Accelerometer, 3g
 $ENDCMP
@@ -234,6 +239,11 @@ $ENDCMP
 #
 $CMP C_10uF_16V
 D Capacitor, 10uF, 16V, 10%, 0805
+$ENDCMP
+#
+$CMP C_10uF_25V
+D Capacitor, 10uF, 10V, 10%, 0805
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf
 $ENDCMP
 #
 $CMP C_10uF_450V
@@ -667,6 +677,11 @@ $CMP MicroFit_RA_V_2_SMD
 F https://www.molex.com/pdm_docs/sd/436500213_sd.pdf
 $ENDCMP
 #
+$CMP NCP1117ST50T3G
+D Linear regulator, 20V input, 5V output, 1A
+F https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
 $CMP NCP785AH150T1G
 D Linear regulator, 25-450V input, 15V output, 10mA
 $ENDCMP
@@ -953,6 +968,9 @@ $ENDCMP
 #
 $CMP R_75k
 D Resistor, 75K, 0.25W, 1%, 0805
+$CMP R_7.5M
+D Resistor, 7.5M, 0.125W, 0.1%, 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
 $CMP R_9.53K
