@@ -1158,6 +1158,14 @@ $CMP UF_5_VT
 D Ultra-Fit connector 5 pin vertical
 $ENDCMP
 #
+$CMP USB-A-S-X-X-SM2
+F http://suddendocs.samtec.com/catalog_english/usb_a.pdf
+$ENDCMP
+#
+$CMP USB-Micro-1981568-1
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1981568&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
 $CMP USB3343-CP
 D IC TXRX USB HS ENG ULPI 24VQFN
 $ENDCMP
