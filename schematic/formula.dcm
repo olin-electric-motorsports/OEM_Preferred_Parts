@@ -424,6 +424,11 @@ $CMP LR8K4-G
 D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
 $ENDCMP
 #
+$CMP LT3751
+D High Voltage Capacitor Charger Controller w/ Regulation, TSSOP-20
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt3751.pdf
+$ENDCMP
+#
 $CMP LTC1380IGN
 D Single-Ended 8-Channel/ Differential 4-Channel Analog Multiplexer with SMBus Interface
 K Multiplexer, SMBus Interface, analog
