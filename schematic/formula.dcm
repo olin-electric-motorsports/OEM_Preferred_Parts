@@ -25,6 +25,11 @@ $CMP 3P4T_rotary_switch
 D 3 pole 4 terminal rotary switch
 $ENDCMP
 #
+$CMP ACPL-C87B-000E
+D Precision Optically Isolated Op Amp, Stretched SO-8 (SSO-8)
+F https://docs.broadcom.com/doc/AV02-3563EN
+$ENDCMP
+#
 $CMP AD623
 D Op-amp, dual supply
 $ENDCMP
