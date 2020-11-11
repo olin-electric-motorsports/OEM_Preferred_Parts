@@ -370,6 +370,16 @@ $CMP G6C-1117P-US
 D Relay, SPST-NO, Switch 10A/125V, Coil 16.7mA/12V
 $ENDCMP
 #
+$CMP GA3460
+D Flyback Transformer, 2.5uH Primary, 1:10 Turn Ratio
+F https://www.coilcraft.com/getmedia/eb987d97-6bee-4e60-8a64-a66d4e6e447b/ga3459.pdf
+$ENDCMP
+#
+$CMP GA3460-BL
+D Flyback Transformer, 2.5uH Primary, 1:10 Turn Ratio
+F https://www.coilcraft.com/getmedia/eb987d97-6bee-4e60-8a64-a66d4e6e447b/ga3459.pdf
+$ENDCMP
+#
 $CMP GNDPWR
 D Power symbol creates a global label with name "GNDPWR" , power ground
 K power-flag
