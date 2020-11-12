@@ -696,6 +696,11 @@ D 100V, 2.0A, Low VCE NPN Transistor
 F http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF
 $ENDCMP
 #
+$CMP NTB35N15
+D N-Channel POWER MOSFET, 150V, 37A, D2PAK
+F https://www.onsemi.com/pub/Collateral/NTB35N15-D.PDF
+$ENDCMP
+#
 $CMP NanoFit_RA_TH_02
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
