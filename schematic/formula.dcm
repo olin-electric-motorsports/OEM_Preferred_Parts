@@ -217,6 +217,10 @@ $CMP C_100pF
 D Capacitor, 100pF, 50V, 5%, 0805
 $ENDCMP
 #
+$CMP C_100uF
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
 $CMP C_100uF+
 D Aluminum Electrolytic Capacitor, 100uF, 50V, 20%
 F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
