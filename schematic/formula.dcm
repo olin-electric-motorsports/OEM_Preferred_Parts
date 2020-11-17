@@ -1167,7 +1167,7 @@ D Voltage level translator, 4-channel, bidirectional, TSSOP-14
 $ENDCMP
 #
 $CMP TXB0108
-D Voltage level translator, 4-channel, bidirectional, TSSOP-14
+D Voltage level translator, 8-channel, bidirectional, TSSOP-20
 K level shifter,
 F https://www.ti.com/lit/ds/symlink/txb0108.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605211774233
 $ENDCMP
