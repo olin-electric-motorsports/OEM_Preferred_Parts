@@ -1166,6 +1166,12 @@ $CMP TXB0104
 D Voltage level translator, 4-channel, bidirectional, TSSOP-14
 $ENDCMP
 #
+$CMP TXB0108
+D Voltage level translator, 8-channel, bidirectional, TSSOP-20
+K level shifter,
+F https://www.ti.com/lit/ds/symlink/txb0108.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605211774233
+$ENDCMP
+#
 $CMP T_LAN_7490100111A
 D Transformer LAN 10/100 base-T
 F https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381
