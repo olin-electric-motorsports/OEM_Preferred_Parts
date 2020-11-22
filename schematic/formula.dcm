@@ -25,6 +25,11 @@ $CMP 3P4T_rotary_switch
 D 3 pole 4 terminal rotary switch
 $ENDCMP
 #
+$CMP ACPL-C87B-000E
+D Precision Optically Isolated Op Amp, Stretched SO-8 (SSO-8)
+F https://docs.broadcom.com/doc/AV02-3563EN
+$ENDCMP
+#
 $CMP AD623
 D Op-amp, dual supply
 $ENDCMP
@@ -223,6 +228,10 @@ $CMP C_100pF
 D Capacitor, 100pF, 50V, 5%, 0805
 $ENDCMP
 #
+$CMP C_100uF
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
 $CMP C_100uF+
 D Aluminum Electrolytic Capacitor, 100uF, 50V, 20%
 F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
@@ -381,6 +390,16 @@ $CMP G6C-1117P-US
 D Relay, SPST-NO, Switch 10A/125V, Coil 16.7mA/12V
 $ENDCMP
 #
+$CMP GA3460
+D Flyback Transformer, 2.5uH Primary, 1:10 Turn Ratio
+F https://www.coilcraft.com/getmedia/eb987d97-6bee-4e60-8a64-a66d4e6e447b/ga3459.pdf
+$ENDCMP
+#
+$CMP GA3460-BL
+D Flyback Transformer, 2.5uH Primary, 1:10 Turn Ratio
+F https://www.coilcraft.com/getmedia/eb987d97-6bee-4e60-8a64-a66d4e6e447b/ga3459.pdf
+$ENDCMP
+#
 $CMP GNDPWR
 D Power symbol creates a global label with name "GNDPWR" , power ground
 K power-flag
@@ -438,6 +457,11 @@ $ENDCMP
 #
 $CMP LR8K4-G
 D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
+$ENDCMP
+#
+$CMP LT3751
+D High Voltage Capacitor Charger Controller w/ Regulation, TSSOP-20
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt3751.pdf
 $ENDCMP
 #
 $CMP LTC1380IGN
@@ -697,6 +721,11 @@ D 100V, 2.0A, Low VCE NPN Transistor
 F http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF
 $ENDCMP
 #
+$CMP NTB35N15
+D N-Channel POWER MOSFET, 150V, 37A, D2PAK
+F https://www.onsemi.com/pub/Collateral/NTB35N15-D.PDF
+$ENDCMP
+#
 $CMP NanoFit_RA_TH_02
 D Nano-Fit connector 2 pin right angle
 $ENDCMP
@@ -709,6 +738,11 @@ $CMP PWR163S-25-27R0F
 D RES SMD 27 OHM 1% 25W DPAK
 K power resistor, balancing, BMS
 F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
+$ENDCMP
+#
+$CMP RFN5TF8S
+D Fast Recovery Diode, TO220NFM
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn5tf8s.pdf
 $ENDCMP
 #
 $CMP RJ45_RA
@@ -974,6 +1008,8 @@ $ENDCMP
 #
 $CMP R_75k
 D Resistor, 75K, 0.25W, 1%, 0805
+$ENDCMP
+#
 $CMP R_7.5M
 D Resistor, 7.5M, 0.125W, 0.1%, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
@@ -1156,6 +1192,12 @@ $CMP TXB0104
 D Voltage level translator, 4-channel, bidirectional, TSSOP-14
 $ENDCMP
 #
+$CMP TXB0108
+D Voltage level translator, 8-channel, bidirectional, TSSOP-20
+K level shifter,
+F https://www.ti.com/lit/ds/symlink/txb0108.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605211774233
+$ENDCMP
+#
 $CMP T_LAN_7490100111A
 D Transformer LAN 10/100 base-T
 F https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381
@@ -1180,6 +1222,14 @@ $ENDCMP
 #
 $CMP UF_5_VT
 D Ultra-Fit connector 5 pin vertical
+$ENDCMP
+#
+$CMP USB-A-S-X-X-SM2
+F http://suddendocs.samtec.com/catalog_english/usb_a.pdf
+$ENDCMP
+#
+$CMP USB-Micro-1981568-1
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1981568&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP USB3343-CP
