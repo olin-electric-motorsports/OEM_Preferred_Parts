@@ -216,6 +216,11 @@ $CMP C_0.33uF
 D Capacitor, 0.33uF, 16V, 5%, 0805
 $ENDCMP
 #
+$CMP C_0.47uF_450V
+D .47uF Cap, 450Vdc, 1812 (4532 Metric)
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
 $CMP C_1000nF
 D Capacitor, 1uF, 10V, 10%, 0603
 $ENDCMP
@@ -346,6 +351,11 @@ $CMP Diode_600V_1A_SM
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf
 $ENDCMP
 #
+$CMP FDB33N25
+D N-Channel POWER MOSFET, 250V, 33A, D2PAK
+F https://www.onsemi.com/pub/Collateral/FDB33N25-D.pdf
+$ENDCMP
+#
 $CMP FT232RL
 D USB to Serial Interface, SSOP-28
 K FTDI USB Serial
@@ -388,11 +398,6 @@ $ENDCMP
 #
 $CMP G6C-1117P-US
 D Relay, SPST-NO, Switch 10A/125V, Coil 16.7mA/12V
-$ENDCMP
-#
-$CMP GA3460
-D Flyback Transformer, 2.5uH Primary, 1:10 Turn Ratio
-F https://www.coilcraft.com/getmedia/eb987d97-6bee-4e60-8a64-a66d4e6e447b/ga3459.pdf
 $ENDCMP
 #
 $CMP GA3460-BL
@@ -457,6 +462,11 @@ $ENDCMP
 #
 $CMP LR8K4-G
 D Linear regulator, 13.2-450V input, adj 1.2-438V output, 20mA
+$ENDCMP
+#
+$CMP LT-1997-2
+D Precision General Purpose Op Amp, Selectable Gain (<=.55), 16(12)-MSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1997-2.pdf
 $ENDCMP
 #
 $CMP LT3751
@@ -721,8 +731,8 @@ D 100V, 2.0A, Low VCE NPN Transistor
 F http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF
 $ENDCMP
 #
-$CMP NTB35N15
-D N-Channel POWER MOSFET, 150V, 37A, D2PAK
+$CMP NTB35N15_OBSOLETE
+D OBSOLETE; N-Channel POWER MOSFET, 150V, 37A, D2PAK
 F https://www.onsemi.com/pub/Collateral/NTB35N15-D.PDF
 $ENDCMP
 #
@@ -1006,13 +1016,13 @@ K resistor, 63.4
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
 $ENDCMP
 #
-$CMP R_75k
-D Resistor, 75K, 0.25W, 1%, 0805
-$ENDCMP
-#
 $CMP R_7.5M
 D Resistor, 7.5M, 0.125W, 0.1%, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP R_75k
+D Resistor, 75K, 0.25W, 1%, 0805
 $ENDCMP
 #
 $CMP R_9.53K
