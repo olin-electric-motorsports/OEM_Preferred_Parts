@@ -271,6 +271,11 @@ D Capacitor, 10uF, 450V, 20%, 0805
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1202.pdf
 $ENDCMP
 #
+$CMP C_10uF_50V
+D Capacitor, 10uF, 50V, 10%, 0805
+F http://www.samsungsem.com/kr/support/product-https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf
+$ENDCMP
+#
 $CMP C_18pF
 D Capacitor, 18pF, 10V, 1%, 0603
 $ENDCMP
@@ -789,6 +794,11 @@ $CMP R_1.43K
 D Resistor, 1.43K, 0.1W, 0.1%, 0805
 $ENDCMP
 #
+$CMP R_1.5k
+D Resistor, 1.5K, 0.75W, 1%, 2010
+F https://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
 $CMP R_1.82M
 D Resistor, 1.82M, 0.125W, 1%, 0805
 $ENDCMP
@@ -933,6 +943,11 @@ $CMP R_340K
 D Resistor, 340K, 0805
 $ENDCMP
 #
+$CMP R_36.5k
+D Resistor, 36.5K, 0.125W, 0.1%, 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
+$ENDCMP
+#
 $CMP R_3K
 D Resistor, 3K, 0.125W, 1%, 0805
 $ENDCMP
@@ -976,6 +991,11 @@ $CMP R_51.1K
 D Resistor, 51.1K, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_536k
+D Resistor, 536K, 0.75W, 1%, 2010
+F https://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
 $CMP R_54.9K
 D Resistor, 54.9K, 0.125W, 1%, 0805
 K Resistor
@@ -1016,6 +1036,11 @@ K resistor, 63.4
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
 $ENDCMP
 #
+$CMP R_6mOhm
+D Resistor, 6 mOhm Current Sense, 1%, 3W, 2512
+F https://www.mouser.com/datasheet/2/414/LRMA-1528276.pdf
+$ENDCMP
+#
 $CMP R_7.5M
 D Resistor, 7.5M, 0.125W, 0.1%, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
@@ -1023,6 +1048,11 @@ $ENDCMP
 #
 $CMP R_75k
 D Resistor, 75K, 0.25W, 1%, 0805
+$ENDCMP
+#
+$CMP R_80.6k
+D Resistor, 80.6K, 0.125W, 0.1%, 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
 $ENDCMP
 #
 $CMP R_9.53K
