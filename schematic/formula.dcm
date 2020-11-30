@@ -411,6 +411,11 @@ K Current/power/voltage monitor
 F http://www.ti.com/lit/ds/symlink/ina260.pdf
 $ENDCMP
 #
+$CMP JST_GH_F_VT_06
+D Micro-MaTch connector 6 pin female vertical
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
 $CMP L693D1
 D Linear regulator, 2-14V input, adj 1.2-5V output, 2A
 K LDO
@@ -1006,13 +1011,13 @@ K resistor, 63.4
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
 $ENDCMP
 #
-$CMP R_75k
-D Resistor, 75K, 0.25W, 1%, 0805
-$ENDCMP
-#
 $CMP R_7.5M
 D Resistor, 7.5M, 0.125W, 0.1%, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP R_75k
+D Resistor, 75K, 0.25W, 1%, 0805
 $ENDCMP
 #
 $CMP R_9.53K
