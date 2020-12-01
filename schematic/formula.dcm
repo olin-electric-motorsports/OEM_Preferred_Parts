@@ -421,6 +421,11 @@ K Current/power/voltage monitor
 F http://www.ti.com/lit/ds/symlink/ina260.pdf
 $ENDCMP
 #
+$CMP JST_GH_F_VT_06
+D Micro-MaTch connector 6 pin female vertical
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
 $CMP L693D1
 D Linear regulator, 2-14V input, adj 1.2-5V output, 2A
 K LDO
