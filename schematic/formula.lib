@@ -8478,6 +8478,32 @@ X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# TLIN1021DRQ1
+#
+DEF TLIN1021DRQ1 U 0 30 Y Y 1 F N
+F0 "U" -50 350 50 H V L CNN
+F1 "TLIN1021DRQ1" -250 -350 50 H V L CNN
+F2 "SOIC127P600X175-8N" 800 -250 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/TLIN1021-Q1" -600 -900 50 H I L CNN
+F4 "LIN Transceivers Automotive local interconnect network (LIN) transceiver with WAKE and INH 8-SOIC -40 to 125" 800 150 50 H I L CNN "Description"
+F5 "1.75" 800 50 50 H I L CNN "Height"
+F6 "Texas Instruments" 800 -50 50 H I L CNN "Manufacturer_Name"
+F7 "TLIN1021DRQ1" 800 -150 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TLIN1021DRQ1" -400 -600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLIN1021DRQ1?qs=%252B6g0mu59x7IVSHupFFwpdw%3D%3D" -1950 -750 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 -350 250 350 250 350 -250 -350 -250 -350 250 f
+X RXD 1 -550 150 200 R 50 50 0 0 P
+X EN 2 -550 50 200 R 50 50 0 0 P
+X WAKE 3 -550 -50 200 R 50 50 0 0 P
+X TXD 4 -550 -150 200 R 50 50 0 0 P
+X GND 5 550 -150 200 L 50 50 0 0 P
+X LIN 6 550 -50 200 L 50 50 0 0 P
+X VSUP 7 550 50 200 L 50 50 0 0 P
+X INH 8 550 150 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # TLP175A_OEM
 #
 DEF TLP175A_OEM U 0 40 Y Y 1 F N
