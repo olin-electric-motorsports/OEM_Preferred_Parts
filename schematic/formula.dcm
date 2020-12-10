@@ -1053,6 +1053,7 @@ $ENDCMP
 #
 $CMP R_75k
 D Resistor, 75K, 0.25W, 1%, 0805
+F https://www.koaspeer.com/pdfs/RK73H.pdf
 $ENDCMP
 #
 $CMP R_80.6k
