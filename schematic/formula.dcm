@@ -47,7 +47,7 @@ $CMP ADXL345
 D Acceleromter, 2/4/6/8/16g, SPI/I2C
 $ENDCMP
 #
-$CMP AMC1602AR-B-Y6WFDY-I2C
+$CMP AMC1602AR-B-Y6WFDY-SPI
 D LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight, 8bit parallel, 5V VDD
 K display LCD 7-segment
 F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
