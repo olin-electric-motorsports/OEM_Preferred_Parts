@@ -352,6 +352,12 @@ $CMP D_Zener_20V
 D Diode, Zener, 20V, 0.1W
 $ENDCMP
 #
+$CMP D_Zener_5.6V
+D Diode, Zener, 5.6V, 3W, 5%
+K USB
+F https://www.mccsemi.com/pdf/Products/3SMBJ5918B-3SMBJ5956B(DO-214AA).pdf
+$ENDCMP
+#
 $CMP Diode_600V_1A_SM
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf
 $ENDCMP
