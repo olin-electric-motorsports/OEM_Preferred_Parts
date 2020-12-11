@@ -998,6 +998,10 @@ $CMP R_499
 D Resistor, 499, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_500
+D 0805
+$ENDCMP
+#
 $CMP R_51.1K
 D Resistor, 51.1K, 0.125W, 1%, 0805
 $ENDCMP
@@ -1297,6 +1301,10 @@ $CMP USB_A
 D USB Type A connector
 K connector USB
 F  ~
+$ENDCMP
+#
+$CMP USB_MicroB
+F https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
 $ENDCMP
 #
 $CMP VBATT
