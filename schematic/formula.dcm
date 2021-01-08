@@ -1251,6 +1251,8 @@ $ENDCMP
 #
 $CMP TXB0104
 D Voltage level translator, 4-channel, bidirectional, TSSOP-14
+K level shifter,
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
 #
 $CMP TXB0108
