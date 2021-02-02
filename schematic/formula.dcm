@@ -361,6 +361,11 @@ D N-Channel POWER MOSFET, 250V, 33A, D2PAK
 F https://www.onsemi.com/pub/Collateral/FDB33N25-D.pdf
 $ENDCMP
 #
+$CMP FQD2N60CTM
+D N-Channel POWER MOSFET, 600V, 1.9A
+F https://www.onsemi.com/pub/Collateral/FQU2N60C-D.PDF
+$ENDCMP
+#
 $CMP FT232RL
 D USB to Serial Interface, SSOP-28
 K FTDI USB Serial
