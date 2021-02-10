@@ -199,6 +199,11 @@ K NPN DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
 $ENDCMP
 #
+$CMP CPC1117NTR
+D Solid State  SPST-NC (1 Form B) 4-SOP (0.150", 3.81mm)
+F https://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf
+$ENDCMP
+#
 $CMP C_.22uF
 D Capacitor, .22uF, 220nF, 50V, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
