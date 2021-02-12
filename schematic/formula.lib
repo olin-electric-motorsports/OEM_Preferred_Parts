@@ -3659,6 +3659,29 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# L_22uH
+#
+DEF L_22uH L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "L_22uH" 30 -40 50 H V L CNN
+F2 "" -70 -60 50 H I C CNN
+F3 "" 30 40 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # L_4.7uH
 #
 DEF L_4.7uH L 0 10 N N 1 F N
@@ -6785,6 +6808,25 @@ F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P51.1KCCT-ND" -1100 200 60 H I L CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" -1100 500 60 H I L CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_52.3k
+#
+DEF R_52.3k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_52.3k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6AEB5232V/2025818" 480 400 60 H I C CNN "Purchasing Link"
 $FPLIST
  R_*
  Resistor_*
