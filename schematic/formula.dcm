@@ -295,6 +295,11 @@ D Capacitor, 2.2uF, 50V, 20%, 0805
 F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf
 $ENDCMP
 #
+$CMP C_220pF
+D Capacitor, 220pF, 50V, 10%, 0603
+F http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf
+$ENDCMP
+#
 $CMP C_22uF
 D Capacitor, 22uF, 16V, 20%, 1206
 $ENDCMP

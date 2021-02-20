@@ -1852,6 +1852,31 @@ X ~ 2 0 -100 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# C_220pF
+#
+DEF C_220pF C 0 65 N N 1 F N
+F0 "C" 150 150 60 H V C CNN
+F1 "C_220pF" 150 -300 60 H V C CNN
+F2 "CAP_0603_S_WAL" 150 -460 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0603B221K500CT/9354904" 100 500 50 H I C CNN "Purchasing Link"
+F5 "Walsin Technology Corporation" 150 400 50 H I C CNN "Manufacturer"
+F6 "0603B221K500CT" 150 300 50 H I C CNN "Part Number"
+$FPLIST
+ CAP_0603_S_WAL
+ CAP_0603_S_WAL-M
+ CAP_0603_S_WAL-L
+$ENDFPLIST
+DRAW
+P 2 1 1 8 100 0 137 0 N
+P 2 1 1 8 137 -75 137 75 N
+P 2 1 1 8 162 -75 162 75 N
+P 2 1 1 8 162 0 200 0 N
+X 1 1 0 0 100 R 59 59 1 1 U
+X 2 2 300 0 100 L 59 59 1 1 U
+ENDDRAW
+ENDDEF
+#
 # C_22uF
 #
 DEF C_22uF C 0 10 N Y 1 F N
