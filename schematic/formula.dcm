@@ -50,7 +50,7 @@ $ENDCMP
 $CMP AMC1602AR-B-Y6WFDY-SPI
 D LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight, 8bit parallel, 5V VDD
 K display LCD 7-segment
-F https://www.orientdisplay.com/wp-content/uploads/2019/10/AMC1602AR-B-Y6WFDY-SPI-specsheet.pdf
+F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
 $ENDCMP
 #
 $CMP AOZ1280
