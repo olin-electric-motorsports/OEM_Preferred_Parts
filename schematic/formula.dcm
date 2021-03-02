@@ -11,6 +11,11 @@ D 1.5A Fuse LitteFuse
 F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP 12B-x
+D LED, Red, 1.6V, 1mA
+F https://www.superbrightleds.com/moreinfo/led-wired-bolts/bolt-beam-12mm-led-light/1494/
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
 F https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf
@@ -425,11 +430,6 @@ $ENDCMP
 $CMP GNDPWR
 D Power symbol creates a global label with name "GNDPWR" , power ground
 K power-flag
-$ENDCMP
-#
-$CMP HLMP-Q150-F0011
-D LED, Red, 1.6V, 1mA
-F https://docs.broadcom.com/doc/AV02-3609EN
 $ENDCMP
 #
 $CMP INA260
