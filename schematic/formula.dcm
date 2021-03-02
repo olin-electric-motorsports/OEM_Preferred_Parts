@@ -373,6 +373,10 @@ $CMP Diode_600V_1A_SM
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf
 $ENDCMP
 #
+$CMP EMS22A50-B28-LS6
+F https://www.bourns.com/docs/Product-Datasheets/EMS22A.pdf
+$ENDCMP
+#
 $CMP FDB33N25
 D N-Channel POWER MOSFET, 250V, 33A, D2PAK
 F https://www.onsemi.com/pub/Collateral/FDB33N25-D.pdf
