@@ -47,7 +47,7 @@ $CMP ADXL345
 D Acceleromter, 2/4/6/8/16g, SPI/I2C
 $ENDCMP
 #
-$CMP AMC1602AR-B-Y6WFDY-I2C
+$CMP AMC1602AR-B-Y6WFDY-SPI
 D LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight, 8bit parallel, 5V VDD
 K display LCD 7-segment
 F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
@@ -202,6 +202,11 @@ $ENDCMP
 $CMP CPC1117NTR
 D Solid State  SPST-NC (1 Form B) 4-SOP (0.150", 3.81mm)
 F https://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf
+$ENDCMP
+#
+$CMP CPC1979J
+D SSR RELAY SPST-NO 1.4A 0-600V
+F https://www.ixysic.com/home/pdfs.nsf/www/CPC1979J.pdf/$file/CPC1979J.pdf
 $ENDCMP
 #
 $CMP C_.22uF
@@ -434,6 +439,11 @@ $ENDCMP
 $CMP GNDPWR
 D Power symbol creates a global label with name "GNDPWR" , power ground
 K power-flag
+$ENDCMP
+#
+$CMP HLMP-Q150-F0011
+D LED, Red, 1.6V, 1mA
+F https://docs.broadcom.com/doc/AV02-3609EN
 $ENDCMP
 #
 $CMP INA260
