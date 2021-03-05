@@ -791,6 +791,11 @@ K power resistor, balancing, BMS
 F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
 $ENDCMP
 #
+$CMP RB228T100
+D Super Fast Recovery Diode, 200V, 20A, 10.0x15.0mm (t=4.5), 
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn20t2dnz-e.pdf
+$ENDCMP
+#
 $CMP RFN5TF8S
 D Fast Recovery Diode, TO220NFM
 F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn5tf8s.pdf
