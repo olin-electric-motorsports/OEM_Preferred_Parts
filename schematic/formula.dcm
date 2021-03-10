@@ -336,6 +336,11 @@ D Capacitor, 470pF, 50V, 10%, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
 $ENDCMP
 #
+$CMP C_47pF
+D CAP CER 47PF 100V BP 0805
+F https://content.kemet.com/datasheets/F3102_MIL-PRF-55681.pdf
+$ENDCMP
+#
 $CMP C_47uF
 D Capacitor, 47uF, 6.3V, 20%, 0805
 $ENDCMP
@@ -935,6 +940,11 @@ $CMP R_1K_HS
 D Resistor, 1K, 100W with heat sink, 1%, TO-247-2
 $ENDCMP
 #
+$CMP R_1K_HV
+D RES 1 KOHM 1% 3W 2512 250V
+F https://www.bourns.com/docs/product-datasheets/chp.pdf
+$ENDCMP
+#
 $CMP R_1M
 D Resistor, 1M, 0.125W, 5%, 0805
 $ENDCMP
@@ -1041,6 +1051,11 @@ $ENDCMP
 #
 $CMP R_499
 D Resistor, 499, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_4k
+D RES SMD 4K OHM 1% 1/8W 0805
+F https://www.vishay.com/docs/20008/dcrcw.pdf
 $ENDCMP
 #
 $CMP R_500
