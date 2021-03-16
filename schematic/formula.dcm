@@ -47,7 +47,7 @@ $CMP ADXL345
 D Acceleromter, 2/4/6/8/16g, SPI/I2C
 $ENDCMP
 #
-$CMP AMC1602AR-B-Y6WFDY-I2C
+$CMP AMC1602AR-B-Y6WFDY-SPI
 D LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight, 8bit parallel, 5V VDD
 K display LCD 7-segment
 F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
@@ -199,6 +199,16 @@ K NPN DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
 $ENDCMP
 #
+$CMP CPC1117NTR
+D Solid State  SPST-NC (1 Form B) 4-SOP (0.150", 3.81mm)
+F https://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf
+$ENDCMP
+#
+$CMP CPC1979J
+D SSR RELAY SPST-NO 1.4A 0-600V
+F https://www.ixysic.com/home/pdfs.nsf/www/CPC1979J.pdf/$file/CPC1979J.pdf
+$ENDCMP
+#
 $CMP C_.22uF
 D Capacitor, .22uF, 220nF, 50V, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
@@ -290,6 +300,11 @@ D Capacitor, 2.2uF, 50V, 20%, 0805
 F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf
 $ENDCMP
 #
+$CMP C_220pF
+D Capacitor, 220pF, 50V, 10%, 0603
+F http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf
+$ENDCMP
+#
 $CMP C_22uF
 D Capacitor, 22uF, 16V, 20%, 1206
 $ENDCMP
@@ -367,6 +382,11 @@ D N-Channel POWER MOSFET, 250V, 33A, D2PAK
 F https://www.onsemi.com/pub/Collateral/FDB33N25-D.pdf
 $ENDCMP
 #
+$CMP FQD2N60CTM
+D N-Channel POWER MOSFET, 600V, 1.9A
+F https://www.onsemi.com/pub/Collateral/FQU2N60C-D.PDF
+$ENDCMP
+#
 $CMP FT232RL
 D USB to Serial Interface, SSOP-28
 K FTDI USB Serial
@@ -419,6 +439,11 @@ $ENDCMP
 $CMP GNDPWR
 D Power symbol creates a global label with name "GNDPWR" , power ground
 K power-flag
+$ENDCMP
+#
+$CMP HLMP-Q150-F0011
+D LED, Red, 1.6V, 1mA
+F https://docs.broadcom.com/doc/AV02-3609EN
 $ENDCMP
 #
 $CMP INA260
