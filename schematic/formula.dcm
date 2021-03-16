@@ -563,6 +563,10 @@ D Inductor, 2.2uH, 1.6A, 78mOhm, 20%, 1210
 F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BRL3225T2R2M%20%20&u=M
 $ENDCMP
 #
+$CMP L_22uH
+D Inductor, 22uH, 1.6A, 78mOhm, 20%, 1210
+$ENDCMP
+#
 $CMP L_4.7uH
 D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
@@ -1064,6 +1068,11 @@ $ENDCMP
 #
 $CMP R_51.1K
 D Resistor, 51.1K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_52.3k
+D Resistor, 52.3K, 0.125W, 0.1%, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
 $CMP R_536k
