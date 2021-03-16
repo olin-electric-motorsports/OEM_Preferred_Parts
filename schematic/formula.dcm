@@ -541,6 +541,10 @@ D Inductor, 6.8uH
 K inductor, coil, l
 $ENDCMP
 #
+$CMP MAXM15464
+F https://media.digikey.com/pdf/Data%20Sheets/Maxim%20PDFs/MAXM15462-64_Rev4_10-26-18.pdf
+$ENDCMP
+#
 $CMP MCP2561-E_SN
 D High speed CAN transceiver, 1Mb/s
 $ENDCMP

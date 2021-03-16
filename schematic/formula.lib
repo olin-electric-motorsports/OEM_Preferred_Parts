@@ -3732,8 +3732,9 @@ ENDDEF
 DEF MAXM15464 U 0 40 Y Y 1 F N
 F0 "U" 0 500 50 H V C CNN
 F1 "MAXM15464" 0 600 50 H V C CNN
-F2 "" 0 600 50 H I C CNN
+F2 "footprints:MAXM15464" 0 600 50 H I C CNN
 F3 "" 0 600 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/maxim-integrated/MAXM15464AMB/10209895" 0 0 50 H V C CNN "Purchasing Link"
 DRAW
 S -350 400 350 -450 0 1 0 f
 X LX 1 450 -200 100 L 50 50 1 1 I
