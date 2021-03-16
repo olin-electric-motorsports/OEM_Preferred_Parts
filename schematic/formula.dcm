@@ -34,6 +34,11 @@ $CMP AD623
 D Op-amp, dual supply
 $ENDCMP
 #
+$CMP ADA46616-2
+D IC OPAMP GP 2 CIRCUIT 8MSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4661-2.pdf
+$ENDCMP
+#
 $CMP ADG732BSUZ
 D Multiplexer
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG726_732.pdf
