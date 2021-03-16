@@ -567,6 +567,7 @@ K inductor, coil, l
 $ENDCMP
 #
 $CMP MAXM15464
+D MOD DCDC CONVERTER 5V 10USLIC
 F https://media.digikey.com/pdf/Data%20Sheets/Maxim%20PDFs/MAXM15462-64_Rev4_10-26-18.pdf
 $ENDCMP
 #
