@@ -781,6 +781,11 @@ K power resistor, balancing, BMS
 F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
 $ENDCMP
 #
+$CMP Q8P7BXXG02E
+D Panel Mount LED, Green, 2V, 20mA
+F https://www.apem.com/us/index.php?controller=attachment&id_attachment=1780
+$ENDCMP
+#
 $CMP RFN5TF8S
 D Fast Recovery Diode, TO220NFM
 F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn5tf8s.pdf
