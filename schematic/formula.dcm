@@ -39,6 +39,11 @@ $CMP AD623
 D Op-amp, dual supply
 $ENDCMP
 #
+$CMP ADA46616-2
+D IC OPAMP GP 2 CIRCUIT 8MSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4661-2.pdf
+$ENDCMP
+#
 $CMP ADG732BSUZ
 D Multiplexer
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG726_732.pdf
@@ -55,7 +60,7 @@ $ENDCMP
 $CMP AMC1602AR-B-Y6WFDY-SPI
 D LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight, 8bit parallel, 5V VDD
 K display LCD 7-segment
-F https://www.orientdisplay.com/wp-content/uploads/2019/10/AMC1602AR-B-Y6WFDY-SPI-specsheet.pdf
+F http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
 $ENDCMP
 #
 $CMP AOZ1280
@@ -210,6 +215,16 @@ K NPN DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
 $ENDCMP
 #
+$CMP CPC1117NTR
+D Solid State  SPST-NC (1 Form B) 4-SOP (0.150", 3.81mm)
+F https://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf
+$ENDCMP
+#
+$CMP CPC1979J
+D SSR RELAY SPST-NO 1.4A 0-600V
+F https://www.ixysic.com/home/pdfs.nsf/www/CPC1979J.pdf/$file/CPC1979J.pdf
+$ENDCMP
+#
 $CMP C_.22uF
 D Capacitor, .22uF, 220nF, 50V, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
@@ -301,6 +316,16 @@ D Capacitor, 2.2uF, 50V, 20%, 0805
 F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf
 $ENDCMP
 #
+$CMP C_220pF
+D Capacitor, 220pF, 50V, 10%, 0603
+F http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf
+$ENDCMP
+#
+$CMP C_22nF
+D CAP CER 0805 22NF 25V C0G 2%
+F https://content.kemet.com/datasheets/KEM_C1091_C0G_ESD.pdf
+$ENDCMP
+#
 $CMP C_22uF
 D Capacitor, 22uF, 16V, 20%, 1206
 $ENDCMP
@@ -325,6 +350,11 @@ $ENDCMP
 $CMP C_470pF
 D Capacitor, 470pF, 50V, 10%, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP C_47pF
+D CAP CER 47PF 100V BP 0805
+F https://content.kemet.com/datasheets/F3102_MIL-PRF-55681.pdf
 $ENDCMP
 #
 $CMP C_47uF
@@ -380,6 +410,11 @@ $ENDCMP
 $CMP FDB33N25
 D N-Channel POWER MOSFET, 250V, 33A, D2PAK
 F https://www.onsemi.com/pub/Collateral/FDB33N25-D.pdf
+$ENDCMP
+#
+$CMP FQD2N60CTM
+D N-Channel POWER MOSFET, 600V, 1.9A
+F https://www.onsemi.com/pub/Collateral/FQU2N60C-D.PDF
 $ENDCMP
 #
 $CMP FT232RL
@@ -543,6 +578,10 @@ D Inductor, 2.2uH, 1.6A, 78mOhm, 20%, 1210
 F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=BRL3225T2R2M%20%20&u=M
 $ENDCMP
 #
+$CMP L_22uH
+D Inductor, 22uH, 1.6A, 78mOhm, 20%, 1210
+$ENDCMP
+#
 $CMP L_4.7uH
 D Inductor, 4.7uH, 4.4A, 25mOhm, 20%
 $ENDCMP
@@ -550,6 +589,11 @@ $ENDCMP
 $CMP L_6.8uH
 D Inductor, 6.8uH
 K inductor, coil, l
+$ENDCMP
+#
+$CMP MAXM15464
+D MOD DCDC CONVERTER 5V 10USLIC
+F https://media.digikey.com/pdf/Data%20Sheets/Maxim%20PDFs/MAXM15462-64_Rev4_10-26-18.pdf
 $ENDCMP
 #
 $CMP MCP2561-E_SN
@@ -750,8 +794,8 @@ $ENDCMP
 #
 $CMP NCP1117ST50T3G
 D Linear regulator, 20V input, 5V output, 1A
-F https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
-$ENDCMP
+F ://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCM
 #
 $CMP NCP785AH150T1G
 D Linear regulator, 25-450V input, 15V output, 10mA
@@ -786,6 +830,11 @@ D Panel Mount LED, Green, 2V, 20mA
 F https://www.apem.com/us/index.php?controller=attachment&id_attachment=1780
 $ENDCMP
 #
+$CMP RB228T100
+D Super Fast Recovery Diode, 200V, 20A, 10.0x15.0mm (t=4.5),
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn20t2dnz-e.pdf
+$ENDCMP
+#
 $CMP RFN5TF8S
 D Fast Recovery Diode, TO220NFM
 F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/fast_recovery/rfn5tf8s.pdf
@@ -797,6 +846,11 @@ $ENDCMP
 #
 $CMP RJ45_VT
 D RJ45 ethernet connector vertical
+$ENDCMP
+#
+$CMP RSOE-0505S_H2
+D RES SMD 10 OHM 1% 1/2W 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf
 $ENDCMP
 #
 $CMP R_0
@@ -845,6 +899,11 @@ $ENDCMP
 $CMP R_1.91K
 D Resistor, 1.91K, 0.25W, 0.5%, 0805
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf
+$ENDCMP
+#
+$CMP R_10
+D RES SMD 10 OHM 1% 1/2W 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf
 $ENDCMP
 #
 $CMP R_100
@@ -908,6 +967,11 @@ $ENDCMP
 #
 $CMP R_1K_HS
 D Resistor, 1K, 100W with heat sink, 1%, TO-247-2
+$ENDCMP
+#
+$CMP R_1K_HV
+D RES 1 KOHM 1% 3W 2512 250V
+F https://www.bourns.com/docs/product-datasheets/chp.pdf
 $ENDCMP
 #
 $CMP R_1M
@@ -1018,12 +1082,22 @@ $CMP R_499
 D Resistor, 499, 0.125W, 1%, 0805
 $ENDCMP
 #
+$CMP R_4k
+D RES SMD 4K OHM 1% 1/8W 0805
+F https://www.vishay.com/docs/20008/dcrcw.pdf
+$ENDCMP
+#
 $CMP R_500
 D 0805
 $ENDCMP
 #
 $CMP R_51.1K
 D Resistor, 51.1K, 0.125W, 1%, 0805
+$ENDCMP
+#
+$CMP R_52.3k
+D Resistor, 52.3K, 0.125W, 0.1%, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
 $CMP R_536k
