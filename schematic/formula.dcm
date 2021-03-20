@@ -11,6 +11,11 @@ D 1.5A Fuse LitteFuse
 F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP 12B-x
+D LED, Red, 1.6V, 1mA
+F https://www.superbrightleds.com/moreinfo/led-wired-bolts/bolt-beam-12mm-led-light/1494/
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
 F https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf
@@ -174,6 +179,12 @@ $ENDCMP
 $CMP CDBA140-G
 D DIODE SCHOTTKY 40V 1A
 F https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA120-G~CDBA1100-G.pdf
+$ENDCMP
+#
+$CMP COM-11441
+D 4 digit 7 segment high efficiency red LED, common anode
+K display LED 7-segment
+F https://github.com/sparkfun/Serial7SegmentDisplay/wiki/Serial-7-Segment-Display-Datasheet
 $ENDCMP
 #
 $CMP CONN_01X03
@@ -392,6 +403,10 @@ $CMP Diode_600V_1A_SM
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf
 $ENDCMP
 #
+$CMP EMS22A50-B28-LS6
+F https://www.bourns.com/docs/Product-Datasheets/EMS22A.pdf
+$ENDCMP
+#
 $CMP FDB33N25
 D N-Channel POWER MOSFET, 250V, 33A, D2PAK
 F https://www.onsemi.com/pub/Collateral/FDB33N25-D.pdf
@@ -454,11 +469,6 @@ $ENDCMP
 $CMP GNDPWR
 D Power symbol creates a global label with name "GNDPWR" , power ground
 K power-flag
-$ENDCMP
-#
-$CMP HLMP-Q150-F0011
-D LED, Red, 1.6V, 1mA
-F https://docs.broadcom.com/doc/AV02-3609EN
 $ENDCMP
 #
 $CMP INA260
@@ -784,8 +794,8 @@ $ENDCMP
 #
 $CMP NCP1117ST50T3G
 D Linear regulator, 20V input, 5V output, 1A
-F https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
-$ENDCMP
+F ://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCM
 #
 $CMP NCP785AH150T1G
 D Linear regulator, 25-450V input, 15V output, 10mA
@@ -813,6 +823,11 @@ $CMP PWR163S-25-27R0F
 D RES SMD 27 OHM 1% 25W DPAK
 K power resistor, balancing, BMS
 F https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf
+$ENDCMP
+#
+$CMP Q8P7BXXG02E
+D Panel Mount LED, Green, 2V, 20mA
+F https://www.apem.com/us/index.php?controller=attachment&id_attachment=1780
 $ENDCMP
 #
 $CMP RB228T100
