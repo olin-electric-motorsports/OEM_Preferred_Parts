@@ -566,6 +566,11 @@ K Multiplexer, SMBus Interface, analog
 F https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf
 $ENDCMP
 #
+$CMP LTC1983ES6-5#TRMPBF
+D Charge Pump Switching Regulator IC Negative Fixed -5V 1 Output 100mA SOT-23-6 Thin, TSOT-23-6
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
+$ENDCMP
+#
 $CMP LTC6811-1
 D LTC6811-1
 F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
