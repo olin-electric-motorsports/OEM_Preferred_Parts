@@ -567,7 +567,7 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pd
 $ENDCMP
 #
 $CMP LTC1983ES6-5#TRMPBF
-D Charge Pump Switching Regulator IC Negative Fixed -5V 1 Output 100mA SOT-23-6 Thin, TSOT-23-6
+D IC REG CHARGE PUMP -5V TSOT23-6
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
 $ENDCMP
 #

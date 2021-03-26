@@ -3944,6 +3944,8 @@ F1 "LTC1983ES6-5#TRMPBF" 0 400 50 H V C CNN
 F2 "footprints:LTC1983ES6-5#TRMPBF" 0 400 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
 F4 "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC1983ES6-5-TRMPBF/1115931" 0 0 50 H I C CNN "Purchasing Link"
+F5 "Analog Devices Inc." 0 0 50 H I C CNN "Manufacturer"
+F6 "LTC1983ES6-5#TRMPBF" 0 0 50 H I C CNN "Manufacturer Product Number"
 DRAW
 S 300 300 -300 -400 0 1 0 f
 X V_IN 1 -400 200 100 R 50 50 1 1 I
