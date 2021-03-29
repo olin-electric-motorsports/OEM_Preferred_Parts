@@ -866,6 +866,7 @@ F https://www.mouser.com/datasheet/2/414/LRMA-1528276.pdf
 $ENDCMP
 #
 $CMP UF_5_VT
+D CONN HEADER VERT 5POS 3.5MM
 F http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf
 $ENDCMP
 #
