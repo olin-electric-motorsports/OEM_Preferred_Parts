@@ -16,6 +16,11 @@ D LED, Red, 1.6V, 1mA
 F https://www.superbrightleds.com/moreinfo/led-wired-bolts/bolt-beam-12mm-led-light/1494/
 $ENDCMP
 #
+$CMP 1N4148WSTR
+D Diode, Gen. Purpose, 1Vf, 300mA, 75Vr, 4ns, 200mW
+F http://www.smc-diodes.com/propdf/1N4148WS%20N0572%20REV.B.pdf
+$ENDCMP
+#
 $CMP 200mA_Fuse
 D 200mA Fuse
 F https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf
@@ -858,6 +863,10 @@ $ENDCMP
 $CMP R_6mOhm
 D 6mOhm, 3W, 2512 Current Sense Resistor
 F https://www.mouser.com/datasheet/2/414/LRMA-1528276.pdf
+$ENDCMP
+#
+$CMP UF_5_VT
+F http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf
 $ENDCMP
 #
 #End Doc Library

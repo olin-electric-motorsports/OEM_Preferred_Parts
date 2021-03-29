@@ -91,6 +91,25 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1N4148WSTR
+#
+DEF 1N4148WSTR D 0 40 Y Y 1 F N
+F0 "D" 0 250 50 H V C CNN
+F1 "1N4148WSTR" 0 350 50 H V C CNN
+F2 "formula:SOD-323" -50 150 50 H I C CNN
+F3 "" -50 150 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148WSTR/6022449" 0 200 50 H I C CNN "Purchasing Link"
+F5 "SMC Diode" -300 250 50 H I C CNN "MFN"
+F6 "1N4148WSTR" 0 400 50 H I C CNN "MPN"
+DRAW
+P 2 1 1 0 50 0 -50 0 N
+P 2 1 1 10 50 50 50 -50 N
+P 4 1 1 10 -50 -50 -50 50 50 0 -50 -50 N
+X ~ 1 150 0 100 L 50 50 1 1 P
+X ~ 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 200mA_Fuse
 #
 DEF 200mA_Fuse F 0 40 Y Y 1 F N
@@ -10060,8 +10079,8 @@ ENDDEF
 DEF UF_5_VT J 0 40 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
 F1 "UF_5_VT" 0 -350 60 H V C CNN
-F2 "" -100 250 60 H I C CNN
-F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
+F2 "formula:Ultrafit_5" -100 250 60 H I C CNN
+F3 "" 0 350 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "WM11667-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
