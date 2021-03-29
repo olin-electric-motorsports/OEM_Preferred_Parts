@@ -30,12 +30,6 @@ $CMP 3P4T_rotary_switch
 D 3 pole 4 terminal rotary switch
 $ENDCMP
 #
-$CMP 76825-0006
-D CONN HEADER R/A 6POS 5.7MM Megafit
-K molex
-F https://www.molex.com/pdm_docs/as/AS-76823-100.pdf
-$ENDCMP
-#
 $CMP ACPL-C79B-500E
 D Precision Optically Isolated Op Amp - Differential Input, Stretched SO-8 (SSO-8)
 F https://docs.broadcom.com/doc/AV02-2460EN
