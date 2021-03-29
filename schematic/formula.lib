@@ -1474,7 +1474,7 @@ ENDDEF
 DEF CPC1117NTR U 0 40 Y Y 1 F N
 F0 "U" -501 220 50 H V L BNN
 F1 "CPC1117NTR" -500 -300 50 H V L BNN
-F2 "SOIC254P610X218-4N" 0 0 50 H I L BNN
+F2 "footprints:SOIC254P610X218-4N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "IXYS" 0 0 50 H I L BNN "MANUFACTURER"
 F5 "https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/CPC1117NTR/1277122" 0 0 50 H I C CNN "Purchasing"
