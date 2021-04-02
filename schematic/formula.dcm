@@ -597,6 +597,11 @@ $CMP L_100uH
 F https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf
 $ENDCMP
 #
+$CMP L_10uH
+D FIXED IND 10UH 3.2A 70 MOHM SMD
+F https://www.bourns.com/docs/Product-Datasheets/SDE0805A.pdf
+$ENDCMP
+#
 $CMP L_15uH
 D Inductor, 15uH, 1210
 K inductor, coil, l
@@ -837,6 +842,11 @@ $CMP RSOE-0505S_H2
 F https://recom-power.com/pdf/Econoline/RSOE.pdf
 $ENDCMP
 #
+$CMP R_1.54K
+D RES SMD 1.54K OHM 1% 1/8W 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
 $CMP R_10_2W_2512
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English
 $ENDCMP
@@ -858,6 +868,11 @@ $ENDCMP
 $CMP R_67k
 D 67k, .125W, 1% 0805
 F https://www.vishay.com/docs/20008/dcrcw.pdf
+$ENDCMP
+#
+$CMP R_69.8K
+D RES SMD 69.8K OHM 1% 1/8W 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
 $ENDCMP
 #
 $CMP R_6mOhm
