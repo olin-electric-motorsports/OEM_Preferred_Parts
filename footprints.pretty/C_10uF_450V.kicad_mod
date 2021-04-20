@@ -1,4 +1,4 @@
-(module C_10uF_450V (layer F.Cu) (tedit 5E547B34)
+(module C_10uF_450V (layer F.Cu) (tedit 607E49C6)
   (descr "Capacitor SMD ")
   (tags capacitor)
   (attr smd)
@@ -14,4 +14,9 @@
   (fp_line (start 9.5 -3.05) (end 9.5 16.05) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at 0 0) (size 2.5 7.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 13.5) (size 2.5 7.5) (layers F.Cu F.Paste F.Mask))
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/SMDCap10uF.stp
+    (offset (xyz 0 -6.5 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
