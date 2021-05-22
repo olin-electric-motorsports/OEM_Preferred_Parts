@@ -626,10 +626,6 @@ D Inductor, 6.8uH
 K inductor, coil, l
 $ENDCMP
 #
-$CMP L_8.1uH
-F https://www.coilcraft.com/getmedia/76c9c081-4945-4c85-9129-9356e1ad6734/xgl4020.pdf
-$ENDCMP
-#
 $CMP MAXM15464
 D MOD DCDC CONVERTER 5V 10USLIC
 F https://media.digikey.com/pdf/Data%20Sheets/Maxim%20PDFs/MAXM15462-64_Rev4_10-26-18.pdf
@@ -846,10 +842,6 @@ $CMP RSOE-0505S_H2
 F https://recom-power.com/pdf/Econoline/RSOE.pdf
 $ENDCMP
 #
-$CMP R_1.18M
-F https://www.vishay.com/docs/20035/dcrcwe3.pdf
-$ENDCMP
-#
 $CMP R_1.54K
 D RES SMD 1.54K OHM 1% 1/8W 0805
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
@@ -868,17 +860,9 @@ $CMP R_13_2W_2512_0
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English
 $ENDCMP
 #
-$CMP R_15k
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RE_105_RoHS_L_6.pdf
-$ENDCMP
-#
 $CMP R_1_1W
 D 1 ohm, 1W, 1%, 2512
 F https://www.vishay.com/docs/20035/dcrcwe3.pdf
-$ENDCMP
-#
-$CMP R_3.65M
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
 $CMP R_67k
@@ -894,10 +878,6 @@ $ENDCMP
 $CMP R_6mOhm
 D 6mOhm, 3W, 2512 Current Sense Resistor
 F https://www.mouser.com/datasheet/2/414/LRMA-1528276.pdf
-$ENDCMP
-#
-$CMP R_90k
-F https://www.vishay.com/docs/60026/ptn.pdf
 $ENDCMP
 #
 $CMP UF_5_VT
