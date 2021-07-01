@@ -91,6 +91,12 @@ $ENDCMP
 #
 $CMP ATMEGA16M1
 D Microcontroller, 8-bit, 1KB RAM, 16KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA64M1
+D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
 $ENDCMP
 #
 $CMP ATmega16U2-AU
@@ -196,6 +202,10 @@ $ENDCMP
 #
 $CMP CD4043BPWR
 D Quad NOR R/S latch
+$ENDCMP
+#
+$CMP CD4044BDR
+F https://www.ti.com/lit/ds/symlink/cd4043b.pdf
 $ENDCMP
 #
 $CMP CDBA140-G
