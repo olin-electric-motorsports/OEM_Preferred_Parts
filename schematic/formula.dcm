@@ -899,6 +899,11 @@ D 1 ohm, 1W, 1%, 2512
 F https://www.vishay.com/docs/20035/dcrcwe3.pdf
 $ENDCMP
 #
+$CMP R_23.7K
+D R_23.7K, 1/4W, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf
+$ENDCMP
+#
 $CMP R_3.65M
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
