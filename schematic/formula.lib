@@ -179,6 +179,41 @@ X C C 150 100 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# 74HC4051
+#
+DEF 74HC4051 U 0 20 Y Y 1 F N
+F0 "U" -200 450 50 H V C CNN
+F1 "74HC4051" -300 -550 50 H V C CNN
+F2 "footprints:TSSOP-16-OEM" 0 -400 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
+ALIAS 74HCT4051
+$FPLIST
+ DIP*W7.62mm*
+ SOIC*3.9x9.9mm*P1.27mm*
+ SOIC*5.3x10.2mm*P1.27mm*
+ TSSOP*4.4x5mm*P0.65mm*
+$ENDFPLIST
+DRAW
+S -200 400 300 -500 0 1 10 f
+X A4 1 400 -100 100 L 50 50 1 1 P
+X S1 10 -300 0 100 R 50 50 1 1 I
+X S0 11 -300 100 100 R 50 50 1 1 I
+X A3 12 400 0 100 L 50 50 1 1 P
+X A0 13 400 300 100 L 50 50 1 1 P
+X A1 14 400 200 100 L 50 50 1 1 P
+X A2 15 400 100 100 L 50 50 1 1 P
+X VCC 16 0 500 100 D 50 50 1 1 W
+X A6 2 400 -300 100 L 50 50 1 1 P
+X A 3 -300 300 100 R 50 50 1 1 P
+X A7 4 400 -400 100 L 50 50 1 1 P
+X A5 5 400 -200 100 L 50 50 1 1 P
+X ~E 6 -300 -300 100 R 50 50 1 1 I
+X VEE 7 100 -600 100 U 50 50 1 1 W
+X GND 8 0 -600 100 U 50 50 1 1 W
+X S2 9 -300 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # ACPL-C79B-500E
 #
 DEF ACPL-C79B-500E U 0 40 Y Y 1 F N
@@ -7287,27 +7322,6 @@ F3 "https://www.seielect.com/catalog/SEI-HVC.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "HVCB0805JDE22M0CT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=resistor&k=&pkeyword=resistor&pv7=2&pv2085=u22+MOhms&pv2=1854&pv2=819&pv2=799&pv2=2297&pv2=1169&pv2=246&pv2=982&pv2=1&pv2=984&pv2=1727&pv2=2&pv2=1452&pv2=3&pv2=38&pv2=1766&pv2=814&pv2=556&pv2=1448&pv2=4&pv16=6&sf=1&FV=ffe00034&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_23.7k
-#
-DEF R_23.7k R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R_23.7k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "" 80 0 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "P21173CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PB6D2372V/6213956" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*

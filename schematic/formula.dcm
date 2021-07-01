@@ -35,6 +35,18 @@ $CMP 3P4T_rotary_switch
 D 3 pole 4 terminal rotary switch
 $ENDCMP
 #
+$CMP 74HC4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K HCMOS Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf
+$ENDCMP
+#
+$CMP 74HCT4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K TTL Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf
+$ENDCMP
+#
 $CMP ACPL-C79B-500E
 D Precision Optically Isolated Op Amp - Differential Input, Stretched SO-8 (SSO-8)
 F https://docs.broadcom.com/doc/AV02-2460EN
@@ -885,11 +897,6 @@ $ENDCMP
 $CMP R_1_1W
 D 1 ohm, 1W, 1%, 2512
 F https://www.vishay.com/docs/20035/dcrcwe3.pdf
-$ENDCMP
-#
-$CMP R_23.7k
-D 23.7kOhm resistor, 1/4W, 0805
-F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf
 $ENDCMP
 #
 $CMP R_3.65M
