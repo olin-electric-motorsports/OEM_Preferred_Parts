@@ -57,6 +57,11 @@ D Precision Optically Isolated Op Amp, Stretched SO-8 (SSO-8)
 F https://docs.broadcom.com/doc/AV02-3563EN
 $ENDCMP
 #
+$CMP AD5675
+D I2C DAC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5675.pdf
+$ENDCMP
+#
 $CMP AD623
 D Op-amp, dual supply
 $ENDCMP
@@ -95,6 +100,11 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmeg
 $ENDCMP
 #
 $CMP ATMEGA64M1
+D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA64M1_copy
 D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
 $ENDCMP
@@ -465,6 +475,10 @@ K FTDI USB Serial
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 $ENDCMP
 #
+$CMP FT4222H
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4222H.pdf
+$ENDCMP
+#
 $CMP F_1.1A_12V
 D Fuse, PTC, 1.1A, 12V, 1206
 $ENDCMP
@@ -598,6 +612,11 @@ D IC REG CHARGE PUMP -5V TSOT23-6
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
 $ENDCMP
 #
+$CMP LTC2489CDEPBF
+D I2C DAC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2489fb.pdf
+$ENDCMP
+#
 $CMP LTC6811-1
 D LTC6811-1
 F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
@@ -650,6 +669,16 @@ $ENDCMP
 #
 $CMP L_8.1uH
 F https://www.coilcraft.com/getmedia/76c9c081-4945-4c85-9129-9356e1ad6734/xgl4020.pdf
+$ENDCMP
+#
+$CMP MAX7300AAIT
+D I2C Gpio Extender 20
+F https://datasheets.maximintegrated.com/en/ds/MAX7300.pdf
+$ENDCMP
+#
+$CMP MAX7300AAXT
+D I2C Gpio Extender 28
+F https://datasheets.maximintegrated.com/en/ds/MAX7300.pdf
 $ENDCMP
 #
 $CMP MAXM15464
@@ -925,6 +954,10 @@ $ENDCMP
 #
 $CMP R_90k
 F https://www.vishay.com/docs/60026/ptn.pdf
+$ENDCMP
+#
+$CMP SSW-115-01-G-D
+F http://suddendocs.samtec.com/catalog_english/ssq_th.pdf
 $ENDCMP
 #
 $CMP UF_5_VT
