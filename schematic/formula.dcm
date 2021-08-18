@@ -109,6 +109,11 @@ D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
 $ENDCMP
 #
+$CMP ATMEGA64M1_copy1
+D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATmega16U2-AU
 D 16MHz, 16kB Flash, 512B SRAM, 512B EEPROM, TQFP-32
 K AVR 8bit Microcontroller MegaAVR
@@ -411,6 +416,11 @@ $CMP C_9pF
 D CAP CER 9PF 50V C0G/NP0 0603
 $ENDCMP
 #
+$CMP Crystal_12MHz
+D CRYSTAL 12.0000MHZ 20PF SMD
+F https://ecsxtal.com/store/pdf/ecx-32.pdf
+$ENDCMP
+#
 $CMP Crystal_32kHz768
 D CRYSTAL 32.7680KHZ 9PF SMD
 $ENDCMP
@@ -425,6 +435,11 @@ $ENDCMP
 #
 $CMP DBR71210(NC)
 D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
+$ENDCMP
+#
+$CMP DSub-9
+D 5745781-4 Connector
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=CS&DocLang=English
 $ENDCMP
 #
 $CMP D_Zener_13V
@@ -594,6 +609,11 @@ $ENDCMP
 $CMP LT-1997-2
 D Precision General Purpose Op Amp, Selectable Gain (<=.55), 16(12)-MSOP
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1997-2.pdf
+$ENDCMP
+#
+$CMP LT3045
+D Linear Regulator 20V adjustable
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3045.pdf
 $ENDCMP
 #
 $CMP LT3751
@@ -915,6 +935,11 @@ D 10mOhm, 3W, 2512 Current Sense Resistor
 F https://www.mouser.com/datasheet/2/54/cra-1862173.pdf
 $ENDCMP
 #
+$CMP R_12K
+D 12K 0805 1% 1/3W
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP R_13_2W_2512_0
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English
 $ENDCMP
@@ -935,6 +960,10 @@ $ENDCMP
 #
 $CMP R_3.65M
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP R_39K
+D 39K 1% 1/8W 0805
 $ENDCMP
 #
 $CMP R_67k
@@ -958,6 +987,10 @@ $ENDCMP
 #
 $CMP SSW-115-01-G-D
 F http://suddendocs.samtec.com/catalog_english/ssq_th.pdf
+$ENDCMP
+#
+$CMP SSW-122-01-G-D
+F http://suddendocs.samtec.com/prints/ssw-d.pdf
 $ENDCMP
 #
 $CMP UF_5_VT
