@@ -114,6 +114,11 @@ D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
 $ENDCMP
 #
+$CMP ATMEGA64M1_copy2
+D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATmega16U2-AU
 D 16MHz, 16kB Flash, 512B SRAM, 512B EEPROM, TQFP-32
 K AVR 8bit Microcontroller MegaAVR
@@ -452,6 +457,11 @@ $ENDCMP
 #
 $CMP D_Zener_20V
 D Diode, Zener, 20V, 0.1W
+$ENDCMP
+#
+$CMP D_Zener_2V
+D Zener Diode 2 V 200 mW ±2% Surface Mount SOD-323
+F https://www.vishay.com/docs/83334/gdzg.pdf
 $ENDCMP
 #
 $CMP D_Zener_5.6V
@@ -799,6 +809,11 @@ $CMP MM_F_VT_06
 D Micro-MaTch connector 6 pin female vertical
 $ENDCMP
 #
+$CMP MM_F_VT_06_SM
+D Micro-MaTch connector 6 pin female vertical surface mount
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338069&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
 $CMP MM_F_VT_08
 D Micro-MaTch connector 8 pin female vertical
 $ENDCMP
@@ -911,6 +926,11 @@ $ENDCMP
 $CMP NCP1117ST50T3G
 D Linear regulator, 20V input, 5V output, 1A
 F ://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP PCA9306
+D Voltage Level Translator Bidirectional 1 Circuit 2 Channel - 8-VSSOP I2C
+F https://www.ti.com/lit/ds/symlink/pca9306.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1629817795361
 $ENDCMP
 #
 $CMP RSOE-0505S_H2
