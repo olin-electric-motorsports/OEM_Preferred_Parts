@@ -7875,6 +7875,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_33.2k
+#
+DEF R_33.2k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_33.2k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 500 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
+F4 "TE" 0 600 50 H I C CNN "MFN"
+F5 "5-2176093-2" 0 500 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/5-2176093-2/4034157" 0 500 50 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_330
 #
 DEF R_330 R 0 0 N Y 1 F N
@@ -8101,6 +8122,27 @@ F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pd
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "311-475CRCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" 0 0 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_49.90k
+#
+DEF R_49.90k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_49.90k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 500 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
+F4 "Panasonic" 0 600 50 H I C CNN "MFN"
+F5 "ERA-6AEB4992V" 0 500 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6AEB4992V/2025816" 0 500 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -8526,6 +8568,27 @@ F3 "" 80 0 50 H I C CNN
 F4 "DK" 0 0 50 H I C CNN "MFN"
 F5 "RK73H2ATTD7502F" 0 0 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD7502F/10234600" 0 0 50 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_8.06k
+#
+DEF R_8.06k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_8.06k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 500 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
+F4 "TE" 0 600 50 H I C CNN "MFN"
+F5 "RQ73C2A8K06BTD" 0 500 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RQ73C2A8K06BTD/9480725" 0 500 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
