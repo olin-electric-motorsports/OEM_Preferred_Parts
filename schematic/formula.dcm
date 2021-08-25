@@ -57,6 +57,11 @@ D Precision Optically Isolated Op Amp, Stretched SO-8 (SSO-8)
 F https://docs.broadcom.com/doc/AV02-3563EN
 $ENDCMP
 #
+$CMP AD5675
+D I2C DAC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5675.pdf
+$ENDCMP
+#
 $CMP AD623
 D Op-amp, dual supply
 $ENDCMP
@@ -95,6 +100,21 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmeg
 $ENDCMP
 #
 $CMP ATMEGA64M1
+D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA64M1_copy
+D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA64M1_copy1
+D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA64M1_copy2
 D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
 $ENDCMP
@@ -401,6 +421,11 @@ $CMP C_9pF
 D CAP CER 9PF 50V C0G/NP0 0603
 $ENDCMP
 #
+$CMP Crystal_12MHz
+D CRYSTAL 12.0000MHZ 20PF SMD
+F https://ecsxtal.com/store/pdf/ecx-32.pdf
+$ENDCMP
+#
 $CMP Crystal_32kHz768
 D CRYSTAL 32.7680KHZ 9PF SMD
 $ENDCMP
@@ -417,6 +442,11 @@ $CMP DBR71210(NC)
 D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
 $ENDCMP
 #
+$CMP DSub-9
+D 5745781-4 Connector
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=CS&DocLang=English
+$ENDCMP
+#
 $CMP D_Zener_13V
 D Diode, Zener, 13V, 3W, 5%
 $ENDCMP
@@ -427,6 +457,11 @@ $ENDCMP
 #
 $CMP D_Zener_20V
 D Diode, Zener, 20V, 0.1W
+$ENDCMP
+#
+$CMP D_Zener_2V
+D Zener Diode 2 V 200 mW ±2% Surface Mount SOD-323
+F https://www.vishay.com/docs/83334/gdzg.pdf
 $ENDCMP
 #
 $CMP D_Zener_5.6V
@@ -463,6 +498,10 @@ $CMP FT232RL
 D USB to Serial Interface, SSOP-28
 K FTDI USB Serial
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP
+#
+$CMP FT4222H
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4222H.pdf
 $ENDCMP
 #
 $CMP F_1.1A_12V
@@ -582,6 +621,11 @@ D Precision General Purpose Op Amp, Selectable Gain (<=.55), 16(12)-MSOP
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1997-2.pdf
 $ENDCMP
 #
+$CMP LT3045
+D Linear Regulator 20V adjustable
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3045.pdf
+$ENDCMP
+#
 $CMP LT3751
 D High Voltage Capacitor Charger Controller w/ Regulation, TSSOP-20
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt3751.pdf
@@ -596,6 +640,11 @@ $ENDCMP
 $CMP LTC1983ES6-5#TRMPBF
 D IC REG CHARGE PUMP -5V TSOT23-6
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
+$ENDCMP
+#
+$CMP LTC2489CDEPBF
+D I2C DAC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2489fb.pdf
 $ENDCMP
 #
 $CMP LTC6811-1
@@ -650,6 +699,16 @@ $ENDCMP
 #
 $CMP L_8.1uH
 F https://www.coilcraft.com/getmedia/76c9c081-4945-4c85-9129-9356e1ad6734/xgl4020.pdf
+$ENDCMP
+#
+$CMP MAX7300AAIT
+D I2C Gpio Extender 20
+F https://datasheets.maximintegrated.com/en/ds/MAX7300.pdf
+$ENDCMP
+#
+$CMP MAX7300AAXT
+D I2C Gpio Extender 28
+F https://datasheets.maximintegrated.com/en/ds/MAX7300.pdf
 $ENDCMP
 #
 $CMP MAXM15464
@@ -748,6 +807,11 @@ $ENDCMP
 #
 $CMP MM_F_VT_06
 D Micro-MaTch connector 6 pin female vertical
+$ENDCMP
+#
+$CMP MM_F_VT_06_SM
+D Micro-MaTch connector 6 pin female vertical surface mount
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338069&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP MM_F_VT_08
@@ -864,6 +928,11 @@ D Linear regulator, 20V input, 5V output, 1A
 F ://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP PCA9306
+D Voltage Level Translator Bidirectional 1 Circuit 2 Channel - 8-VSSOP I2C
+F https://www.ti.com/lit/ds/symlink/pca9306.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1629817795361
+$ENDCMP
+#
 $CMP RSOE-0505S_H2
 F https://recom-power.com/pdf/Econoline/RSOE.pdf
 $ENDCMP
@@ -884,6 +953,11 @@ $ENDCMP
 $CMP R_10mOhm
 D 10mOhm, 3W, 2512 Current Sense Resistor
 F https://www.mouser.com/datasheet/2/54/cra-1862173.pdf
+$ENDCMP
+#
+$CMP R_12K
+D 12K 0805 1% 1/3W
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English
 $ENDCMP
 #
 $CMP R_13_2W_2512_0
@@ -908,6 +982,20 @@ $CMP R_3.65M
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
+$CMP R_33.2k
+D 33.2 kOhms ±0.1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) - Thin Film
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP R_39K
+D 39K 1% 1/8W 0805
+$ENDCMP
+#
+$CMP R_49.90k
+D 49.9 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
 $CMP R_67k
 D 67k, .125W, 1% 0805
 F https://www.vishay.com/docs/20008/dcrcw.pdf
@@ -923,8 +1011,21 @@ D 6mOhm, 3W, 2512 Current Sense Resistor
 F https://www.mouser.com/datasheet/2/414/LRMA-1528276.pdf
 $ENDCMP
 #
+$CMP R_8.06k
+D 8.06k ±0.1% 0.2W, 1/5W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film
+F https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20P%20B%20PDFs/RQ73-0618%20v2.pdf
+$ENDCMP
+#
 $CMP R_90k
 F https://www.vishay.com/docs/60026/ptn.pdf
+$ENDCMP
+#
+$CMP SSW-115-01-G-D
+F http://suddendocs.samtec.com/catalog_english/ssq_th.pdf
+$ENDCMP
+#
+$CMP SSW-122-01-G-D
+F http://suddendocs.samtec.com/prints/ssw-d.pdf
 $ENDCMP
 #
 $CMP UF_5_VT

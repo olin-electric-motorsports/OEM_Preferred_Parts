@@ -8,8 +8,8 @@ F0 "J" 0 800 50 H V C CNN
 F1 "0.1in_Female_Socket_01x16" 50 -900 50 H V L CNN
 F2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" -100 700 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" 0 800 50 H I C CNN
-F4 "Sullins Connector Solutions" 100 900 50 H I C CNN "MF"
-F5 "PPTC161LFBN-RC" 200 1000 50 H I C CNN "MPN"
+F4 "PPTC161LFBN-RC" 200 1000 50 H I C CNN "MPN"
+F5 "Sullins Connector Solutions" 300 1100 50 H I C CNN "MFN"
 F6 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC161LFBN-RC/S7014-ND/810154" 300 1100 50 H I C CNN "PurchasingLink"
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -56,8 +56,8 @@ F1 "1.5A_Fuse" 0 -150 50 H V C CNN
 F2 "footprints:Fuse_1206" 0 -300 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 F4 "F1462CT-ND" 100 250 50 H I C CNN "MPN"
-F5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" 200 350 50 H I C CNN "PurchasingLink"
-F6 "046601.5NR" 300 450 50 H I C CNN "MFN"
+F5 "046601.5NR" 300 450 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" 300 450 50 H I C CNN "PurchasingLink"
 DRAW
 A -50 0 50 -1799 -1 0 1 0 N -100 0 0 0
 A 49 0 49 1800 889 0 1 0 N 0 0 50 50
@@ -76,7 +76,7 @@ F2 "footprints:HLMP-Q150-F0011" -100 0 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 F4 "SUPERBRIGHTLEDS" 0 0 60 H I C CNN "MFN"
 F5 "12B-x" 0 0 60 H I C CNN "MPN"
-F6 "https://www.superbrightleds.com/moreinfo/led-wired-bolts/bolt-beam-12mm-led-light/1494/" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.superbrightleds.com/moreinfo/led-wired-bolts/bolt-beam-12mm-led-light/1494/" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  LED*
 $ENDFPLIST
@@ -98,9 +98,9 @@ F0 "D" 0 250 50 H V C CNN
 F1 "1N4148WSTR" 0 350 50 H V C CNN
 F2 "formula:SOD-323" -50 150 50 H I C CNN
 F3 "" -50 150 50 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148WSTR/6022449" 0 200 50 H I C CNN "Purchasing Link"
-F5 "SMC Diode" -300 250 50 H I C CNN "MFN"
-F6 "1N4148WSTR" 0 400 50 H I C CNN "MPN"
+F4 "SMC Diode" -300 250 50 H I C CNN "MFN"
+F5 "1N4148WSTR" 0 400 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148WSTR/6022449" 0 400 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 0 50 0 -50 0 N
 P 2 1 1 10 50 50 50 -50 N
@@ -117,9 +117,9 @@ F0 "F" 0 150 50 H V C CNN
 F1 "200mA_Fuse" 0 -150 50 H V C CNN
 F2 "footprints:Fuse_1812" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
-F4 "507-1767-1-ND " 100 250 50 H I C CNN "MPN"
-F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" 200 350 50 H I C CNN "PurchasingLink"
-F6 "DK" 300 450 50 H I C CNN "MFN"
+F4 "507-1767-1-ND" 100 250 50 H I C CNN "MPN"
+F5 "DK" 300 450 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" 300 450 50 H I C CNN "PurchasingLink"
 DRAW
 A -50 0 50 -1799 -1 0 1 0 N -100 0 0 0
 A 49 0 49 1800 889 0 1 0 N 0 0 50 50
@@ -136,9 +136,9 @@ F0 "U" 0 200 50 H V C CNN
 F1 "24AA01" 0 -200 50 H V C CNN
 F2 "footprints:SOT-23-5_OEM_24AA01" -100 100 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" 0 200 50 H I C CNN
-F4 "CAT24AA01TDI-GT3OSCT-ND " 100 300 50 H V C CNN "MPN"
+F4 "CAT24AA01TDI-GT3OSCT-ND" 100 300 50 H V C CNN "MPN"
 F5 "DK" 200 400 50 H V C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/on-semiconductor/CAT24AA01TDI-GT3/CAT24AA01TDI-GT3OSCT-ND/3487510" 300 500 50 H V C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/on-semiconductor/CAT24AA01TDI-GT3/CAT24AA01TDI-GT3OSCT-ND/3487510" 200 400 50 H V C CNN "PurchasingLink"
 DRAW
 S -250 150 200 -150 0 1 0 f
 X SCL 1 -450 100 200 R 50 50 1 1 I
@@ -158,7 +158,7 @@ F2 "" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
 F4 "Uxcell" 0 0 60 H I C CNN "MFN"
 F5 "s14100400am2451" 0 0 60 H I C CNN "MPN"
-F6 "https://www.amazon.com/Single-Rotary-Switch-Selector-Position/dp/B00K86H2SE/ref=pd_cp_60_3?_encoding=UTF8&pd_rd_i=B00K86H2SE&pd_rd_r=GKBDC7XXPS2AG12Y4S0Q&pd_rd_w=njTRL&pd_rd_wg=MZCL4&psc=1&refRID=GKBDC7XXPS2AG12Y4S0Q" 300 1600 60 H I C CNN "PurchasingLink"
+F6 "https://www.amazon.com/Single-Rotary-Switch-Selector-Position/dp/B00K86H2SE/ref=pd_cp_60_3?_encoding=UTF8&pd_rd_i=B00K86H2SE&pd_rd_r=GKBDC7XXPS2AG12Y4S0Q&pd_rd_w=njTRL&pd_rd_wg=MZCL4&psc=1&refRID=GKBDC7XXPS2AG12Y4S0Q" 0 0 60 H I C CNN "PurchasingLink"
 DRAW
 S -300 1150 50 -350 0 1 0 f
 X A1 1 150 1000 100 L 50 50 1 1 B
@@ -223,7 +223,7 @@ F2 "footprints:SSO-8" 0 750 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Broadcom" -50 700 50 H I C CNN "MFN"
 F5 "ACPL-C79B-500E" -50 950 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/broadcom-limited/ACPL-C79B-500E/2347208" 0 800 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/en/products/detail/broadcom-limited/ACPL-C79B-500E/2347208" 0 800 50 H I C CNN "PurchasingLink"
 DRAW
 S -300 500 300 0 0 1 0 f
 X VDD1 1 -500 400 200 R 50 50 0 0 W
@@ -246,7 +246,7 @@ F2 "footprints:SSO-8" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Broadcom" 0 0 50 H I C CNN "MFN"
 F5 "ACPL-C87B-000E" 0 0 50 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Broadcom-Avago/ACPL-C87B-000E?qs=mhB89zxvawmLiWfngQW5pg%3D%3D&gclid=CjwKCAiA2O39BRBjEiwApB2Ikqja-YBY9INONC2GYtUUCbnjLMCaZLw1KPsO3AUZAzzLZaX6AGhBsRoCzM4QAvD_BwE" 0 0 50 H I C CNN "Purchasing Link"
+F6 "https://www.mouser.com/ProductDetail/Broadcom-Avago/ACPL-C87B-000E?qs=mhB89zxvawmLiWfngQW5pg%3D%3D&gclid=CjwKCAiA2O39BRBjEiwApB2Ikqja-YBY9INONC2GYtUUCbnjLMCaZLw1KPsO3AUZAzzLZaX6AGhBsRoCzM4QAvD_BwE" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -300 500 300 0 0 1 0 f
 X VDD1 1 -500 400 200 R 50 50 0 0 W
@@ -260,6 +260,45 @@ X VDD2 8 500 400 200 L 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
+# AD5675
+#
+DEF AD5675 U 0 40 Y Y 1 F N
+F0 "U" 800 1600 50 H V L BNN
+F1 "AD5675" 0 1600 50 H V L BNN
+F2 "footprints:SOP65P640X120-20N_AD" 700 2100 50 H I C CIN
+F3 "" -950 1830 50 H I C CNN
+F4 "Analog" 200 2400 60 H I C CNN "MFN"
+F5 "AD5675ARUZ-REEL7" 500 2250 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/AD5675ARUZ-REEL7/5408973" 500 2250 60 H I C CNN "PurchasingLink"
+ALIAS ATMEGA64M1_copy
+$FPLIST
+ TQFP*32*7x7mm*
+$ENDFPLIST
+DRAW
+S 0 0 900 1550 0 1 0 f
+X VOUT1 1 1000 1050 100 L 50 50 0 0 O
+X VOUT6 10 1000 550 100 L 50 50 0 0 O
+X VOUT5 11 1000 650 100 L 50 50 0 0 O
+X VOUT4 12 1000 750 100 L 50 50 0 0 O
+X GND 13 -100 100 100 R 50 50 0 0 W
+X RSTSL 14 -100 500 100 R 50 50 0 0 I
+X LDAC_n 15 -100 400 100 R 50 50 0 0 I
+X SDA 16 -100 1000 100 R 50 50 0 0 B
+X RESET_n 17 -100 300 100 R 50 50 0 0 I
+X VREF 18 -100 1250 100 R 50 50 0 0 W
+X VOUT3 19 1000 850 100 L 50 50 0 0 O
+X VOUT0 2 1000 1150 100 L 50 50 0 0 O
+X VOUT2 20 1000 950 100 L 50 50 0 0 O
+X VDD 3 -100 1450 100 R 50 50 0 0 W
+X VLOGIC 4 -100 1350 100 R 50 50 0 0 W
+X SCL 5 -100 1100 100 R 50 50 0 0 B
+X A0 6 -100 850 100 R 50 50 0 0 I
+X A1 7 -100 750 100 R 50 50 0 0 I
+X GAIN 8 -100 600 100 R 50 50 0 0 I
+X VOUT7 9 1000 450 100 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
 # AD623
 #
 DEF AD623 U 0 20 Y Y 1 F N
@@ -269,7 +308,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf" 150 300 50 H I C CNN
 F4 "DK" 250 400 60 H I C CNN "MFN"
 F5 "AD623ARMZ-REELCT-ND" 350 500 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/AD623ARMZ-REEL/AD623ARMZ-REELCT-ND/4141851" 450 600 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/AD623ARMZ-REEL/AD623ARMZ-REELCT-ND/4141851" 350 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOIC*Pitch1.27mm*
  DIP*W7.62mm*
@@ -294,9 +333,9 @@ F0 "U" 0 400 50 H V C CNN
 F1 "ADA4661-2" 0 300 50 H V C CNN
 F2 "footprints:SOP65P490X110-8N" 150 300 50 H I C CNN
 F3 "" 150 300 50 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/analog-devices-inc/ADA4661-2ARMZ-RL/4376352" 0 0 50 H I C CNN "Purchasing link"
-F5 "ADA4661-2ARMZ-RL" 0 0 50 H I C CNN "MPN"
-F6 "Analog Devices Inc." 0 0 50 H I C CNN "MFN"
+F4 "ADA4661-2ARMZ-RL" 0 0 50 H I C CNN "MPN"
+F5 "Analog Devices Inc." 0 0 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/ADA4661-2ARMZ-RL/4376352" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -450 250 350 -300 0 1 0 f
 X OUT_A 1 -550 200 100 R 50 40 1 1 O
@@ -317,7 +356,7 @@ F0 "U" -50 2000 50 H V L BNN
 F1 "ADG732BSUZ" -250 1900 50 H V L BNN
 F2 "footprints:SU-48" 0 0 50 H I C CIN
 F3 "" -950 1830 50 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/analog-devices-inc/ADG732BSUZ/820118" -450 2430 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/en/products/detail/analog-devices-inc/ADG732BSUZ/820118" -950 1830 50 H I C CNN "PurchasingLink"
 $FPLIST
  TQFP*32*7x7mm*
 $ENDFPLIST
@@ -383,7 +422,7 @@ F2 "footprints:ADXL335" 0 1000 60 H I C CNN
 F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf" 400 1150 60 H I C CNN
 F4 "DK" 250 800 60 H I C CNN "MFN"
 F5 "ADXL335BCPZ-ND" 350 900 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL335BCPZ/ADXL335BCPZ-ND/1999326" 450 1000 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL335BCPZ/ADXL335BCPZ-ND/1999326" 350 900 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 800 550 -300 0 1 0 f
 X YOUT 10 750 100 200 L 50 50 1 1 I
@@ -408,7 +447,7 @@ F2 "footprints:ADXL345" 150 800 60 H I C CNN
 F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf" -550 600 60 H I C CNN
 F4 "DK" 650 450 60 H I C CNN "MFN"
 F5 "ADXL345BCCZ-ND" 750 550 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL345BCCZ/ADXL345BCCZ-ND/2034829" 850 650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL345BCCZ/ADXL345BCCZ-ND/2034829" 750 550 60 H I C CNN "PurchasingLink"
 DRAW
 S 800 400 -250 -400 0 1 0 f
 X VDD 1 -450 100 200 R 50 50 1 1 I
@@ -456,7 +495,7 @@ F0 "U" 0 250 50 H V L BNN
 F1 "AOZ1280" -250 -550 50 H V C CNN
 F2 "" 250 350 50 H I C CNN
 F3 "" 250 350 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AOZ1280CI/785-1277-1-ND/2769845" -550 650 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AOZ1280CI/785-1277-1-ND/2769845" -550 650 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 200 250 -500 0 1 0 f
 X BST 1 150 300 100 D 50 50 1 1 I
@@ -477,7 +516,7 @@ F2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
 F3 "" -950 1830 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "ATMEGA16M1-AU-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" -550 2230 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" 0 0 60 H I C CNN "PurchasingLink"
 ALIAS ATMEGA64M1
 $FPLIST
  TQFP*32*7x7mm*
@@ -526,9 +565,9 @@ F0 "U" -500 1450 50 H V L BNN
 F1 "ATmega328P-AU" 100 -1450 50 H V L TNN
 F2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" -200 1550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-15AZ/ATMEGA328P-15AZTR-ND/1914586" 0 0 50 H I C CNN "PurchasingLink"
-F5 "ATMEGA328P-15AZTR-ND" 0 0 50 H I C CNN "MPN"
-F6 "DK" 0 0 50 H I C CNN "MFN"
+F4 "ATMEGA328P-15AZTR-ND" 0 0 50 H I C CNN "MPN"
+F5 "DK" 0 0 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-15AZ/ATMEGA328P-15AZTR-ND/1914586" 0 0 50 H I C CNN "PurchasingLink"
 ALIAS ATmega48P-20AU ATmega48A-AU ATmega48PA-AU ATmega88PV-10AU ATmega88P-20AU ATmega88A-AU ATmega88PA-AU ATmega168PV-10AU ATmega168P-20AU ATmega168A-AU ATmega168PA-AU ATmega328-AU
 $FPLIST
  TQFP*7x7mm*P0.8mm*
@@ -577,8 +616,8 @@ F0 "U" -600 1350 50 H V L BNN
 F1 "ATmega8U2-AU" 100 -1350 50 H V L TNN
 F2 "footprints:ATMEGA8U2-AU" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA8U2-AU/ATMEGA8U2-AU-ND/2238246" 0 0 50 H I C CNN "Purchasing Link"
-F5 "ATMEGA8U2-AU-ND" 0 0 50 H I C CNN "Part Number (DK)"
+F4 "ATMEGA8U2-AU-ND" 0 0 50 H I C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA8U2-AU/ATMEGA8U2-AU-ND/2238246" 0 0 50 H I C CNN "PurchasingLink"
 ALIAS ATmega16U2-AU ATmega32U2-AU
 $FPLIST
  TQFP*7x7mm*P0.8mm*
@@ -628,8 +667,8 @@ F1 "Ampseal_08_RA" -300 -450 60 H V L CNN
 F2 "" -200 0 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776279%7FF7%7Fpdf%7FEnglish%7FENG_CD_776279_F7.pdf%7F1-776279-1" -200 0 60 H I C CNN
 F4 "TE" -150 550 60 H I C CNN "MFN"
-F5 " 1-776279-1" -50 650 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-776279-1.html" 50 750 60 H I C CNN "PurchasingLink"
+F5 "1-776279-1" -50 650 60 H I C CNN "MPN"
+F6 "http://www.te.com/usa-en/product-1-776279-1.html" -50 650 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 400 -300 -400 0 1 0 f
 X 1 1 200 350 200 L 50 50 1 1 P
@@ -652,7 +691,7 @@ F2 "" -200 0 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776276%7FB9%7Fpdf%7FEnglish%7FENG_CD_776276_B9.pdf%7F1-776276-1" -200 0 60 H I C CNN
 F4 "TE" -150 550 60 H I C CNN "MFN"
 F5 "1-776276-1" -50 650 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-776276-1.html" 50 750 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-1-776276-1.html" -50 650 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 400 -300 -400 0 1 0 f
 X 1 1 200 350 200 L 50 50 1 1 P
@@ -675,7 +714,7 @@ F2 "" -200 300 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776266%7FB7%7Fpdf%7FEnglish%7FENG_CD_776266_B7.pdf%7F1-776266-1" -200 300 60 H I C CNN
 F4 "TE" -150 850 60 H I C CNN "MFN"
 F5 "1-776266-1" -50 950 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-776266-1.html" 50 1050 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-1-776266-1.html" -50 950 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 700 -300 -700 0 1 0 f
 X 1 1 200 650 200 L 50 50 1 1 P
@@ -703,8 +742,8 @@ F1 "Ampseal_14_VT" -300 -750 60 H V L CNN
 F2 "footprints:Ampseal_14" -200 300 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776261%7FA7%7Fpdf%7FEnglish%7FENG_CD_776261_A7.pdf%7F1-776261-1" -200 300 60 H I C CNN
 F4 "TE" -150 850 60 H I C CNN "MFN"
-F5 " 1-776261-1" -50 950 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-776261-1.html" 50 1050 60 H I C CNN "PurchasingLink"
+F5 "1-776261-1" -50 950 60 H I C CNN "MPN"
+F6 "http://www.te.com/usa-en/product-1-776261-1.html" -50 950 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 700 -300 -700 0 1 0 f
 X 1 1 200 650 200 L 50 50 1 1 P
@@ -733,7 +772,7 @@ F2 "" -200 750 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776087%7FE11%7Fpdf%7FEnglish%7FENG_CD_776087_E11.pdf%7F776087-1" -200 750 60 H I C CNN
 F4 "TE" -150 1300 60 H I C CNN "MFN"
 F5 "776087-1" -50 1400 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-776087-1.html" 50 1500 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-776087-1.html" -50 1400 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 1150 -300 -1150 0 1 0 f
 X 1 1 200 1100 200 L 50 50 1 1 P
@@ -771,7 +810,7 @@ F2 "footprints:Ampseal_23" -200 750 60 H I C CNN
 F3 "" -200 750 60 H I C CNN
 F4 "TE" -150 1300 60 H I C CNN "MFN"
 F5 "776228-1" -50 1400 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-776228-1.html" 50 1500 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-776228-1.html" -50 1400 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 1150 -300 -1150 0 1 0 f
 X 1 1 200 1100 200 L 50 50 1 1 P
@@ -808,8 +847,8 @@ F1 "Ampseal_35_RA" -300 -1800 60 H V L CNN
 F2 "footprints:Ampseal_35" -200 1350 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776180%7FH7%7Fpdf%7FEnglish%7FENG_CD_776180_H7.pdf%7F776180-1" -200 1350 60 H I C CNN
 F4 "TE" -50 2000 60 H I C CNN "MFN"
-F5 " 776180-1" -150 1900 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-776180-1.html" 50 2100 60 H I C CNN "PurchasingLink"
+F5 "776180-1" -150 1900 60 H I C CNN "MPN"
+F6 "http://www.te.com/usa-en/product-776180-1.html" -150 1900 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 1750 -300 -1750 0 1 0 f
 X 1 1 200 1700 200 L 50 50 1 1 P
@@ -859,7 +898,7 @@ F2 "footprints:Ampseal_35" -200 1350 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776231%7FA13%7Fpdf%7FEnglish%7FENG_CD_776231_A13.pdf%7F1-776231-1" -200 1350 60 H I C CNN
 F4 "TE" -50 2000 60 H I C CNN "MFN"
 F5 "1-776231-1" -150 1900 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-776231-1.html" 50 2100 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-1-776231-1.html" -150 1900 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 1750 -300 -1750 0 1 0 f
 X 1 1 200 1700 200 L 50 50 1 1 P
@@ -909,7 +948,7 @@ F2 "footprints:B5B-PH-K-S" -100 250 50 H I C CNN
 F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 0 350 50 H I C CNN
 F4 "DK" 100 450 50 H I C CNN "MFN"
 F5 "455-1707-ND" 200 550 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B5B-PH-K-S-LF-SN/455-1707-ND/926614" 300 650 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B5B-PH-K-S-LF-SN/455-1707-ND/926614" 200 550 50 H I C CNN "PurchasingLink"
 DRAW
 S -50 -145 0 -155 1 1 6 N
 S -50 -45 0 -55 1 1 6 N
@@ -934,7 +973,7 @@ F2 "Package_TO_SOT_SMD:SOT-23" -100 0 50 H I C CNN
 F3 "https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf" 0 100 50 H I C CNN
 F4 "DK" 100 200 50 H I C CNN "MFN"
 F5 "1727-4234-1-ND" 200 300 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAS40215/1727-4234-1-ND/2122190" 300 400 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAS40215/1727-4234-1-ND/2122190" 200 300 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 8 -50 50 -50 -50 N
 P 2 1 1 0 50 0 -50 0 N
@@ -951,7 +990,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "BAT400D-7-F" 0 -100 50 H V C CNN
 F2 "footprints:SOT-23-3_OEM" -100 0 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
-F4 "https://www.digikey.com/products/en?keywords=BAT400D-FDICT-ND" 300 400 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/products/en?keywords=BAT400D-FDICT-ND" 0 100 50 H I C CNN "PurchasingLink"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -977,7 +1016,7 @@ F2 "" -200 1100 60 H I C CNN
 F3 "http://suddendocs.samtec.com/catalog_english/bbs.pdf" -100 1200 60 H I C CNN
 F4 "SAMTEC" 100 1400 60 H I C CNN "MFN"
 F5 "BBS-126-G-A" 200 1500 60 H I C CNN "MPN"
-F6 "https://www.samtec.com/products/bbs-126-g-a" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "https://www.samtec.com/products/bbs-126-g-a" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -1450 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -1016,7 +1055,7 @@ F0 "U" -700 50 50 H V C CNN
 F1 "BMI088" -600 150 50 H V C CNN
 F2 "footprints:bmi088" -100 -100 50 H I C CNN
 F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf" -550 650 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMI088/828-1082-1-ND/8634942" -600 800 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMI088/828-1082-1-ND/8634942" -600 800 50 H I C CNN "PurchasingLink"
 DRAW
 S -1100 200 -50 -450 0 1 0 f
 X INT2 1 150 50 200 L 50 50 1 1 O
@@ -1106,7 +1145,7 @@ F2 "footprints:SOT-23-3_OEM" 200 100 50 H I C CNN
 F3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" 200 50 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "BSS308PEH6327XTSA1CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" 600 450 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" 0 0 60 H I C CNN "PurchasingLink"
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -1141,7 +1180,7 @@ F2 "" 100 0 60 H V C CNN
 F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s11g2-e.pdf" 600 550 60 H V C CNN
 F4 "DK" -350 -500 60 H V C CNN "MFN"
 F5 "BU4S11G2-TR" 650 -500 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S11G2-TR/BU4S11G2CT-ND/1158708" 400 -650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S11G2-TR/BU4S11G2CT-ND/1158708" 650 -500 60 H I C CNN "PurchasingLink"
 DRAW
 A 0 0 150 -899 899 1 1 0 N 0 -150 0 150
 C 150 0 0 0 1 0 N
@@ -1164,7 +1203,7 @@ F2 "" 100 0 60 H V C CNN
 F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s81g2-e.pdf" 100 0 60 H V C CNN
 F4 "DK" 300 -290 60 H V C CNN "MFN"
 F5 "BU4S81G2-TR" 200 -390 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S81G2-TR/BU4S81G2CT-ND/3769276" 400 -190 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S81G2-TR/BU4S81G2CT-ND/3769276" 200 -390 60 H I C CNN "PurchasingLink"
 DRAW
 A 0 0 150 -899 899 1 1 0 N 0 -150 0 150
 P 4 0 1 0 0 150 -100 150 -100 -150 0 -150 N
@@ -1185,7 +1224,7 @@ F2 "footprints:barrel_jack_PJ-037A" -100 -100 50 H I C CNN
 F3 "https://www.cui.com/product/resource/pj-037a.pdf" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
 F5 "CP-037A-ND" 200 200 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/cui-inc/PJ-037A/CP-037A-ND/1644545" 300 300 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/cui-inc/PJ-037A/CP-037A-ND/1644545" 200 200 50 H I C CNN "PurchasingLink"
 DRAW
 A -150 -200 25 901 -901 0 1 0 N -150 -175 -150 -225
 S 50 -150 100 -250 0 1 0 N
@@ -1219,7 +1258,7 @@ F0 "U" 0 750 50 H V C CNN
 F1 "Buck_Converter_450V_300mA" 50 850 50 H V C CNN
 F2 "footprints:Converter_DCDC_MPS_MP9488" 50 950 50 H I C CNN
 F3 "" 0 750 50 H I C CNN
-F4 "https://www.monolithicpower.com/en/mp9488.html" 50 1050 50 H I C CNN "Purchasing Link"
+F4 "https://www.monolithicpower.com/en/mp9488.html" 50 1050 50 H I C CNN "PurchasingLink"
 DRAW
 S -150 200 150 -200 0 1 0 f
 X 1 1 0 300 100 D 50 50 1 1 B
@@ -1242,7 +1281,7 @@ F2 "footprints:TSSOP-16-OEM" -150 450 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/cd4043b.pdf" -150 450 60 H I C CNN
 F4 "DK" -50 600 60 H I C CNN "MFN"
 F5 "296-14106-1-ND" -150 500 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904" 50 700 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904" -150 500 60 H I C CNN "PurchasingLink"
 DRAW
 S -300 350 250 -450 0 1 0 f
 X Q4 1 -500 300 200 R 50 50 1 1 O
@@ -1271,9 +1310,9 @@ F0 "U" -450 900 50 H V L BNN
 F1 "CD4044BDR" -450 800 50 H V L BNN
 F2 "footprints:SOIC127P600X175-16N" -500 -750 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "DK" 0 0 50 H I C CNN "MNF"
-F5 "296-31498-1-ND" -50 0 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/texas-instruments/CD4044BDR/1691063?s=N4IgTCBcDaIMIBEAsAGJSBCCBKIC6AvkA" -50 0 50 H I C CNN "Purchasing Link"
+F4 "296-31498-1-ND" -50 0 50 H I C CNN "MPN"
+F5 "DK" -50 0 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/en/products/detail/texas-instruments/CD4044BDR/1691063?s=N4IgTCBcDaIMIBEAsAGJSBCCBKIC6AvkA" -50 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -500 -50 50 750 0 0 8 f
 X Q4 1 -700 700 200 R 50 50 0 0 O
@@ -1302,7 +1341,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "CDBA140-G" 0 -100 50 H V C CNN
 F2 "" -100 0 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
-F4 "https://www.digikey.in/product-detail/en/comchip-technology/CDBA140-G/641-1015-1-ND/1121137" 300 400 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.in/product-detail/en/comchip-technology/CDBA140-G/641-1015-1-ND/1121137" 0 100 50 H I C CNN "PurchasingLink"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -1396,7 +1435,7 @@ F2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" 0 -1200 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/181/M20-999-1218971.pdf" 0 -1200 50 H I C CNN
 F4 "Mouser" 0 0 60 H I C CNN "MFN"
 F5 "855-M20-9990346" 0 0 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Harwin/M20-9990346?qs=sGAEpiMZZMs%252bGHln7q6pmzlZUuX%2f53qj1ROyRKct5o4%3d" 400 600 60 H I C CNN "PurchasingLink"
+F6 "https://www.mouser.com/ProductDetail/Harwin/M20-9990346?qs=sGAEpiMZZMs%252bGHln7q6pmzlZUuX%2f53qj1ROyRKct5o4%3d" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  Pin_Header_Straight_2X03
  Pin_Header_Angled_2X03
@@ -1444,7 +1483,7 @@ F2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" 0 200 50 H I C CNN
 F3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 0 200 50 H I C CNN
 F4 "DK" 350 500 50 H I C CNN "MFN"
 F5 "732-5317-ND" 250 400 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300411121/732-5317-ND/4846827" 150 300 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300411121/732-5317-ND/4846827" 250 400 50 H I C CNN "PurchasingLink"
 DRAW
 S 0 150 200 -250 0 1 0 f
 X 1 1 -200 100 200 R 50 50 1 1 P
@@ -1463,7 +1502,7 @@ F2 "footprints:Pin_Header_Straight_2x03" 0 -1200 50 H I C CNN
 F3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" 0 -1200 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "609-3234-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" 400 600 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  Pin_Header_Straight_2X03
  Pin_Header_Angled_2X03
@@ -1496,7 +1535,7 @@ F2 "footprints:CP2120-QFN" -100 1150 60 H I C CNN
 F3 "https://www.silabs.com/documents/public/data-sheets/CP2120.pdf" 0 1250 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "336-1324-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/silicon-labs/CP2120-GM/336-1324-ND/1201221" 400 1650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/silicon-labs/CP2120-GM/336-1324-ND/1201221" 0 0 60 H I C CNN "PurchasingLink"
 DRAW
 S -350 1200 400 100 0 1 0 N
 X SCLK 1 -550 1100 200 R 50 50 1 1 I
@@ -1562,8 +1601,8 @@ F0 "U" -501 220 50 H V L BNN
 F1 "CPC1117NTR" -500 -300 50 H V L BNN
 F2 "footprints:SOIC254P610X218-4N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "IXYS" 0 0 50 H I L BNN "MANUFACTURER"
-F5 "https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/CPC1117NTR/1277122" 0 0 50 H I C CNN "Purchasing"
+F4 "IXYS" 0 0 50 H I C CNN "MFN"
+F5 "https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/CPC1117NTR/1277122" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -500 -200 500 200 0 0 10 f
 X +CONTROL 1 -700 100 200 R 40 40 0 0 P
@@ -1580,11 +1619,8 @@ F0 "K" -400 550 50 H V L BNN
 F1 "CPC1979J" -400 -550 50 H V L BNN
 F2 "footprints:TO381P2016X515X2916-4" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "29.16mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F5 "IXYS" 0 0 50 H I L BNN "MANUFACTURER"
-F6 "R10" 0 0 50 H I L BNN "PARTREV"
-F7 "IPC 7351B" 0 0 50 H I L BNN "STANDARD"
-F8 "https://www.ixysic.com/home/pdfs.nsf/www/CPC1979J.pdf/$file/CPC1979J.pdf" 0 0 50 H I C CNN "Purchasing Link"
+F4 "IXYS" 0 0 50 H I C CNN "MFN"
+F5 "https://www.ixysic.com/home/pdfs.nsf/www/CPC1979J.pdf/$file/CPC1979J.pdf" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 C 300 -100 5 0 0 10 N
 C 300 100 5 0 0 10 N
@@ -1651,8 +1687,7 @@ F2 "footprints:C_Radial_D10_L13_P5_OEM" -75 0 50 H I C CNN
 F3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" 25 100 50 H I C CNN
 F4 "Digi-Key" 125 200 60 H I C CNN "MFN"
 F5 "493-1305-ND" 225 300 60 H I C CNN "MPN"
-F6 "Radial, Can" 325 400 60 H I C CNN "Package"
-F7 "https://www.digikey.com/products/en?keywords=493-1305-ND" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=493-1305-ND" 225 300 60 H I C CNN "PurchasingLink"
 $FPLIST
  SMD*_Pol
  c_elec*
@@ -1678,7 +1713,7 @@ F0 "C" 25 150 50 H V L CNN
 F1 "C_.22uF" 25 -50 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZRY5V9BB224/311-4362-1-ND/8025451" 425 500 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZRY5V9BB224/311-4362-1-ND/8025451" 25 850 50 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1703,7 +1738,7 @@ F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "478-3352-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1728,7 +1763,7 @@ F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "1276-6582-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8WPNC/1276-6582-1-ND/5961441" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8WPNC/1276-6582-1-ND/5961441" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1753,7 +1788,7 @@ F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "478-5273-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=cap&k=&pkeyword=cap&pv7=2&pv7=274&pv7=250&pv7=17&pv7=6&pv1989=0&pv2049=u0.33%C2%B5F&pv3=2&pv14=9&pv16=6&sf=1&FV=ffe0003c&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=cap&k=&pkeyword=cap&pv7=2&pv7=274&pv7=250&pv7=17&pv7=6&pv1989=0&pv2049=u0.33%C2%B5F&pv3=2&pv14=9&pv16=6&sf=1&FV=ffe0003c&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1778,7 +1813,7 @@ F2 "footprints:1812(4532Metric)" 650 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 250 -300 50 H I C CNN "MFN"
 F5 "C4532X7T2W474K230KA" 50 -400 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/tdk-corporation/C4532X7T2W474K230KA/2733206" 250 -450 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/en/products/detail/tdk-corporation/C4532X7T2W474K230KA/2733206" 250 -450 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -1811,7 +1846,7 @@ F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "1276-1946-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NNNC/1276-1946-1-ND/3890032" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NNNC/1276-1946-1-ND/3890032" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1836,7 +1871,7 @@ F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "1276-6717-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8WPNC/1276-6717-1-ND/5961576" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8WPNC/1276-6717-1-ND/5961576" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1861,7 +1896,7 @@ F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "https://katalog.we-online.de/pbs/datasheet/885012007057.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "732-7852-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1886,7 +1921,7 @@ F2 "footprints:C_1812_4532Metric" 0 750 50 H I C CNN
 F3 "" 200 -550 50 H I C CNN
 F4 "C4532X5R0J107M280KA" 0 450 60 H I C CNN "MFN"
 F5 "445-1413-1-ND" -50 600 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X5R0J107M280KA/445-1413-1-ND/567567" 250 -400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X5R0J107M280KA/445-1413-1-ND/567567" -50 600 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1909,7 +1944,7 @@ F0 "C" 25 150 50 H V L CNN
 F1 "C_100uF+" 25 -50 50 H V L CNN
 F2 "footprints:C_100uF+" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/nichicon/UUQ1H101MCL1GS/493-3209-2-ND/1965345" 425 500 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/nichicon/UUQ1H101MCL1GS/493-3209-2-ND/1965345" 25 850 50 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1932,7 +1967,7 @@ F0 "U" 0 400 50 H V C CNN
 F1 "C_100uF_35V" -50 500 50 H V C CNN
 F2 "footprints:C_100uF_35V" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/nichicon/URS1V101MPD/493-15914-ND/2538778" 0 350 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/product-detail/en/nichicon/URS1V101MPD/493-15914-ND/2538778" 0 350 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 20 -80 -130 80 -130 N
 P 2 1 1 20 -80 -70 80 -70 N
@@ -1950,7 +1985,7 @@ F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
 F3 "" 25 100 50 H I C CNN
 F4 "Kemet" 0 0 60 H I C CNN "MFN"
 F5 "C1206C103KCRACTU" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/kemet/C1206C103KCRACTU/721283" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/kemet/C1206C103KCRACTU/721283" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -1975,7 +2010,7 @@ F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
 F4 "DK" 0 50 60 H I C CNN "MFN"
 F5 "1276-1052-1-ND" 0 750 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" 0 750 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2000,7 +2035,7 @@ F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "1276-2399-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2023,7 +2058,7 @@ F0 "C" -200 -50 50 H V L CNN
 F1 "C_10uF_25V" -600 50 50 H V L CNN
 F2 "footprints:C_0805_OEM" -50 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM21BR61E106KA73K/490-16824-1-ND/7595732" 0 500 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM21BR61E106KA73K/490-16824-1-ND/7595732" 0 500 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -2039,7 +2074,7 @@ F0 "C" 25 150 50 H V L CNN
 F1 "C_10uF_450V" 25 -50 50 H V L CNN
 F2 "footprints:C_10uF_450V" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-EB2W100SM/PCE3597CT-ND/613821" 425 500 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-EB2W100SM/PCE3597CT-ND/613821" 25 850 50 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2064,7 +2099,7 @@ F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
 F4 "Murata" 0 50 60 H I C CNN "MFN"
 F5 "GRM21BR61H106KE43L" 0 750 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316" 0 750 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2089,7 +2124,7 @@ F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "720-1660-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2112,7 +2147,7 @@ F0 "C" 25 150 50 H V L CNN
 F1 "C_1uF" 25 -50 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" 425 500 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" 25 850 50 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2135,7 +2170,7 @@ F0 "C" 25 150 50 H V L CNN
 F1 "C_2.2uF" 25 -50 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1H225M125AE/445-172488-1-ND/4990030" 425 500 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1H225M125AE/445-172488-1-ND/4990030" 25 850 50 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2158,9 +2193,9 @@ F0 "C" 150 150 60 H V C CNN
 F1 "C_220pF" 150 -300 60 H V C CNN
 F2 "footprints:C_0603_1608Metric" 150 -460 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0603B221K500CT/9354904" 100 500 50 H I C CNN "Purchasing Link"
-F5 "Walsin Technology Corporation" 150 400 50 H I C CNN "Manufacturer"
-F6 "0603B221K500CT" 150 300 50 H I C CNN "Part Number"
+F4 "Walsin Technology Corporation" 150 300 50 H I C CNN "MFN"
+F5 "0603B221K500CT" 150 300 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0603B221K500CT/9354904" 150 300 50 H I C CNN "PurchasingLink"
 $FPLIST
  CAP_0603_S_WAL
  CAP_0603_S_WAL-M
@@ -2185,7 +2220,7 @@ F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "" 25 100 50 H I C CNN
 F4 "KEMET" 0 0 60 H I C CNN "MFN"
 F5 "C0805C223G3GEC7800" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/kemet/C0805C223G3GEC7800/8644469" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/kemet/C0805C223G3GEC7800/8644469" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2210,7 +2245,7 @@ F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "445-11693-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2235,7 +2270,7 @@ F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "1276-1130-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2260,7 +2295,7 @@ F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
 F3 "" 0 650 50 H I C CNN
 F4 "DK" 50 -500 60 H I C CNN "MFN"
 F5 "445-3924-1-ND" 0 350 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 250 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 0 350 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2285,7 +2320,7 @@ F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
 F3 "" 25 100 50 H I C CNN
 F4 "Kemet" 0 0 60 H I C CNN "MFN"
 F5 "C1206C472KCRACTU" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/kemet/C1206C472KCRACTU/1465608" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/kemet/C1206C472KCRACTU/1465608" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2310,7 +2345,7 @@ F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "1276-1045-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475KQ8NNNC/1276-1045-1-ND/3889131" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475KQ8NNNC/1276-1045-1-ND/3889131" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2333,7 +2368,7 @@ F0 "C" 25 150 50 H V L CNN
 F1 "C_4.7uF_25V" 25 -50 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1H225M125AE/445-172488-1-ND/4990030" 425 500 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1H225M125AE/445-172488-1-ND/4990030" 25 850 50 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2356,7 +2391,7 @@ F0 "C" 25 150 50 H V L CNN
 F1 "C_470pF" 25 -50 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB471/311-1124-1-ND/303034" 425 500 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB471/311-1124-1-ND/303034" 25 850 50 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2379,9 +2414,9 @@ F0 "C" 25 150 50 H V L CNN
 F1 "C_47pF" 25 -50 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/kemet/CDR31BP470BKUS7185/3738589" 425 500 60 H I C CNN "PurchasingLink"
-F5 "KEMET" 0 0 50 H I C CNN "MFN"
-F6 "CDR31BP470BKUS7185" 0 0 50 H I C CNN "MPN"
+F4 "KEMET" 0 0 50 H I C CNN "MFN"
+F5 "CDR31BP470BKUS7185" 0 0 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/kemet/CDR31BP470BKUS7185/3738589" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2406,7 +2441,7 @@ F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/22/CL21A476MQYNNNG.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "1276-6467-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A476MQYNNNG/1276-6467-1-ND/5958095" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A476MQYNNNG/1276-6467-1-ND/5958095" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2431,7 +2466,7 @@ F2 "footprints:C_1210_OEM" 0 700 50 H I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 100 -450 50 H I C CNN
 F4 "C3225X5R0J686M200AC" 0 400 60 H I C CNN "MFN"
 F5 "445-3954-1-ND" 0 550 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3225X5R0J686M200AC/445-3954-1-ND/1944451" 150 -600 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3225X5R0J686M200AC/445-3954-1-ND/1944451" 0 550 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2456,7 +2491,7 @@ F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "1276-6553-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C090DB81PNC/1276-6553-1-ND/5961412" 425 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C090DB81PNC/1276-6553-1-ND/5961412" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -2588,6 +2623,32 @@ X ~ 4 250 -50 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Crystal_12MHz
+#
+DEF Crystal_12MHz Y 0 40 Y N 1 F N
+F0 "Y" 50 175 50 H V L CNN
+F1 "Crystal_12MHz" 50 100 50 H V L CNN
+F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
+F3 "" 50 175 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "ECS-120-20-33-CKM-TR" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/ecs-inc/ECS-120-20-33-CKM-TR/2781815" 0 0 60 H I C CNN "PurchasingLink"
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+P 4 0 1 0 -50 -50 -50 -75 50 -75 50 -50 N
+P 4 0 1 0 -50 50 -50 75 50 75 50 50 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 0 -150 75 U 50 50 1 1 P
+X 3 3 100 0 50 L 50 50 1 1 P
+X 4 4 0 150 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Crystal_32kHz768
 #
 DEF Crystal_32kHz768 Y 0 40 Y N 1 F N
@@ -2597,7 +2658,7 @@ F2 "footprints:FC-135_3.2x1.5mm" -50 75 50 H I C CNN
 F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&lang=en" 50 175 50 H I C CNN
 F4 "DK" -50 200 60 H I C CNN "MFN"
 F5 "SER4084CT-ND" 0 250 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/epson/FC-135-32.7680KA-AC0/SER4084CT-ND/6132704" 450 575 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/epson/FC-135-32.7680KA-AC0/SER4084CT-ND/6132704" 0 250 60 H I C CNN "PurchasingLink"
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -2621,7 +2682,7 @@ F2 "footprints:ABM3-8_5.0x3.2mm_P3.7mm" -50 75 50 H I C CNN
 F3 "https://abracon.com/Resonators/abm3.pdf" 50 175 50 H I C CNN
 F4 "DK" -50 200 60 H I C CNN "MFN"
 F5 "535-10630-1-ND" 0 250 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632" 450 575 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632" 0 250 60 H I C CNN "PurchasingLink"
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -2645,7 +2706,7 @@ F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
 F3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" 50 175 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "887-1125-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014" 450 575 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -2671,7 +2732,7 @@ F2 "footprints:D-Series_Cynergy_Relay" 450 -50 50 H I L CNN
 F3 "https://www.cynergy3.com/sites/default/files/D%20series%202016_5.pdf" 450 -350 50 H I L CNN
 F4 "DK" 850 550 60 H I C CNN "MFN"
 F5 "725-1049-ND" 750 450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/cynergy-3/DBR71210/725-1049-ND/752025" 950 650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/cynergy-3/DBR71210/725-1049-ND/752025" 750 450 60 H I C CNN "PurchasingLink"
 $FPLIST
  Relay?SPDT?OMRON?G5Q*
 $ENDFPLIST
@@ -2705,7 +2766,7 @@ F0 "U" 0 600 50 H V C CNN
 F1 "DRV8834" 0 -100 50 V V C CNN
 F2 "" -250 0 50 H I C CNN
 F3 "www.ti.com/lit/ds/symlink/drv8834.pdf" -250 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/texas-instruments/DRV8834PWP/296-30428-5-ND/3088200" -250 900 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/product-detail/en/texas-instruments/DRV8834PWP/296-30428-5-ND/3088200" -250 900 50 H I C CNN "PurchasingLink"
 DRAW
 S 400 700 -450 -750 0 1 0 f
 X nSLEEP 1 -650 500 200 R 50 50 1 1 I
@@ -2735,6 +2796,30 @@ X BOUT1 9 -650 -300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# DSub-9
+#
+DEF DSub-9 J 0 40 Y Y 1 F N
+F0 "J" -200 330 50 H V L BNN
+F1 "DSub-9" -200 -400 50 H V L BNN
+F2 "footprints:TE_5745781-4" -350 550 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "5745781-4" 200 450 50 H I L BNN "MPN"
+F5 "TE" -100 900 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/5745781-4/808630?s=N4IgTCBcDaIKwHYAsiAcBGAtEkBdAvkA" -100 900 50 H I C CNN "PurchasingLink"
+DRAW
+S -200 -300 200 300 0 0 6 f
+X 1 1 -400 200 200 R 40 40 0 0 P
+X 2 2 -400 100 200 R 40 40 0 0 P
+X 3 3 -400 0 200 R 40 40 0 0 P
+X 4 4 -400 -100 200 R 40 40 0 0 P
+X 5 5 -400 -200 200 R 40 40 0 0 P
+X 6 6 400 200 200 L 40 40 0 0 P
+X 7 7 400 100 200 L 40 40 0 0 P
+X 8 8 400 0 200 L 40 40 0 0 P
+X 9 9 400 -100 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # D_Zener_13V
 #
 DEF D_Zener_13V D 0 40 N N 1 F N
@@ -2744,7 +2829,7 @@ F2 "footprints:D_13V_Zener" -100 0 50 H I C CNN
 F3 "http://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF" 0 100 50 H I C CNN
 F4 "DK" 200 300 60 H I C CNN "MFN"
 F5 "1SMB5928BT3GOSCT-ND" 100 200 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/1SMB5928BT3G/1SMB5928BT3GOSCT-ND/917730?WT.z_cid=ref_octopart_dkc_buynow&site=us" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/1SMB5928BT3G/1SMB5928BT3GOSCT-ND/917730?WT.z_cid=ref_octopart_dkc_buynow&site=us" 100 200 60 H I C CNN "PurchasingLink"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -2772,7 +2857,7 @@ F2 "footprints:DO-214AA" -100 0 50 H I C CNN
 F3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" 0 100 50 H I C CNN
 F4 "DK" 200 300 60 H I C CNN "MFN"
 F5 "SMBJ5355B-TPMSCT-ND" 100 200 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" 100 200 60 H I C CNN "PurchasingLink"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -2800,7 +2885,35 @@ F2 "footprints:D_SOD-923" -100 0 50 H I C CNN
 F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/zener/cdzvt2r20b-e.pdf" 0 100 50 H I C CNN
 F4 "DK" 200 300 60 H I C CNN "MFN"
 F5 "CDZVT2R20BCT-ND" 100 200 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/CDZVT2R20B/CDZVT2R20BCT-ND/5955742" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/CDZVT2R20B/CDZVT2R20BCT-ND/5955742" 100 200 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -100 -50 N
+P 2 0 1 8 -50 50 0 50 N
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener_2V
+#
+DEF D_Zener_2V D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener_2V" 0 -100 50 H V C CNN
+F2 "footprints:SOD-323" -100 0 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+F4 "Vishay" 200 300 60 H I C CNN "MFN"
+F5 "GDZ2V0B-G3-08" 100 200 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/GDZ2V0B-G3-08/4831605" 100 200 60 H I C CNN "PurchasingLink"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -2828,7 +2941,7 @@ F2 "footprints:D_5.6V_Zener" -100 0 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 F4 "DK" 200 300 60 H I C CNN "MFN"
 F5 "3SMBJ5919B-TP" 100 200 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/micro-commercial-co/3SMBJ5919B-TP/8554648" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/micro-commercial-co/3SMBJ5919B-TP/8554648" 100 200 60 H I C CNN "PurchasingLink"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -2854,7 +2967,7 @@ F0 "D?" 0 250 50 H V C CNN
 F1 "Diode_600V_1A_SM" 0 350 50 H V C CNN
 F2 "footprints:Diode_600V_1A_SM" -50 150 50 H I C CNN
 F3 "" -50 150 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-3765-1-ND/691935" 0 200 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-3765-1-ND/691935" 0 200 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 0 50 0 -50 0 N
 P 2 1 1 10 50 50 50 -50 N
@@ -2872,7 +2985,7 @@ F1 "EMS22A50-B28-LS6" 0 200 50 H V C CNN
 F2 "" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 F4 "DK" 0 0 50 H V C CNN "MFN"
-F5 "https://www.digikey.com/en/products/detail/bourns-inc/EMS22A50-B28-LS6/3694111?s=N4IgjCBcoLQdIDGUAuAnArgUwDQgPZQDa4YAHCALoC%2B1eATMSAKICyAyvfQIICsADDABC9MjAAy7AGxVqQA" 0 0 50 H V C CNN "Purchasinglink"
+F5 "https://www.digikey.com/en/products/detail/bourns-inc/EMS22A50-B28-LS6/3694111?s=N4IgjCBcoLQdIDGUAuAnArgUwDQgPZQDa4YAHCALoC%2B1eATMSAKICyAyvfQIICsADDABC9MjAAy7AGxVqQA" 0 0 50 H V C CNN "PurchasingLink"
 DRAW
 A -15 -102 108 -899 899 1 1 10 N -15 -210 -15 5
 C -150 -50 10 1 1 0 F
@@ -2905,7 +3018,7 @@ F2 "footprints:D2PAK" -10 460 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "ON Semiconductor" 0 0 50 H I C CNN "MFN"
 F5 "FDB33N25TM" 0 0 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/on-semiconductor/FDB33N25TM/1922973" 0 0 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/en/products/detail/on-semiconductor/FDB33N25TM/1922973" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 C -5 0 111 1 1 10 N
 C 30 -70 11 1 1 0 F
@@ -2939,7 +3052,7 @@ F2 "footprints:DPAK229P990X239-4N" -40 510 50 H I C CNN
 F3 "" -30 50 50 H I C CNN
 F4 "ON Semiconductor" -30 50 50 H I C CNN "MFN"
 F5 "FDB33N25TM" -30 50 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/on-semiconductor/FQD2N60CTM/1053993" -30 50 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/en/products/detail/on-semiconductor/FQD2N60CTM/1053993" -30 50 50 H I C CNN "PurchasingLink"
 DRAW
 C -35 50 111 1 1 10 N
 C 0 -20 11 1 1 0 F
@@ -2973,7 +3086,7 @@ F2 "formula:TO-220NFM" -100 0 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 F4 "Kyocera" 100 200 50 H I C CNN "MFN"
 F5 "FSF10A20" 200 300 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/kyocera-international-inc-electronic-components/FSF10A20/10279769" 300 400 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/kyocera-international-inc-electronic-components/FSF10A20/10279769" 200 300 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 8 -50 50 -50 -50 N
 P 2 1 1 0 50 0 -50 0 N
@@ -2990,8 +3103,8 @@ F0 "U" -650 900 50 H V L CNN
 F1 "FT232RL" 400 900 50 H V L CNN
 F2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" 1100 -900 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402" 0 0 50 H I C CNN "Purchasing Link"
-F5 "768-1007-1-ND" 0 0 50 H I C CNN "Part Number (DK)"
+F4 "768-1007-1-ND" 0 0 50 H I C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  SSOP*5.3x10.2mm*P0.65mm*
 $ENDFPLIST
@@ -3026,6 +3139,54 @@ X DCR 9 800 200 150 L 50 50 1 1 I L
 ENDDRAW
 ENDDEF
 #
+# FT4222H
+#
+DEF FT4222H U 0 40 Y Y 1 F N
+F0 "U" 1450 1850 50 H V C CNN
+F1 "FT4222H" 150 1850 50 H V C CNN
+F2 "footprints:FT4222_QFN" 500 -350 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+F4 "FTDI" 0 0 50 H V C CNN "MFN"
+F5 "FT4222HQ-D-R" 350 -450 50 H V C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT4222HQ-D-R/8753389" 350 -450 50 H V C CNN "PurchasingLink"
+DRAW
+S 0 0 1600 1800 0 1 0 f
+X DEBUGGER 1 1700 50 100 L 50 50 1 1 B
+X MOSI 10 1700 750 100 L 50 50 1 1 O
+X IO2 11 1700 550 100 L 50 50 1 1 O
+X IO3 12 1700 450 100 L 50 50 1 1 O
+X GPIO0/SS1O/SCL 13 1700 1250 100 L 50 50 1 1 O
+X GPIO1/SS2O/SDA 14 1700 1150 100 L 50 50 1 1 B
+X GPIO2/SS3O/SUSP-OUT 15 1700 1050 100 L 50 50 1 1 O
+X GPIO3/WAKEUP/INTR 16 1700 950 100 L 50 50 1 1 O
+X SS0O 17 1700 1350 100 L 50 50 1 1 O
+X XSCI 18 -100 200 100 R 50 50 1 1 I
+X XSCO 19 -100 300 100 R 50 50 1 1 I
+X STEST_RESET_n 2 -100 800 100 R 50 50 1 1 I
+X UGND 20 500 -100 100 U 50 50 1 1 W
+X RREF 21 -100 1650 100 R 50 50 1 1 I
+X DM 22 -100 1350 100 R 50 50 1 1 B
+X DP 23 -100 1250 100 R 50 50 1 1 B
+X UGND 24 600 -100 100 U 50 50 1 1 W
+X VOUT3V3 25 600 1900 100 D 50 50 1 1 w
+X VCCIN 26 700 1900 100 D 50 50 1 1 W
+X AGND 27 700 -100 100 U 50 50 1 1 W
+X DGND 28 800 -100 100 U 50 50 1 1 W
+X VPP 29 1050 1900 100 D 50 50 1 1 W
+X RESET_n 3 -100 900 100 R 50 50 1 1 I
+X VBUS-DET 30 -100 650 100 R 50 50 1 1 I
+X BCD-DET 31 950 1900 100 D 50 50 1 1 O
+X SS 32 1700 1650 100 L 50 50 1 1 I
+X GND 33 1000 -100 100 U 50 50 1 1 W
+X DCNF0 4 1700 250 100 L 50 50 1 1 I
+X DCNF1 5 1700 150 100 L 50 50 1 1 I
+X DGND 6 900 -100 100 U 50 50 1 1 W
+X VCCIO 7 500 1900 100 D 50 50 1 1 W
+X SCK 8 1700 1450 100 L 50 50 1 1 B
+X MISO 9 1700 650 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # F_1.1A_12V
 #
 DEF F_1.1A_12V F 0 0 N Y 1 F N
@@ -3035,7 +3196,7 @@ F2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" -70 0 50 V I C CNN
 F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" 80 0 50 V I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "F5764CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=F5764CT-ND" 480 400 60 V I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=F5764CT-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  *Fuse*
 $ENDFPLIST
@@ -3054,7 +3215,7 @@ F0 "F" 0 150 50 H V C CNN
 F1 "F_1A_600V" 0 -150 50 H V C CNN
 F2 "footprints:Fuse_1A_600V" 0 -300 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ADAP1000-RE/507-2220-ND/8028479" 200 350 50 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ADAP1000-RE/507-2220-ND/8028479" -50 0 50 H I C CNN "PurchasingLink"
 DRAW
 A -50 0 50 -1799 -1 0 1 0 N -100 0 0 0
 A 49 0 49 1800 889 0 1 0 N 0 0 50 50
@@ -3071,7 +3232,7 @@ F0 "F" 0 -100 50 H V C CNN
 F1 "F_2.6A_16V" 0 100 50 H V C CNN
 F2 "footprints:Fuse_1812_4532Metric" -100 -200 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" 0 -200 50 H V C CNN "Digikey"
+F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" 0 0 50 V I C CNN "PurchasingLink"
 DRAW
 S 100 -30 -100 30 1 1 10 N
 P 2 1 1 0 -100 0 100 0 N
@@ -3089,7 +3250,7 @@ F2 "footprints:F_21mA_420V" -600 -200 50 V I C CNN
 F3 "https://en.tdk.eu/inf/55/db/PTC/PTC_OC_Leaded_380V_500V.pdf" 650 150 50 V I C CNN
 F4 "DK" -900 400 60 H I C CNN "MFN"
 F5 "495-75309-ND" -150 650 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/epcos-tdk/B59884C0120A070/495-75309-ND/651926" 480 400 60 V I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/epcos-tdk/B59884C0120A070/495-75309-ND/651926" -150 650 60 H I C CNN "PurchasingLink"
 $FPLIST
  *Fuse*
 $ENDFPLIST
@@ -3108,7 +3269,7 @@ F0 "F" 0 -100 50 H V C CNN
 F1 "F_2A_500V" 0 100 50 H V C CNN
 F2 "footprints:F_2A_500V" -100 -200 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "https://www.digikey.com/product-detail/en/littelfuse-inc/0885002.DR/F10988CT-ND/8345702" 0 -200 50 H I C CNN "Digikey"
+F4 "https://www.digikey.com/product-detail/en/littelfuse-inc/0885002.DR/F10988CT-ND/8345702" 0 0 50 V I C CNN "PurchasingLink"
 DRAW
 S 100 -30 -100 30 1 1 10 N
 P 2 1 1 0 -100 0 100 0 N
@@ -3126,7 +3287,7 @@ F2 "footprints:Fuse_TE7_Littelfuse-807Series" -70 0 50 V I C CNN
 F3 "http://www.mouser.com/ds/2/240/Littelfuse_Fuse_807_Datasheet.pdf-794915.pdf" 80 0 50 V I C CNN
 F4 "Mouser" 0 0 60 H I C CNN "MFN"
 F5 "80713150440" 0 0 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Littelfuse/80713150440/?qs=%2fha2pyFaduj6aUSS3K8RSlC9flo%2fx0HLwwpdMiFRoD3Yb7kI5hEeOg%3d%3d" 480 400 60 V I C CNN "PurchasingLink"
+F6 "https://www.mouser.com/ProductDetail/Littelfuse/80713150440/?qs=%2fha2pyFaduj6aUSS3K8RSlC9flo%2fx0HLwwpdMiFRoD3Yb7kI5hEeOg%3d%3d" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  *Fuse*
 $ENDFPLIST
@@ -3147,7 +3308,7 @@ F2 "footprints:Fuse_1210" -70 0 50 V I C CNN
 F3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" 80 0 50 V I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "507-1786-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" 480 400 60 V I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  *Fuse*
 $ENDFPLIST
@@ -3183,7 +3344,7 @@ F2 "footprints:Relay_SPDT_OMRON-G2RL-1-E" 650 150 50 H I L CNN
 F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf" 650 -150 50 H I L CNN
 F4 "DK" 950 650 60 H I C CNN "MFN"
 F5 "Z2834-ND" 850 550 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G2RL-1-E-DC12/Z2834-ND/368834?WT.srch=1&gclid=CjwKCAjw7MDPBRAFEiwAppdF9Hq_oi1W3KBGxJPPM2RUBlXwE31iIe8Dui3_bYGZrJP0d0zIX0IHKBoCkWsQAvD_BwE" 750 450 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G2RL-1-E-DC12/Z2834-ND/368834?WT.srch=1&gclid=CjwKCAjw7MDPBRAFEiwAppdF9Hq_oi1W3KBGxJPPM2RUBlXwE31iIe8Dui3_bYGZrJP0d0zIX0IHKBoCkWsQAvD_BwE" 850 550 60 H I C CNN "PurchasingLink"
 $FPLIST
  Relay?SPDT?OMRON?G5Q*
 $ENDFPLIST
@@ -3254,7 +3415,7 @@ F2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" 450 -50 50 H I L CNN
 F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" 450 -350 50 H I L CNN
 F4 "DK" 850 550 60 H I C CNN "MFN"
 F5 "Z3632-ND" 750 450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721" 950 650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721" 750 450 60 H I C CNN "PurchasingLink"
 $FPLIST
  Relay?SPDT?OMRON?G5Q*
 $ENDFPLIST
@@ -3290,7 +3451,7 @@ F2 "footprints:Relay_SPST_OMRON-G6C" 650 150 50 H I L CNN
 F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6c.pdf" 650 -150 50 H I L CNN
 F4 "DK" 850 550 60 H I C CNN "MFN"
 F5 "Z3601-ND" 750 450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6C-1117P-US-DC12/Z3601-ND/369139" 950 650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6C-1117P-US-DC12/Z3601-ND/369139" 750 450 60 H I C CNN "PurchasingLink"
 $FPLIST
  Relay?SPDT?OMRON?G5Q*
 $ENDFPLIST
@@ -3326,7 +3487,7 @@ F2 "formula:GA3460-BL" 0 -50 50 H I C CNN
 F3 "" -100 400 50 H I C CNN
 F4 "Coilcraft" 0 0 50 H I C CNN "MFN"
 F5 "994-GA3459-BL" 0 0 50 H I C CNN "MPN"
-F6 "https://www.mouser.com.tr/ProductDetail/Coilcraft/GA3459-BL/?qs=ZYnrCdKdyecGrzi6ofbvIw==" 0 0 50 H I C CNN "Purchasing Link"
+F6 "https://www.mouser.com.tr/ProductDetail/Coilcraft/GA3459-BL/?qs=ZYnrCdKdyecGrzi6ofbvIw==" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 A -200 440 20 -899 899 1 1 0 N -200 420 -200 460
 A -200 480 20 -899 899 1 1 0 N -200 460 -200 500
@@ -3393,7 +3554,7 @@ F2 "footprints:GA3460-BL" 0 -50 50 H I C CNN
 F3 "" -100 400 50 H I C CNN
 F4 "Coilcraft" 0 0 50 H I C CNN "MFN"
 F5 "994-GA3460-BL" 0 0 50 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" 0 0 50 H I C CNN "Purchasing Link"
+F6 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 A -200 440 20 -899 899 1 1 0 N -200 420 -200 460
 A -200 480 20 -899 899 1 1 0 N -200 460 -200 500
@@ -3538,7 +3699,7 @@ F0 "L" 0 200 60 H V C CNN
 F1 "IHLP2020BZER4R7M11" 0 300 60 H V C CNN
 F2 "footprints:IHLP2020BZER4R7M11" 0 -200 60 H I C CNN
 F3 "" -300 0 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" 600 -100 50 H I C CNN "Vendor Link"
+F4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" -300 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  IND_IHLP-2020BZ
  IND_IHLP-2020BZ-M
@@ -3566,9 +3727,9 @@ F0 "U" -250 350 50 H V C CNN
 F1 "INA260" 100 350 50 H V L CNN
 F2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" 0 -600 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/texas-instruments/INA260AIPWR/296-47777-1-ND/8133126" 0 0 50 H I C CNN "PurchasingLink"
-F5 "296-47777-1-ND" 0 0 50 H I C CNN "MPN"
-F6 "DK" 0 0 50 H I C CNN "MFN"
+F4 "296-47777-1-ND" 0 0 50 H I C CNN "MPN"
+F5 "DK" 0 0 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/INA260AIPWR/296-47777-1-ND/8133126" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  TSSOP*4.4x5mm*P0.65mm*
 $ENDFPLIST
@@ -3602,7 +3763,7 @@ F2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" 0 550 60 H I C
 F3 "" -100 1200 60 H I C CNN
 F4 "Digikey" 0 850 60 H I C CNN "MFN"
 F5 "455-1582-1-ND" 0 1000 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM06B-GHS-TBT-LF-SN-N/807804" 0 700 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM06B-GHS-TBT-LF-SN-N/807804" 0 1000 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -300 -150 300 0 1 0 f
 X 1 1 250 250 100 L 50 50 1 1 B
@@ -3623,7 +3784,7 @@ F2 "footprints:L6932D1.2TR" -300 50 60 H I C CNN
 F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/7a/35/60/5b/95/4f/48/CD00002172.pdf/files/CD00002172.pdf/jcr:content/translations/en.CD00002172.pdf" -200 150 60 H I C CNN
 F4 "DK" 0 350 60 H I C CNN "MFN"
 F5 "497-5724-1-ND" 100 450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/L6932D1.2TR/497-5724-1-ND/1299970" -100 250 60 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/L6932D1.2TR/497-5724-1-ND/1299970" -100 250 60 H I C CNN "PurchasingLink"
 DRAW
 S -450 200 0 -450 1 1 0 f
 X EN 1 200 0 200 L 50 50 1 1 I
@@ -3646,7 +3807,7 @@ F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  LED*
 $ENDFPLIST
@@ -3670,7 +3831,7 @@ F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Chicago%20Miniature%20Lamps%20PDFs/CMDA5_Series_Rev_Aug_2014.pdf" 0 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "L71517CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/visual-communications-company-vcc/CMDA5DY7D1S/L71517CT-ND/614867" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/visual-communications-company-vcc/CMDA5DY7D1S/L71517CT-ND/614867" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  LED*
 $ENDFPLIST
@@ -3694,7 +3855,7 @@ F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic8/00078869_0.pdf" 0 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "475-1415-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  LED*
 $ENDFPLIST
@@ -3718,7 +3879,7 @@ F2 "footprints:Meder-LI12" 450 -50 50 H I L CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" 450 -350 50 H I L CNN
 F4 "DK" 850 550 60 H I C CNN "MFN"
 F5 "374-1110-ND" 750 450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" 950 650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" 750 450 60 H I C CNN "PurchasingLink"
 $FPLIST
  Relay?SPDT?OMRON?G5Q*
 $ENDFPLIST
@@ -3752,9 +3913,9 @@ F0 "U" 0 0 60 H V C CNN
 F1 "LIS3DHTR" 0 -350 60 V V C CNN
 F2 "footprints:LIS3DHTR" 50 400 60 H I C CNN
 F3 "" -950 0 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" 0 0 50 H I C CNN "PurchasingLink"
-F5 "497-10613-1-ND " 0 0 50 H I C CNN "MPN"
-F6 "DK" 0 0 50 H I C CNN "MFN"
+F4 "497-10613-1-ND" 0 0 50 H I C CNN "MPN"
+F5 "DK" 0 0 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  LGA-16_3x3x1mm
  LGA-16_3x3x1mm-M
@@ -3790,7 +3951,7 @@ F2 "" 150 800 60 H I C CNN
 F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/bd/fc/46/43/26/8f/40/7f/CD00001046.pdf/files/CD00001046.pdf/jcr:content/translations/en.CD00001046.pdf" -550 600 60 H I C CNN
 F4 "DK" 650 450 60 H I C CNN "MFN"
 F5 "497-1580-1-ND" 750 550 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/LM324DT/497-1580-1-ND/592078" 850 650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/LM324DT/497-1580-1-ND/592078" 750 550 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 400 -250 -650 0 1 0 f
 P 2 0 1 0 -190 -550 -170 -550 N
@@ -3839,7 +4000,7 @@ F2 "Package_TO_SOT_SMD:SOT-23" -50 200 50 H I C CNN
 F3 "" 100 -250 50 H I C CNN
 F4 "DK" 50 325 60 H I C CNN "MFN"
 F5 "LM3480IM3-3.3CT-ND" 150 425 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" -50 225 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" 150 425 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?223*TabPin2*
 $ENDFPLIST
@@ -3858,7 +4019,7 @@ F0 "U" 150 350 50 H V C CNN
 F1 "LM358DT" 250 250 50 H V C CNN
 F2 "" -100 50 50 H I C CNN
 F3 "www.st.com/content/ccc/resource/technical/document/datasheet/61/46/87/01/98/ed/44/c5/CD00000464.pdf/files/CD00000464.pdf/jcr:content/translations/en.CD00000464.pdf" -400 700 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LM358DT/497-1591-1-ND/592083" -350 850 50 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LM358DT/497-1591-1-ND/592083" -400 700 50 H I C CNN "PurchasingLink"
 DRAW
 P 4 0 1 0 -150 300 -150 -300 350 0 -150 300 f
 X Out 1 550 0 200 L 50 50 1 1 I
@@ -3883,7 +4044,7 @@ F2 "footprints:TO-92-3_Inline_Narrow_Oval" 200 -75 50 H I L CIN
 F3 "http://www.ti.com/lit/ds/symlink/lm78l.pdf" 200 75 50 H I L CNN
 F4 "DK" 1000 250 60 H I C CNN "MFN"
 F5 "LM78L05ACZNS/NOPB-ND" 850 150 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM78L05ACZ-NOPB/LM78L05ACZNS-NOPB-ND/6333" 1150 350 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM78L05ACZ-NOPB/LM78L05ACZNS-NOPB-ND/6333" 850 150 60 H I C CNN "PurchasingLink"
 $FPLIST
  TO?92*
 $ENDFPLIST
@@ -3921,7 +4082,7 @@ F2 "TO_SOT_Packages_SMD:SOT-23-6" 0 100 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/lmv341.pdf" 0 200 50 H I C CNN
 F4 "DK" 350 500 60 H I C CNN "MFN"
 F5 "296-17843-1-ND" 250 400 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/LMV341IDBVR/296-17843-1-ND/738777" 150 300 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/LMV341IDBVR/296-17843-1-ND/738777" 250 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
  *SC?70*
@@ -3945,7 +4106,7 @@ F2 "Package_TO_SOT_SMD:TO-252-2" 0 500 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" 0 300 50 H I C CNN
 F4 "Mouser" 0 400 60 H I C CNN "MFN"
 F5 "689-LR8K4-G" -50 600 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" -200 700 60 H I C CNN "Webpage"
+F6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" -50 600 60 H I C CNN "PurchasingLink"
 $FPLIST
  TO?252*
  DPAK*
@@ -3967,7 +4128,7 @@ F2 "footprints:16(12)-MSOP" 50 -300 50 H I C CNN
 F3 "" -450 1170 50 H I C CNN
 F4 "Analog Devices" 70 -170 50 H I C CNN "MFN"
 F5 "LT1997HMS-2#PBF" 90 -240 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1997HMS-2-PBF/9522058" 300 -80 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1997HMS-2-PBF/9522058" 300 -80 50 H I C CNN "PurchasingLink"
 DRAW
 S -300 1300 300 0 0 1 0 f
 X INA+ 1 -500 1200 200 R 50 50 0 0 I
@@ -3985,6 +4146,38 @@ X OUT 9 500 500 200 L 50 50 0 0 O
 ENDDRAW
 ENDDEF
 #
+# LT3045
+#
+DEF LT3045 U 0 40 Y Y 1 F N
+F0 "U" 450 950 50 H V L BNN
+F1 "LT3045" 900 950 50 H V L BNN
+F2 "footprints:MSOP-12_MSE" 100 2700 50 H I C CIN
+F3 "" -950 1830 50 H I C CNN
+F4 "Analog" 100 2700 60 H I C CNN "MFN"
+F5 "LT3045EMSE#TRPBF" 100 2700 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/LT3045EMSE-TRPBF/6235366" 100 2700 60 H I C CNN "PurchasingLink"
+ALIAS ATMEGA64M1_copy1
+$FPLIST
+ TQFP*32*7x7mm*
+$ENDFPLIST
+DRAW
+S 450 900 1200 0 0 1 0 f
+X IN 1 350 800 100 R 50 50 0 0 W
+X OUTS 10 1300 400 100 L 50 50 0 0 I
+X OUT 11 1300 700 100 L 50 50 0 0 w
+X OUT 12 1300 800 100 L 50 50 0 0 w
+X GND 13 1300 100 100 L 50 50 0 0 W
+X IN 2 350 700 100 R 50 50 0 0 W
+X IN 3 350 600 100 R 50 50 0 0 W
+X EN/UV 4 350 400 100 R 50 50 0 0 I
+X PG 5 350 300 100 R 50 50 0 0 P
+X ILIM 6 350 100 100 R 50 50 0 0 P
+X PGFB 7 350 200 100 R 50 50 0 0 P
+X SET 8 1300 500 100 L 50 50 0 0 I
+X GND 9 1300 200 100 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
 # LT3751
 #
 DEF LT3751 U 0 40 Y Y 1 F N
@@ -3994,7 +4187,7 @@ F2 "footprints:TSSOP-20_EXPOSED_PAD" -300 -250 50 H I C CNN
 F3 "" 300 1200 50 H I C CNN
 F4 "Analog Devices" 0 0 50 H I C CNN "MFN"
 F5 "LT3751EFE#TRPBF" 0 0 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/LT3751EFE-TRPBF/2042470" 0 0 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/LT3751EFE-TRPBF/2042470" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -350 1850 350 0 0 1 0 f
 X RVTRANS 1 -550 1750 200 R 50 50 0 0 I
@@ -4030,7 +4223,7 @@ F2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" -600 450 50 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" -600 450 50 H I C CNN
 F4 "DK" 300 750 50 H I C CNN "MFN"
 F5 "LTC1380IGN#PBF-ND" 100 550 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC1380IGN-TRPBF/LTC1380IGN-TRPBFCT-ND/9554873" 200 650 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC1380IGN-TRPBF/LTC1380IGN-TRPBFCT-ND/9554873" 100 550 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 400 200 -400 0 1 0 f
 X S0 1 -450 350 200 R 50 50 1 1 I
@@ -4059,9 +4252,9 @@ F0 "U" 0 500 50 H V C CNN
 F1 "LTC1983ES6-5#TRMPBF" 0 400 50 H V C CNN
 F2 "footprints:LTC1983ES6-5#TRMPBF" 0 400 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC1983ES6-5-TRMPBF/1115931" 0 0 50 H I C CNN "Purchasing Link"
-F5 "Analog Devices Inc." 0 0 50 H I C CNN "Manufacturer"
-F6 "LTC1983ES6-5#TRMPBF" 0 0 50 H I C CNN "Manufacturer Product Number"
+F4 "Analog Devices Inc." 0 0 50 H I C CNN "MFN"
+F5 "LTC1983ES6-5#TRMPBF" 0 0 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC1983ES6-5-TRMPBF/1115931" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 S 300 300 -300 -400 0 1 0 f
 X V_IN 1 -400 200 100 R 50 50 1 1 I
@@ -4070,6 +4263,36 @@ X C+ 3 -400 -300 100 R 50 50 1 1 I
 X C- 4 400 -300 100 L 50 50 1 1 I
 X GND 5 400 -50 100 L 50 50 1 1 I
 X SHDN 6 -400 -50 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LTC2489CDEPBF
+#
+DEF LTC2489CDEPBF U 0 40 Y Y 1 F N
+F0 "U" 550 1150 50 H V L BNN
+F1 "LTC2489CDEPBF" 0 -100 50 H V L BNN
+F2 "footprints:DFN-14_DE_AD" 250 1700 50 H I L BNN
+F3 "" -300 900 50 H I L BNN
+F4 "ltc2489cde#pbf" 200 1600 50 H I L BNN "MPN"
+F5 "LinearTech" 600 1650 50 H I L BNN "MFN"
+F6 "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC2489CDE-PBF/1745796" 600 1650 50 H I L BNN "PurchasingLink"
+DRAW
+S 0 0 700 1100 0 0 6 f
+X FO 1 -300 1000 300 R 40 40 0 0 I
+X CH2 10 1000 350 300 L 40 40 0 0 I
+X CH3 11 1000 250 300 L 40 40 0 0 I
+X VCC 12 1000 1000 300 L 40 40 0 0 W
+X REF+ 13 1000 800 300 L 40 40 0 0 I
+X REF- 14 1000 700 300 L 40 40 0 0 I
+X EPAD 15 -300 100 300 R 40 40 0 0 P
+X CA0 2 -300 900 300 R 40 40 0 0 P
+X CA1 3 -300 800 300 R 40 40 0 0 P
+X SCL 4 -300 600 300 R 40 40 0 0 I
+X SDA 5 -300 500 300 R 40 40 0 0 B
+X GND 6 -300 200 300 R 40 40 0 0 W
+X COM 7 1000 100 300 L 40 40 0 0 I
+X CH0 8 1000 550 300 L 40 40 0 0 I
+X CH1 9 1000 450 300 L 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
@@ -4082,7 +4305,7 @@ F2 "footprints:TSSOP-48_LTC6811-1" -650 1250 50 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf" -650 1250 50 H I C CNN
 F4 "DK" 50 -1200 50 H V C CNN "MFN"
 F5 "LTC6811IG-1-PBF-ND" 150 -1100 50 H V C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6811IG-1-3ZZTRPBF/LTC6811IG-1-3ZZTRPBFCT-ND/9841747" 250 -1000 50 H V C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6811IG-1-3ZZTRPBF/LTC6811IG-1-3ZZTRPBFCT-ND/9841747" 150 -1100 50 H V C CNN "PurchasingLink"
 DRAW
 S -300 1150 200 -1250 0 1 0 f
 X V+ 1 -500 1100 200 R 50 50 1 1 I
@@ -4145,7 +4368,7 @@ F2 "Package_SO:MSOP-16_3x4mm_P0.5mm" 400 -350 50 V I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf" 400 -350 50 V I C CNN
 F4 "DK" 100 850 50 H V C CNN "MFN"
 F5 "LTC6820HMS#TRPBFCT-ND" 200 950 50 H V C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6820HMS-TRPBF/LTC6820HMS-TRPBFCT-ND/8275338" 300 1050 50 H V C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6820HMS-TRPBF/LTC6820HMS-TRPBFCT-ND/8275338" 200 950 50 H V C CNN "PurchasingLink"
 DRAW
 S 300 700 -300 -800 0 1 0 f
 X EN 1 500 600 200 L 50 50 1 1 I
@@ -4174,7 +4397,7 @@ F0 "L" 0 -50 50 H V C CNN
 F1 "L_1.2mH" 0 100 50 H V C CNN
 F2 "footprints:L_1.2mH" -100 -200 50 H I C CNN
 F3 "" -100 -150 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/sumida-america-components-inc/RCP1317NP-122L/308-2336-ND/4356405" 300 200 50 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/sumida-america-components-inc/RCP1317NP-122L/308-2336-ND/4356405" -100 -150 50 H I C CNN "PurchasingLink"
 DRAW
 A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
 A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
@@ -4194,7 +4417,7 @@ F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
 F3 "" -100 -150 50 H I C CNN
 F4 "DK" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 0 250 50 H I C CNN "PurchasingLink"
 DRAW
 A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
 A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
@@ -4212,9 +4435,9 @@ F0 "L" 275 200 60 H V C CNN
 F1 "L_10uH" 275 -225 60 H V C CNN
 F2 "footprints:BournsInductor" 275 -285 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/bourns-inc/SDE0805A-100M/5030885" 0 0 50 H I C CNN "Purchasing"
-F5 "SDE0805A-100M" 0 0 50 H I C CNN "MPN"
-F6 "Bourns Inc." 0 0 50 H I C CNN "MFN"
+F4 "SDE0805A-100M" 0 0 50 H I C CNN "MPN"
+F5 "Bourns Inc." 0 0 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/en/products/detail/bourns-inc/SDE0805A-100M/5030885" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  IND_805A-221K_BRN
 $ENDFPLIST
@@ -4242,7 +4465,7 @@ F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
 F3 "" -100 -150 50 H I C CNN
 F4 "Digikey" 100 -200 50 H I C CNN "MFN"
 F5 "445-1539-1-ND" 0 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLCV32T-150K-PF/445-1539-1-ND/571847" 300 200 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLCV32T-150K-PF/445-1539-1-ND/571847" 0 250 50 H I C CNN "PurchasingLink"
 DRAW
 A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
 A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
@@ -4260,7 +4483,7 @@ F0 "L" 30 40 50 H V L CNN
 F1 "L_2.2uH" 30 -40 50 H V L CNN
 F2 "" -70 -60 50 H I C CNN
 F3 "" 30 40 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/taiyo-yuden/BRL3225T2R2M/587-2165-1-ND/2002863" 430 440 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/taiyo-yuden/BRL3225T2R2M/587-2165-1-ND/2002863" 30 40 50 H I C CNN "PurchasingLink"
 $FPLIST
  Choke_*
  *Coil*
@@ -4309,7 +4532,7 @@ F2 "footprints:4.7uH_Inductor_OEM" -70 -60 50 H I C CNN
 F3 "https://product.tdk.com/info/en/documents/wdcatalog/withdrawn_inductor_commercial_power_vlp8040_en.pdf" 30 40 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "445-6583-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445-6583-1-ND/2465893" 430 440 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445-6583-1-ND/2465893" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  Choke_*
  *Coil*
@@ -4362,6 +4585,100 @@ X ~ 2 100 100 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# MAX7300AAIT
+#
+DEF MAX7300AAIT U 0 40 Y Y 1 F N
+F0 "U" -500 1239 50 H V L BNN
+F1 "MAX7300AAIT" -500 -1300 50 H V L BNN
+F2 "footprints:SOP65P777X199-28N" -500 -1500 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Maxim" -350 -1750 50 H V C CNN "MFN"
+F5 "MAX7300AAI" -250 -1700 50 H V C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/maxim-integrated/MAX7300AAX/1511928" -250 -1700 50 H V C CNN "PurchasingLink"
+DRAW
+S -500 -1200 500 1200 0 0 16 f
+X ISET 1 -700 450 200 R 40 40 0 0 B
+X P17 10 -700 -200 200 R 40 40 0 0 B
+X P18 11 -700 -300 200 R 40 40 0 0 B
+X P19 12 -700 -400 200 R 40 40 0 0 B
+X P20 13 -700 -500 200 R 40 40 0 0 B
+X P21 14 -700 -600 200 R 40 40 0 0 B
+X P22 15 700 300 200 L 40 40 0 0 B
+X P23 16 700 200 200 L 40 40 0 0 B
+X P24 17 700 100 200 L 40 40 0 0 B
+X P25 18 700 0 200 L 40 40 0 0 B
+X P26 19 700 -100 200 L 40 40 0 0 B
+X GND 2 700 -1000 200 L 40 40 0 0 W
+X P27 20 700 -200 200 L 40 40 0 0 B
+X P28 21 700 -300 200 L 40 40 0 0 B
+X P29 22 700 -400 200 L 40 40 0 0 B
+X P30 23 700 -500 200 L 40 40 0 0 B
+X P31 24 700 -600 200 L 40 40 0 0 B
+X SDA 25 -700 600 200 R 40 40 0 0 B
+X SCL 26 -700 700 200 R 40 40 0 0 I
+X AD1 27 -700 800 200 R 40 40 0 0 I
+X V+ 28 700 1100 200 L 40 40 0 0 W
+X GND 3 700 -1100 200 L 40 40 0 0 W
+X AD0 4 -700 900 200 R 40 40 0 0 I
+X P12 5 -700 300 200 R 40 40 0 0 B
+X P13 6 -700 200 200 R 40 40 0 0 B
+X P14 7 -700 100 200 R 40 40 0 0 B
+X P15 8 -700 0 200 R 40 40 0 0 B
+X P16 9 -700 -100 200 R 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# MAX7300AAXT
+#
+DEF MAX7300AAXT U 0 40 Y Y 1 F N
+F0 "U" -500 1439 50 H V L BNN
+F1 "MAX7300AAXT" -500 -1557 50 H V L BNN
+F2 "footprints:SOP80P1030X264-36N" -250 2450 50 H I L BNN
+F3 "" -50 1700 50 H I L BNN
+F4 "Maxim" -150 2250 100 H I C CNN "MFN"
+F5 "MAX7300AAX+" -50 2650 100 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/maxim-integrated/MAX7300AAX/1511928" -50 2650 100 H I C CNN "PurchasingLink"
+DRAW
+S -500 -1400 500 1400 0 0 16 f
+X ISET 1 -700 700 200 R 40 40 0 0 B
+X P14 10 -700 -500 200 R 40 40 0 0 B
+X P11 11 -700 -200 200 R 40 40 0 0 B
+X P15 12 -700 -600 200 R 40 40 0 0 B
+X P16 13 -700 -700 200 R 40 40 0 0 B
+X P17 14 -700 -800 200 R 40 40 0 0 B
+X P18 15 700 500 200 L 40 40 0 0 B
+X P19 16 700 400 200 L 40 40 0 0 B
+X P20 17 700 300 200 L 40 40 0 0 B
+X P21 18 700 200 200 L 40 40 0 0 B
+X P22 19 700 100 200 L 40 40 0 0 B
+X GND 2 700 -1100 200 L 40 40 0 0 W
+X P23 20 700 0 200 L 40 40 0 0 B
+X P24 21 700 -100 200 L 40 40 0 0 B
+X P25 22 700 -200 200 L 40 40 0 0 B
+X P26 23 700 -300 200 L 40 40 0 0 B
+X P27 24 700 -400 200 L 40 40 0 0 B
+X P28 25 700 -500 200 L 40 40 0 0 B
+X P7 26 -700 200 200 R 40 40 0 0 B
+X P29 27 700 -600 200 L 40 40 0 0 B
+X P6 28 -700 300 200 R 40 40 0 0 B
+X P30 29 700 -700 200 L 40 40 0 0 B
+X GND 3 700 -1200 200 L 40 40 0 0 W
+X P5 30 -700 400 200 R 40 40 0 0 B
+X P31 31 700 -800 200 L 40 40 0 0 B
+X P4 32 -700 500 200 R 40 40 0 0 B
+X SDA 33 -700 1000 200 R 40 40 0 0 B
+X SCL 34 -700 900 200 R 40 40 0 0 I
+X AD1 35 -700 1100 200 R 40 40 0 0 I
+X V+ 36 700 1300 200 L 40 40 0 0 W
+X AD0 4 -700 1200 200 R 40 40 0 0 I
+X P8 5 -700 100 200 R 40 40 0 0 B
+X P12 6 -700 -300 200 R 40 40 0 0 B
+X P9 7 -700 0 200 R 40 40 0 0 B
+X P13 8 -700 -400 200 R 40 40 0 0 B
+X P10 9 -700 -100 200 R 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
 # MAXM15464
 #
 DEF MAXM15464 U 0 40 Y Y 1 F N
@@ -4369,9 +4686,9 @@ F0 "U" 0 500 50 H V C CNN
 F1 "MAXM15464" 0 600 50 H V C CNN
 F2 "footprints:MAXM15464" 0 600 50 H I C CNN
 F3 "" 0 600 50 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/maxim-integrated/MAXM15464AMB/10209895" 0 0 50 H I C CNN "Purchasing Link"
-F5 "Maxim Integrated" 0 0 50 H I C CNN "Manufacturer"
-F6 "MAXM15464AMB+" 0 0 50 H I C CNN "MPN"
+F4 "MAXM15464AMB+" 0 0 50 H I C CNN "MPN"
+F5 "Maxim Integrated" 0 0 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/en/products/detail/maxim-integrated/MAXM15464AMB/10209895" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -350 400 350 -450 0 1 0 f
 X LX 1 450 -200 100 L 50 50 1 1 I
@@ -4415,7 +4732,7 @@ F2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" 0 -500 50 H I C CIN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" -400 350 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "MCP2561-E/SN-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" 0 750 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOIC*Pitch1.27mm*
 $ENDFPLIST
@@ -4487,7 +4804,7 @@ F2 "footprints:SOT-23-5_OEM" -100 100 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 F4 "DK" 100 300 60 H I C CNN "MFN"
 F5 "MCP6001T-I/OTCT-ND" 200 400 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" 300 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" 200 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT*23*
 $ENDFPLIST
@@ -4510,7 +4827,7 @@ F2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" -100 100 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
 F4 "DK" 100 300 60 H I C CNN "MFN"
 F5 "MCP6001T-I/LTCT-ND" 200 400 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" 300 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" 200 400 60 H I C CNN "PurchasingLink"
 DRAW
 P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
 X V- 2 -100 -300 150 U 50 50 0 1 W
@@ -4530,7 +4847,7 @@ F2 "TO_SOT_Packages_SMD:SOT-23-6" -100 100 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" 0 200 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "MCP603T-E/CHCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP603T-E-CH/MCP603T-E-CHCT-ND/2003473" 400 600 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP603T-E-CH/MCP603T-E-CHCT-ND/2003473" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT*23*
 $ENDFPLIST
@@ -4554,7 +4871,7 @@ F2 "footprints:MCP73871T" 50 850 50 H I L BNN
 F3 "" 50 950 50 H I L BNN
 F4 "D" 0 0 50 H I L BNN
 F5 "MICROCHIP" -500 850 50 H I L BNN
-F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP73871T-2CCI-ML/MCP73871T-2CCI-MLCT-ND/7065594" 0 0 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP73871T-2CCI-ML/MCP73871T-2CCI-MLCT-ND/7065594" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 0 0 10 -600 -800 600 -800 N
 P 2 0 0 10 -600 800 -600 -800 N
@@ -4606,9 +4923,9 @@ F0 "U" -250 250 50 H V C CNN
 F1 "MLX90621ESF-BAB-000-TU" 300 250 50 H V C CNN
 F2 "footprints:MLX90621ESF-BAB-000-TU" 0 -400 50 H I C CNN
 F3 "" -200 300 50 H I C CNN
-F4 "MLX90621ESF-BAB-000-TU-ND " 0 0 50 H I C CNN "MPN"
-F5 "https://www.digikey.com/product-detail/en/melexis-technologies-nv/MLX90621ESF-BAB-000-TU/MLX90621ESF-BAB-000-TU-ND/4968086?utm_adgroup=Sensors%20&%20Transducers" 0 0 50 H I C CNN "PurchaseLink"
-F6 "DK" 0 0 50 H I C CNN "MF"
+F4 "MLX90621ESF-BAB-000-TU-ND" 0 0 50 H I C CNN "MPN"
+F5 "DK" 0 0 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/melexis-technologies-nv/MLX90621ESF-BAB-000-TU/MLX90621ESF-BAB-000-TU-ND/4968086?utm_adgroup=Sensors%20&%20Transducers" 0 0 50 H I C CNN "PurchasingLink"
 ALIAS Si7051-A20 Si7053-A20 Si7054-A20 Si7055-A20
 $FPLIST
  DFN*1EP*3x3mm*P1mm*
@@ -4641,7 +4958,7 @@ F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "https://www.fairchildsemi.com/datasheets/MM/MMBF170.pdf" 200 75 50 H I L CNN
 F4 "DK" 300 175 50 H I C CNN "MFN"
 F5 "MMBF170CT-ND" 400 275 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/on-semiconductor/MMBF170/MMBF170CT-ND/244295" 500 375 50 H V C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/on-semiconductor/MMBF170/MMBF170CT-ND/244295" 400 275 50 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -4676,7 +4993,7 @@ F0 "Q" 200 0 50 H V L BNN
 F1 "MMUN2133LT1G" 200 -100 50 H V L BNN
 F2 "SOT95P240X111-3N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "https://www.digikey.com/en/products/detail/on-semiconductor/MMUN2133LT1G/1482316" 0 0 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/en/products/detail/on-semiconductor/MMUN2133LT1G/1482316" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -10 -100 20 100 0 0 0 F
 P 2 0 0 10 -100 0 0 0 N
@@ -4708,7 +5025,7 @@ F2 "footprints:micromatch_female_ra_4" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-4" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "338070-4" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-338070-4.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-338070-4.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -150 -150 250 0 1 0 f
 X 1 1 250 200 100 L 50 50 1 1 B
@@ -4727,7 +5044,7 @@ F2 "footprints:micromatch_female_ra_6" -100 250 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-6" 0 350 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "338070-6" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-338070-6.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-338070-6.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -300 -150 300 0 1 0 f
 X 1 1 250 250 100 L 50 50 1 1 B
@@ -4748,7 +5065,7 @@ F2 "footprints:micromatch_female_ra_8" -100 300 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-8" 0 400 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "338070-8" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-338070-8.html" 100 500 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-338070-8.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -450 -150 350 0 1 0 f
 X 1 1 250 300 100 L 50 50 1 1 B
@@ -4771,7 +5088,7 @@ F2 "footprints:micromatch_female_ra_10" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F1-338070-0" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338070-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-338070-0.html#guest-click" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-1-338070-0.html#guest-click" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 150 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -4796,7 +5113,7 @@ F2 "footprints:micromatch_female_ra_12" -100 550 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1-338070-2" 0 650 60 H I C CNN
 F4 "TE" 200 850 60 H I C CNN "MFN"
 F5 "1-338070-2" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-338070-2.html" 100 750 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-1-338070-2.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -600 -150 600 0 1 0 f
 X 1 1 250 550 100 L 50 50 1 1 B
@@ -4823,7 +5140,7 @@ F2 "footprints:micromatch_female_ra_14" -50 650 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F1-338070-4" 50 750 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338070-4" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-338070-4.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-1-338070-4.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 200 -700 -100 700 0 1 0 f
 X 1 1 300 650 100 L 50 50 1 1 B
@@ -4852,7 +5169,7 @@ F2 "footprints:micromatch_female_ra_16" -100 800 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English" 0 900 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338070-6" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-338070-6.html" 100 1000 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-1-338070-6.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -750 -150 850 0 1 0 f
 X 1 1 250 800 100 L 50 50 1 1 B
@@ -4883,7 +5200,7 @@ F2 "footprints:micromatch_female_ra_18" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F1-338070-8" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338070-8" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-1-338070-8.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-1-338070-8.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 -650 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -4916,7 +5233,7 @@ F2 "footprints:micromatch_female_ra_20" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "2-338070-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-2-338070-0.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/usa-en/product-2-338070-0.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 -850 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -4951,7 +5268,7 @@ F2 "footprints:micromatch_female_vert_4" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "338068-4" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-338068-4.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-338068-4.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -150 -150 250 0 1 0 f
 X 1 1 250 200 100 L 50 50 1 1 B
@@ -4970,7 +5287,28 @@ F2 "footprints:micromatch_female_vert_6" -100 250 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-6" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "338068-6" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-338068-6.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-338068-6.html" 200 1500 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 -300 -150 300 0 1 0 f
+X 1 1 250 250 100 L 50 50 1 1 B
+X 2 2 250 150 100 L 50 50 1 1 B
+X 3 3 250 50 100 L 50 50 1 1 B
+X 4 4 250 -50 100 L 50 50 1 1 B
+X 5 5 250 -150 100 L 50 50 1 1 B
+X 6 6 250 -250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# MM_F_VT_06_SM
+#
+DEF MM_F_VT_06_SM J 0 40 Y Y 1 F N
+F0 "J" 0 350 60 H V C CNN
+F1 "MM_F_VT_06_SM" 100 -400 60 H V C CNN
+F2 "footprints:micromatch_female_vert_6_sm" -150 400 60 H V C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "7-338069-6" 200 1500 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/7-338069-6/1955661" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -300 -150 300 0 1 0 f
 X 1 1 250 250 100 L 50 50 1 1 B
@@ -4991,7 +5329,7 @@ F2 "footprints:micromatch_female_vert_8" -100 300 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-8" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "338068-8" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-338068-8.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-338068-8.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -450 -150 350 0 1 0 f
 X 1 1 250 300 100 L 50 50 1 1 B
@@ -5014,7 +5352,7 @@ F2 "footprints:micromatch_female_vert_10" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-0" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338068-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-338068-0.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-338068-0.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 150 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -5039,7 +5377,7 @@ F2 "footprints:micromatch_female_vert_12" -100 550 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338068-2" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-338068-2.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-338068-2.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -600 -150 600 0 1 0 f
 X 1 1 250 550 100 L 50 50 1 1 B
@@ -5066,7 +5404,7 @@ F2 "footprints:micromatch_female_vert_14" -50 650 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-4" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338068-4" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-338068-4.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-338068-4.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 200 -700 -100 700 0 1 0 f
 X 1 1 300 650 100 L 50 50 1 1 B
@@ -5095,7 +5433,7 @@ F2 "footprints:micromatch_female_vert_16" -100 800 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338068-6" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-338068-6.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-338068-6.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -750 -150 850 0 1 0 f
 X 1 1 250 800 100 L 50 50 1 1 B
@@ -5126,7 +5464,7 @@ F2 "footprints:micromatch_female_vert_18" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-8" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-338068-8" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-338068-8.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-338068-8.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 -650 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -5159,7 +5497,7 @@ F2 "footprints:micromatch_female_vert_20" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "2-338068-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-2-338068-0.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-2-338068-0.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 50 -850 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -5194,7 +5532,7 @@ F2 "" -100 50 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-215464-4" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "215464-4" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-215464-4.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-215464-4.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -150 100 150 -300 0 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -5213,7 +5551,7 @@ F2 "" -100 250 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-215464-6" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "215464-6" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-215464-6.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-215464-6.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -150 300 150 -300 0 1 0 f
 X 1 1 250 250 100 L 50 50 1 1 B
@@ -5234,7 +5572,7 @@ F2 "footprints:micromatch_female_ra_8" -100 450 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "215464-8" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-215464-8.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-215464-8.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -150 500 150 -300 0 1 0 f
 X 1 1 250 450 100 L 50 50 1 1 B
@@ -5257,7 +5595,7 @@ F2 "" -100 650 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-215464-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-215464-0.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-215464-0.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -150 700 150 -300 0 1 0 f
 X 1 1 250 650 100 L 50 50 1 1 B
@@ -5282,7 +5620,7 @@ F2 "" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-215464-2" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-215464-2.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-215464-2.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -50 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -5309,7 +5647,7 @@ F2 "" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-4" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-215464-4" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-215464-4.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-215464-4.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -250 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -5338,7 +5676,7 @@ F2 "" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-6" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-215464-6" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-215464-6.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-215464-6.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -450 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -5369,7 +5707,7 @@ F2 "" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-8" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "1-215464-8" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-215464-8.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-1-215464-8.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -650 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -5402,7 +5740,7 @@ F2 "footprints:micromatch_female_ra_20" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "2-215464-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-2-215464-0.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-2-215464-0.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -850 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -5435,9 +5773,8 @@ F0 "J" 0 300 60 H V C CNN
 F1 "MX150L_2" 0 -200 60 H V C CNN
 F2 "" -100 250 60 H I C CNN
 F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" 0 350 60 H I C CNN
-F4 "Value" 0 0 60 H I C CNN "Package"
-F5 " WM17505-ND" 300 600 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/0194270032/WM17505-ND/863309" 300 600 60 H I C CNN "Purchasing Link"
+F4 "WM17505-ND" 300 600 60 H I C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/molex-llc/0194270032/WM17505-ND/863309" 300 600 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 250 -150 -150 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
@@ -5454,9 +5791,9 @@ F0 "J" 350 250 60 H V C CNN
 F1 "MegaFit_06_RA" 350 150 60 H V C CNN
 F2 "footprints:MegaFit_06_RA" 400 -260 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/molex/0768250006/5639613" 0 0 50 H I C CNN "Purchasing Link"
-F5 "Molex" 0 0 50 H I C CNN "MFN"
-F6 "0768250006" 0 0 50 H I C CNN "MPN"
+F4 "Molex" 0 0 50 H I C CNN "MFN"
+F5 "768250006" 0 0 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/molex/0768250006/5639613" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  CONN_76825-0006_MOL
 $ENDFPLIST
@@ -5501,7 +5838,7 @@ F2 "" -50 -250 60 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/276/0436501100_PCB_HEADERS-148869.pdf" 50 -150 60 H I C CNN
 F4 "Mouser" 150 -50 60 H I C CNN "MFN"
 F5 "538-43650-1100" 250 50 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Molex/43650-1100?qs=sGAEpiMZZMs%252bGHln7q6pmzorV8rj9woRWnAVJWDO6Ak%3d" 350 150 60 H I C CNN "PurchasingLink"
+F6 "https://www.mouser.com/ProductDetail/Molex/43650-1100?qs=sGAEpiMZZMs%252bGHln7q6pmzorV8rj9woRWnAVJWDO6Ak%3d" 250 50 60 H I C CNN "PurchasingLink"
 DRAW
 S 200 -200 0 -1300 0 1 0 f
 X 1 1 400 -250 200 L 50 50 1 1 I
@@ -5527,7 +5864,7 @@ F2 "" 150 -200 60 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/276/0436501212_PCB_HEADERS-148915.pdf" 250 -100 60 H I C CNN
 F4 "Mouser" 350 0 60 H I C CNN "MFN"
 F5 "538-43650-1212" 450 100 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Molex/43650-1212?qs=sGAEpiMZZMs%252bGHln7q6pmzorV8rj9woRbgLd20ftk7I%3d" 550 200 60 H I C CNN "PurchasingLink"
+F6 "https://www.mouser.com/ProductDetail/Molex/43650-1212?qs=sGAEpiMZZMs%252bGHln7q6pmzorV8rj9woRbgLd20ftk7I%3d" 450 100 60 H I C CNN "PurchasingLink"
 DRAW
 S 350 -150 200 -1350 0 1 0 f
 X 1 1 550 -200 200 L 50 50 1 1 I
@@ -5554,7 +5891,7 @@ F2 "" 200 -250 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430452000_sd.pdf" 300 -150 60 H I C CNN
 F4 "DK" 400 -50 60 H I C CNN "MFN"
 F5 "WM4726-ND" 500 50 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/0430452000/WM4726-ND/531426" 600 150 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/0430452000/WM4726-ND/531426" 500 50 60 H I C CNN "PurchasingLink"
 DRAW
 S 400 -2200 250 -200 0 1 0 f
 X 1 1 600 -250 200 L 50 50 1 1 I
@@ -5589,7 +5926,7 @@ F2 "" -50 -150 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430452400_sd.pdf" 50 -50 60 H I C CNN
 F4 "DK" 150 50 60 H I C CNN "MFN"
 F5 "WM4728-ND" 250 150 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/0430452400/WM4728-ND/531428" 350 250 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/0430452400/WM4728-ND/531428" 250 150 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -2500 0 -100 0 1 0 f
 X 1 1 350 -150 200 L 50 50 1 1 I
@@ -5628,7 +5965,7 @@ F2 "footprints:MicroFit_RA_6" -100 250 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" 0 350 60 H I C CNN
 F4 "Molex" 100 1400 60 H I C CNN "MFN"
 F5 "WM4037-ND" 200 1500 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430450601/WM4037-ND/2421555" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex/0430450601/WM4037-ND/2421555" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -300 -150 300 0 1 0 f
 X 1 1 250 250 100 L 50 50 1 1 B
@@ -5649,7 +5986,7 @@ F2 "footprints:MicroFit_RA_8" -100 300 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" 0 400 60 H I C CNN
 F4 "Molex" 100 1400 60 H I C CNN "MFN"
 F5 "WM3253-ND" 200 1500 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430450801/WM3253-ND/2405169" 100 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex/0430450801/WM3253-ND/2405169" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -450 -150 350 0 1 0 f
 X 1 1 250 300 100 L 50 50 1 1 B
@@ -5672,7 +6009,7 @@ F2 "footprints:MicroFit_RA_10" 100 650 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430451000_sd.pdf" 100 650 50 H I C CNN
 F4 "DK" 0 650 50 H I C CNN "MFN"
 F5 "WM1817-ND" 100 750 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430451000/WM1817-ND/252530" 200 850 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex/0430451000/WM1817-ND/252530" 100 750 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -400 -150 600 1 1 0 f
 X 1 1 250 550 100 L 50 50 1 1 B
@@ -5695,7 +6032,7 @@ F0 "J" 0 400 50 H V C CNN
 F1 "MicroFit_RA_4" 0 300 50 H V C CNN
 F2 "footprints:MicroFit_RA_4" 0 -300 50 H I C CNN
 F3 "" 0 0 100 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527" 0 0 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -100 200 100 -200 1 1 0 f
 X ~ 1 200 150 100 L 50 50 1 1 I
@@ -5714,7 +6051,7 @@ F2 "footprints:MicroFit_RA_2" -50 200 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/436500201_sd.pdf" -50 200 50 H I C CNN
 F4 "DK" 100 250 50 H I C CNN "MFN"
 F5 "WM1865-ND" 200 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" 0 150 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" 200 350 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -5729,9 +6066,8 @@ F0 "J" -100 50 50 H V C CNN
 F1 "MicroFit_RA_V_2" 0 -150 50 H V C CNN
 F2 "footprints:MicroFit_RA_V_2" -50 200 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" -50 200 50 H I C CNN
-F4 "MFN" 100 250 50 H I C CNN "DK"
-F5 "WM1865-ND" 200 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" 0 150 50 H I C CNN "PurchasingLink"
+F4 "WM1865-ND" 200 350 50 H I C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" 200 350 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -5746,9 +6082,8 @@ F0 "J" -100 50 50 H V C CNN
 F1 "MicroFit_RA_V_2_SMD" 0 -150 50 H V C CNN
 F2 "footprints:MicroFit_RA_2_SMD" -50 200 50 H I C CNN
 F3 "" -50 200 50 H I C CNN
-F4 "MFN" 100 250 50 H I C CNN "DK"
-F5 "436500213" 200 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0436500213/WM1895CT-ND/269061" 0 150 50 H I C CNN "PurchasingLink"
+F4 "436500213" 200 350 50 H I C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/molex/0436500213/WM1895CT-ND/269061" 200 350 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -5765,7 +6100,7 @@ F2 "footprints:MicroFit_VT_10" 100 650 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430451012_sd.pdf" 100 650 50 H I C CNN
 F4 "DK" 0 650 50 H I C CNN "MFN"
 F5 "WM1793-ND" 100 750 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430451012/WM1793-ND/252506" 200 850 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex/0430451012/WM1793-ND/252506" 100 750 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -400 -150 600 1 1 0 f
 X 1 1 250 550 100 L 50 50 1 1 B
@@ -5813,7 +6148,7 @@ F1 "MicroFit_VT_4" 0 300 50 H V C CNN
 F2 "footprints:MicroFit_VT_4" 0 -300 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 F4 "430450414" -200 450 50 H V C CNN "MPN"
-F5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509" -300 550 50 H V C CNN "PurchasingLink"
+F5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509" -200 450 50 H V C CNN "PurchasingLink"
 DRAW
 S -100 200 100 -200 0 1 0 f
 X ~ 1 200 150 100 L 50 50 1 1 I
@@ -5830,8 +6165,8 @@ F0 "U" 0 500 50 H V C CNN
 F1 "MicroFit_VT_6" 0 400 50 H V C CNN
 F2 "footprints:MicroFit_VT_6" 0 -400 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "0430450614" -100 650 50 H V C CNN "MPN"
-F5 "https://www.digikey.com/product-detail/en/molex/0430450614/WM1797-ND/252510" -250 550 50 H V C CNN "PurchasingLink"
+F4 "430450614" -100 650 50 H V C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/molex/0430450614/WM1797-ND/252510" -100 650 50 H V C CNN "PurchasingLink"
 DRAW
 S -100 300 100 -300 0 1 0 f
 X ~ 1 200 250 100 L 50 50 1 1 I
@@ -5850,9 +6185,8 @@ F0 "J" -100 50 50 H V C CNN
 F1 "MicroFit_V_2" 0 -150 50 H V C CNN
 F2 "footprints:MicroFit_V_2" -50 200 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" -50 200 50 H I C CNN
-F4 "MFN" 100 250 50 H I C CNN "DK"
-F5 "WM10660-ND" 200 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" 0 150 50 H I C CNN "PurchasingLink"
+F4 "WM10660-ND" 200 350 50 H I C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" 200 350 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -5867,7 +6201,7 @@ F0 "U" 200 400 50 H V C CNN
 F1 "NCP1117ST50T3G" 50 550 50 H V L CNN
 F2 "" -50 850 50 H I C CNN
 F3 "" 300 350 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/on-semiconductor/NCP1117ST50T3G/NCP1117ST50T3GOSCT-ND/1967217" -200 675 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/on-semiconductor/NCP1117ST50T3G/NCP1117ST50T3GOSCT-ND/1967217" 300 350 50 H I C CNN "PurchasingLink"
 DRAW
 S -300 200 300 -200 0 1 0 f
 X GND 1 -100 -300 100 U 50 50 1 1 W
@@ -5886,7 +6220,7 @@ F2 "footprints:SOT-89-3" -50 250 50 H I C CNN
 F3 "http://www.onsemi.com/pub/Collateral/NCP785A-D.PDF" 250 700 50 H I C CNN
 F4 "DK" 0 375 60 H I C CNN "MFN"
 F5 "NCP785AH150T1GOSCT-ND" 100 475 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/on-semiconductor/NCP785AH150T1G/NCP785AH150T1GOSCT-ND/5222200" -100 275 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/on-semiconductor/NCP785AH150T1G/NCP785AH150T1GOSCT-ND/5222200" 100 475 60 H I C CNN "PurchasingLink"
 DRAW
 S -350 50 250 -350 0 1 0 f
 X INPUT 1 -250 -450 100 U 50 50 1 1 W
@@ -5903,9 +6237,9 @@ F0 "Q" -100 200 50 H V C CNN
 F1 "NSS1C201MZ4" -200 -200 50 H V C CNN
 F2 "footprints:SOT-223" -200 100 50 H I C CNN
 F3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" -100 200 50 H I C CNN
-F4 "NSS1C201MZ4T3GOSCT-ND " 0 300 50 H V C CNN "MPN"
+F4 "NSS1C201MZ4T3GOSCT-ND" 0 300 50 H V C CNN "MPN"
 F5 "DK" 100 400 50 H V C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/NSS1C201MZ4T3GOSCT-ND/9087487" 200 500 50 H V C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/NSS1C201MZ4T3GOSCT-ND/9087487" 100 400 50 H V C CNN "PurchasingLink"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -6061,7 +6395,7 @@ F2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" 0 -600 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" 0 -450 60 H I C CNN
 F4 "DK" 0 550 50 H I C CNN "MFN"
 F5 "WM14972-ND" 0 450 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" 0 -800 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" 0 450 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 150 250 -200 0 1 0 f
 X 1 1 -450 50 200 R 50 50 1 1 I
@@ -6261,6 +6595,33 @@ X 9 9 200 -250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# PCA9306
+#
+DEF PCA9306 U 0 40 Y Y 1 F N
+F0 "U" 700 850 50 H V L BNN
+F1 "PCA9306" 0 850 50 H V L BNN
+F2 "footprints:SOP50P310X90-8N_pca9306" 50 2100 50 H I C CIN
+F3 "" -950 1830 50 H I C CNN
+F4 "TI" 50 2100 60 H I C CNN "MFN"
+F5 "PCA9306DCUTG4" 50 2100 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/texas-instruments/PCA9306DCUTG4/1899814" -50 2500 60 H I C CNN "PurchasingLink"
+ALIAS ATMEGA64M1_copy2
+$FPLIST
+ TQFP*32*7x7mm*
+$ENDFPLIST
+DRAW
+S 0 0 800 800 0 1 0 f
+X GND 1 -100 150 100 R 50 50 0 0 W
+X VREF-1 2 -100 650 100 R 50 50 0 0 W
+X SCL-1 3 -100 450 100 R 50 50 0 0 C
+X SDA-1 4 -100 350 100 R 50 50 0 0 C
+X SDA-2 5 900 350 100 L 50 50 0 0 C
+X SCL-2 6 900 450 100 L 50 50 0 0 C
+X VREF-2 7 900 650 100 L 50 50 0 0 W
+X EN 8 900 550 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # POT_TRIM_20k
 #
 DEF POT_TRIM_20k R 0 0 N Y 1 F N
@@ -6270,7 +6631,7 @@ F2 "footprints:POT_TRIM_20k" -70 0 50 H I C CNN
 F3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/st-32.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "ST32ETA203CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/nidec-copal-electronics/ST32ETA203/ST32ETA203CT-ND/738473" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/nidec-copal-electronics/ST32ETA203/ST32ETA203CT-ND/738473" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6309,7 +6670,7 @@ F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "Q8P7BXXG02E" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/apem-inc/Q8P7BXXG02E/3153099" 400 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/apem-inc/Q8P7BXXG02E/3153099" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  LED*
 $ENDFPLIST
@@ -6331,7 +6692,7 @@ F0 "R" 0 450 60 H V C CNN
 F1 "RB228T100" 0 350 60 H V C CNN
 F2 "footprints:TO-220FN" 0 290 60 H I C CNN
 F3 "" -500 50 60 H I C CNN
-F4 "https://www.rohm.com/products/diodes/fast-recovery-diodes/standard/rfn20t2dnz-product" 0 0 50 H I C CNN "Purchasing Link"
+F4 "https://www.rohm.com/products/diodes/fast-recovery-diodes/standard/rfn20t2dnz-product" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  DIO_RB088T1_ROM
 $ENDFPLIST
@@ -6355,7 +6716,7 @@ F2 "footprints:TO-220NFM" 0 -100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Rohm Semiconductor" 0 0 50 H I C CNN "MFN"
 F5 "RFN5TF8SFHC9" 0 0 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RFN5TF8SFHC9/9748271" 0 0 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RFN5TF8SFHC9/9748271" 0 0 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 1 1 0 50 0 -50 0 N
 P 2 1 1 10 50 50 50 -50 N
@@ -6374,7 +6735,7 @@ F2 "footprints:RJ45-RightAngle" -100 -690 60 H I C CNN
 F3 "" 0 -590 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "MRJ-5381-01-ND" 200 -390 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MRJ-5381-01/MRJ-5381-01-ND/1242668" 300 -290 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MRJ-5381-01/MRJ-5381-01-ND/1242668" 200 -390 60 H I C CNN "PurchasingLink"
 DRAW
 S -280 570 650 -190 0 1 0 N
 X CANL 1 -480 430 200 R 50 50 1 1 B
@@ -6403,7 +6764,7 @@ F2 "footprints:RJ45-Vertical" -250 -1050 60 H I C CNN
 F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" -100 -1590 60 H I C CNN
 F4 "DK" 150 -90 60 H V C CNN "MFN"
 F5 "MRJ-5481-01-ND" 100 -1390 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" 300 -1190 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" 100 -1390 60 H I C CNN "PurchasingLink"
 DRAW
 S 450 750 -450 0 0 1 0 N
 X CANL 1 -650 650 200 R 50 50 1 1 B
@@ -6430,11 +6791,8 @@ F0 "PS" -500 330 50 H V L BNN
 F1 "RSOE-0505S_H2" -500 -400 50 H V L BNN
 F2 "footprints:H2" -150 350 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "Recom Power" -150 400 50 H I L BNN "MANUFACTURER"
-F5 "Manufacturer Recommendations" -150 450 50 H I L BNN "STANDARD"
-F6 "11.1mm" -150 500 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F7 "4/2020" -150 550 50 H I L BNN "PARTREV"
-F8 "https://www.digikey.com/en/products/detail/recom-power/RSOE-0505S-H2/6483554" -50 650 50 H I C CNN "Purchasing Link"
+F4 "Recom Power" -50 650 50 H I C CNN "MFN"
+F5 "https://www.digikey.com/en/products/detail/recom-power/RSOE-0505S-H2/6483554" -50 650 50 H I C CNN "PurchasingLink"
 DRAW
 S -500 -300 500 300 0 0 10 f
 X -VIN 1 -700 -200 200 R 40 40 0 0 I
@@ -6456,7 +6814,7 @@ F2 "footprints:R_0603_1608Metric" -70 0 50 H I C CNN
 F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P0.0GCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6477,7 +6835,7 @@ F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6496,7 +6854,7 @@ F0 "R" 0 -100 50 H V C CNN
 F1 "R_1" 0 100 50 H V C CNN
 F2 "footprints:R_0805_OEM" -100 -200 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071RL/311-1.00HRCT-ND/729789" 0 -250 50 H I C CNN "Link"
+F4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071RL/311-1.00HRCT-ND/729789" 0 0 50 V I C CNN "PurchasingLink"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -6513,7 +6871,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P1.07KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1071V/P1.07KDACT-ND/3074919" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1071V/P1.07KDACT-ND/3074919" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6534,7 +6892,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P1.13KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1131V/P1.13KDACT-ND/3074923" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1131V/P1.13KDACT-ND/3074923" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6555,7 +6913,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "Vishay Dale" 0 0 60 H I C CNN "MFN"
 F5 "CRCW08051M18FKEA" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051M18FKEA/1176023" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051M18FKEA/1176023" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6604,7 +6962,7 @@ F2 "footprints:R_0805_OEM" -200 300 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/RN73_Series_2011.pdf" 50 -300 50 H I C CNN
 F4 "DK" 0 -500 60 H I C CNN "MFN"
 F5 "A103351CT-ND" 0 -400 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RN73C2A1K43BTDF/A103351CT-ND/2730566" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RN73C2A1K43BTDF/A103351CT-ND/2730566" 0 -400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6625,7 +6983,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "Panasonic" 0 0 50 H I C CNN "MFN"
 F5 "ERJ-6ENF1541V" 0 0 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6ENF1541V/111317" 0 0 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6ENF1541V/111317" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6646,7 +7004,7 @@ F2 "footprints:R_2010_Vishay" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "Vishay" 0 0 60 H I C CNN "MFN"
 F5 "CRCW20101K50FKEF" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW20101K50FKEF/1198525" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW20101K50FKEF/1198525" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6667,7 +7025,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT1M82CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6708,7 +7066,7 @@ F2 "footprints:R_0805_OEM" 500 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 300 0 50 V I C CNN
 F4 "DK" 180 100 60 V I C CNN "MFN"
 F5 "P178KDATR-ND" 280 200 60 V I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDATR-ND/2025864" 380 300 60 V I C CNN "Webpage"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDATR-ND/2025864" 380 300 60 V I C CNN "PurchasingLink"
 $FPLIST
  R_*
  R_*
@@ -6727,7 +7085,7 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_1.91K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D1911V/P21049CT-ND/6215304" 480 400 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D1911V/P21049CT-ND/6215304" 80 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6748,7 +7106,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "Panasonic Electronic Components" 0 0 60 H I C CNN "MFN"
 F5 "ERJ-P06F10R0V" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-P06F10R0V/5722444" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-P06F10R0V/5722444" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6769,7 +7127,7 @@ F2 "footprints:R_0805_OEM" -800 150 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" -300 500 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RNCP0805FTD100RCT-ND" -650 250 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" -650 250 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6790,7 +7148,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P100KCCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6811,7 +7169,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6831,8 +7189,8 @@ F1 "R_10K_HV" -100 0 50 V V C CNN
 F2 "footprints:R_1K_HV" -70 0 50 H I C CNN
 F3 "http://www.vishay.com/docs/28731/pacserie.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "PPC5D10.0KCT-ND " 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F5 "PPC5D10.0KCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6851,8 +7209,8 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_10_2W_2512" -100 0 50 V V C CNN
 F2 "formula:R_2512_LARGE" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
-F4 "TE" 0 0 60 H I C CNN "MFG"
-F5 "352110RFT" 0 0 60 H I C CNN "MPN"
+F4 "352110RFT" 0 0 60 H I C CNN "MPN"
+F5 "TE" 480 400 60 H I C CNN "MFN"
 F6 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/352110RFT/4279809" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
@@ -6874,7 +7232,7 @@ F2 "footprints:R_2512_LARGE" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "Bourns" 0 0 60 H I C CNN "MFN"
 F5 "CRA2512-FZ-R010ELF" 0 0 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Bourns/CRA2512-FZ-R010ELF?qs=WqWCsLCZBkoNPiv%2FXVnYvw%3D%3D" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.mouser.com/ProductDetail/Bourns/CRA2512-FZ-R010ELF?qs=WqWCsLCZBkoNPiv%2FXVnYvw%3D%3D" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6895,7 +7253,7 @@ F2 "footprints:R_0805_OEM" -1200 150 50 H I L CNN
 F3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" -1200 450 50 H I L CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "667-ERJ-6ENF1200V" -1200 250 60 H I L CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" -1200 350 60 H I L CNN "PurchasingLink"
+F6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" -1200 250 60 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6916,7 +7274,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT120KCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -6937,10 +7295,31 @@ F2 "footprints:R_0805_OEM" -1200 150 50 H I L CNN
 F3 "" -1200 450 50 H I L CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "667-ERJ-6ENF1200V" -1200 250 60 H I L CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" -1200 350 60 H I L CNN "PurchasingLink"
+F6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" -1200 250 60 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_12K
+#
+DEF R_12K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_12K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
+F3 "" 80 0 50 V I C CNN
+F4 "TE" 180 100 60 V I C CNN "MFN"
+F5 "CRGP0805F12K" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGP0805F12K/8577092" 280 200 60 V I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -6956,8 +7335,8 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_13_2W_2512_0" -100 0 50 V V C CNN
 F2 "formula:R_2512_LARGE" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
-F4 "TE" 0 0 60 H I C CNN "MFG"
-F5 "352113RFT" 0 0 60 H I C CNN "MPN"
+F4 "352113RFT" 0 0 60 H I C CNN "MPN"
+F5 "TE" 480 400 60 H I C CNN "MFN"
 F6 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/352113RFT/4280006" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
@@ -6977,7 +7356,7 @@ F0 "R" 0 -100 50 H V C CNN
 F1 "R_15k" 0 100 50 H V C CNN
 F2 "footprints:R_0805_OEM" -100 -200 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "https://www.digikey.com/en/products/detail/yageo/RE0805FRE0715KL/5923506" 0 -250 50 H I C CNN "Link"
+F4 "https://www.digikey.com/en/products/detail/yageo/RE0805FRE0715KL/5923506" 0 0 50 V I C CNN "PurchasingLink"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -6994,7 +7373,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P17.4KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1742V/P17.4KDACT-ND/3074988" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1742V/P17.4KDACT-ND/3074988" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7015,7 +7394,7 @@ F2 "footprints:R_0805_OEM" 0 -50 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 100 50 50 H I C CNN
 F4 "DK" 200 150 50 H I C CNN "MFN"
 F5 "P17.8KCCT-ND" 300 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1782V/P17.8KCCT-ND/119333" 500 450 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1782V/P17.8KCCT-ND/119333" 300 250 50 H I C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 1 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -7032,7 +7411,7 @@ F2 "footprints:R_0805_OEM" 500 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 300 0 50 V I C CNN
 F4 "DK" 180 100 60 V I C CNN "MFN"
 F5 "P178KDATR-ND" 280 200 60 V I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDATR-ND/2025864" 380 300 60 V I C CNN "Webpage"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDATR-ND/2025864" 380 300 60 V I C CNN "PurchasingLink"
 $FPLIST
  R_*
  R_*
@@ -7067,7 +7446,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7088,7 +7467,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P1.0KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7109,9 +7488,7 @@ F2 "footprints:R_1k_HS_TO247" -70 0 50 H I C CNN
 F3 "https://riedon.com/media/pdf/PF2470.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "696-1105-5-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=696-1105-5-ND" 480 400 60 H I C CNN "PurchasingLink"
-F7 "345-1223-ND" 580 500 60 V I C CNN "MPN2"
-F8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1223-ND/3945700" 680 600 60 V I C CNN "PurchasingLink2"
+F6 "https://www.digikey.com/products/en?keywords=696-1105-5-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7132,7 +7509,7 @@ F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "Bourns Inc." 0 0 60 H I C CNN "MFN"
 F5 "CHP2512-FX-1001ELF" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/bourns-inc/CHP2512-FX-1001ELF/9598609" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/bourns-inc/CHP2512-FX-1001ELF/9598609" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7153,7 +7530,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805JT1M00CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7172,7 +7549,7 @@ F0 "R" 0 -100 50 H V C CNN
 F1 "R_1_1W" 0 100 50 H V C CNN
 F2 "formula:R_2512_LARGE" -100 -200 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW25121R00FNEG/1173515" 0 -250 50 H I C CNN "Link"
+F4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW25121R00FNEG/1173515" 0 0 50 V I C CNN "PurchasingLink"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -7203,7 +7580,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT2K20CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7224,7 +7601,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "541-2.94MCCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7245,7 +7622,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805JT200RCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7300,7 +7677,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805JT22K0CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7321,7 +7698,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/catalog/SEI-HVC.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "HVCB0805JDE22M0CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=resistor&k=&pkeyword=resistor&pv7=2&pv2085=u22+MOhms&pv2=1854&pv2=819&pv2=799&pv2=2297&pv2=1169&pv2=246&pv2=982&pv2=1&pv2=984&pv2=1727&pv2=2&pv2=1452&pv2=3&pv2=38&pv2=1766&pv2=814&pv2=556&pv2=1448&pv2=4&pv16=6&sf=1&FV=ffe00034&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=resistor&k=&pkeyword=resistor&pv7=2&pv2085=u22+MOhms&pv2=1854&pv2=819&pv2=799&pv2=2297&pv2=1169&pv2=246&pv2=982&pv2=1&pv2=984&pv2=1727&pv2=2&pv2=1452&pv2=3&pv2=38&pv2=1766&pv2=814&pv2=556&pv2=1448&pv2=4&pv16=6&sf=1&FV=ffe00034&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&datasheet=1&pageSize=25" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7341,8 +7718,8 @@ F1 "R_23.7K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "P21173CT-ND " 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PB6D2372V/6213956" 480 400 60 H I C CNN "PurchasingLink"
+F5 "P21173CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PB6D2372V/6213956" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7363,7 +7740,7 @@ F2 "footprints:R_0805_OEM" 50 -550 50 H I C CNN
 F3 "" 0 -400 50 H I C CNN
 F4 "DK" -600 0 60 H I C CNN "MFN"
 F5 "A124124CT-ND" 50 500 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044" 50 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044" 50 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7384,7 +7761,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 100 50 V I C CNN
 F4 "DK" 180 100 60 V I C CNN "MFN"
 F5 "P270KDACT-ND" 280 200 60 V I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB274V/P270KDACT-ND/1466005" 380 300 60 V I C CNN "Webpage"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB274V/P270KDACT-ND/1466005" 380 300 60 V I C CNN "PurchasingLink"
 $FPLIST
  R_*
  R_*
@@ -7405,7 +7782,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "311-3.01KCRCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7426,7 +7803,7 @@ F2 "footprints:PWR163" -250 50 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "DK" -50 250 50 H I C CNN "MFN"
 F5 "PWR163S-25-3R30F-ND" 50 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" 150 450 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" 50 350 50 H I C CNN "PurchasingLink"
 DRAW
 S 100 -50 -100 50 0 1 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
@@ -7444,7 +7821,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "Yageo" 0 0 60 H I C CNN "MFN"
 F5 "RC0805FR-073M65L" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/yageo/RC0805FR-073M65L/727830" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/yageo/RC0805FR-073M65L/727830" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7463,8 +7840,8 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_3.6_5W_SMD" -100 0 50 V V C CNN
 F2 "footprints:SM_5" -70 0 50 H I C CNN
 F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English" 80 0 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFG"
-F5 "A131834CT-ND" 0 0 60 H I C CNN "MPN"
+F4 "A131834CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "DK" 480 400 60 H I C CNN "MFN"
 F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SMW53R6JT/A131834CT-ND/8603964" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
@@ -7486,7 +7863,28 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P300KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" 0 0 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_33.2k
+#
+DEF R_33.2k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_33.2k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 500 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
+F4 "TE" 0 600 50 H I C CNN "MFN"
+F5 "5-2176093-2" 0 500 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/5-2176093-2/4034157" 0 500 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7507,7 +7905,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT330RCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT330R/RMCF0805FT330RCT-ND/1942351" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT330R/RMCF0805FT330RCT-ND/1942351" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7546,12 +7944,33 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_36.5k" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
-F4 "https://www.digikey.com/en/products/detail/yageo/RT0805BRD0736K5L/1075844" -1100 500 60 H I L CNN "PurchasingLink"
-F5 "Yageo" 0 0 50 H I C CNN "MFN"
-F6 "RT0805BRD0736K5L" 0 0 50 H I C CNN "MPN"
+F4 "Yageo" 0 0 50 H I C CNN "MFN"
+F5 "RT0805BRD0736K5L" 0 0 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/yageo/RT0805BRD0736K5L/1075844" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_39K
+#
+DEF R_39K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_39K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
+F3 "" 80 0 50 V I C CNN
+F4 "TE" 180 100 60 V I C CNN "MFN"
+F5 "CRG0805F39K" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F39K/2380898" 280 200 60 V I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -7569,7 +7988,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT3K00CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7590,9 +8009,7 @@ F2 "footprints:R_3k_HS_TO247" -70 0 50 H I C CNN
 F3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "AP1013KJ-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" 480 400 60 H I C CNN "PurchasingLink"
-F7 "345-1223-ND" 580 500 60 V I C CNN "MPN2"
-F8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1223-ND/3945700" 680 600 60 V I C CNN "PurchasingLink2"
+F6 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7613,7 +8030,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
 F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" 80 0 50 V I C CNN
 F4 "DK" 180 100 60 V I C CNN "MFN"
 F5 "311-4.7KARCT-ND" 280 200 60 V I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274" 380 300 60 V I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274" 280 200 60 V I C CNN "PurchasingLink"
 $FPLIST
  R_*
  R_*
@@ -7632,9 +8049,9 @@ F0 "R" -100 50 50 H V C CNN
 F1 "R_4.99K" 100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 -50 50 H I C CNN
 F3 "" -100 50 50 H I C CNN
-F4 "RNCP0805FTD4K99CT-ND " 0 150 50 H I C CNN "MPN"
+F4 "RNCP0805FTD4K99CT-ND" 0 150 50 H I C CNN "MPN"
 F5 "DK" 100 250 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" 200 350 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" 100 250 50 H I C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -7651,7 +8068,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT402KCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT402K/RMCF0805FT402KCT-ND/2418398" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT402K/RMCF0805FT402KCT-ND/2418398" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7704,7 +8121,28 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "311-475CRCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" 0 0 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_49.90k
+#
+DEF R_49.90k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_49.90k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 500 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
+F4 "Panasonic" 0 600 50 H I C CNN "MFN"
+F5 "ERA-6AEB4992V" 0 500 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6AEB4992V/2025816" 0 500 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7723,7 +8161,7 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_49.9K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
-F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB4992V/P49-9KDACT-ND/3075162" -1100 500 60 H I L CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB4992V/P49-9KDACT-ND/3075162" -1100 400 50 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7744,7 +8182,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P499CCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4990V/P499CCT-ND/118870" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4990V/P499CCT-ND/118870" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7765,7 +8203,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
 F3 "" 80 0 50 V I C CNN
 F4 "Vishay Dale" 180 100 60 V I C CNN "MFN"
 F5 "CRCW08054K00FKTA" 280 200 60 V I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08054K00FKTA/5075408" 380 300 60 V I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08054K00FKTA/5075408" 280 200 60 V I C CNN "PurchasingLink"
 $FPLIST
  R_*
  R_*
@@ -7800,7 +8238,7 @@ F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" -1100 400 50 H I L CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P51.1KCCT-ND" -1100 200 60 H I L CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" -1100 500 60 H I L CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" -1100 200 60 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7819,7 +8257,7 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_52.3k" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
-F4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6AEB5232V/2025818" 480 400 60 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6AEB5232V/2025818" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7840,7 +8278,7 @@ F2 "footprints:R_2010_Vishay" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "Vishay" 0 0 60 H I C CNN "MFN"
 F5 "CRCW2010536KFKEF" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7861,7 +8299,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "311-54.9KCRCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0754K9L/311-54.9KCRCT-ND/730976" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0754K9L/311-54.9KCRCT-ND/730976" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7896,7 +8334,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "541-576KCCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7915,7 +8353,7 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_6.04K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 550 50 H I C CNN
 F3 "" 80 550 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6041V/P6.04KCCT-ND/119185" 480 400 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6041V/P6.04KCCT-ND/119185" 80 550 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7936,7 +8374,7 @@ F2 "footprints:R_0805_OEM" -70 550 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 550 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "P6.20KCCT-ND" 0 550 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6201V/P6.20KCCT-ND/1746887" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6201V/P6.20KCCT-ND/1746887" 0 550 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7955,7 +8393,7 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_6.2M" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
-F4 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08056M20FKEA/541-6-20MCTR-ND/1176107" -1100 500 60 H I L CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08056M20FKEA/541-6-20MCTR-ND/1176107" -1100 400 50 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -7976,7 +8414,7 @@ F2 "footprints:R_0805_OEM" -200 -100 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" -100 0 50 H I C CNN
 F4 "DK" 0 100 50 H I C CNN "MFN"
 F5 "P60.4DACT-ND" 100 200 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" 200 300 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" 100 200 50 H I C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -7993,7 +8431,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT604KCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -8012,7 +8450,7 @@ F0 "R" -100 0 50 H V C CNN
 F1 "R_63.4" 100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 -100 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF63R4V/P63-4CCT-ND/118611" 200 300 50 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF63R4V/P63-4CCT-ND/118611" -100 0 50 H I C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -8029,7 +8467,7 @@ F2 "footprints:R_0805_OEM" -70 550 50 H I C CNN
 F3 "" 80 550 50 H I C CNN
 F4 "Vishay" 0 0 60 H I C CNN "MFN"
 F5 "CRCW080567K0FKTA" 0 550 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080567K0FKTA/5075822?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsA7AAQDWA8gBYC2%2BIAuqQA4AXKCACqAOwCWglpgCyhbPgCuAJ0IgAvptIwqIdfkn5BZVdx6agA" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080567K0FKTA/5075822?s=N4IgjCBcoEwAwA4CsVQGMoDMCGAbAzgKYA0IA9lANogBsA7AAQDWA8gBYC2%2BIAuqQA4AXKCACqAOwCWglpgCyhbPgCuAJ0IgAvptIwqIdfkn5BZVdx6agA" 0 550 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -8050,7 +8488,7 @@ F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "ERJ-6ENF6982V" 0 0 50 H I C CNN "MPN"
 F5 "Panasonic Electronic Components" 0 0 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6ENF6982V/111648" 0 0 50 H I C CNN "Purchasing"
+F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6ENF6982V/111648" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -8071,7 +8509,7 @@ F2 "footprints:R_2512_LARGE" -70 0 50 H I C CNN
 F3 "" 80 0 50 H I C CNN
 F4 "TT Electronics" 0 0 60 H I C CNN "MFN"
 F5 "LRMAP2512-R006FT4" 0 0 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Welwyn-Components-TT-Electronics/LRMAP2512-R006FT4?qs=GbEj%2Fc2lfnfWcu9yMDcoiQ%3D%3D" 480 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.mouser.com/ProductDetail/Welwyn-Components-TT-Electronics/LRMAP2512-R006FT4?qs=GbEj%2Fc2lfnfWcu9yMDcoiQ%3D%3D" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -8090,7 +8528,7 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_7.5M" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
-F4 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-077M5L/311-7-50MCRTR-ND/728117" -1100 500 60 H I L CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-077M5L/311-7-50MCRTR-ND/728117" -1100 400 50 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -8141,6 +8579,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_8.06k
+#
+DEF R_8.06k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_8.06k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 500 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
+F4 "TE" 0 600 50 H I C CNN "MFN"
+F5 "RQ73C2A8K06BTD" 0 500 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RQ73C2A8K06BTD/9480725" 0 500 50 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_80.6k
 #
 DEF R_80.6k R 0 0 N Y 1 F N
@@ -8148,9 +8607,9 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_80.6k" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
-F4 "https://www.digikey.com/en/products/detail/yageo/RT0805BRD0780K6L/1076052" -1100 500 60 H I L CNN "PurchasingLink"
-F5 "Yageo" 0 0 50 H I C CNN "MFN"
-F6 "RT0805BRD0780K6L" 0 0 50 H I C CNN "MPN"
+F4 "Yageo" 0 0 50 H I C CNN "MFN"
+F5 "RT0805BRD0780K6L" 0 0 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/yageo/RT0805BRD0780K6L/1076052" 0 0 50 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -8169,7 +8628,7 @@ F0 "R" -100 50 50 H V C CNN
 F1 "R_9.53K" 100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 -50 50 H I C CNN
 F3 "" -100 50 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB9531V/P9-53KDACT-ND/3075291" 200 350 50 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB9531V/P9-53KDACT-ND/3075291" -100 50 50 H I C CNN "PurchasingLink"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -8184,7 +8643,7 @@ F0 "R" 0 -100 50 H V C CNN
 F1 "R_90k" 0 100 50 H V C CNN
 F2 "footprints:R_0805_OEM" -100 -200 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PTN0805E9002BST1/7103062" 0 -250 50 H I C CNN "Link"
+F4 "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PTN0805E9002BST1/7103062" 0 0 50 V I C CNN "PurchasingLink"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -8201,7 +8660,7 @@ F2 "" -70 0 50 V I C CNN
 F3 "http://datasheets.globalspec.com/ds/580/OMEGAEngineering/A8335787-996B-432A-9EB0-AFA91F83BF20" 100 -100 50 V I C CNN
 F4 "OMEGA" 200 0 60 V I C CNN "MFN"
 F5 "SGT-1/350-XY41" 300 100 60 V I C CNN "MPN"
-F6 "https://www.omega.com/pptst/SGT_2-ELEMENT90.html" 400 200 60 V I C CNN "PurchasingLink"
+F6 "https://www.omega.com/pptst/SGT_2-ELEMENT90.html" 300 100 60 V I C CNN "PurchasingLink"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -8317,7 +8776,7 @@ F2 "footprints:sd_socket_molex_5009980900" -100 -100 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/5009980900_sd.pdf" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
 F5 "WM24032CT-ND" 200 200 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/5009980900/WM24032CT-ND/1135941" 300 300 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/5009980900/WM24032CT-ND/1135941" 200 200 50 H I C CNN "PurchasingLink"
 DRAW
 S -150 -150 400 -1050 0 1 0 f
 X CS 1 -350 -500 200 R 50 50 1 1 I
@@ -8917,7 +9376,7 @@ F0 "U" -50 450 50 H V C CNN
 F1 "SN74LV4052APWR" 0 0 50 V V C CNN
 F2 "" -650 300 50 V I C CNN
 F3 "www.ti.com/lit/ds/symlink/sn74lv4052a.pdf" 0 950 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LV4052APWR/296-3831-1-ND/390425" 600 850 50 H I C CNN "Purchasing Link"
+F4 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LV4052APWR/296-3831-1-ND/390425" 600 850 50 H I C CNN "PurchasingLink"
 DRAW
 S 200 500 -300 -450 0 1 0 f
 X I0B 1 400 -400 200 L 50 50 1 1 I
@@ -8948,7 +9407,7 @@ F2 "footprints:SOT-23-5_OEM" 0 -450 60 H V C CNN
 F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" 0 -550 60 H V C CNN
 F4 "DK" 900 0 60 H V C CNN "MFN"
 F5 "296-11597-1-ND" 0 -700 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G02DBVR/296-11597-2-ND/385714" 0 -800 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G02DBVR/296-11597-2-ND/385714" 0 -700 60 H I C CNN "PurchasingLink"
 DRAW
 A -480 0 381 232 -232 0 1 0 N -130 150 -130 -150
 A -180 250 472 -580 -320 0 1 0 N 70 -150 220 0
@@ -8973,7 +9432,7 @@ F2 "footprints:SOT-23-5_OEM" 0 -1000 60 H V C CNN
 F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf" 0 -850 60 H V C CNN
 F4 "DK" 600 0 60 H V C CNN "MFN"
 F5 "296-11601-2-ND" 0 -450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G08DBVR/296-11601-2-ND/385718" 0 -650 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G08DBVR/296-11601-2-ND/385718" 0 -450 60 H I C CNN "PurchasingLink"
 DRAW
 A 0 0 150 -899 899 1 1 0 N 0 -150 0 150
 P 4 0 1 0 0 150 -100 150 -100 -150 0 -150 N
@@ -8994,7 +9453,7 @@ F2 "" 0 150 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g123.pdf" 0 150 60 H I C CNN
 F4 "DK" -50 400 60 H I C CNN "MFN"
 F5 "296-18758-1-ND" -150 300 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G123DCTR/296-18758-1-ND/863888" 50 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G123DCTR/296-18758-1-ND/863888" -150 300 60 H I C CNN "PurchasingLink"
 DRAW
 S -300 150 300 -250 0 1 0 f
 X A 1 -500 100 200 R 50 50 1 1 I
@@ -9017,7 +9476,7 @@ F2 "" 0 0 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf" 0 0 60 H I C CNN
 F4 "DK" -50 400 60 H I C CNN "MFN"
 F5 "296-11933-1-ND" -150 300 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G17DBVR/296-11933-1-ND/389050" 50 500 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G17DBVR/296-11933-1-ND/389050" -150 300 60 H I C CNN "PurchasingLink"
 DRAW
 S 850 50 350 -350 0 1 0 f
 X N.C. 1 1050 -50 200 L 50 50 1 1 O
@@ -9037,7 +9496,7 @@ F2 "footprints:SOT-23-5_OEM" 0 -900 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf" 0 -700 50 H I C CNN
 F4 "DK" 700 0 50 H I C CNN "MFN"
 F5 "296-9847-1-ND" 0 -500 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G32DBVR/296-9847-1-ND/380102" 0 -800 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G32DBVR/296-9847-1-ND/380102" 0 -500 50 H I C CNN "PurchasingLink"
 $FPLIST
  sot-23-5
 $ENDFPLIST
@@ -9066,7 +9525,7 @@ F2 "" -200 1100 60 H I C CNN
 F3 "http://suddendocs.samtec.com/catalog_english/ss.pdf" -100 1200 60 H I C CNN
 F4 "SAMTEC" 100 1400 60 H I C CNN "MFN"
 F5 "SS-126-G-2" 200 1500 60 H I C CNN "MPN"
-F6 "https://www.samtec.com/products/ss-126-g-2" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "https://www.samtec.com/products/ss-126-g-2" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -1450 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -9107,7 +9566,7 @@ F2 "footprints:D_SOD-123W_OEM" -100 0 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 F4 "DK" 200 300 60 H I C CNN "MFN"
 F5 "SS110LWRVGCT-ND" 100 200 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" 300 400 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" 100 200 60 H I C CNN "PurchasingLink"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -9133,7 +9592,7 @@ F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
 F3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" 200 75 50 H I L CNN
 F4 "DK" 500 375 60 H I C CNN "MFN"
 F5 "SSM3K333RLFCT-ND" 400 275 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 400 275 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -9161,6 +9620,165 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SSW-115-01-G-D
+#
+DEF SSW-115-01-G-D J 0 40 Y Y 1 F N
+F0 "J" -320 800 50 H V L BNN
+F1 "SSW-115-01-G-D" -300 -900 50 H V L BNN
+F2 "footprints:SAMTEC_SSW-115-01-G-D" -100 1200 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Samtec" -50 1350 50 H I L BNN "MFN"
+F5 "SSW-115-01-G-D" 100 1000 100 H V C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/samtec-inc/SSW-115-01-G-D/1112043" 100 1000 100 H V C CNN "PurchasingLink"
+DRAW
+S -300 -800 300 800 0 0 10 f
+X 01 01 500 700 200 L 40 40 0 0 P
+X 02 02 -500 700 200 R 40 40 0 0 P
+X 03 03 500 600 200 L 40 40 0 0 P
+X 04 04 -500 600 200 R 40 40 0 0 P
+X 05 05 500 500 200 L 40 40 0 0 P
+X 06 06 -500 500 200 R 40 40 0 0 P
+X 07 07 500 400 200 L 40 40 0 0 P
+X 08 08 -500 400 200 R 40 40 0 0 P
+X 09 09 500 300 200 L 40 40 0 0 P
+X 10 10 -500 300 200 R 40 40 0 0 P
+X 11 11 500 200 200 L 40 40 0 0 P
+X 12 12 -500 200 200 R 40 40 0 0 P
+X 13 13 500 100 200 L 40 40 0 0 P
+X 14 14 -500 100 200 R 40 40 0 0 P
+X 15 15 500 0 200 L 40 40 0 0 P
+X 16 16 -500 0 200 R 40 40 0 0 P
+X 17 17 500 -100 200 L 40 40 0 0 P
+X 18 18 -500 -100 200 R 40 40 0 0 P
+X 19 19 500 -200 200 L 40 40 0 0 P
+X 20 20 -500 -200 200 R 40 40 0 0 P
+X 21 21 500 -300 200 L 40 40 0 0 P
+X 22 22 -500 -300 200 R 40 40 0 0 P
+X 23 23 500 -400 200 L 40 40 0 0 P
+X 24 24 -500 -400 200 R 40 40 0 0 P
+X 25 25 500 -500 200 L 40 40 0 0 P
+X 26 26 -500 -500 200 R 40 40 0 0 P
+X 27 27 500 -600 200 L 40 40 0 0 P
+X 28 28 -500 -600 200 R 40 40 0 0 P
+X 29 29 500 -700 200 L 40 40 0 0 P
+X 30 30 -500 -700 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SSW-120-01-F-D
+#
+DEF SSW-120-01-F-D J 0 40 Y Y 1 F N
+F0 "J" -320 1100 50 H V L BNN
+F1 "SSW-120-01-F-D" -300 -1100 50 H V L BNN
+F2 "footprints:SAMTEC_SSW-120-01-F-D" -300 1550 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Samtec" -50 1300 50 H I L BNN "MFN"
+F5 "SSW-120-01-F-D" 100 1450 100 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/samtec-inc/SSW-120-01-F-D/6678773" 100 1450 100 H I C CNN "PurchasingLink"
+DRAW
+S -300 -1000 300 1100 0 0 10 f
+X 01 01 500 1000 200 L 40 40 0 0 P
+X 02 02 -500 1000 200 R 40 40 0 0 P
+X 03 03 500 900 200 L 40 40 0 0 P
+X 04 04 -500 900 200 R 40 40 0 0 P
+X 05 05 500 800 200 L 40 40 0 0 P
+X 06 06 -500 800 200 R 40 40 0 0 P
+X 07 07 500 700 200 L 40 40 0 0 P
+X 08 08 -500 700 200 R 40 40 0 0 P
+X 09 09 500 600 200 L 40 40 0 0 P
+X 10 10 -500 600 200 R 40 40 0 0 P
+X 11 11 500 500 200 L 40 40 0 0 P
+X 12 12 -500 500 200 R 40 40 0 0 P
+X 13 13 500 400 200 L 40 40 0 0 P
+X 14 14 -500 400 200 R 40 40 0 0 P
+X 15 15 500 300 200 L 40 40 0 0 P
+X 16 16 -500 300 200 R 40 40 0 0 P
+X 17 17 500 200 200 L 40 40 0 0 P
+X 18 18 -500 200 200 R 40 40 0 0 P
+X 19 19 500 100 200 L 40 40 0 0 P
+X 20 20 -500 100 200 R 40 40 0 0 P
+X 21 21 500 0 200 L 40 40 0 0 P
+X 22 22 -500 0 200 R 40 40 0 0 P
+X 23 23 500 -100 200 L 40 40 0 0 P
+X 24 24 -500 -100 200 R 40 40 0 0 P
+X 25 25 500 -200 200 L 40 40 0 0 P
+X 26 26 -500 -200 200 R 40 40 0 0 P
+X 27 27 500 -300 200 L 40 40 0 0 P
+X 28 28 -500 -300 200 R 40 40 0 0 P
+X 29 29 500 -400 200 L 40 40 0 0 P
+X 30 30 -500 -400 200 R 40 40 0 0 P
+X 31 31 500 -500 200 L 40 40 0 0 P
+X 32 32 -500 -500 200 R 40 40 0 0 P
+X 33 33 500 -600 200 L 40 40 0 0 P
+X 34 34 -500 -600 200 R 40 40 0 0 P
+X 35 35 500 -700 200 L 40 40 0 0 P
+X 36 36 -500 -700 200 R 40 40 0 0 P
+X 37 37 500 -800 200 L 40 40 0 0 P
+X 38 38 -500 -800 200 R 40 40 0 0 P
+X 39 39 500 -900 200 L 40 40 0 0 P
+X 40 40 -500 -900 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SSW-122-01-G-D
+#
+DEF SSW-122-01-G-D J 0 40 Y Y 1 F N
+F0 "J" -320 1200 50 H V L BNN
+F1 "SSW-122-01-G-D" -300 -1200 50 H V L BNN
+F2 "footprints:SAMTEC_SSW-122-01-G-D" 1000 -200 50 H I L BNN
+F3 "" 1250 100 50 H I L BNN
+F4 "Samtec" 1300 100 50 H I C CNN "MFN"
+F5 "SSW-122-01-G-D" 1100 50 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/samtec-inc/SSW-122-01-G-D/1112036" 1100 50 50 H I C CNN "PurchasingLink"
+DRAW
+S -300 -1100 300 1200 0 0 10 f
+X 01 01 500 1100 200 L 40 40 0 0 P
+X 02 02 -500 1100 200 R 40 40 0 0 P
+X 03 03 500 1000 200 L 40 40 0 0 P
+X 04 04 -500 1000 200 R 40 40 0 0 P
+X 05 05 500 900 200 L 40 40 0 0 P
+X 06 06 -500 900 200 R 40 40 0 0 P
+X 07 07 500 800 200 L 40 40 0 0 P
+X 08 08 -500 800 200 R 40 40 0 0 P
+X 09 09 500 700 200 L 40 40 0 0 P
+X 10 10 -500 700 200 R 40 40 0 0 P
+X 11 11 500 600 200 L 40 40 0 0 P
+X 12 12 -500 600 200 R 40 40 0 0 P
+X 13 13 500 500 200 L 40 40 0 0 P
+X 14 14 -500 500 200 R 40 40 0 0 P
+X 15 15 500 400 200 L 40 40 0 0 P
+X 16 16 -500 400 200 R 40 40 0 0 P
+X 17 17 500 300 200 L 40 40 0 0 P
+X 18 18 -500 300 200 R 40 40 0 0 P
+X 19 19 500 200 200 L 40 40 0 0 P
+X 20 20 -500 200 200 R 40 40 0 0 P
+X 21 21 500 100 200 L 40 40 0 0 P
+X 22 22 -500 100 200 R 40 40 0 0 P
+X 23 23 500 0 200 L 40 40 0 0 P
+X 24 24 -500 0 200 R 40 40 0 0 P
+X 25 25 500 -100 200 L 40 40 0 0 P
+X 26 26 -500 -100 200 R 40 40 0 0 P
+X 27 27 500 -200 200 L 40 40 0 0 P
+X 28 28 -500 -200 200 R 40 40 0 0 P
+X 29 29 500 -300 200 L 40 40 0 0 P
+X 30 30 -500 -300 200 R 40 40 0 0 P
+X 31 31 500 -400 200 L 40 40 0 0 P
+X 32 32 -500 -400 200 R 40 40 0 0 P
+X 33 33 500 -500 200 L 40 40 0 0 P
+X 34 34 -500 -500 200 R 40 40 0 0 P
+X 35 35 500 -600 200 L 40 40 0 0 P
+X 36 36 -500 -600 200 R 40 40 0 0 P
+X 37 37 500 -700 200 L 40 40 0 0 P
+X 38 38 -500 -700 200 R 40 40 0 0 P
+X 39 39 500 -800 200 L 40 40 0 0 P
+X 40 40 -500 -800 200 R 40 40 0 0 P
+X 41 41 500 -900 200 L 40 40 0 0 P
+X 42 42 -500 -900 200 R 40 40 0 0 P
+X 43 43 500 -1000 200 L 40 40 0 0 P
+X 44 44 -500 -1000 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # STM32F439BI
 #
 DEF STM32F439BI U 0 40 Y Y 3 L N
@@ -9170,7 +9788,7 @@ F2 "footprints:LQFP-208_28x28mm_P0.5mm" -4800 2000 50 H I C CNN
 F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/fd/8c/0a/19/13/8f/41/99/DM00077036.pdf/files/DM00077036.pdf/jcr:content/translations/en.DM00077036.pdf" -4800 2000 50 H I C CNN
 F4 "DK" 450 2850 50 H I C CNN "MFN"
 F5 "497-17468-ND" 350 2750 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F439BIT6/497-17468-ND/5268309" 550 2950 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F439BIT6/497-17468-ND/5268309" 350 2750 50 H I C CNN "PurchasingLink"
 DRAW
 S -400 2600 350 100 1 1 0 f
 S -400 2600 400 -2550 2 1 0 f
@@ -9395,7 +10013,7 @@ F2 "footprints:LQFP-144_20x20mm_P0.5mm" -4800 2000 50 H I C CNN
 F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/fd/8c/0a/19/13/8f/41/99/DM00077036.pdf/files/DM00077036.pdf/jcr:content/translations/en.DM00077036.pdf" -4400 2000 50 H I C CNN
 F4 "497-17471-ND" 350 2750 50 H I C CNN "MPN"
 F5 "DK" 450 2850 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F439ZIT6/497-17471-ND/4357329" 550 2950 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F439ZIT6/497-17471-ND/4357329" 450 2850 50 H I C CNN "PurchasingLink"
 DRAW
 S -450 2550 350 500 1 1 0 f
 S -600 2550 600 -4250 2 1 0 f
@@ -9555,7 +10173,7 @@ F2 "footprints:SW_B3U-1000P_4.2x1.7mm" 0 50 50 H I C CNN
 F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" 0 50 50 H I C CNN
 F4 "DK" 300 350 50 H I C CNN "MFN"
 F5 "SW1020CT-ND" 200 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357A" 400 450 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357A" 200 250 50 H I C CNN "PurchasingLink"
 DRAW
 C -80 0 20 1 1 0 N
 C 80 0 20 1 1 0 N
@@ -9575,7 +10193,7 @@ F2 "" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-2-215464-0" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
 F5 "2-215464-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-2-215464-0.html" 0 1300 60 H I C CNN "PurchasingLink"
+F6 "http://www.te.com/global-en/product-2-215464-0.html" 200 1500 60 H I C CNN "PurchasingLink"
 DRAW
 S -250 1150 50 -850 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
@@ -9608,12 +10226,8 @@ F0 "U" -50 350 50 H V L CNN
 F1 "TLIN1021DRQ1" -250 -350 50 H V L CNN
 F2 "SOIC127P600X175-8N" 800 -250 50 H I L CNN
 F3 "https://www.ti.com/lit/gpn/TLIN1021-Q1" -600 -900 50 H I L CNN
-F4 "LIN Transceivers Automotive local interconnect network (LIN) transceiver with WAKE and INH 8-SOIC -40 to 125" 800 150 50 H I L CNN "Description"
-F5 "1.75" 800 50 50 H I L CNN "Height"
-F6 "Texas Instruments" 800 -50 50 H I L CNN "Manufacturer_Name"
-F7 "TLIN1021DRQ1" 800 -150 50 H I L CNN "Manufacturer_Part_Number"
-F8 "595-TLIN1021DRQ1" -400 -600 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLIN1021DRQ1?qs=%252B6g0mu59x7IVSHupFFwpdw%3D%3D" -1950 -750 50 H I L CNN "Mouser Price/Stock"
+F4 "Texas Instruments" -1950 -750 50 H I L CNN "MFN"
+F5 "TLIN1021DRQ1" -1950 -750 50 H I L CNN "MPN"
 DRAW
 P 5 0 1 6 -350 250 350 250 350 -250 -350 -250 -350 250 f
 X RXD 1 -550 150 200 R 50 50 0 0 P
@@ -9636,7 +10250,7 @@ F2 "footprints:MFSOP6-4_4.4x3.6mm_Pitch1.27mm_OEM" 0 -300 50 H I C CIN
 F3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A" -50 0 50 H I L CNN
 F4 "DK" 0 395 60 H I C CNN "MFN"
 F5 "TLP175A(TPLECT-ND" -100 295 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TLP175A-TPLE/TLP175A-TPLECT-ND/4562904" 100 495 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TLP175A-TPLE/TLP175A-TPLECT-ND/4562904" -100 295 60 H I C CNN "PurchasingLink"
 $FPLIST
  MFSOP6*4.4x3.6mm*Pitch1.27mm*
 $ENDFPLIST
@@ -9691,7 +10305,7 @@ F2 "footprints:SOT-23-5_OEM" -50 550 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" -50 650 50 H I C CNN
 F4 "DK" 300 950 60 H I C CNN "MFN"
 F5 "497-10249-1-ND" 200 850 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000" 100 750 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000" 200 850 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
  *SC?70*
@@ -9715,7 +10329,7 @@ F2 "footprints:tp_1.6mm" -100 -100 50 H I C CNN
 F3 "http://www.keyelco.com/product-pdf.cfm?p=1314" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
 F5 "36-5006-ND" 200 200 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" 300 300 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" 200 200 50 H I C CNN "PurchasingLink"
 DRAW
 C 0 -50 50 0 1 0 N
 X TP 1 0 -200 100 U 50 50 1 1 I
@@ -9731,7 +10345,7 @@ F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
 F3 "" 0 550 50 H I C CNN
 F4 "TPS560430YFDBVR-ND" -50 -1100 50 H I C CNN "MPN"
 F5 "DK" 0 -1000 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 0 -1000 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 -100 -250 -100 0 1 0 N
 S -250 300 300 -300 0 1 0 f
@@ -9753,7 +10367,7 @@ F2 "footprints:SOT-23-6_OEM" -300 250 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" -200 350 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "TPS561201" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" 200 750 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" 0 0 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT-23-6*
 $ENDFPLIST
@@ -9800,7 +10414,7 @@ F6 "2A Switch, 96% Efficient Boost Converter 16-QFN -40 to 85" 450 600 50 H I L 
 F7 "Good" -200 600 50 H I L BNN
 F8 "VQFN-16 Texas Instruments" -300 550 50 H I L BNN
 F9 "Texas Instruments" -250 550 50 H I L BNN
-F10 "https://www.digikey.com/product-detail/en/texas-instruments/TPS61090RSAR/296-15259-1-ND/566899" 600 600 50 H I C CNN "Purchasing Link"
+F10 "https://www.digikey.com/product-detail/en/texas-instruments/TPS61090RSAR/296-15259-1-ND/566899" 600 600 50 H I C CNN "PurchasingLink"
 DRAW
 P 2 0 0 16 -500 -500 -500 400 N
 P 2 0 0 16 -500 400 500 400 N
@@ -9854,7 +10468,7 @@ F2 "footprints:SOT-23-5_OEM" 0 100 50 H I C CNN
 F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/de/20/f2/58/ee/d8/43/5b/CD00045727.pdf/files/CD00045727.pdf/jcr:content/translations/en.CD00045727.pdf" 0 200 50 H I C CNN
 F4 "DK" 350 500 60 H I C CNN "MFN"
 F5 "497-10249-1-ND" 250 400 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TS507IYLT/497-10249-1-ND/2193326" 150 300 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TS507IYLT/497-10249-1-ND/2193326" 250 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
  *SC?70*
@@ -9878,7 +10492,7 @@ F2 "footprints:SOT-23-5_OEM" 0 100 50 H I C CNN
 F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b5/7c/ad/c8/37/4f/4b/78/DM00078052.pdf/files/DM00078052.pdf/jcr:content/translations/en.DM00078052.pdf" 0 200 50 H I C CNN
 F4 "DK" 350 500 60 H I C CNN "MFN"
 F5 "497-14409-1-ND" 250 400 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TSX631AIYLT/497-14409-1-ND/4725867" 150 300 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TSX631AIYLT/497-14409-1-ND/4725867" 250 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  SOT?23*
  *SC?70*
@@ -9902,7 +10516,7 @@ F2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" -100 -100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
 F5 "296-21929-1-ND" 200 200 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282" 300 300 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282" 200 200 50 H I C CNN "PurchasingLink"
 DRAW
 S -200 -100 300 -800 0 1 0 f
 X VCCA 1 -400 -150 200 R 50 50 1 1 W
@@ -9931,7 +10545,7 @@ F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" -100 450 50 H I C CNN
 F3 "" -50 100 50 H I C CNN
 F4 "DK" 0 150 50 H I C CNN "MFN"
 F5 "296-21527-1-ND" 100 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/en/products/detail/texas-instruments/TXB0108PWR/1305699" 200 350 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/en/products/detail/texas-instruments/TXB0108PWR/1305699" 100 250 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 0 250 -1000 0 1 0 f
 X A1 1 -450 -150 200 R 50 50 1 1 B
@@ -9966,7 +10580,7 @@ F2 "footprints:T_LAN_7490100111A" 400 950 60 H I C CNN
 F3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" 0 0 60 H I C CNN
 F4 "DK" 350 500 60 H I C CNN "MFN"
 F5 "732-5711-1-ND" 250 400 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" 150 300 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" 250 400 60 H I C CNN "PurchasingLink"
 DRAW
 A 550 -125 25 -899 899 0 1 0 N 550 -150 550 -100
 A 550 -125 25 -899 899 0 1 0 N 550 -150 550 -100
@@ -10129,7 +10743,7 @@ F2 "footprints:T_LAN_SM91501ALE" 400 950 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "DK" 350 500 60 H I C CNN "MFN"
 F5 "SM91501ALE" 250 400 60 H I C CNN "MPN"
-F6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR-ND/9650127" 150 300 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR-ND/9650127" 250 400 60 H I C CNN "PurchasingLink"
 DRAW
 A 550 -125 25 -899 899 0 1 0 N 550 -150 550 -100
 A 550 -125 25 -899 899 0 1 0 N 550 -150 550 -100
@@ -10324,8 +10938,8 @@ F1 "UF_2_RA" 100 -200 60 H V C CNN
 F2 "footprints:Ultrafit_2_RA" -100 50 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1723101302_sd.pdf" 0 150 60 H I C CNN
 F4 "DK" 200 350 60 H I C CNN "MFN"
-F5 "WM11825-ND " 300 450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" 100 250 60 H I C CNN "PurchasingLink"
+F5 "WM11825-ND" 300 450 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" 300 450 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 0 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -10342,7 +10956,7 @@ F2 "footprints:Ultrafit_2" -100 50 60 H I C CNN
 F3 "" 0 150 60 H I C CNN
 F4 "DK" 200 350 60 H I C CNN "MFN"
 F5 "WM11570-ND" 300 450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 100 250 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 300 450 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 0 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -10359,7 +10973,7 @@ F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
 F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "WM11574-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/products/en?keywords=WM11574-ND" 0 0 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 250 -150 -150 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
@@ -10378,7 +10992,7 @@ F2 "formula:Ultrafit_5" -100 250 60 H I C CNN
 F3 "" 0 350 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "WM11667-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 0 0 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 250 -150 -250 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
@@ -10422,7 +11036,7 @@ F4 ".65 mm[.025 in]" -50 550 50 H I L BNN
 F5 "Connector" -600 350 50 H I L BNN
 F6 "1981568-1" -100 550 50 H I L BNN
 F7 "1981568-1" 150 450 50 H I C CNN "MPN"
-F8 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1981568-1/1786248?s=N4IgTCBcDaIIwE4AccCsA2JBaOIC6AvkA" -200 550 50 H I C CNN "Purchasing Link"
+F8 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1981568-1/1786248?s=N4IgTCBcDaIIwE4AccCsA2JBaOIC6AvkA" -200 550 50 H I C CNN "PurchasingLink"
 DRAW
 S -200 -400 200 400 0 0 10 f
 X VCC 1 300 300 100 L 40 40 0 0 P
@@ -10448,7 +11062,7 @@ F2 "footprints:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" 0 50 50 H I C CN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/USB334x-Data-Sheet-DS00002646A.pdf" 50 1250 50 H I C CNN
 F4 "USB3343-CP-ND" -300 1250 50 H I C CNN "MPN"
 F5 "DK" -400 1150 50 H I C CNN
-F6 "https://www.digikey.com/product-detail/en/microchip-technology/USB3343-CP/USB3343-CP-ND/4755390" -300 1250 50 H I C CNN "PurchasingLInk"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/USB3343-CP/USB3343-CP-ND/4755390" -400 1150 50 H I C CNN "PurchasingLink"
 DRAW
 S 650 -600 -650 900 1 1 10 f
 X CLKOUT 1 800 -350 150 L 50 50 1 1 O C
@@ -10521,7 +11135,7 @@ F2 "Connector_USB:USB_Micro-B_Molex-105017-0001" -50 350 50 H I C CNN
 F3 "" -50 350 50 H I C CNN
 F4 "DK" 250 -250 50 H I C CNN "MFN"
 F5 "WM1399CT-ND" 350 -150 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885" 450 -50 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885" 350 -150 50 H I C CNN "PurchasingLink"
 DRAW
 C -150 85 25 1 1 10 F
 C -25 135 15 1 1 10 F
@@ -10555,10 +11169,8 @@ F1 "Ultrafit_4_RA" 0 -200 60 H V C CNN
 F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
 F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
-F5 "Value" -850 400 60 H I C CNN "Package"
-F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
-F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
-F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
+F5 "WM11574-ND" -650 500 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=1723101304" -650 500 60 H I C CNN "PurchasingLink"
 DRAW
 S 150 250 -150 -150 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
@@ -10592,7 +11204,7 @@ F2 "footprints:ZXRE160" -100 -700 60 H I C CNN
 F3 "https://www.diodes.com/assets/Datasheets/ZXRE160.pdf" 0 -600 60 H I C CNN
 F4 "DK" 100 -500 60 H I C CNN "MFN"
 F5 "ZXRE160FT4-7DICT-ND" 200 -400 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/diodes-incorporated/ZXRE160H5TA/ZXRE160H5TADICT-ND/3677932" 300 -300 60 H I C CNN "Webpage"
+F6 "https://www.digikey.com/product-detail/en/diodes-incorporated/ZXRE160H5TA/ZXRE160H5TADICT-ND/3677932" 300 -300 60 H I C CNN "PurchasingLink"
 DRAW
 S -300 350 300 -300 0 1 0 f
 X OUT 1 0 550 200 D 50 50 1 1 O
