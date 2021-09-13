@@ -1,4 +1,4 @@
-(module redcube_pressfit_6pin (layer F.Cu) (tedit 613ECF24)
+(module redcube_pressfit_6pin (layer F.Cu) (tedit 613EE5EC)
   (fp_text reference REF** (at -2.54 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
