@@ -35,6 +35,10 @@ $CMP 3P4T_rotary_switch
 D 3 pole 4 terminal rotary switch
 $ENDCMP
 #
+$CMP ACHS-7124
+F https://www.pololu.com/file/0J1707/ACHS-7124-7125-DS101_2019-02-15.pdf
+$ENDCMP
+#
 $CMP ACPL-C79B-500E
 D Precision Optically Isolated Op Amp - Differential Input, Stretched SO-8 (SSO-8)
 F https://docs.broadcom.com/doc/AV02-2460EN
@@ -315,6 +319,10 @@ $CMP C_18pF
 D Capacitor, 18pF, 10V, 1%, 0603
 $ENDCMP
 #
+$CMP C_1nf
+F https://api.kemet.com/component-edge/download/datasheet/C0805X102KARECAUTO.pdf
+$ENDCMP
+#
 $CMP C_1uF
 D Capacitor, 1uF, 50V, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
@@ -560,6 +568,18 @@ D Precision General Purpose Op Amp, Selectable Gain (<=.55), 16(12)-MSOP
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1997-2.pdf
 $ENDCMP
 #
+$CMP LT1017IS8
+D Dual micropower comparator
+K comparator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/10178ff.pdf
+$ENDCMP
+#
+$CMP LT3066IMSE-5
+D 500mA Micropower Linear regulator
+K Linear Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3066.pdf
+$ENDCMP
+#
 $CMP LT3751
 D High Voltage Capacitor Charger Controller w/ Regulation, TSSOP-20
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt3751.pdf
@@ -574,6 +594,11 @@ $ENDCMP
 $CMP LTC1983ES6-5#TRMPBF
 D IC REG CHARGE PUMP -5V TSOT23-6
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
+$ENDCMP
+#
+$CMP LTC6810HG-1
+D IC BAT MON MULT-CHEM 1-6C 44SSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6810-1-6810-2.pdf
 $ENDCMP
 #
 $CMP LTC6811-1
@@ -865,6 +890,12 @@ D 1 ohm, 1W, 1%, 2512
 F https://www.vishay.com/docs/20035/dcrcwe3.pdf
 $ENDCMP
 #
+$CMP R_30_6W_1%
+D High power 6W 30ohm res
+K High power resistor
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-7&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP R_67k
 D 67k, .125W, 1% 0805
 F https://www.vishay.com/docs/20008/dcrcw.pdf
@@ -880,9 +911,17 @@ D 6mOhm, 3W, 2512 Current Sense Resistor
 F https://www.mouser.com/datasheet/2/414/LRMA-1528276.pdf
 $ENDCMP
 #
+$CMP SQM110P06
+F https://www.vishay.com/docs/62784/sqm110p068m9l.pdf
+$ENDCMP
+#
 $CMP UF_5_VT
 D CONN HEADER VERT 5POS 3.5MM
 F http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf
+$ENDCMP
+#
+$CMP redcube-7461057
+F https://www.mouser.com/datasheet/2/445/7461057-1723744.pdf
 $ENDCMP
 #
 #End Doc Library
