@@ -39,6 +39,18 @@ $CMP ACHS-7124
 F https://www.pololu.com/file/0J1707/ACHS-7124-7125-DS101_2019-02-15.pdf
 $ENDCMP
 #
+$CMP 74HC4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K HCMOS Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf
+$ENDCMP
+#
+$CMP 74HCT4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K TTL Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf
+$ENDCMP
+#
 $CMP ACPL-C79B-500E
 D Precision Optically Isolated Op Amp - Differential Input, Stretched SO-8 (SSO-8)
 F https://docs.broadcom.com/doc/AV02-2460EN
@@ -83,6 +95,12 @@ $ENDCMP
 #
 $CMP ATMEGA16M1
 D Microcontroller, 8-bit, 1KB RAM, 16KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA64M1
+D Microcontroller, 8-bit, 4KB RAM, 64KB Flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf
 $ENDCMP
 #
 $CMP ATmega16U2-AU
@@ -188,6 +206,10 @@ $ENDCMP
 #
 $CMP CD4043BPWR
 D Quad NOR R/S latch
+$ENDCMP
+#
+$CMP CD4044BDR
+F https://www.ti.com/lit/ds/symlink/cd4043b.pdf
 $ENDCMP
 #
 $CMP CDBA140-G
@@ -651,6 +673,10 @@ D Inductor, 6.8uH
 K inductor, coil, l
 $ENDCMP
 #
+$CMP L_8.1uH
+F https://www.coilcraft.com/getmedia/76c9c081-4945-4c85-9129-9356e1ad6734/xgl4020.pdf
+$ENDCMP
+#
 $CMP MAXM15464
 D MOD DCDC CONVERTER 5V 10USLIC
 F https://media.digikey.com/pdf/Data%20Sheets/Maxim%20PDFs/MAXM15462-64_Rev4_10-26-18.pdf
@@ -867,6 +893,10 @@ $CMP RSOE-0505S_H2
 F https://recom-power.com/pdf/Econoline/RSOE.pdf
 $ENDCMP
 #
+$CMP R_1.18M
+F https://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
 $CMP R_1.54K
 D RES SMD 1.54K OHM 1% 1/8W 0805
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
@@ -885,6 +915,10 @@ $CMP R_13_2W_2512_0
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English
 $ENDCMP
 #
+$CMP R_15k
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RE_105_RoHS_L_6.pdf
+$ENDCMP
+#
 $CMP R_1_1W
 D 1 ohm, 1W, 1%, 2512
 F https://www.vishay.com/docs/20035/dcrcwe3.pdf
@@ -894,6 +928,15 @@ $CMP R_30_6W_1%
 D High power 6W 30ohm res
 K High power resistor
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-7&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP R_23.7K
+D R_23.7K, 1/4W, 0805
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf
+$ENDCMP
+#
+$CMP R_3.65M
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
 $CMP R_67k
@@ -913,6 +956,10 @@ $ENDCMP
 #
 $CMP SQM110P06
 F https://www.vishay.com/docs/62784/sqm110p068m9l.pdf
+$ENDCMP
+#
+$CMP R_90k
+F https://www.vishay.com/docs/60026/ptn.pdf
 $ENDCMP
 #
 $CMP UF_5_VT
