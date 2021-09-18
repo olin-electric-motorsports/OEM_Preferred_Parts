@@ -927,6 +927,10 @@ $CMP R_90k
 F https://www.vishay.com/docs/60026/ptn.pdf
 $ENDCMP
 #
+$CMP TPS7A26
+F https://www.ti.com/lit/ds/symlink/tps7a26.pdf
+$ENDCMP
+#
 $CMP UF_5_VT
 D CONN HEADER VERT 5POS 3.5MM
 F http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf
