@@ -1,4 +1,4 @@
-(module R_2010_Vishay (layer F.Cu) (tedit 5FBC2F6C)
+(module R_2010_Vishay (layer F.Cu) (tedit 607E49F3)
   (attr smd)
   (fp_text reference REF** (at -2.9 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -14,4 +14,9 @@
   (fp_line (start -1.9 2.5) (end -1.9 -2.5) (layer F.SilkS) (width 0.12))
   (pad 2 smd rect (at 0 -2.475) (size 2.8 1.45) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0 2.475) (size 2.8 1.45) (layers F.Cu F.Paste F.Mask))
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R2010.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

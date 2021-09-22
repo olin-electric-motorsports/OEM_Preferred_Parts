@@ -1,4 +1,4 @@
-(module SOP65P490X110-8N (layer F.Cu) (tedit 60501390)
+(module SOP65P490X110-8N (layer F.Cu) (tedit 607E4A91)
   (fp_text reference REF** (at -0.045 -2.412) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
   )
@@ -25,4 +25,9 @@
   (pad 3 smd rect (at -2.12 0.325) (size 1.62 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.12 -0.325) (size 1.62 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.12 -0.975) (size 1.62 0.5) (layers F.Cu F.Paste F.Mask))
+  (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/ADA46612.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
