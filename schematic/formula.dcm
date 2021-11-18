@@ -6,6 +6,12 @@ K connector, header
 F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
 $ENDCMP
 #
+$CMP 0685P9500-01
+D 50A 32VDC FAST Blow 1206 SMD Fuse
+K 50A 32VDC FAST Blow 1206 SMD Fuse
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-CP-0685P-series.pdf
+$ENDCMP
+#
 $CMP 1.5A_Fuse
 D 1.5A Fuse LitteFuse
 F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf
@@ -33,6 +39,10 @@ $ENDCMP
 #
 $CMP 3P4T_rotary_switch
 D 3 pole 4 terminal rotary switch
+$ENDCMP
+#
+$CMP ACHS-7124
+F https://www.pololu.com/file/0J1707/ACHS-7124-7125-DS101_2019-02-15.pdf
 $ENDCMP
 #
 $CMP 74HC4051
@@ -337,6 +347,10 @@ $CMP C_18pF
 D Capacitor, 18pF, 10V, 1%, 0603
 $ENDCMP
 #
+$CMP C_1nf
+F https://api.kemet.com/component-edge/download/datasheet/C0805X102KARECAUTO.pdf
+$ENDCMP
+#
 $CMP C_1uF
 D Capacitor, 1uF, 50V, 0805
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf
@@ -415,6 +429,18 @@ $ENDCMP
 #
 $CMP DBR71210(NC)
 D Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V
+$ENDCMP
+#
+$CMP DRV8350FSRTVR
+D BLDC 3 Phase Gate Driver
+K BLDC 3 Phase Gate Driver,
+F https://www.ti.com/lit/ds/symlink/drv8350f.pdf?ts=1635865124554&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDRV8350FHRTVR
+$ENDCMP
+#
+$CMP D_TVS_35V
+D Unidirectional TVS 35V Clamp voltage
+K Unidirectional TVS 35V Clamp voltage
+F https://www.diodes.com/assets/Datasheets/ds40741.pdf
 $ENDCMP
 #
 $CMP D_Zener_13V
@@ -569,6 +595,12 @@ D Linear regulator, 35V max input, 5V output, 100mA
 K LDO
 $ENDCMP
 #
+$CMP LMP8481ASQDGKRQ1
+D Bidirectional Current Sense IC
+K Bidirectional Current Sense IC
+F https://www.ti.com/lit/ds/symlink/lmp8480-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1637012068327&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flmp8480-q1
+$ENDCMP
+#
 $CMP LMV341
 D Op-amp, general purpose
 $ENDCMP
@@ -580,6 +612,18 @@ $ENDCMP
 $CMP LT-1997-2
 D Precision General Purpose Op Amp, Selectable Gain (<=.55), 16(12)-MSOP
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1997-2.pdf
+$ENDCMP
+#
+$CMP LT1017IS8
+D Dual micropower comparator
+K comparator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/10178ff.pdf
+$ENDCMP
+#
+$CMP LT3066IMSE-5
+D 500mA Micropower Linear regulator
+K Linear Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3066.pdf
 $ENDCMP
 #
 $CMP LT3751
@@ -596,6 +640,23 @@ $ENDCMP
 $CMP LTC1983ES6-5#TRMPBF
 D IC REG CHARGE PUMP -5V TSOT23-6
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
+$ENDCMP
+#
+$CMP LTC4368CMS-2-PBF
+D OV UV Reverse Current Protection
+K OV UV Reverse Current Protection
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4368.pdf
+$ENDCMP
+#
+$CMP LTC6810HG-1
+D IC BAT MON MULT-CHEM 1-6C 44SSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6810-1-6810-2.pdf
+$ENDCMP
+#
+$CMP LTC6810HG-2
+D ISOSPI capable BMS Chip
+K BMS
+F https://www.mouser.com/datasheet/2/609/LTC6810_1_6810_2-1843357.pdf
 $ENDCMP
 #
 $CMP LTC6811-1
@@ -899,6 +960,22 @@ D 1 ohm, 1W, 1%, 2512
 F https://www.vishay.com/docs/20035/dcrcwe3.pdf
 $ENDCMP
 #
+$CMP R_1m_3W_1%
+F https://www.vishay.com/docs/30131/wsl2726.pdf
+$ENDCMP
+#
+$CMP R_1m_5W
+D HCS3920FT1L00
+K HCS3920FT1L00
+F https://www.seielect.com/catalog/sei-hcs.pdf
+$ENDCMP
+#
+$CMP R_30_6W_1%
+D High power 6W 30ohm res
+K High power resistor
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-7&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP R_23.7K
 D R_23.7K, 1/4W, 0805
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf
@@ -923,6 +1000,22 @@ D 6mOhm, 3W, 2512 Current Sense Resistor
 F https://www.mouser.com/datasheet/2/414/LRMA-1528276.pdf
 $ENDCMP
 #
+$CMP SQM110P06
+F https://www.vishay.com/docs/62784/sqm110p068m9l.pdf
+$ENDCMP
+#
+$CMP SRP0520-4R7K
+D Shielded Inductor 4.7uH
+K Shielded Inductor 4.7uH
+F https://www.bourns.com/docs/product-datasheets/srp0520.pdf
+$ENDCMP
+#
+$CMP TLS4120D0EPVXUMA1
+D Buck Switching Regulator
+K Buck Switching Regulator
+F https://www.infineon.com/dgdl/Infineon-TLS4120D0EPV-DataSheet-v01_00-EN.pdf?fileId=5546d46270c4f93e01710b576dc53b30
+$ENDCMP
+#
 $CMP R_90k
 F https://www.vishay.com/docs/60026/ptn.pdf
 $ENDCMP
@@ -930,6 +1023,15 @@ $ENDCMP
 $CMP UF_5_VT
 D CONN HEADER VERT 5POS 3.5MM
 F http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf
+$ENDCMP
+#
+$CMP VBUS_20V
+D Power symbol creates a global label with name "VBUS"
+K power-flag
+$ENDCMP
+#
+$CMP redcube-7461057
+F https://www.mouser.com/datasheet/2/445/7461057-1723744.pdf
 $ENDCMP
 #
 #End Doc Library
