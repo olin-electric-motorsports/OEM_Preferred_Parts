@@ -32,6 +32,7 @@ KiCad library employed by Olin Electric Motorsports electrical team.
     * Indicate quantity of elements for symbol arrays (e.g. resistor array with 8 elements - `Resistor_x8`)
 
 2. General footprint naming guidelines
+    _Note: Use as many KiCad provided footprints as possible to save space on the repo!_
 
     Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The naming convention for a given footprint depends largely on the type of footprint, however a general guide is presented below:
 
